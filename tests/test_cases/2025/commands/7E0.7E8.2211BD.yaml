@@ -1,0 +1,19 @@
+command_id: 7E0.7E8.2211BD
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E8056211BD0B36
+  expected_values:
+    SEAT_OIL_LEVEL_WARN: 1.148
+- response: |-
+    7E8037F2278
+    7E8056211BD0B51
+  expected_values:
+    SEAT_OIL_LEVEL_WARN: 1.1588
+- response: |-
+    7E8037F2278
+    7E8056211BD0B68
+  expected_values:
+    SEAT_OIL_LEVEL_WARN: 1.168

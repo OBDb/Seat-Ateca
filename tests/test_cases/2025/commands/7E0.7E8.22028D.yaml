@@ -1,0 +1,344 @@
+command_id: 7E0.7E8.22028D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E80562028D0B33
+  expected_values:
+    SEAT_ECU_TEMP: 286.7
+- response: |-
+    7E8037F2278
+    7E80562028D0B60
+  expected_values:
+    SEAT_ECU_TEMP: 291.2
+- response: |-
+    7E8037F2278
+    7E80562028D0B69
+  expected_values:
+    SEAT_ECU_TEMP: 292.1
+- response: |-
+    7E8037F2278
+    7E80562028D0B77
+  expected_values:
+    SEAT_ECU_TEMP: 293.5
+- response: |-
+    7E8037F2278
+    7E80562028D0B8F
+  expected_values:
+    SEAT_ECU_TEMP: 295.9
+- response: |-
+    7E8037F2278
+    7E80562028D0B9A
+  expected_values:
+    SEAT_ECU_TEMP: 297
+- response: |-
+    7E8037F2278
+    7E80562028D0BA5
+  expected_values:
+    SEAT_ECU_TEMP: 298.1
+- response: |-
+    7E8037F2278
+    7E80562028D0BAC
+  expected_values:
+    SEAT_ECU_TEMP: 298.8
+- response: |-
+    7E8037F2278
+    7E80562028D0BAE
+  expected_values:
+    SEAT_ECU_TEMP: 299
+- response: |-
+    7E8037F2278
+    7E80562028D0BB2
+  expected_values:
+    SEAT_ECU_TEMP: 299.4
+- response: |-
+    7E8037F2278
+    7E80562028D0BB5
+  expected_values:
+    SEAT_ECU_TEMP: 299.7
+- response: |-
+    7E8037F2278
+    7E80562028D0BB7
+  expected_values:
+    SEAT_ECU_TEMP: 299.9
+- response: |-
+    7E8037F2278
+    7E80562028D0BBB
+  expected_values:
+    SEAT_ECU_TEMP: 300.3
+- response: |-
+    7E8037F2278
+    7E80562028D0BBD
+  expected_values:
+    SEAT_ECU_TEMP: 300.5
+- response: |-
+    7E8037F2278
+    7E80562028D0BBF
+  expected_values:
+    SEAT_ECU_TEMP: 300.7
+- response: |-
+    7E8037F2278
+    7E80562028D0BC8
+  expected_values:
+    SEAT_ECU_TEMP: 301.6
+- response: |-
+    7E8037F2278
+    7E80562028D0BCB
+  expected_values:
+    SEAT_ECU_TEMP: 301.9
+- response: |-
+    7E8037F2278
+    7E80562028D0BCE
+  expected_values:
+    SEAT_ECU_TEMP: 302.2
+- response: |-
+    7E8037F2278
+    7E80562028D0BD1
+  expected_values:
+    SEAT_ECU_TEMP: 302.5
+- response: |-
+    7E8037F2278
+    7E80562028D0BD3
+  expected_values:
+    SEAT_ECU_TEMP: 302.7
+- response: |-
+    7E8037F2278
+    7E80562028D0BD5
+  expected_values:
+    SEAT_ECU_TEMP: 302.9
+- response: |-
+    7E8037F2278
+    7E80562028D0BD6
+  expected_values:
+    SEAT_ECU_TEMP: 303
+- response: |-
+    7E8037F2278
+    7E80562028D0BD7
+  expected_values:
+    SEAT_ECU_TEMP: 303.1
+- response: |-
+    7E8037F2278
+    7E80562028D0BD8
+  expected_values:
+    SEAT_ECU_TEMP: 303.2
+- response: |-
+    7E8037F2278
+    7E80562028D0BD9
+  expected_values:
+    SEAT_ECU_TEMP: 303.3
+- response: |-
+    7E8037F2278
+    7E80562028D0BFB
+  expected_values:
+    SEAT_ECU_TEMP: 306.7
+- response: |-
+    7E8037F2278
+    7E80562028D0C08
+  expected_values:
+    SEAT_ECU_TEMP: 308
+- response: |-
+    7E8037F2278
+    7E80562028D0C13
+  expected_values:
+    SEAT_ECU_TEMP: 309.1
+- response: |-
+    7E8037F2278
+    7E80562028D0C14
+  expected_values:
+    SEAT_ECU_TEMP: 309.2
+- response: |-
+    7E8037F2278
+    7E80562028D0C15
+  expected_values:
+    SEAT_ECU_TEMP: 309.3
+- response: |-
+    7E8037F2278
+    7E80562028D0C16
+  expected_values:
+    SEAT_ECU_TEMP: 309.4
+- response: |-
+    7E8037F2278
+    7E80562028D0C18
+  expected_values:
+    SEAT_ECU_TEMP: 309.6
+- response: |-
+    7E8037F2278
+    7E80562028D0C1A
+  expected_values:
+    SEAT_ECU_TEMP: 309.8
+- response: |-
+    7E8037F2278
+    7E80562028D0C1C
+  expected_values:
+    SEAT_ECU_TEMP: 310
+- response: |-
+    7E8037F2278
+    7E80562028D0C20
+  expected_values:
+    SEAT_ECU_TEMP: 310.4
+- response: |-
+    7E8037F2278
+    7E80562028D0C21
+  expected_values:
+    SEAT_ECU_TEMP: 310.5
+- response: |-
+    7E8037F2278
+    7E80562028D0C22
+  expected_values:
+    SEAT_ECU_TEMP: 310.6
+- response: |-
+    7E8037F2278
+    7E80562028D0C23
+  expected_values:
+    SEAT_ECU_TEMP: 310.7
+- response: |-
+    7E8037F2278
+    7E80562028D0C24
+  expected_values:
+    SEAT_ECU_TEMP: 310.8
+- response: |-
+    7E8037F2278
+    7E80562028D0C26
+  expected_values:
+    SEAT_ECU_TEMP: 311
+- response: |-
+    7E8037F2278
+    7E80562028D0C2A
+  expected_values:
+    SEAT_ECU_TEMP: 311.4
+- response: |-
+    7E8037F2278
+    7E80562028D0C2E
+  expected_values:
+    SEAT_ECU_TEMP: 311.8
+- response: |-
+    7E8037F2278
+    7E80562028D0C34
+  expected_values:
+    SEAT_ECU_TEMP: 312.4
+- response: |-
+    7E8037F2278
+    7E80562028D0C3B
+  expected_values:
+    SEAT_ECU_TEMP: 313.1
+- response: |-
+    7E8037F2278
+    7E80562028D0C43
+  expected_values:
+    SEAT_ECU_TEMP: 313.9
+- response: |-
+    7E8037F2278
+    7E80562028D0C4C
+  expected_values:
+    SEAT_ECU_TEMP: 314.8
+- response: |-
+    7E8037F2278
+    7E80562028D0C55
+  expected_values:
+    SEAT_ECU_TEMP: 315.7
+- response: |-
+    7E8037F2278
+    7E80562028D0C58
+  expected_values:
+    SEAT_ECU_TEMP: 316
+- response: |-
+    7E8037F2278
+    7E80562028D0C5C
+  expected_values:
+    SEAT_ECU_TEMP: 316.4
+- response: |-
+    7E8037F2278
+    7E80562028D0C5F
+  expected_values:
+    SEAT_ECU_TEMP: 316.7
+- response: |-
+    7E8037F2278
+    7E80562028D0C62
+  expected_values:
+    SEAT_ECU_TEMP: 317
+- response: |-
+    7E8037F2278
+    7E80562028D0C68
+  expected_values:
+    SEAT_ECU_TEMP: 317.6
+- response: |-
+    7E8037F2278
+    7E80562028D0C6B
+  expected_values:
+    SEAT_ECU_TEMP: 317.9
+- response: |-
+    7E8037F2278
+    7E80562028D0C72
+  expected_values:
+    SEAT_ECU_TEMP: 318.6
+- response: |-
+    7E8037F2278
+    7E80562028D0C76
+  expected_values:
+    SEAT_ECU_TEMP: 319
+- response: |-
+    7E8037F2278
+    7E80562028D0C7B
+  expected_values:
+    SEAT_ECU_TEMP: 319.5
+- response: |-
+    7E8037F2278
+    7E80562028D0C81
+  expected_values:
+    SEAT_ECU_TEMP: 320.1
+- response: |-
+    7E8037F2278
+    7E80562028D0C83
+  expected_values:
+    SEAT_ECU_TEMP: 320.3
+- response: |-
+    7E8037F2278
+    7E80562028D0C8A
+  expected_values:
+    SEAT_ECU_TEMP: 321
+- response: |-
+    7E8037F2278
+    7E80562028D0C8F
+  expected_values:
+    SEAT_ECU_TEMP: 321.5
+- response: |-
+    7E8037F2278
+    7E80562028D0C90
+  expected_values:
+    SEAT_ECU_TEMP: 321.6
+- response: |-
+    7E8037F2278
+    7E80562028D0C96
+  expected_values:
+    SEAT_ECU_TEMP: 322.2
+- response: |-
+    7E8037F2278
+    7E80562028D0C99
+  expected_values:
+    SEAT_ECU_TEMP: 322.5
+- response: |-
+    7E8037F2278
+    7E80562028D0C9D
+  expected_values:
+    SEAT_ECU_TEMP: 322.9
+- response: |-
+    7E8037F2278
+    7E80562028D0C9F
+  expected_values:
+    SEAT_ECU_TEMP: 323.1
+- response: |-
+    7E8037F2278
+    7E80562028D0CA5
+  expected_values:
+    SEAT_ECU_TEMP: 323.7
+- response: |-
+    7E8037F2278
+    7E80562028D0CA9
+  expected_values:
+    SEAT_ECU_TEMP: 324.1
+- response: |-
+    7E8037F2278
+    7E80562028D0CAA
+  expected_values:
+    SEAT_ECU_TEMP: 324.2

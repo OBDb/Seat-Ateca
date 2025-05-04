@@ -1,0 +1,235 @@
+command_id: 7E1.223841
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E90762384100003EDA
+  expected_values:
+    SEAT_ODO_TCM_1: 3661496320
+- response: 7E90762384100003EDD
+  expected_values:
+    SEAT_ODO_TCM_1: 3711827968
+- response: 7E90762384100003EE0
+  expected_values:
+    SEAT_ODO_TCM_1: 3762159616
+- response: 7E90762384100003EE3
+  expected_values:
+    SEAT_ODO_TCM_1: 3812491264
+- response: 7E90762384100003EEA
+  expected_values:
+    SEAT_ODO_TCM_1: 3929931776
+- response: 7E90762384100003EEC
+  expected_values:
+    SEAT_ODO_TCM_1: 3963486208
+- response: 7E90762384100003EF0
+  expected_values:
+    SEAT_ODO_TCM_1: 4030595072
+- response: 7E90762384100003EF5
+  expected_values:
+    SEAT_ODO_TCM_1: 4114481152
+- response: 7E90762384100003EFE
+  expected_values:
+    SEAT_ODO_TCM_1: 4265476096
+- response: 7E90762384100003F06
+  expected_values:
+    SEAT_ODO_TCM_1: 104792064
+- response: 7E90762384100003F0E
+  expected_values:
+    SEAT_ODO_TCM_1: 239009792
+- response: 7E90762384100003F1A
+  expected_values:
+    SEAT_ODO_TCM_1: 440336384
+- response: 7E90762384100003F25
+  expected_values:
+    SEAT_ODO_TCM_1: 624885760
+- response: 7E90762384100003F2D
+  expected_values:
+    SEAT_ODO_TCM_1: 759103488
+- response: 7E90762384100003F35
+  expected_values:
+    SEAT_ODO_TCM_1: 893321216
+- response: 7E90762384100003F3D
+  expected_values:
+    SEAT_ODO_TCM_1: 1027538944
+- response: 7E90762384100003F45
+  expected_values:
+    SEAT_ODO_TCM_1: 1161756672
+- response: 7E90762384100003F4D
+  expected_values:
+    SEAT_ODO_TCM_1: 1295974400
+- response: 7E90762384100003F55
+  expected_values:
+    SEAT_ODO_TCM_1: 1430192128
+- response: 7E90762384100003F5E
+  expected_values:
+    SEAT_ODO_TCM_1: 1581187072
+- response: 7E90762384100003F65
+  expected_values:
+    SEAT_ODO_TCM_1: 1698627584
+- response: 7E90762384100003F6A
+  expected_values:
+    SEAT_ODO_TCM_1: 1782513664
+- response: 7E90762384100003F6F
+  expected_values:
+    SEAT_ODO_TCM_1: 1866399744
+- response: 7E90762384100003F74
+  expected_values:
+    SEAT_ODO_TCM_1: 1950285824
+- response: 7E90762384100003F7A
+  expected_values:
+    SEAT_ODO_TCM_1: 2050949120
+- response: 7E90762384100003F81
+  expected_values:
+    SEAT_ODO_TCM_1: 2168389632
+- response: 7E90762384100003F87
+  expected_values:
+    SEAT_ODO_TCM_1: 2269052928
+- response: 7E90762384100003F89
+  expected_values:
+    SEAT_ODO_TCM_1: 2302607360
+- response: 7E90762384100003F8C
+  expected_values:
+    SEAT_ODO_TCM_1: 2352939008
+- response: 7E90762384100003F92
+  expected_values:
+    SEAT_ODO_TCM_1: 2453602304
+- response: 7E90762384100003F96
+  expected_values:
+    SEAT_ODO_TCM_1: 2520711168
+- response: 7E90762384100003F99
+  expected_values:
+    SEAT_ODO_TCM_1: 2571042816
+- response: 7E90762384100003F9C
+  expected_values:
+    SEAT_ODO_TCM_1: 2621374464
+- response: 7E90762384100003F9E
+  expected_values:
+    SEAT_ODO_TCM_1: 2654928896
+- response: 7E90762384100003FA8
+  expected_values:
+    SEAT_ODO_TCM_1: 2822701056
+- response: 7E90762384100003FAA
+  expected_values:
+    SEAT_ODO_TCM_1: 2856255488
+- response: 7E90762384100003FAC
+  expected_values:
+    SEAT_ODO_TCM_1: 2889809920
+- response: 7E90762384100003FAF
+  expected_values:
+    SEAT_ODO_TCM_1: 2940141568
+- response: 7E90762384100003FB1
+  expected_values:
+    SEAT_ODO_TCM_1: 2973696000
+- response: 7E90762384100003FB2
+  expected_values:
+    SEAT_ODO_TCM_1: 2990473216
+- response: 7E90762384100003FBA
+  expected_values:
+    SEAT_ODO_TCM_1: 3124690944
+- response: 7E90762384100003FC2
+  expected_values:
+    SEAT_ODO_TCM_1: 3258908672
+- response: 7E90762384100003FC7
+  expected_values:
+    SEAT_ODO_TCM_1: 3342794752
+- response: 7E90762384100003FCD
+  expected_values:
+    SEAT_ODO_TCM_1: 3443458048
+- response: 7E90762384100003FD2
+  expected_values:
+    SEAT_ODO_TCM_1: 3527344128
+- response: 7E90762384100003FD5
+  expected_values:
+    SEAT_ODO_TCM_1: 3577675776
+- response: 7E90762384100003FD9
+  expected_values:
+    SEAT_ODO_TCM_1: 3644784640
+- response: 7E90762384100003FDD
+  expected_values:
+    SEAT_ODO_TCM_1: 3711893504
+- response: 7E90762384100003FE6
+  expected_values:
+    SEAT_ODO_TCM_1: 3862888448
+- response: 7E90762384100003FEC
+  expected_values:
+    SEAT_ODO_TCM_1: 3963551744
+- response: 7E90762384100003FF3
+  expected_values:
+    SEAT_ODO_TCM_1: 4080992256
+- response: 7E90762384100003FFA
+  expected_values:
+    SEAT_ODO_TCM_1: 4198432768
+- response: '7E90762384100004002'
+  expected_values:
+    SEAT_ODO_TCM_1: 37748736
+- response: 7E9076238410000400A
+  expected_values:
+    SEAT_ODO_TCM_1: 171966464
+- response: '7E90762384100004011'
+  expected_values:
+    SEAT_ODO_TCM_1: 289406976
+- response: '7E90762384100004019'
+  expected_values:
+    SEAT_ODO_TCM_1: 423624704
+- response: '7E90762384100004021'
+  expected_values:
+    SEAT_ODO_TCM_1: 557842432
+- response: '7E90762384100004029'
+  expected_values:
+    SEAT_ODO_TCM_1: 692060160
+- response: '7E90762384100004031'
+  expected_values:
+    SEAT_ODO_TCM_1: 826277888
+- response: '7E90762384100004038'
+  expected_values:
+    SEAT_ODO_TCM_1: 943718400
+- response: 7E9076238410000403F
+  expected_values:
+    SEAT_ODO_TCM_1: 1061158912
+- response: '7E90762384100004047'
+  expected_values:
+    SEAT_ODO_TCM_1: 1195376640
+- response: 7E9076238410000404F
+  expected_values:
+    SEAT_ODO_TCM_1: 1329594368
+- response: '7E90762384100004053'
+  expected_values:
+    SEAT_ODO_TCM_1: 1396703232
+- response: '7E90762384100004055'
+  expected_values:
+    SEAT_ODO_TCM_1: 1430257664
+- response: '7E90762384100004056'
+  expected_values:
+    SEAT_ODO_TCM_1: 1447034880
+- response: '7E90762384100004057'
+  expected_values:
+    SEAT_ODO_TCM_1: 1463812096
+- response: '7E90762384100004058'
+  expected_values:
+    SEAT_ODO_TCM_1: 1480589312
+- response: 7E9076238410000405A
+  expected_values:
+    SEAT_ODO_TCM_1: 1514143744
+- response: 7E9076238410000405C
+  expected_values:
+    SEAT_ODO_TCM_1: 1547698176
+- response: 7E9076238410000405D
+  expected_values:
+    SEAT_ODO_TCM_1: 1564475392
+- response: '7E90762384100004063'
+  expected_values:
+    SEAT_ODO_TCM_1: 1665138688
+- response: 7E9076238410000406A
+  expected_values:
+    SEAT_ODO_TCM_1: 1782579200
+- response: 7E9076238410000406E
+  expected_values:
+    SEAT_ODO_TCM_1: 1849688064
+- response: '7E90762384100004070'
+  expected_values:
+    SEAT_ODO_TCM_1: 1883242496
+- response: '7E90762384100004074'
+  expected_values:
+    SEAT_ODO_TCM_1: 1950351360
+- response: '7E90762384100004077'
+  expected_values:
+    SEAT_ODO_TCM_1: 2000683008

@@ -1,0 +1,100 @@
+command_id: 7E0.7E8.22F431
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562F4310647
+  expected_values:
+    SEAT_CLR_DIST: 1607
+- response: 7E80562F4310648
+  expected_values:
+    SEAT_CLR_DIST: 1608
+- response: 7E80562F4310649
+  expected_values:
+    SEAT_CLR_DIST: 1609
+- response: 7E80562F431064A
+  expected_values:
+    SEAT_CLR_DIST: 1610
+- response: 7E80562F431064B
+  expected_values:
+    SEAT_CLR_DIST: 1611
+- response: 7E80562F431064C
+  expected_values:
+    SEAT_CLR_DIST: 1612
+- response: 7E80562F431064D
+  expected_values:
+    SEAT_CLR_DIST: 1613
+- response: 7E80562F431064F
+  expected_values:
+    SEAT_CLR_DIST: 1615
+- response: 7E80562F4310650
+  expected_values:
+    SEAT_CLR_DIST: 1616
+- response: 7E80562F4310651
+  expected_values:
+    SEAT_CLR_DIST: 1617
+- response: 7E80562F4310652
+  expected_values:
+    SEAT_CLR_DIST: 1618
+- response: 7E80562F4310653
+  expected_values:
+    SEAT_CLR_DIST: 1619
+- response: 7E80562F4310654
+  expected_values:
+    SEAT_CLR_DIST: 1620
+- response: 7E80562F4310655
+  expected_values:
+    SEAT_CLR_DIST: 1621
+- response: 7E80562F4310656
+  expected_values:
+    SEAT_CLR_DIST: 1622
+- response: 7E80562F4310659
+  expected_values:
+    SEAT_CLR_DIST: 1625
+- response: 7E80562F431065A
+  expected_values:
+    SEAT_CLR_DIST: 1626
+- response: 7E80562F431065B
+  expected_values:
+    SEAT_CLR_DIST: 1627
+- response: 7E80562F431065C
+  expected_values:
+    SEAT_CLR_DIST: 1628
+- response: 7E80562F431065D
+  expected_values:
+    SEAT_CLR_DIST: 1629
+- response: 7E80562F4310660
+  expected_values:
+    SEAT_CLR_DIST: 1632
+- response: 7E80562F4310661
+  expected_values:
+    SEAT_CLR_DIST: 1633
+- response: 7E80562F4310662
+  expected_values:
+    SEAT_CLR_DIST: 1634
+- response: 7E80562F4310663
+  expected_values:
+    SEAT_CLR_DIST: 1635
+- response: 7E80562F4310664
+  expected_values:
+    SEAT_CLR_DIST: 1636
+- response: 7E80562F4310665
+  expected_values:
+    SEAT_CLR_DIST: 1637
+- response: 7E80562F4310666
+  expected_values:
+    SEAT_CLR_DIST: 1638
+- response: 7E80562F4310667
+  expected_values:
+    SEAT_CLR_DIST: 1639
+- response: 7E80562F4310668
+  expected_values:
+    SEAT_CLR_DIST: 1640
+- response: 7E80562F431066B
+  expected_values:
+    SEAT_CLR_DIST: 1643
+- response: 7E80562F431066C
+  expected_values:
+    SEAT_CLR_DIST: 1644
+- response: 7E80562F431066D
+  expected_values:
+    SEAT_CLR_DIST: 1645
