@@ -1,0 +1,211 @@
+command_id: 7E0.7E8.22F41F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562F41F000C
+  expected_values:
+    SEAT_RUNTM: 12
+- response: 7E80562F41F0022
+  expected_values:
+    SEAT_RUNTM: 34
+- response: 7E80562F41F0029
+  expected_values:
+    SEAT_RUNTM: 41
+- response: 7E80562F41F002B
+  expected_values:
+    SEAT_RUNTM: 43
+- response: 7E80562F41F002D
+  expected_values:
+    SEAT_RUNTM: 45
+- response: 7E80562F41F0032
+  expected_values:
+    SEAT_RUNTM: 50
+- response: 7E80562F41F0037
+  expected_values:
+    SEAT_RUNTM: 55
+- response: 7E80562F41F003F
+  expected_values:
+    SEAT_RUNTM: 63
+- response: 7E80562F41F0050
+  expected_values:
+    SEAT_RUNTM: 80
+- response: 7E80562F41F005E
+  expected_values:
+    SEAT_RUNTM: 94
+- response: 7E80562F41F0063
+  expected_values:
+    SEAT_RUNTM: 99
+- response: 7E80562F41F0066
+  expected_values:
+    SEAT_RUNTM: 102
+- response: 7E80562F41F0068
+  expected_values:
+    SEAT_RUNTM: 104
+- response: 7E80562F41F006E
+  expected_values:
+    SEAT_RUNTM: 110
+- response: 7E80562F41F007C
+  expected_values:
+    SEAT_RUNTM: 124
+- response: 7E80562F41F007D
+  expected_values:
+    SEAT_RUNTM: 125
+- response: 7E80562F41F0084
+  expected_values:
+    SEAT_RUNTM: 132
+- response: 7E80562F41F0086
+  expected_values:
+    SEAT_RUNTM: 134
+- response: 7E80562F41F008E
+  expected_values:
+    SEAT_RUNTM: 142
+- response: 7E80562F41F009B
+  expected_values:
+    SEAT_RUNTM: 155
+- response: 7E80562F41F009C
+  expected_values:
+    SEAT_RUNTM: 156
+- response: 7E80562F41F00A3
+  expected_values:
+    SEAT_RUNTM: 163
+- response: 7E80562F41F00A5
+  expected_values:
+    SEAT_RUNTM: 165
+- response: 7E80562F41F00AB
+  expected_values:
+    SEAT_RUNTM: 171
+- response: 7E80562F41F00BA
+  expected_values:
+    SEAT_RUNTM: 186
+- response: 7E80562F41F00BD
+  expected_values:
+    SEAT_RUNTM: 189
+- response: 7E80562F41F00C0
+  expected_values:
+    SEAT_RUNTM: 192
+- response: 7E80562F41F00C1
+  expected_values:
+    SEAT_RUNTM: 193
+- response: 7E80562F41F00C3
+  expected_values:
+    SEAT_RUNTM: 195
+- response: 7E80562F41F00D8
+  expected_values:
+    SEAT_RUNTM: 216
+- response: 7E80562F41F00D9
+  expected_values:
+    SEAT_RUNTM: 217
+- response: 7E80562F41F00DC
+  expected_values:
+    SEAT_RUNTM: 220
+- response: 7E80562F41F00E1
+  expected_values:
+    SEAT_RUNTM: 225
+- response: 7E80562F41F00E7
+  expected_values:
+    SEAT_RUNTM: 231
+- response: 7E80562F41F00EA
+  expected_values:
+    SEAT_RUNTM: 234
+- response: 7E80562F41F00F6
+  expected_values:
+    SEAT_RUNTM: 246
+- response: 7E80562F41F00F7
+  expected_values:
+    SEAT_RUNTM: 247
+- response: 7E80562F41F00FA
+  expected_values:
+    SEAT_RUNTM: 250
+- response: 7E80562F41F0100
+  expected_values:
+    SEAT_RUNTM: 256
+- response: 7E80562F41F0117
+  expected_values:
+    SEAT_RUNTM: 279
+- response: 7E80562F41F011E
+  expected_values:
+    SEAT_RUNTM: 286
+- response: 7E80562F41F011F
+  expected_values:
+    SEAT_RUNTM: 287
+- response: 7E80562F41F013D
+  expected_values:
+    SEAT_RUNTM: 317
+- response: 7E80562F41F013F
+  expected_values:
+    SEAT_RUNTM: 319
+- response: 7E80562F41F015B
+  expected_values:
+    SEAT_RUNTM: 347
+- response: 7E80562F41F015D
+  expected_values:
+    SEAT_RUNTM: 349
+- response: 7E80562F41F017A
+  expected_values:
+    SEAT_RUNTM: 378
+- response: 7E80562F41F017C
+  expected_values:
+    SEAT_RUNTM: 380
+- response: 7E80562F41F0198
+  expected_values:
+    SEAT_RUNTM: 408
+- response: 7E80562F41F01B6
+  expected_values:
+    SEAT_RUNTM: 438
+- response: 7E80562F41F01D4
+  expected_values:
+    SEAT_RUNTM: 468
+- response: 7E80562F41F01F4
+  expected_values:
+    SEAT_RUNTM: 500
+- response: 7E80562F41F0264
+  expected_values:
+    SEAT_RUNTM: 612
+- response: 7E80562F41F0282
+  expected_values:
+    SEAT_RUNTM: 642
+- response: 7E80562F41F02CA
+  expected_values:
+    SEAT_RUNTM: 714
+- response: 7E80562F41F02E9
+  expected_values:
+    SEAT_RUNTM: 745
+- response: 7E80562F41F02F4
+  expected_values:
+    SEAT_RUNTM: 756
+- response: 7E80562F41F0306
+  expected_values:
+    SEAT_RUNTM: 774
+- response: 7E80562F41F0312
+  expected_values:
+    SEAT_RUNTM: 786
+- response: 7E80562F41F0324
+  expected_values:
+    SEAT_RUNTM: 804
+- response: 7E80562F41F0331
+  expected_values:
+    SEAT_RUNTM: 817
+- response: 7E80562F41F0342
+  expected_values:
+    SEAT_RUNTM: 834
+- response: 7E80562F41F0359
+  expected_values:
+    SEAT_RUNTM: 857
+- response: 7E80562F41F0377
+  expected_values:
+    SEAT_RUNTM: 887
+- response: 7E80562F41F0396
+  expected_values:
+    SEAT_RUNTM: 918
+- response: 7E80562F41F03B4
+  expected_values:
+    SEAT_RUNTM: 948
+- response: 7E80562F41F03DB
+  expected_values:
+    SEAT_RUNTM: 987
+- response: 7E80562F41F03F9
+  expected_values:
+    SEAT_RUNTM: 1017
+- response: 7E80562F41F0417
+  expected_values:
+    SEAT_RUNTM: 1047

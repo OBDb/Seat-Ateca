@@ -1,0 +1,139 @@
+command_id: 7E0.7E8.22F40D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462F40D00
+  expected_values:
+    SEAT_VSS: 0
+- response: 7E80462F40D02
+  expected_values:
+    SEAT_VSS: 2
+- response: 7E80462F40D05
+  expected_values:
+    SEAT_VSS: 5
+- response: 7E80462F40D06
+  expected_values:
+    SEAT_VSS: 6
+- response: 7E80462F40D08
+  expected_values:
+    SEAT_VSS: 8
+- response: 7E80462F40D09
+  expected_values:
+    SEAT_VSS: 9
+- response: 7E80462F40D0B
+  expected_values:
+    SEAT_VSS: 11
+- response: 7E80462F40D0D
+  expected_values:
+    SEAT_VSS: 13
+- response: 7E80462F40D0E
+  expected_values:
+    SEAT_VSS: 14
+- response: 7E80462F40D0F
+  expected_values:
+    SEAT_VSS: 15
+- response: 7E80462F40D11
+  expected_values:
+    SEAT_VSS: 17
+- response: 7E80462F40D14
+  expected_values:
+    SEAT_VSS: 20
+- response: 7E80462F40D16
+  expected_values:
+    SEAT_VSS: 22
+- response: 7E80462F40D17
+  expected_values:
+    SEAT_VSS: 23
+- response: 7E80462F40D18
+  expected_values:
+    SEAT_VSS: 24
+- response: 7E80462F40D1A
+  expected_values:
+    SEAT_VSS: 26
+- response: 7E80462F40D1B
+  expected_values:
+    SEAT_VSS: 27
+- response: 7E80462F40D1C
+  expected_values:
+    SEAT_VSS: 28
+- response: 7E80462F40D1F
+  expected_values:
+    SEAT_VSS: 31
+- response: 7E80462F40D23
+  expected_values:
+    SEAT_VSS: 35
+- response: 7E80462F40D26
+  expected_values:
+    SEAT_VSS: 38
+- response: 7E80462F40D28
+  expected_values:
+    SEAT_VSS: 40
+- response: 7E80462F40D29
+  expected_values:
+    SEAT_VSS: 41
+- response: 7E80462F40D2B
+  expected_values:
+    SEAT_VSS: 43
+- response: 7E80462F40D2F
+  expected_values:
+    SEAT_VSS: 47
+- response: 7E80462F40D31
+  expected_values:
+    SEAT_VSS: 49
+- response: 7E80462F40D33
+  expected_values:
+    SEAT_VSS: 51
+- response: 7E80462F40D36
+  expected_values:
+    SEAT_VSS: 54
+- response: 7E80462F40D3B
+  expected_values:
+    SEAT_VSS: 59
+- response: 7E80462F40D3D
+  expected_values:
+    SEAT_VSS: 61
+- response: 7E80462F40D40
+  expected_values:
+    SEAT_VSS: 64
+- response: 7E80462F40D42
+  expected_values:
+    SEAT_VSS: 66
+- response: 7E80462F40D43
+  expected_values:
+    SEAT_VSS: 67
+- response: 7E80462F40D45
+  expected_values:
+    SEAT_VSS: 69
+- response: 7E80462F40D46
+  expected_values:
+    SEAT_VSS: 70
+- response: 7E80462F40D4A
+  expected_values:
+    SEAT_VSS: 74
+- response: 7E80462F40D4C
+  expected_values:
+    SEAT_VSS: 76
+- response: 7E80462F40D52
+  expected_values:
+    SEAT_VSS: 82
+- response: 7E80462F40D56
+  expected_values:
+    SEAT_VSS: 86
+- response: 7E80462F40D57
+  expected_values:
+    SEAT_VSS: 87
+- response: 7E80462F40D5A
+  expected_values:
+    SEAT_VSS: 90
+- response: 7E80462F40D5B
+  expected_values:
+    SEAT_VSS: 91
+- response: 7E80462F40D5C
+  expected_values:
+    SEAT_VSS: 92
+- response: 7E80462F40D5D
+  expected_values:
+    SEAT_VSS: 93
+- response: 7E80462F40D5E
+  expected_values:
+    SEAT_VSS: 94

@@ -1,0 +1,396 @@
+command_id: 7E0.7E8.2211BA
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E8056211BA1EDC
+  expected_values:
+    SEAT_OIL_LEVEL: 3.16
+- response: |-
+    7E8037F2278
+    7E8056211BA2BCA
+  expected_values:
+    SEAT_OIL_LEVEL: 4.484
+- response: |-
+    7E8037F2278
+    7E8056211BA2C5B
+  expected_values:
+    SEAT_OIL_LEVEL: 4.542
+- response: |-
+    7E8037F2278
+    7E8056211BA2CB0
+  expected_values:
+    SEAT_OIL_LEVEL: 4.576
+- response: |-
+    7E8037F2278
+    7E8056211BA2CCE
+  expected_values:
+    SEAT_OIL_LEVEL: 4.588
+- response: |-
+    7E8037F2278
+    7E8056211BA2E1D
+  expected_values:
+    SEAT_OIL_LEVEL: 4.722
+- response: |-
+    7E8037F2278
+    7E8056211BA2E45
+  expected_values:
+    SEAT_OIL_LEVEL: 4.738
+- response: |-
+    7E8037F2278
+    7E8056211BA2E4A
+  expected_values:
+    SEAT_OIL_LEVEL: 4.74
+- response: |-
+    7E8037F2278
+    7E8056211BA2E5E
+  expected_values:
+    SEAT_OIL_LEVEL: 4.748
+- response: |-
+    7E8037F2278
+    7E8056211BA2E68
+  expected_values:
+    SEAT_OIL_LEVEL: 4.752
+- response: |-
+    7E8037F2278
+    7E8056211BA2EFE
+  expected_values:
+    SEAT_OIL_LEVEL: 4.812
+- response: |-
+    7E8037F2278
+    7E8056211BA2F03
+  expected_values:
+    SEAT_OIL_LEVEL: 4.814
+- response: |-
+    7E8037F2278
+    7E8056211BA2F0D
+  expected_values:
+    SEAT_OIL_LEVEL: 4.818
+- response: |-
+    7E8037F2278
+    7E8056211BA2F1C
+  expected_values:
+    SEAT_OIL_LEVEL: 4.824
+- response: |-
+    7E8037F2278
+    7E8056211BA2F35
+  expected_values:
+    SEAT_OIL_LEVEL: 4.834
+- response: |-
+    7E8037F2278
+    7E8056211BA2F58
+  expected_values:
+    SEAT_OIL_LEVEL: 4.848
+- response: |-
+    7E8037F2278
+    7E8056211BA2F8F
+  expected_values:
+    SEAT_OIL_LEVEL: 4.87
+- response: |-
+    7E8037F2278
+    7E8056211BA2F94
+  expected_values:
+    SEAT_OIL_LEVEL: 4.872
+- response: |-
+    7E8037F2278
+    7E8056211BA2FCB
+  expected_values:
+    SEAT_OIL_LEVEL: 4.894
+- response: |-
+    7E8037F2278
+    7E8056211BA3002
+  expected_values:
+    SEAT_OIL_LEVEL: 4.916
+- response: |-
+    7E8037F2278
+    7E8056211BA3048
+  expected_values:
+    SEAT_OIL_LEVEL: 4.944
+- response: |-
+    7E8037F2278
+    7E8056211BA3057
+  expected_values:
+    SEAT_OIL_LEVEL: 4.95
+- response: |-
+    7E8037F2278
+    7E8056211BA30D4
+  expected_values:
+    SEAT_OIL_LEVEL: 5
+- response: |-
+    7E8037F2278
+    7E8056211BA3110
+  expected_values:
+    SEAT_OIL_LEVEL: 5.024
+- response: |-
+    7E8037F2278
+    7E8056211BA311A
+  expected_values:
+    SEAT_OIL_LEVEL: 5.028
+- response: |-
+    7E8037F2278
+    7E8056211BA3160
+  expected_values:
+    SEAT_OIL_LEVEL: 5.056
+- response: |-
+    7E8037F2278
+    7E8056211BA318D
+  expected_values:
+    SEAT_OIL_LEVEL: 5.074
+- response: |-
+    7E8037F2278
+    7E8056211BA31BA
+  expected_values:
+    SEAT_OIL_LEVEL: 5.092
+- response: |-
+    7E8037F2278
+    7E8056211BA31F1
+  expected_values:
+    SEAT_OIL_LEVEL: 5.114
+- response: |-
+    7E8037F2278
+    7E8056211BA3214
+  expected_values:
+    SEAT_OIL_LEVEL: 5.128
+- response: |-
+    7E8037F2278
+    7E8056211BA3296
+  expected_values:
+    SEAT_OIL_LEVEL: 5.18
+- response: |-
+    7E8037F2278
+    7E8056211BA32AA
+  expected_values:
+    SEAT_OIL_LEVEL: 5.188
+- response: |-
+    7E8037F2278
+    7E8056211BA32AF
+  expected_values:
+    SEAT_OIL_LEVEL: 5.19
+- response: |-
+    7E8037F2278
+    7E8056211BA32C8
+  expected_values:
+    SEAT_OIL_LEVEL: 5.2
+- response: |-
+    7E8037F2278
+    7E8056211BA32F5
+  expected_values:
+    SEAT_OIL_LEVEL: 5.218
+- response: |-
+    7E8037F2278
+    7E8056211BA3363
+  expected_values:
+    SEAT_OIL_LEVEL: 5.262
+- response: |-
+    7E8037F2278
+    7E8056211BA3372
+  expected_values:
+    SEAT_OIL_LEVEL: 5.268
+- response: |-
+    7E8037F2278
+    7E8056211BA3381
+  expected_values:
+    SEAT_OIL_LEVEL: 5.274
+- response: |-
+    7E8037F2278
+    7E8056211BA3412
+  expected_values:
+    SEAT_OIL_LEVEL: 5.332
+- response: |-
+    7E8037F2278
+    7E8056211BA344E
+  expected_values:
+    SEAT_OIL_LEVEL: 5.356
+- response: |-
+    7E8037F2278
+    7E8056211BA346C
+  expected_values:
+    SEAT_OIL_LEVEL: 5.368
+- response: |-
+    7E8037F2278
+    7E8056211BA348A
+  expected_values:
+    SEAT_OIL_LEVEL: 5.38
+- response: |-
+    7E8037F2278
+    7E8056211BA34A8
+    7E8037F2278
+    7E8056211BA340D
+  expected_values:
+    SEAT_OIL_LEVEL: 5.33
+- response: |-
+    7E8037F2278
+    7E8056211BA34AD
+  expected_values:
+    SEAT_OIL_LEVEL: 5.394
+- response: |-
+    7E8037F2278
+    7E8056211BA34E9
+  expected_values:
+    SEAT_OIL_LEVEL: 5.418
+- response: |-
+    7E8037F2278
+    7E8056211BA3552
+  expected_values:
+    SEAT_OIL_LEVEL: 5.46
+- response: |-
+    7E8037F2278
+    7E8056211BA3575
+  expected_values:
+    SEAT_OIL_LEVEL: 5.474
+- response: |-
+    7E8037F2278
+    7E8056211BA357F
+  expected_values:
+    SEAT_OIL_LEVEL: 5.478
+- response: |-
+    7E8037F2278
+    7E8056211BA3584
+  expected_values:
+    SEAT_OIL_LEVEL: 5.48
+- response: |-
+    7E8037F2278
+    7E8056211BA3593
+  expected_values:
+    SEAT_OIL_LEVEL: 5.486
+- response: |-
+    7E8037F2278
+    7E8056211BA35A2
+  expected_values:
+    SEAT_OIL_LEVEL: 5.492
+- response: |-
+    7E8037F2278
+    7E8056211BA35D4
+  expected_values:
+    SEAT_OIL_LEVEL: 5.512
+- response: |-
+    7E8037F2278
+    7E8056211BA35DE
+  expected_values:
+    SEAT_OIL_LEVEL: 5.516
+- response: |-
+    7E8037F2278
+    7E8056211BA35E3
+  expected_values:
+    SEAT_OIL_LEVEL: 5.518
+- response: |-
+    7E8037F2278
+    7E8056211BA3633
+  expected_values:
+    SEAT_OIL_LEVEL: 5.55
+- response: |-
+    7E8037F2278
+    7E8056211BA3647
+  expected_values:
+    SEAT_OIL_LEVEL: 5.558
+- response: |-
+    7E8037F2278
+    7E8056211BA3656
+  expected_values:
+    SEAT_OIL_LEVEL: 5.564
+- response: |-
+    7E8037F2278
+    7E8056211BA3660
+  expected_values:
+    SEAT_OIL_LEVEL: 5.568
+- response: |-
+    7E8037F2278
+    7E8056211BA366F
+  expected_values:
+    SEAT_OIL_LEVEL: 5.574
+- response: |-
+    7E8037F2278
+    7E8056211BA3674
+  expected_values:
+    SEAT_OIL_LEVEL: 5.576
+- response: |-
+    7E8037F2278
+    7E8056211BA3692
+  expected_values:
+    SEAT_OIL_LEVEL: 5.588
+- response: |-
+    7E8037F2278
+    7E8056211BA36A1
+  expected_values:
+    SEAT_OIL_LEVEL: 5.594
+- response: |-
+    7E8037F2278
+    7E8056211BA373C
+  expected_values:
+    SEAT_OIL_LEVEL: 5.656
+- response: |-
+    7E8037F2278
+    7E8056211BA375A
+  expected_values:
+    SEAT_OIL_LEVEL: 5.668
+- response: |-
+    7E8037F2278
+    7E8056211BA376E
+  expected_values:
+    SEAT_OIL_LEVEL: 5.676
+- response: |-
+    7E8037F2278
+    7E8056211BA3778
+  expected_values:
+    SEAT_OIL_LEVEL: 5.68
+- response: |-
+    7E8037F2278
+    7E8056211BA377D
+  expected_values:
+    SEAT_OIL_LEVEL: 5.682
+- response: |-
+    7E8037F2278
+    7E8056211BA3787
+  expected_values:
+    SEAT_OIL_LEVEL: 5.686
+- response: |-
+    7E8037F2278
+    7E8056211BA37AA
+  expected_values:
+    SEAT_OIL_LEVEL: 5.7
+- response: |-
+    7E8037F2278
+    7E8056211BA37E6
+  expected_values:
+    SEAT_OIL_LEVEL: 5.724
+- response: |-
+    7E8037F2278
+    7E8056211BA37EB
+  expected_values:
+    SEAT_OIL_LEVEL: 5.726
+- response: |-
+    7E8037F2278
+    7E8056211BA3809
+  expected_values:
+    SEAT_OIL_LEVEL: 5.738
+- response: |-
+    7E8037F2278
+    7E8056211BA3818
+  expected_values:
+    SEAT_OIL_LEVEL: 5.744
+- response: |-
+    7E8037F2278
+    7E8056211BA388B
+  expected_values:
+    SEAT_OIL_LEVEL: 5.79
+- response: |-
+    7E8037F2278
+    7E8056211BA396C
+  expected_values:
+    SEAT_OIL_LEVEL: 5.88
+- response: |-
+    7E8037F2278
+    7E8056211BA397B
+  expected_values:
+    SEAT_OIL_LEVEL: 5.886
+- response: |-
+    7E8037F2278
+    7E8056211BA3AB6
+  expected_values:
+    SEAT_OIL_LEVEL: 6.012
+- response: |-
+    7E8037F2278
+    7E8056211BA3D09
+  expected_values:
+    SEAT_OIL_LEVEL: 6.25
