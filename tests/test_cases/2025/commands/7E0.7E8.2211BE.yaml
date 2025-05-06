@@ -2,8 +2,6 @@ command_id: 7E0.7E8.2211BE
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: |-
-    7E8037F2278
-    7E8056211BEFFF5
+- response: 7E8056211BEFFF5
   expected_values:
     SEAT_EOT: 65525
