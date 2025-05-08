@@ -4,11 +4,16 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7E8076210E000000652
   expected_values:
-    SEAT_ODO_2_V3: 1618
+    SEAT_ODO_2_V2: 1618
     SEAT_ODO_3_V2: 1618
-    SEAT_ODO_V4: 1618
+    SEAT_ODO_V3: 1618
 - response: 7E8076210E00000067C
   expected_values:
-    SEAT_ODO_2_V3: 1660
+    SEAT_ODO_2_V2: 1660
     SEAT_ODO_3_V2: 1660
-    SEAT_ODO_V4: 1660
+    SEAT_ODO_V3: 1660
+- response: 7E8076210E000000730
+  expected_values:
+    SEAT_ODO_2_V2: 1840
+    SEAT_ODO_3_V2: 1840
+    SEAT_ODO_V3: 1840

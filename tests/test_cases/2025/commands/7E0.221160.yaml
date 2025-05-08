@@ -6,10 +6,6 @@ test_cases:
   expected_values:
     SEAT_ODO_2_V4: 1615333
     SEAT_ODO_HD: 1615333
-- response: 7E8076211600018ABFC
-  expected_values:
-    SEAT_ODO_2_V4: 1616892
-    SEAT_ODO_HD: 1616892
 - response: 7E8076211600018FF02
   expected_values:
     SEAT_ODO_2_V4: 1638146
@@ -22,3 +18,11 @@ test_cases:
   expected_values:
     SEAT_ODO_2_V4: 1642753
     SEAT_ODO_HD: 1642753
+- response: 7E807621160001C0929
+  expected_values:
+    SEAT_ODO_2_V4: 1837353
+    SEAT_ODO_HD: 1837353
+- response: 7E807621160001C73FF
+  expected_values:
+    SEAT_ODO_2_V4: 1864703
+    SEAT_ODO_HD: 1864703
