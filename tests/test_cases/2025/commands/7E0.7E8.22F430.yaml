@@ -8,3 +8,6 @@ test_cases:
 - response: 7E80462F4302E
   expected_values:
     SEAT_WARM_UPS: 46
+- response: 7E80462F43038
+  expected_values:
+    SEAT_WARM_UPS: 56

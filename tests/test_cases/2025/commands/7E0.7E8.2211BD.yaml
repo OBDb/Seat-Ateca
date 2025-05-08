@@ -5,9 +5,9 @@ test_cases:
 - response: 7E8056211BD0B36
   expected_values:
     SEAT_OIL_LEVEL_WARN: 1.148
-- response: 7E8056211BD0B51
+- response: 7E8056211BD0E07
   expected_values:
-    SEAT_OIL_LEVEL_WARN: 1.1588
-- response: 7E8056211BD0B68
+    SEAT_OIL_LEVEL_WARN: 1.4364
+- response: 7E8056211BD0E8F
   expected_values:
-    SEAT_OIL_LEVEL_WARN: 1.168
+    SEAT_OIL_LEVEL_WARN: 1.4908
