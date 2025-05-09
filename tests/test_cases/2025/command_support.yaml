@@ -59,53 +59,53 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   70B:
-  - 70B.775.2218A0
-  - 70B.775.2218A1
-  - 70B.775.2218A2
-  - 70B.775.2218A3
+  - 70B.775.2218A0:SEAT_TID_1,SEAT_TP_1,SEAT_TP_FR
+  - 70B.775.2218A1:SEAT_TID_2,SEAT_TP_2,SEAT_TP_FL
+  - 70B.775.2218A2:SEAT_TID_3,SEAT_TP_3,SEAT_TP_RL
+  - 70B.775.2218A3:SEAT_TID_4,SEAT_TP_4,SEAT_TP_RR
   710:
   - 710.222A0A
-  - 710.77A.222A07
-  - 710.77A.222A0A
-  - 710.77A.222A0B
-  - 710.77A.222A0C
-  - 710.77A.222A0E
-  - 710.77A.222A0F
-  - 710.77A.222A10
-  - 710.77A.222AB2
+  - 710.77A.222A07:SEAT_SSB_V
+  - 710.77A.222A0A:SEAT_ODO,SEAT_ODO_2,SEAT_ODO_3,SEAT_SSB_SENSOR_T
+  - 710.77A.222A0B:SEAT_SSB_T
+  - 710.77A.222A0C:SEAT_SSB_SOC
+  - 710.77A.222A0E:SEAT_SSB_R
+  - 710.77A.222A0F:SEAT_SSB_AH
+  - 710.77A.222A10:SEAT_SSB_V_REST
+  - 710.77A.222AB2:SEAT_HVBAT_CAP
   - 710.77A.222AB6
   - 710.77A.222AB7
-  - 710.77A.222AB8
+  - 710.77A.222AB8:SEAT_HVBAT_KWH_V2
   713:
-  - '713.221800'
-  - '713.221801'
-  - '713.221802'
-  - '713.221803'
-  - 713.77D.222B1B
-  - 713.77D.222B1C
-  - 713.77D.222B1D
-  - 713.77D.222B1E
-  - 713.77D.222B29
+  - 713.221800:SEAT_FL_VSS
+  - 713.221801:SEAT_FR_VSS
+  - 713.221802:SEAT_RL_VSS
+  - 713.221803:SEAT_RR_VSS
+  - 713.77D.222B1B:SEAT_TIRE_FL_SPD_V3
+  - 713.77D.222B1C:SEAT_TIRE_FR_SPD_V3
+  - 713.77D.222B1D:SEAT_TIRE_RL_SPD_V3
+  - 713.77D.222B1E:SEAT_TIRE_RR_SPD_V3
+  - 713.77D.222B29:SEAT_STEER_ANGLE
   714:
-  - 714.22202F
+  - 714.22202F:SEAT_EOT_V2
   - '714.222203'
-  - '714.222294'
+  - 714.222294:SEAT_RANGE_V2
   - 714.22229A
-  - 714.2222B0
-  - '714.222613'
-  - 714.77E.220530
-  - 714.77E.221014
+  - 714.2222B0:SEAT_FLI_VOL
+  - 714.222613:SEAT_IAT
+  - 714.77E.220530:SEAT_TRIP_USE_SHORT
+  - 714.77E.221014:SEAT_AAT
   - 714.77E.222203
   - 714.77E.2222B0
   - 714.77E.2222E0
   715:
   - '715.222353'
-  - 715.77F.222354
-  - 715.77F.222355
-  - 715.77F.222356
-  - 715.77F.222357
+  - 715.77F.222354:SEAT_CRASH_CNT_DRVR
+  - 715.77F.222355:SEAT_CRASH_CNT_PSNGR
+  - 715.77F.222356:SEAT_CRASH_CNT_REAR
+  - 715.77F.222357:SEAT_CRASH_CNT_ROLL
   744:
-  - 744.7AE.224965
+  - 744.7AE.224965:SEAT_HVBAT_KWH
   746:
   - 746.7B0.2227C4
   7E0:
@@ -134,44 +134,236 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.222B1E
   7E5:
   - 7E5.7E9.221003
-  - 7E5.7ED.22028C
-  - 7E5.7ED.221801
-  - 7E5.7ED.221850
-  - 7E5.7ED.221851
-  - 7E5.7ED.221852
-  - 7E5.7ED.221853
-  - 7E5.7ED.221854
-  - 7E5.7ED.221855
-  - 7E5.7ED.221856
-  - 7E5.7ED.221857
-  - 7E5.7ED.221858
-  - 7E5.7ED.221859
-  - 7E5.7ED.22185A
-  - 7E5.7ED.22185B
-  - 7E5.7ED.22185C
-  - 7E5.7ED.22185D
-  - 7E5.7ED.22185E
-  - 7E5.7ED.22185F
-  - 7E5.7ED.221860
-  - 7E5.7ED.221861
-  - 7E5.7ED.221862
-  - 7E5.7ED.221863
-  - 7E5.7ED.221864
-  - 7E5.7ED.221865
-  - 7E5.7ED.221866
-  - 7E5.7ED.221867
-  - 7E5.7ED.221868
-  - 7E5.7ED.221869
-  - 7E5.7ED.22186A
-  - 7E5.7ED.22186B
-  - 7E5.7ED.22186C
-  - 7E5.7ED.22186D
-  - 7E5.7ED.22186E
-  - 7E5.7ED.22186F
-  - 7E5.7ED.221E32
-  - 7E5.7ED.221E3B
-  - 7E5.7ED.221E3D
-  - 7E5.7ED.2251E0
-  - 7E5.7ED.225200
+  - 7E5.7ED.22028C:SEAT_HVBAT_SOC_V2
+  - 7E5.7ED.221801:SEAT_HVBAT_VOLT
+  - 7E5.7ED.221850:SEAT_[Battery] BatteryPack.Module1.Cell1.SoC,SEAT_[Battery] BatteryPack.Module1.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module1.Cell2.SoC,SEAT_[Battery] BatteryPack.Module1.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module1.Cell3.SoC,SEAT_[Battery] BatteryPack.Module1.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module1.Cell4.SoC,SEAT_[Battery] BatteryPack.Module1.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module1.Cell5.SoC,SEAT_[Battery] BatteryPack.Module1.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module1.Cell6.SoC,SEAT_[Battery] BatteryPack.Module1.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module1.ID
+  - 7E5.7ED.221851:SEAT_[Battery] BatteryPack.Module2.Cell1.SoC,SEAT_[Battery] BatteryPack.Module2.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module2.Cell2.SoC,SEAT_[Battery] BatteryPack.Module2.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module2.Cell3.SoC,SEAT_[Battery] BatteryPack.Module2.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module2.Cell4.SoC,SEAT_[Battery] BatteryPack.Module2.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module2.Cell5.SoC,SEAT_[Battery] BatteryPack.Module2.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module2.Cell6.SoC,SEAT_[Battery] BatteryPack.Module2.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module2.ID
+  - 7E5.7ED.221852:SEAT_[Battery] BatteryPack.Module3.Cell1.SoC,SEAT_[Battery] BatteryPack.Module3.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module3.Cell2.SoC,SEAT_[Battery] BatteryPack.Module3.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module3.Cell3.SoC,SEAT_[Battery] BatteryPack.Module3.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module3.Cell4.SoC,SEAT_[Battery] BatteryPack.Module3.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module3.Cell5.SoC,SEAT_[Battery] BatteryPack.Module3.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module3.Cell6.SoC,SEAT_[Battery] BatteryPack.Module3.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module3.ID
+  - 7E5.7ED.221853:SEAT_[Battery] BatteryPack.Module4.Cell1.SoC,SEAT_[Battery] BatteryPack.Module4.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module4.Cell2.SoC,SEAT_[Battery] BatteryPack.Module4.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module4.Cell3.SoC,SEAT_[Battery] BatteryPack.Module4.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module4.Cell4.SoC,SEAT_[Battery] BatteryPack.Module4.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module4.Cell5.SoC,SEAT_[Battery] BatteryPack.Module4.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module4.Cell6.SoC,SEAT_[Battery] BatteryPack.Module4.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module4.ID
+  - 7E5.7ED.221854:SEAT_[Battery] BatteryPack.Module5.Cell1.SoC,SEAT_[Battery] BatteryPack.Module5.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module5.Cell2.SoC,SEAT_[Battery] BatteryPack.Module5.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module5.Cell3.SoC,SEAT_[Battery] BatteryPack.Module5.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module5.Cell4.SoC,SEAT_[Battery] BatteryPack.Module5.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module5.Cell5.SoC,SEAT_[Battery] BatteryPack.Module5.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module5.Cell6.SoC,SEAT_[Battery] BatteryPack.Module5.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module5.ID
+  - 7E5.7ED.221855:SEAT_[Battery] BatteryPack.Module6.Cell1.SoC,SEAT_[Battery] BatteryPack.Module6.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module6.Cell2.SoC,SEAT_[Battery] BatteryPack.Module6.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module6.Cell3.SoC,SEAT_[Battery] BatteryPack.Module6.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module6.Cell4.SoC,SEAT_[Battery] BatteryPack.Module6.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module6.Cell5.SoC,SEAT_[Battery] BatteryPack.Module6.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module6.Cell6.SoC,SEAT_[Battery] BatteryPack.Module6.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module6.ID
+  - 7E5.7ED.221856:SEAT_[Battery] BatteryPack.Module7.Cell1.SoC,SEAT_[Battery] BatteryPack.Module7.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module7.Cell2.SoC,SEAT_[Battery] BatteryPack.Module7.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module7.Cell3.SoC,SEAT_[Battery] BatteryPack.Module7.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module7.Cell4.SoC,SEAT_[Battery] BatteryPack.Module7.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module7.Cell5.SoC,SEAT_[Battery] BatteryPack.Module7.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module7.Cell6.SoC,SEAT_[Battery] BatteryPack.Module7.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module7.ID
+  - 7E5.7ED.221857:SEAT_[Battery] BatteryPack.Module8.Cell1.SoC,SEAT_[Battery] BatteryPack.Module8.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module8.Cell2.SoC,SEAT_[Battery] BatteryPack.Module8.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module8.Cell3.SoC,SEAT_[Battery] BatteryPack.Module8.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module8.Cell4.SoC,SEAT_[Battery] BatteryPack.Module8.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module8.Cell5.SoC,SEAT_[Battery] BatteryPack.Module8.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module8.Cell6.SoC,SEAT_[Battery] BatteryPack.Module8.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module8.ID
+  - 7E5.7ED.221858:SEAT_[Battery] BatteryPack.Module9.Cell1.SoC,SEAT_[Battery] BatteryPack.Module9.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module9.Cell2.SoC,SEAT_[Battery] BatteryPack.Module9.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module9.Cell3.SoC,SEAT_[Battery] BatteryPack.Module9.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module9.Cell4.SoC,SEAT_[Battery] BatteryPack.Module9.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module9.Cell5.SoC,SEAT_[Battery] BatteryPack.Module9.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module9.Cell6.SoC,SEAT_[Battery] BatteryPack.Module9.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module9.ID
+  - 7E5.7ED.221859:SEAT_[Battery] BatteryPack.Module10.Cell1.SoC,SEAT_[Battery] BatteryPack.Module10.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module10.Cell2.SoC,SEAT_[Battery] BatteryPack.Module10.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module10.Cell3.SoC,SEAT_[Battery] BatteryPack.Module10.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module10.Cell4.SoC,SEAT_[Battery] BatteryPack.Module10.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module10.Cell5.SoC,SEAT_[Battery] BatteryPack.Module10.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module10.Cell6.SoC,SEAT_[Battery] BatteryPack.Module10.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module10.ID
+  - 7E5.7ED.22185A:SEAT_[Battery] BatteryPack.Module11.Cell1.SoC,SEAT_[Battery] BatteryPack.Module11.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module11.Cell2.SoC,SEAT_[Battery] BatteryPack.Module11.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module11.Cell3.SoC,SEAT_[Battery] BatteryPack.Module11.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module11.Cell4.SoC,SEAT_[Battery] BatteryPack.Module11.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module11.Cell5.SoC,SEAT_[Battery] BatteryPack.Module11.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module11.Cell6.SoC,SEAT_[Battery] BatteryPack.Module11.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module11.ID
+  - 7E5.7ED.22185B:SEAT_[Battery] BatteryPack.Module12.Cell1.SoC,SEAT_[Battery] BatteryPack.Module12.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module12.Cell2.SoC,SEAT_[Battery] BatteryPack.Module12.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module12.Cell3.SoC,SEAT_[Battery] BatteryPack.Module12.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module12.Cell4.SoC,SEAT_[Battery] BatteryPack.Module12.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module12.Cell5.SoC,SEAT_[Battery] BatteryPack.Module12.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module12.Cell6.SoC,SEAT_[Battery] BatteryPack.Module12.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module12.ID
+  - 7E5.7ED.22185C:SEAT_[Battery] BatteryPack.Module13.Cell1.SoC,SEAT_[Battery] BatteryPack.Module13.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module13.Cell2.SoC,SEAT_[Battery] BatteryPack.Module13.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module13.Cell3.SoC,SEAT_[Battery] BatteryPack.Module13.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module13.Cell4.SoC,SEAT_[Battery] BatteryPack.Module13.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module13.Cell5.SoC,SEAT_[Battery] BatteryPack.Module13.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module13.Cell6.SoC,SEAT_[Battery] BatteryPack.Module13.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module13.ID
+  - 7E5.7ED.22185D:SEAT_[Battery] BatteryPack.Module14.Cell1.SoC,SEAT_[Battery] BatteryPack.Module14.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module14.Cell2.SoC,SEAT_[Battery] BatteryPack.Module14.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module14.Cell3.SoC,SEAT_[Battery] BatteryPack.Module14.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module14.Cell4.SoC,SEAT_[Battery] BatteryPack.Module14.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module14.Cell5.SoC,SEAT_[Battery] BatteryPack.Module14.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module14.Cell6.SoC,SEAT_[Battery] BatteryPack.Module14.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module14.ID
+  - 7E5.7ED.22185E:SEAT_[Battery] BatteryPack.Module15.Cell1.SoC,SEAT_[Battery] BatteryPack.Module15.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module15.Cell2.SoC,SEAT_[Battery] BatteryPack.Module15.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module15.Cell3.SoC,SEAT_[Battery] BatteryPack.Module15.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module15.Cell4.SoC,SEAT_[Battery] BatteryPack.Module15.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module15.Cell5.SoC,SEAT_[Battery] BatteryPack.Module15.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module15.Cell6.SoC,SEAT_[Battery] BatteryPack.Module15.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module15.ID
+  - 7E5.7ED.22185F:SEAT_[Battery] BatteryPack.Module16.Cell1.SoC,SEAT_[Battery] BatteryPack.Module16.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module16.Cell2.SoC,SEAT_[Battery] BatteryPack.Module16.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module16.Cell3.SoC,SEAT_[Battery] BatteryPack.Module16.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module16.Cell4.SoC,SEAT_[Battery] BatteryPack.Module16.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module16.Cell5.SoC,SEAT_[Battery] BatteryPack.Module16.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module16.Cell6.SoC,SEAT_[Battery] BatteryPack.Module16.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module16.ID
+  - 7E5.7ED.221860:SEAT_[Battery] BatteryPack.Module17.Cell1.SoC,SEAT_[Battery] BatteryPack.Module17.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module17.Cell2.SoC,SEAT_[Battery] BatteryPack.Module17.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module17.Cell3.SoC,SEAT_[Battery] BatteryPack.Module17.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module17.Cell4.SoC,SEAT_[Battery] BatteryPack.Module17.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module17.Cell5.SoC,SEAT_[Battery] BatteryPack.Module17.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module17.Cell6.SoC,SEAT_[Battery] BatteryPack.Module17.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module17.ID
+  - 7E5.7ED.221861:SEAT_[Battery] BatteryPack.Module18.Cell1.SoC,SEAT_[Battery] BatteryPack.Module18.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module18.Cell2.SoC,SEAT_[Battery] BatteryPack.Module18.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module18.Cell3.SoC,SEAT_[Battery] BatteryPack.Module18.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module18.Cell4.SoC,SEAT_[Battery] BatteryPack.Module18.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module18.Cell5.SoC,SEAT_[Battery] BatteryPack.Module18.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module18.Cell6.SoC,SEAT_[Battery] BatteryPack.Module18.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module18.ID
+  - 7E5.7ED.221862:SEAT_[Battery] BatteryPack.Module19.Cell1.SoC,SEAT_[Battery] BatteryPack.Module19.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module19.Cell2.SoC,SEAT_[Battery] BatteryPack.Module19.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module19.Cell3.SoC,SEAT_[Battery] BatteryPack.Module19.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module19.Cell4.SoC,SEAT_[Battery] BatteryPack.Module19.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module19.Cell5.SoC,SEAT_[Battery] BatteryPack.Module19.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module19.Cell6.SoC,SEAT_[Battery] BatteryPack.Module19.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module19.ID
+  - 7E5.7ED.221863:SEAT_[Battery] BatteryPack.Module20.Cell1.SoC,SEAT_[Battery] BatteryPack.Module20.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module20.Cell2.SoC,SEAT_[Battery] BatteryPack.Module20.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module20.Cell3.SoC,SEAT_[Battery] BatteryPack.Module20.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module20.Cell4.SoC,SEAT_[Battery] BatteryPack.Module20.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module20.Cell5.SoC,SEAT_[Battery] BatteryPack.Module20.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module20.Cell6.SoC,SEAT_[Battery] BatteryPack.Module20.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module20.ID
+  - 7E5.7ED.221864:SEAT_[Battery] BatteryPack.Module21.Cell1.SoC,SEAT_[Battery] BatteryPack.Module21.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module21.Cell2.SoC,SEAT_[Battery] BatteryPack.Module21.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module21.Cell3.SoC,SEAT_[Battery] BatteryPack.Module21.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module21.Cell4.SoC,SEAT_[Battery] BatteryPack.Module21.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module21.Cell5.SoC,SEAT_[Battery] BatteryPack.Module21.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module21.Cell6.SoC,SEAT_[Battery] BatteryPack.Module21.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module21.ID
+  - 7E5.7ED.221865:SEAT_[Battery] BatteryPack.Module22.Cell1.SoC,SEAT_[Battery] BatteryPack.Module22.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module22.Cell2.SoC,SEAT_[Battery] BatteryPack.Module22.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module22.Cell3.SoC,SEAT_[Battery] BatteryPack.Module22.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module22.Cell4.SoC,SEAT_[Battery] BatteryPack.Module22.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module22.Cell5.SoC,SEAT_[Battery] BatteryPack.Module22.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module22.Cell6.SoC,SEAT_[Battery] BatteryPack.Module22.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module22.ID
+  - 7E5.7ED.221866:SEAT_[Battery] BatteryPack.Module23.Cell1.SoC,SEAT_[Battery] BatteryPack.Module23.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module23.Cell2.SoC,SEAT_[Battery] BatteryPack.Module23.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module23.Cell3.SoC,SEAT_[Battery] BatteryPack.Module23.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module23.Cell4.SoC,SEAT_[Battery] BatteryPack.Module23.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module23.Cell5.SoC,SEAT_[Battery] BatteryPack.Module23.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module23.Cell6.SoC,SEAT_[Battery] BatteryPack.Module23.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module23.ID
+  - 7E5.7ED.221867:SEAT_[Battery] BatteryPack.Module24.Cell1.SoC,SEAT_[Battery] BatteryPack.Module24.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module24.Cell2.SoC,SEAT_[Battery] BatteryPack.Module24.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module24.Cell3.SoC,SEAT_[Battery] BatteryPack.Module24.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module24.Cell4.SoC,SEAT_[Battery] BatteryPack.Module24.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module24.Cell5.SoC,SEAT_[Battery] BatteryPack.Module24.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module24.Cell6.SoC,SEAT_[Battery] BatteryPack.Module24.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module24.ID
+  - 7E5.7ED.221868:SEAT_[Battery] BatteryPack.Module25.Cell1.SoC,SEAT_[Battery] BatteryPack.Module25.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module25.Cell2.SoC,SEAT_[Battery] BatteryPack.Module25.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module25.Cell3.SoC,SEAT_[Battery] BatteryPack.Module25.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module25.Cell4.SoC,SEAT_[Battery] BatteryPack.Module25.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module25.Cell5.SoC,SEAT_[Battery] BatteryPack.Module25.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module25.Cell6.SoC,SEAT_[Battery] BatteryPack.Module25.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module25.ID
+  - 7E5.7ED.221869:SEAT_[Battery] BatteryPack.Module26.Cell1.SoC,SEAT_[Battery] BatteryPack.Module26.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module26.Cell2.SoC,SEAT_[Battery] BatteryPack.Module26.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module26.Cell3.SoC,SEAT_[Battery] BatteryPack.Module26.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module26.Cell4.SoC,SEAT_[Battery] BatteryPack.Module26.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module26.Cell5.SoC,SEAT_[Battery] BatteryPack.Module26.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module26.Cell6.SoC,SEAT_[Battery] BatteryPack.Module26.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module26.ID
+  - 7E5.7ED.22186A:SEAT_[Battery] BatteryPack.Module27.Cell1.SoC,SEAT_[Battery] BatteryPack.Module27.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module27.Cell2.SoC,SEAT_[Battery] BatteryPack.Module27.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module27.Cell3.SoC,SEAT_[Battery] BatteryPack.Module27.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module27.Cell4.SoC,SEAT_[Battery] BatteryPack.Module27.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module27.Cell5.SoC,SEAT_[Battery] BatteryPack.Module27.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module27.Cell6.SoC,SEAT_[Battery] BatteryPack.Module27.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module27.ID
+  - 7E5.7ED.22186B:SEAT_[Battery] BatteryPack.Module28.Cell1.SoC,SEAT_[Battery] BatteryPack.Module28.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module28.Cell2.SoC,SEAT_[Battery] BatteryPack.Module28.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module28.Cell3.SoC,SEAT_[Battery] BatteryPack.Module28.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module28.Cell4.SoC,SEAT_[Battery] BatteryPack.Module28.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module28.Cell5.SoC,SEAT_[Battery] BatteryPack.Module28.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module28.Cell6.SoC,SEAT_[Battery] BatteryPack.Module28.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module28.ID
+  - 7E5.7ED.22186C:SEAT_[Battery] BatteryPack.Module29.Cell1.SoC,SEAT_[Battery] BatteryPack.Module29.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module29.Cell2.SoC,SEAT_[Battery] BatteryPack.Module29.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module29.Cell3.SoC,SEAT_[Battery] BatteryPack.Module29.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module29.Cell4.SoC,SEAT_[Battery] BatteryPack.Module29.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module29.Cell5.SoC,SEAT_[Battery] BatteryPack.Module29.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module29.Cell6.SoC,SEAT_[Battery] BatteryPack.Module29.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module29.ID
+  - 7E5.7ED.22186D:SEAT_[Battery] BatteryPack.Module30.Cell1.SoC,SEAT_[Battery] BatteryPack.Module30.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module30.Cell2.SoC,SEAT_[Battery] BatteryPack.Module30.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module30.Cell3.SoC,SEAT_[Battery] BatteryPack.Module30.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module30.Cell4.SoC,SEAT_[Battery] BatteryPack.Module30.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module30.Cell5.SoC,SEAT_[Battery] BatteryPack.Module30.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module30.Cell6.SoC,SEAT_[Battery] BatteryPack.Module30.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module30.ID
+  - 7E5.7ED.22186E:SEAT_[Battery] BatteryPack.Module31.Cell1.SoC,SEAT_[Battery] BatteryPack.Module31.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module31.Cell2.SoC,SEAT_[Battery] BatteryPack.Module31.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module31.Cell3.SoC,SEAT_[Battery] BatteryPack.Module31.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module31.Cell4.SoC,SEAT_[Battery] BatteryPack.Module31.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module31.Cell5.SoC,SEAT_[Battery] BatteryPack.Module31.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module31.Cell6.SoC,SEAT_[Battery] BatteryPack.Module31.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module31.ID
+  - 7E5.7ED.22186F:SEAT_[Battery] BatteryPack.Module32.Cell1.SoC,SEAT_[Battery] BatteryPack.Module32.Cell1.Volts,SEAT_[Battery]
+    BatteryPack.Module32.Cell2.SoC,SEAT_[Battery] BatteryPack.Module32.Cell2.Volts,SEAT_[Battery]
+    BatteryPack.Module32.Cell3.SoC,SEAT_[Battery] BatteryPack.Module32.Cell3.Volts,SEAT_[Battery]
+    BatteryPack.Module32.Cell4.SoC,SEAT_[Battery] BatteryPack.Module32.Cell4.Volts,SEAT_[Battery]
+    BatteryPack.Module32.Cell5.SoC,SEAT_[Battery] BatteryPack.Module32.Cell5.Volts,SEAT_[Battery]
+    BatteryPack.Module32.Cell6.SoC,SEAT_[Battery] BatteryPack.Module32.Cell6.Volts,SEAT_[Battery]
+    BatteryPack.Module32.ID
+  - 7E5.7ED.221E32:SEAT_HVBAT_TOT_AH_CHRG,SEAT_HVBAT_TOT_AH_DCHRG,SEAT_HVBAT_TOT_KWH_CHRG,SEAT_HVBAT_TOT_KWH_DCHRG
+  - 7E5.7ED.221E3B:SEAT_HVBAT_VOLTS
+  - 7E5.7ED.221E3D:SEAT_HVBAT_CURRENT
+  - 7E5.7ED.2251E0:SEAT_HVBAT_SOH
+  - 7E5.7ED.225200:SEAT_LAUNCH
   FC00:
   - FC00.22028C
