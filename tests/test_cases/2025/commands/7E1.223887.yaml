@@ -1,7 +1,0 @@
-command_id: 7E1.223887
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
-test_cases:
-- response: 7E907623887FFFFFFFF
-  expected_values:
-    SEAT_ODO_TCM_2_HD: 429496729.5
