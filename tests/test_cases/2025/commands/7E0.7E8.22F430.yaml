@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- response: 7E80462F4302D
+  expected_values:
+    SEAT_WARM_UPS: 45
+- response: 7E80462F4302E
+  expected_values:
+    SEAT_WARM_UPS: 46
+- response: 7E80462F43038
+  expected_values:
+    SEAT_WARM_UPS: 56
