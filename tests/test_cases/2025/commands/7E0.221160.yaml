@@ -1,0 +1,26 @@
+command_id: 7E0.221160
+test_cases:
+- response: 7E8076211600018A563
+  expected_values:
+    SEAT_ODO_2_V3: 1615203
+    SEAT_ODO_HD: 1615203
+- response: 7E8076211600018FF02
+  expected_values:
+    SEAT_ODO_2_V3: 1638146
+    SEAT_ODO_HD: 1638146
+- response: 7E8076211600019010C
+  expected_values:
+    SEAT_ODO_2_V3: 1638668
+    SEAT_ODO_HD: 1638668
+- response: '7E80762116000191101'
+  expected_values:
+    SEAT_ODO_2_V3: 1642753
+    SEAT_ODO_HD: 1642753
+- response: 7E807621160001C0929
+  expected_values:
+    SEAT_ODO_2_V3: 1837353
+    SEAT_ODO_HD: 1837353
+- response: 7E807621160001C73FF
+  expected_values:
+    SEAT_ODO_2_V3: 1864703
+    SEAT_ODO_HD: 1864703
