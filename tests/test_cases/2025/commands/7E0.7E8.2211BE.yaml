@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
+    SEAT_EOT: 65523
+  response: 7E8056211BEFFF3
+- expected_values:
     SEAT_EOT: 65524
   response: 7E8056211BEFFF4
 - expected_values:
