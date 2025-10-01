@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SEAT_ODO_TCM_2: 1441792
   response: 7E90762101A0000168F
+- expected_values:
+    SEAT_ODO_TCM_2: 1441792
+  response: 7E90762101A000016A8
