@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    SEAT_ATF_T: -12
+  response: 7E9056221041C00
+- expected_values:
+    SEAT_ATF_T: -11
+  response: 7E9056221041D00
+- expected_values:
+    SEAT_ATF_T: -10
+  response: 7E9056221041E00
+- expected_values:
+    SEAT_ATF_T: -9
+  response: 7E9056221041F00
