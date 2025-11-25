@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F442
+test_cases:
+- expected_values:
+    SEAT_VPWR: 13.066
+  response: 7E80562F442330A
+- expected_values:
+    SEAT_VPWR: 13.144
+  response: 7E80562F4423358
+- expected_values:
+    SEAT_VPWR: 14.433
+  response: 7E80562F4423861
+- expected_values:
+    SEAT_VPWR: 14.453
+  response: 7E80562F4423875
+- expected_values:
+    SEAT_VPWR: 14.804
+  response: 7E80562F44239D4

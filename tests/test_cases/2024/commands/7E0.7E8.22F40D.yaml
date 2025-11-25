@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    SEAT_VSS: 0
+  response: 7E80462F40D00
+- expected_values:
+    SEAT_VSS: 42
+  response: 7E80462F40D2A
+- expected_values:
+    SEAT_VSS: 52
+  response: 7E80462F40D34
+- expected_values:
+    SEAT_VSS: 60
+  response: 7E80462F40D3C
+- expected_values:
+    SEAT_VSS: 63
+  response: 7E80462F40D3F
