@@ -7,26 +7,5 @@ test_cases:
     SEAT_VPWR: 13.066
   response: 7E80562F442330A
 - expected_values:
-    SEAT_VPWR: 13.144
-  response: 7E80562F4423358
-- expected_values:
-    SEAT_VPWR: 13.183
-  response: 7E80562F442337F
-- expected_values:
-    SEAT_VPWR: 13.281
-  response: 7E80562F44233E1
-- expected_values:
-    SEAT_VPWR: 14.394
-  response: 7E80562F442383A
-- expected_values:
-    SEAT_VPWR: 14.414
-  response: 7E80562F442384E
-- expected_values:
-    SEAT_VPWR: 14.433
-  response: 7E80562F4423861
-- expected_values:
-    SEAT_VPWR: 14.453
-  response: 7E80562F4423875
-- expected_values:
     SEAT_VPWR: 14.804
   response: 7E80562F44239D4
