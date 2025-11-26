@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     SEAT_CLR_DIST: 33198
   response: 7E80562F43181AE
+- expected_values:
+    SEAT_CLR_DIST: 33212
+  response: 7E80562F43181BC
+- expected_values:
+    SEAT_CLR_DIST: 33213
+  response: 7E80562F43181BD

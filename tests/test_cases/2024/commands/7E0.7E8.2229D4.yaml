@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2229D4
 test_cases:
 - expected_values:
+    SEAT_ENG_TRQ_REQ_1: 6
+  response: 7E8056229D4003C
+- expected_values:
+    SEAT_ENG_TRQ_REQ_1: 27.6
+  response: 7E8056229D40114
+- expected_values:
     SEAT_ENG_TRQ_REQ_1: 31.6
   response: 7E8056229D4013C
 - expected_values:
@@ -12,6 +18,12 @@ test_cases:
 - expected_values:
     SEAT_ENG_TRQ_REQ_1: 57.1
   response: 7E8056229D4023B
+- expected_values:
+    SEAT_ENG_TRQ_REQ_1: 64.1
+  response: 7E8056229D40281
+- expected_values:
+    SEAT_ENG_TRQ_REQ_1: 126.8
+  response: 7E8056229D404F4
 - expected_values:
     SEAT_ENG_TRQ_REQ_1: 145.6
   response: 7E8056229D405B0
