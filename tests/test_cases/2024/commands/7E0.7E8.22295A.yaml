@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     SEAT_ODO: 38721
   response: 7E80662295A009741
+- expected_values:
+    SEAT_ODO: 38827
+  response: 7E80662295A0097AB
+- expected_values:
+    SEAT_ODO: 38828
+  response: 7E80662295A0097AC
