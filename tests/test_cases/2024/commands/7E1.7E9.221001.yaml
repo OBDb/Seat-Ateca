@@ -8,6 +8,9 @@ test_cases:
   response: '7E9056210018100'
 - expected_values:
     SEAT_TIRE_FR_SPD_V2: 255
+  response: '7E9056210018700'
+- expected_values:
+    SEAT_TIRE_FR_SPD_V2: 255
   response: 7E9056210018D00
 - expected_values:
     SEAT_TIRE_FR_SPD_V2: 255

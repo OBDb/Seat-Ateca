@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     SEAT_AAT_V2: 22.03906
   response: 7E8056210040B05
+- expected_values:
+    SEAT_AAT_V2: 36.5
+  response: '7E8056210041240'
+- expected_values:
+    SEAT_AAT_V2: 36.59375
+  response: 7E805621004124C
+- expected_values:
+    SEAT_AAT_V2: 37.5
+  response: 7E80562100412C0
