@@ -4,8 +4,8 @@ test_cases:
     SEAT_ECU_TEMP: 36
   response: 7E80562028D0168
 - expected_values:
-    SEAT_ECU_TEMP: 50
-  response: 7E80562028D01F4
+    SEAT_ECU_TEMP: 51
+  response: 7E80562028D01FE
 - expected_values:
-    SEAT_ECU_TEMP: 53
-  response: 7E80562028D0212
+    SEAT_ECU_TEMP: 52
+  response: 7E80562028D0208
