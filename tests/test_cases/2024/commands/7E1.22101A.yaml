@@ -13,6 +13,12 @@ test_cases:
     SEAT_ODO_TCM_2: 38721
   response: 7E90762101A41970000
 - expected_values:
+    SEAT_ODO_TCM_2: 39016
+  response: 7E90762101A68980000
+- expected_values:
+    SEAT_ODO_TCM_2: 39017
+  response: 7E90762101A69980000
+- expected_values:
     SEAT_ODO_TCM_2: 38827
   response: 7E90762101AAB970000
 - expected_values:

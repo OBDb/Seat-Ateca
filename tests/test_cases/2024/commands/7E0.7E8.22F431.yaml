@@ -4,23 +4,8 @@ test_cases:
     SEAT_CLR_DIST: 33196
   response: 7E80562F43181AC
 - expected_values:
-    SEAT_CLR_DIST: 33197
-  response: 7E80562F43181AD
-- expected_values:
-    SEAT_CLR_DIST: 33198
-  response: 7E80562F43181AE
-- expected_values:
-    SEAT_CLR_DIST: 33212
-  response: 7E80562F43181BC
-- expected_values:
-    SEAT_CLR_DIST: 33213
-  response: 7E80562F43181BD
-- expected_values:
     SEAT_CLR_DIST: 33318
   response: 7E80562F4318226
 - expected_values:
-    SEAT_CLR_DIST: 33319
-  response: 7E80562F4318227
-- expected_values:
-    SEAT_CLR_DIST: 33320
-  response: 7E80562F4318228
+    SEAT_CLR_DIST: 33508
+  response: 7E80562F43182E4
