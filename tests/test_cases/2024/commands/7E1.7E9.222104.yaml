@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.222104
 test_cases:
 - expected_values:
-    SEAT_ATF_T: -12
-  response: 7E9056221041C00
+    SEAT_ATF_T: -24
+  response: '7E9056221041000'
 - expected_values:
     SEAT_ATF_T: 20
   response: 7E9056221043C00
