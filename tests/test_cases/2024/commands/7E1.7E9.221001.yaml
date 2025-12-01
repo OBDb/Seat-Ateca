@@ -17,4 +17,7 @@ test_cases:
   response: 7E9056210018E00
 - expected_values:
     SEAT_TIRE_FR_SPD_V2: 255
+  response: 7E9056210018F00
+- expected_values:
+    SEAT_TIRE_FR_SPD_V2: 255
   response: '7E9056210019200'
