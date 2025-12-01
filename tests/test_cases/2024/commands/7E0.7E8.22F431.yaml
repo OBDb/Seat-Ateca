@@ -4,8 +4,8 @@ test_cases:
     SEAT_CLR_DIST: 33196
   response: 7E80562F43181AC
 - expected_values:
-    SEAT_CLR_DIST: 33318
-  response: 7E80562F4318226
+    SEAT_CLR_DIST: 33791
+  response: 7E80562F43183FF
 - expected_values:
-    SEAT_CLR_DIST: 33508
-  response: 7E80562F43182E4
+    SEAT_CLR_DIST: 33792
+  response: 7E80562F4318400

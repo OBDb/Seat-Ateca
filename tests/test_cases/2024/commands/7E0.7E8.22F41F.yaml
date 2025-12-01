@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    SEAT_RUNTM: 67
-  response: 7E80562F41F0043
+    SEAT_RUNTM: 51
+  response: 7E80562F41F0033
 - expected_values:
     SEAT_RUNTM: 250
   response: 7E80562F41F00FA
