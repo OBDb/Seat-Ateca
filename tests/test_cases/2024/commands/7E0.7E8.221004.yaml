@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.221004
 test_cases:
 - expected_values:
+    SEAT_AAT_V2: 15.5
+  response: 7E80562100407C0
+- expected_values:
+    SEAT_AAT_V2: 15.88281
+  response: 7E80562100407F1
+- expected_values:
     SEAT_AAT_V2: 16
   response: '7E8056210040800'
-- expected_values:
-    SEAT_AAT_V2: 31.69531
-  response: 7E8056210040FD9
 - expected_values:
     SEAT_AAT_V2: 36.5
   response: '7E8056210041240'
