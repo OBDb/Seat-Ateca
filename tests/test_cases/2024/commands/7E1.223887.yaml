@@ -1,14 +1,11 @@
 command_id: 7E1.223887
 test_cases:
 - expected_values:
-    SEAT_ODO_TCM_2_HD: 38477.1
-  response: 7E90762388703DF0500
+    SEAT_ODO_TCM_2_HD: 39014.6
+  response: 7E90762388702F40500
 - expected_values:
     SEAT_ODO_TCM_2_HD: 38355.2
   response: 7E90762388740DA0500
 - expected_values:
-    SEAT_ODO_TCM_2_HD: 38979.1
-  response: 7E9076238879FF20500
-- expected_values:
-    SEAT_ODO_TCM_2_HD: 38372.6
-  response: 7E907623887EEDA0500
+    SEAT_ODO_TCM_2_HD: 39013.3
+  response: 7E907623887F5F30500
