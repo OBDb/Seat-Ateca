@@ -10,5 +10,5 @@ test_cases:
     SEAT_ENG_TRQ_REQ_2: 102.5
   response: '7E8056243800401'
 - expected_values:
-    SEAT_ENG_TRQ_REQ_2: 6532.4
-  response: 7E805624380FF2C
+    SEAT_ENG_TRQ_REQ_2: 6531.9
+  response: 7E805624380FF27
