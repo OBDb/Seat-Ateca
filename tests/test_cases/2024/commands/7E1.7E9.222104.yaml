@@ -4,5 +4,5 @@ test_cases:
     SEAT_ATF_T: -24
   response: '7E9056221041000'
 - expected_values:
-    SEAT_ATF_T: 20
-  response: 7E9056221043C00
+    SEAT_ATF_T: 31
+  response: '7E9056221044700'
