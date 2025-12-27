@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211CC
+test_cases:
+- expected_values:
+    SEAT_BOOST_REGULATOR_FEEDBACK: 21.14
+  response: 7E8056211CC0842
+- expected_values:
+    SEAT_BOOST_REGULATOR_FEEDBACK: 63.99
+  response: 7E8056211CC18FF
+- expected_values:
+    SEAT_BOOST_REGULATOR_FEEDBACK: 64
+  response: 7E8056211CC1900
+- expected_values:
+    SEAT_BOOST_REGULATOR_FEEDBACK: 81.92
+  response: 7E8056211CC2000
