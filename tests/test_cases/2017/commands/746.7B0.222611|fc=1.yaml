@@ -4,5 +4,5 @@ test_cases:
     SEAT_CLIMATE_LEG_DEFL_T: 0
   response: 7B00462261100
 - expected_values:
-    SEAT_CLIMATE_LEG_DEFL_T: 31.968
-  response: 7B00462261160
+    SEAT_CLIMATE_LEG_DEFL_T: 35.631
+  response: 7B0046226116B
