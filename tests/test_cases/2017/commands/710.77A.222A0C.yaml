@@ -1,0 +1,10 @@
+command_id: 710.77A.222A0C
+test_cases:
+- expected_values:
+    SEAT_BAT_SOC: 70
+    SEAT_SSB_SOC: 70
+  response: 77A04622A0C46
+- expected_values:
+    SEAT_BAT_SOC: 100
+    SEAT_SSB_SOC: 100
+  response: 77A04622A0C64
