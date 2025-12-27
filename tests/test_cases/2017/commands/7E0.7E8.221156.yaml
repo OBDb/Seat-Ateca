@@ -5,10 +5,10 @@ test_cases:
   response: '7E80762115600000000'
 - expected_values:
     SEAT_HVBAT_SOC: 0
-  response: 7E807621156000001D9
+  response: 7E807621156000000AB
 - expected_values:
     SEAT_HVBAT_SOC: 0
-  response: 7E8076211560000BCFF
+  response: 7E807621156000005FF
 - expected_values:
     SEAT_HVBAT_SOC: 0
   response: 7E8076211560000FF19

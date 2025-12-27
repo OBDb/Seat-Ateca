@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221002
 test_cases:
 - expected_values:
+    SEAT_AC_COMP_T: 1.8
+  response: '7E8056210020012'
+- expected_values:
     SEAT_AC_COMP_T: 2
   response: '7E8056210020014'
 - expected_values:
