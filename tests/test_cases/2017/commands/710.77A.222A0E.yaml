@@ -1,0 +1,10 @@
+command_id: 710.77A.222A0E
+test_cases:
+- expected_values:
+    SEAT_BAT_INT_R: 5.6
+    SEAT_SSB_R: 5.6
+  response: 77A04622A0E1C
+- expected_values:
+    SEAT_BAT_INT_R: 5.8
+    SEAT_SSB_R: 5.8
+  response: 77A04622A0E1D

@@ -1,0 +1,23 @@
+command_id: 714.77E.22224B|fc=1
+test_cases:
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 3
+  response: 77E0562224B0003
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 4
+  response: 77E0562224B0004
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 5
+  response: 77E0562224B0005
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 7
+  response: 77E0562224B0007
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 8
+  response: 77E0562224B0008
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 9
+  response: 77E0562224B0009
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 10
+  response: 77E0562224B000A

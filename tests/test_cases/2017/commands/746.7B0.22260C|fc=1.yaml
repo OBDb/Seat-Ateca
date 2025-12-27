@@ -1,0 +1,8 @@
+command_id: 746.7B0.22260C|fc=1
+test_cases:
+- expected_values:
+    SEAT_CLIMATE_FR_L_DEFL_T: 2.331
+  response: 7B00462260C07
+- expected_values:
+    SEAT_CLIMATE_FR_L_DEFL_T: 66.267
+  response: 7B00462260CC7

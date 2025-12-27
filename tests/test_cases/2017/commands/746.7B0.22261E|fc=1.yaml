@@ -1,0 +1,10 @@
+command_id: 746.7B0.22261E|fc=1
+test_cases:
+- expected_values:
+    SEAT_RECIRC_FLAP_ACT_PCT: 0
+    SEAT_RECIRC_FLAP_ACT_STEPS: 39
+  response: 7B00662261E002700
+- expected_values:
+    SEAT_RECIRC_FLAP_ACT_PCT: 61
+    SEAT_RECIRC_FLAP_ACT_STEPS: 143
+  response: 7B00662261E008F7A

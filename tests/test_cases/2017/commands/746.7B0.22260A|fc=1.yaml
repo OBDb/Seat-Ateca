@@ -1,0 +1,8 @@
+command_id: 746.7B0.22260A|fc=1
+test_cases:
+- expected_values:
+    SEAT_AAT_CABIN: -49
+  response: 7B00462260A02
+- expected_values:
+    SEAT_AAT_CABIN: -36
+  response: 7B00462260A1C

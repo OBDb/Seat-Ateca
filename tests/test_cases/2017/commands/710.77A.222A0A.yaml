@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0A
+test_cases:
+- expected_values:
+    SEAT_SSB_SENSOR_T: 5
+  response: 77A04622A0A2D
+- expected_values:
+    SEAT_SSB_SENSOR_T: 32
+  response: 77A04622A0A48
