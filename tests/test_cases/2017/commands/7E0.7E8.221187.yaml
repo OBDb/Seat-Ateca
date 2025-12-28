@@ -4,8 +4,8 @@ test_cases:
     SEAT_ACCELERATION: 0
   response: '7E8056211870000'
 - expected_values:
-    SEAT_ACCELERATION: 0.511
-  response: 7E80562118701FF
+    SEAT_ACCELERATION: 0.255
+  response: 7E80562118700FF
 - expected_values:
     SEAT_ACCELERATION: -0.256
   response: 7E805621187FF00

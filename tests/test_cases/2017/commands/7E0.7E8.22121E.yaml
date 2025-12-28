@@ -4,8 +4,8 @@ test_cases:
     SEAT_SPEC_VALUE_RAIL_P: 0
   response: 7E80562121E0000
 - expected_values:
-    SEAT_SPEC_VALUE_RAIL_P: 2508700
-  response: 7E80562121E61FF
+    SEAT_SPEC_VALUE_RAIL_P: 870300
+  response: 7E80562121E21FF
 - expected_values:
     SEAT_SPEC_VALUE_RAIL_P: 3132700
   response: 7E80562121E7A5F

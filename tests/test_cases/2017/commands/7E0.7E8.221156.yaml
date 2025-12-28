@@ -14,4 +14,4 @@ test_cases:
   response: 7E8076211560000FF19
 - expected_values:
     SEAT_HVBAT_SOC: 0
-  response: '7E80762115600041735'
+  response: 7E8076211560004017D
