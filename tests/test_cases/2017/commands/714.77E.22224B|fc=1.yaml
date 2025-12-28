@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     SEAT_DASH_OIL_THERMAL_WEAR: 11
   response: 77E0562224B000B
+- expected_values:
+    SEAT_DASH_OIL_THERMAL_WEAR: 12
+  response: 77E0562224B000C
