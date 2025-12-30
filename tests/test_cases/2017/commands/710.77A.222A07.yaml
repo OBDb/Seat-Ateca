@@ -5,9 +5,9 @@ test_cases:
     SEAT_SSB_V: 69.48
   response: 77A05622A071994
 - expected_values:
-    SEAT_BAT_V_2A07: 12.446
+    SEAT_BAT_V_2A07: 12.191
     SEAT_SSB_V: 69.54
-  response: 77A05622A0720FE
+  response: 77A05622A071FFF
 - expected_values:
     SEAT_BAT_V_2A07: 14.496
     SEAT_SSB_V: 69.54
