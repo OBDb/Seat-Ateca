@@ -4,5 +4,5 @@ test_cases:
     SEAT_CLIMATE_A_C_COMP_LOAD: 0
   response: 7B00462260400
 - expected_values:
-    SEAT_CLIMATE_A_C_COMP_LOAD: 7.8
-  response: 7B0046226044E
+    SEAT_CLIMATE_A_C_COMP_LOAD: 8.5
+  response: 7B00462260455

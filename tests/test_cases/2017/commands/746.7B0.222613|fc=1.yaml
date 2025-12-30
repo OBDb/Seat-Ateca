@@ -5,6 +5,6 @@ test_cases:
     SEAT_HVAC_INTERIOR_T: 0
   response: 7B0056226130000
 - expected_values:
-    SEAT_CABIN_T: 23.9
-    SEAT_HVAC_INTERIOR_T: 23.9
-  response: 7B00562261300EF
+    SEAT_CABIN_T: 24.1
+    SEAT_HVAC_INTERIOR_T: 24.1
+  response: 7B00562261300F1
