@@ -1,9 +1,9 @@
 command_id: 714.77E.221014
 test_cases:
 - expected_values:
-    SEAT_AAT_V3: 53
-    SEAT_DASH_AMBIENT_AIR_T: 1.5
-  response: '77E0462101467'
+    SEAT_AAT_V3: 46
+    SEAT_DASH_AMBIENT_AIR_T: -2
+  response: '77E0462101460'
 - expected_values:
     SEAT_AAT_V3: 77
     SEAT_DASH_AMBIENT_AIR_T: 13.5
