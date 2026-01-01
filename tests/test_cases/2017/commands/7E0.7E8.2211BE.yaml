@@ -10,5 +10,5 @@ test_cases:
     SEAT_EOT: 3584
   response: 7E8056211BE0E00
 - expected_values:
-    SEAT_EOT: 3591
-  response: 7E8056211BE0E07
+    SEAT_EOT: 3586
+  response: 7E8056211BE0E02
