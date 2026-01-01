@@ -13,9 +13,9 @@ test_cases:
     SEAT_SSB_C: 0
   response: 77A07622A09FFFAE2A0
 - expected_values:
-    SEAT_BAT_I: 13777.122
+    SEAT_BAT_I: 13777.118
     SEAT_SSB_C: 0
-  response: 77A07622A09FFFFA2D3
+  response: 77A07622A09FFFF9EF0
 - expected_values:
     SEAT_BAT_I: 13777.215
     SEAT_SSB_C: 0
