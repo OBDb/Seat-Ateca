@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    SEAT_EOT: 2800
-  response: 7E8056211BE0AF0
+    SEAT_EOT: 2786
+  response: 7E8056211BE0AE2
 - expected_values:
     SEAT_EOT: 3327
   response: 7E8056211BE0CFF
