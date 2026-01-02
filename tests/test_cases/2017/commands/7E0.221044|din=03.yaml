@@ -1,8 +1,8 @@
 command_id: 7E0.221044|din=03
 test_cases:
 - expected_values:
-    SEAT_DPF_SFC_T: 7.1
-  response: 7E8056210440AF2
+    SEAT_DPF_SFC_T: 5.3
+  response: 7E8056210440AE0
 - expected_values:
     SEAT_DPF_SFC_T: 20.7
   response: 7E8056210440B7A

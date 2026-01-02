@@ -4,5 +4,5 @@ test_cases:
     SEAT_CLIMATE_T_AFTER_EVAP: 0
   response: 7B00462261200
 - expected_values:
-    SEAT_CLIMATE_T_AFTER_EVAP: 23.643
-  response: 7B00462261247
+    SEAT_CLIMATE_T_AFTER_EVAP: -0.333
+  response: 7B004622612FF
