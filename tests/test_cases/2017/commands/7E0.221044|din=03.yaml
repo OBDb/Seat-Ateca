@@ -4,8 +4,8 @@ test_cases:
     SEAT_DPF_SFC_T: 5.3
   response: 7E8056210440AE0
 - expected_values:
-    SEAT_DPF_SFC_T: 20.7
-  response: 7E8056210440B7A
+    SEAT_DPF_SFC_T: 20.6
+  response: 7E8056210440B79
 - expected_values:
     SEAT_DPF_SFC_T: 238.8
   response: 7E80562104413FF
