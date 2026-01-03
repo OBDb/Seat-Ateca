@@ -13,6 +13,12 @@ test_cases:
     7B010086227C462D8B1
     7B0213CC8AAAAAAAAAA
 - expected_values:
+    SEAT_HVAC_INSIDE_HUM: 89.5
+    SEAT_WNDSHLD_TEMP: 18.8
+  response: |-
+    7B010086227C4641A31
+    7B02150B3AAAAAAAAAA
+- expected_values:
     SEAT_HVAC_INSIDE_HUM: 87.5
     SEAT_WNDSHLD_TEMP: 18.8
   response: |-
@@ -24,12 +30,6 @@ test_cases:
   response: |-
     7B010086227C4655C01
     7B0216897AAAAAAAAAA
-- expected_values:
-    SEAT_HVAC_INSIDE_HUM: 87.5
-    SEAT_WNDSHLD_TEMP: 19.952
-  response: |-
-    7B010086227C4661AF1
-    7B02158AFAAAAAAAAAA
 - expected_values:
     SEAT_HVAC_INSIDE_HUM: 62
     SEAT_WNDSHLD_TEMP: 22.832
