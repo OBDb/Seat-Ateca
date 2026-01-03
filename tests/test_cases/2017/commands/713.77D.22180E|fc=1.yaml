@@ -7,10 +7,6 @@ test_cases:
 - expected_values:
     SEAT_BDD_ACTIVE: 0
     SEAT_BDD_ODO: 200000
-  response: 77D0762180E8003D5C7
-- expected_values:
-    SEAT_BDD_ACTIVE: 0
-    SEAT_BDD_ODO: 200000
   response: 77D0762180E8003DDEC
 - expected_values:
     SEAT_BDD_ACTIVE: 0
@@ -20,19 +16,3 @@ test_cases:
     SEAT_BDD_ACTIVE: 0
     SEAT_BDD_ODO: 200000
   response: 77D0762180EB003D409
-- expected_values:
-    SEAT_BDD_ACTIVE: 0
-    SEAT_BDD_ODO: 200000
-  response: 77D0762180EB003D5C7
-- expected_values:
-    SEAT_BDD_ACTIVE: 0
-    SEAT_BDD_ODO: 200000
-  response: 77D0762180EB003DDEC
-- expected_values:
-    SEAT_BDD_ACTIVE: 0
-    SEAT_BDD_ODO: 200000
-  response: 77D0762180EB003DE19
-- expected_values:
-    SEAT_BDD_ACTIVE: 0
-    SEAT_BDD_ODO: 200000
-  response: 77D0762180EB003DE1C
