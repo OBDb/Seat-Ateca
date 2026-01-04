@@ -4,8 +4,8 @@ test_cases:
     SEAT_MEAN_INJ_QUANTITY: 0
   response: '7E8056211390000'
 - expected_values:
-    SEAT_MEAN_INJ_QUANTITY: 5.11
-  response: 7E80562113901FF
+    SEAT_MEAN_INJ_QUANTITY: 10.23
+  response: 7E80562113903FF
 - expected_values:
     SEAT_MEAN_INJ_QUANTITY: 60
   response: '7E8056211391770'
