@@ -4,5 +4,5 @@ test_cases:
     SEAT_CLIMATE_REFRIG_P: 0
   response: 7B00462260500
 - expected_values:
-    SEAT_CLIMATE_REFRIG_P: 9.6
-  response: 7B00462260530
+    SEAT_CLIMATE_REFRIG_P: 9.8
+  response: 7B00462260531
