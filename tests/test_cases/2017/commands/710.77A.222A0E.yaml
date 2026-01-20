@@ -8,3 +8,7 @@ test_cases:
     SEAT_BAT_INT_R: 5.8
     SEAT_SSB_R: 5.8
   response: 77A04622A0E1D
+- expected_values:
+    SEAT_BAT_INT_R: 6
+    SEAT_SSB_R: 6
+  response: 77A04622A0E1E
