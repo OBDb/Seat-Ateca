@@ -2,4 +2,5 @@ command_id: 7E0.7E8.221151
 test_cases:
 - expected_values:
     SEAT_EM_RPM_1: 0
+    SEAT_MISFIRES__CYL__4: 0
   response: '7E8056211510000'
