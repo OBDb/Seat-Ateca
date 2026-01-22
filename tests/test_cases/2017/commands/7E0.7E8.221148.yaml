@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221148
+test_cases:
+- expected_values:
+    SEAT_MISFIRES_1000REV_C3: 953
+  response: 7E80562114803B9
+- expected_values:
+    SEAT_MISFIRES_1000REV_C3: 2964
+  response: 7E8056211480B94
+- expected_values:
+    SEAT_MISFIRES_1000REV_C3: 3065
+  response: 7E8056211480BF9
+- expected_values:
+    SEAT_MISFIRES_1000REV_C3: 3331
+  response: 7E8056211480D03
+- expected_values:
+    SEAT_MISFIRES_1000REV_C3: 4146
+  response: '7E8056211481032'
