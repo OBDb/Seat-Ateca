@@ -7,5 +7,8 @@ test_cases:
     SEAT_MISFIRES_C1: 532
   response: 7E80562114F0214
 - expected_values:
-    SEAT_MISFIRES_C1: 608
-  response: 7E80562114F0260
+    SEAT_MISFIRES_C1: 858
+  response: 7E80562114F035A
+- expected_values:
+    SEAT_MISFIRES_C1: 884
+  response: 7E80562114F0374
