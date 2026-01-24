@@ -4,14 +4,14 @@ test_cases:
     SEAT_MISFIRES_1000REV_C3: 953
   response: 7E80562114803B9
 - expected_values:
-    SEAT_MISFIRES_1000REV_C3: 2964
-  response: 7E8056211480B94
-- expected_values:
-    SEAT_MISFIRES_1000REV_C3: 3065
-  response: 7E8056211480BF9
+    SEAT_MISFIRES_1000REV_C3: 2674
+  response: 7E8056211480A72
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 3331
   response: 7E8056211480D03
+- expected_values:
+    SEAT_MISFIRES_1000REV_C3: 3583
+  response: 7E8056211480DFF
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 5080
   response: 7E80562114813D8
