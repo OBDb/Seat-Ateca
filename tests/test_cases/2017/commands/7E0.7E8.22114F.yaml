@@ -10,5 +10,5 @@ test_cases:
     SEAT_MISFIRES_C1: 1026
   response: 7E80562114F0402
 - expected_values:
-    SEAT_MISFIRES_C1: 1047
-  response: 7E80562114F0417
+    SEAT_MISFIRES_C1: 1289
+  response: 7E80562114F0509

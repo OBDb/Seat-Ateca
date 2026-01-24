@@ -7,8 +7,8 @@ test_cases:
     SEAT_MISFIRES_1000REV_C3: 2674
   response: 7E8056211480A72
 - expected_values:
-    SEAT_MISFIRES_1000REV_C3: 3331
-  response: 7E8056211480D03
+    SEAT_MISFIRES_1000REV_C3: 3072
+  response: 7E8056211480C00
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 3583
   response: 7E8056211480DFF
