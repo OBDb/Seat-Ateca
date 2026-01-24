@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22114F
 test_cases:
 - expected_values:
-    SEAT_MISFIRES_C1: 531
-  response: 7E80562114F0213
-- expected_values:
     SEAT_MISFIRES_C1: 532
   response: 7E80562114F0214
 - expected_values:
-    SEAT_MISFIRES_C1: 858
-  response: 7E80562114F035A
-- expected_values:
     SEAT_MISFIRES_C1: 1023
   response: 7E80562114F03FF
+- expected_values:
+    SEAT_MISFIRES_C1: 1026
+  response: 7E80562114F0402
+- expected_values:
+    SEAT_MISFIRES_C1: 1047
+  response: 7E80562114F0417
