@@ -7,7 +7,7 @@ test_cases:
 - expected_values:
     SEAT_BDD_ACTIVE: 0
     SEAT_BDD_ODO: 200000
-  response: 77D0762180E8003E114
+  response: 77D0762180E8003E447
 - expected_values:
     SEAT_BDD_ACTIVE: 0
     SEAT_BDD_ODO: 200000

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221148
 test_cases:
 - expected_values:
-    SEAT_MISFIRES_1000REV_C3: 953
-  response: 7E80562114803B9
+    SEAT_MISFIRES_1000REV_C3: 943
+  response: 7E80562114803AF
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 2674
   response: 7E8056211480A72
