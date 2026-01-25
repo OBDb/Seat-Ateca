@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.221148
 test_cases:
 - expected_values:
-    SEAT_MISFIRES_1000REV_C3: 922
-  response: 7E805621148039A
-- expected_values:
-    SEAT_MISFIRES_1000REV_C3: 2674
-  response: 7E8056211480A72
+    SEAT_MISFIRES_1000REV_C3: 942
+  response: 7E80562114803AE
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 3072
   response: 7E8056211480C00
@@ -13,5 +10,5 @@ test_cases:
     SEAT_MISFIRES_1000REV_C3: 3583
   response: 7E8056211480DFF
 - expected_values:
-    SEAT_MISFIRES_1000REV_C3: 5080
-  response: 7E80562114813D8
+    SEAT_MISFIRES_1000REV_C3: 5430
+  response: '7E8056211481536'
