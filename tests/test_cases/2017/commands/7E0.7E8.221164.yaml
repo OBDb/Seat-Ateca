@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.221164
-test_cases:
-- expected_values:
-    SEAT_HVBAT_SOC_DISP_V2: 0
-  response: '7E80762116400000000'

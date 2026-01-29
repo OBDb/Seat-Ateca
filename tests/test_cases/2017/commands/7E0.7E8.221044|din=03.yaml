@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221044|din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_DPF_SURF_T: 3.1
+  response: 7E8056210440ACA
+- expected_values:
+    SEAT_PQ35_DPF_SURF_T: 19.1
+  response: 7E8056210440B6A
+- expected_values:
+    SEAT_PQ35_DPF_SURF_T: 238.8
+  response: 7E80562104413FF
+- expected_values:
+    SEAT_PQ35_DPF_SURF_T: 290.1
+  response: '7E8056210441600'
+- expected_values:
+    SEAT_PQ35_DPF_SURF_T: 636.8
+  response: 7E805621044238B

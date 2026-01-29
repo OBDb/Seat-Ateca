@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22116A
+test_cases:
+- expected_values:
+    SEAT_PQ35_FUEL_P_HIGH_CMD: 299900
+  response: 7E80562116A0BB7
+- expected_values:
+    SEAT_PQ35_FUEL_P_HIGH_CMD: 390000
+  response: 7E80562116A0F3C
+- expected_values:
+    SEAT_PQ35_FUEL_P_HIGH_CMD: 769200
+  response: 7E80562116A1E0C
+- expected_values:
+    SEAT_PQ35_FUEL_P_HIGH_CMD: 943700
+  response: 7E80562116A24DD
+- expected_values:
+    SEAT_PQ35_FUEL_P_HIGH_CMD: 1400800
+  response: 7E80562116A36B8

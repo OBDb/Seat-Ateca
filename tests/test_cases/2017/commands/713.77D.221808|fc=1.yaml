@@ -1,10 +1,10 @@
 command_id: 713.77D.221808|fc=1
 test_cases:
 - expected_values:
-    SEAT_HDC_ACTIVE: 0
-    SEAT_HDC_INCLINE: 0
+    SEAT_MQB_HDC_ACT: 0
+    SEAT_MQB_HDC_INC: 0
   response: 77D056218080100
 - expected_values:
-    SEAT_HDC_ACTIVE: 0
-    SEAT_HDC_INCLINE: 255
+    SEAT_MQB_HDC_ACT: 0
+    SEAT_MQB_HDC_INC: 255
   response: 77D0562180801FF

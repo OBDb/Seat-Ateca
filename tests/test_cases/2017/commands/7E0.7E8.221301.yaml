@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221301
+test_cases:
+- expected_values:
+    SEAT_PQ35_LIM_SMOKE: 148.2
+  response: 7E80562130105CA
+- expected_values:
+    SEAT_PQ35_LIM_SMOKE: 153.9
+  response: '7E8056213010603'
+- expected_values:
+    SEAT_PQ35_LIM_SMOKE: 202.9
+  response: 7E80562130107ED

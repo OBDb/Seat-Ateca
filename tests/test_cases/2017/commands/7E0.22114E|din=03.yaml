@@ -1,0 +1,26 @@
+command_id: 7E0.22114E|din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 13.2
+  response: 7E80562114E0528
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 13.46
+  response: 7E80562114E0542
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 13.47
+  response: 7E80562114E0543
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 13.78
+  response: 7E80562114E0562
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 14.32
+  response: 7E80562114E0598
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 14.33
+  response: 7E80562114E0599
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 14.87
+  response: 7E80562114E05CF
+- expected_values:
+    SEAT_PQ35_SOOT_MASS_MEAS: 14.89
+  response: 7E80562114E05D1

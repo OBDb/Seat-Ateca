@@ -1,8 +1,8 @@
 command_id: 746.7B0.22261F|fc=1
 test_cases:
 - expected_values:
-    SEAT_RECIRC_FLAP_CMD_STEPS: 34
+    SEAT_MQB_RECIRC_FLAP_TRG: 34
   response: 7B00562261F0022
 - expected_values:
-    SEAT_RECIRC_FLAP_CMD_STEPS: 144
+    SEAT_MQB_RECIRC_FLAP_TRG: 144
   response: 7B00562261F0090

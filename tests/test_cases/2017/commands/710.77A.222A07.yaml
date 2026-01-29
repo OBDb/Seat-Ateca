@@ -1,18 +1,18 @@
 command_id: 710.77A.222A07
 test_cases:
 - expected_values:
-    SEAT_BAT_V_2A07: 10.548
+    SEAT_MQB_BAT_V: 10.548
     SEAT_SSB_V: 69.48
   response: 77A05622A071994
 - expected_values:
-    SEAT_BAT_V_2A07: 12.191
+    SEAT_MQB_BAT_V: 12.191
     SEAT_SSB_V: 69.54
   response: 77A05622A071FFF
 - expected_values:
-    SEAT_BAT_V_2A07: 12.704
+    SEAT_MQB_BAT_V: 12.704
     SEAT_SSB_V: 69.54
   response: 77A05622A072200
 - expected_values:
-    SEAT_BAT_V_2A07: 14.752
+    SEAT_MQB_BAT_V: 14.752
     SEAT_SSB_V: 69.54
   response: 77A05622A072A00

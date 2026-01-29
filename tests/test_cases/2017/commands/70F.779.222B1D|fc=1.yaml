@@ -1,0 +1,11 @@
+command_id: 70F.779.222B1D|fc=1
+test_cases:
+- expected_values:
+    SEAT_PQ35_RL_VSS: 0
+  response: 77905622B1D0000
+- expected_values:
+    SEAT_PQ35_RL_VSS: 26.9
+  response: 77905622B1D010D
+- expected_values:
+    SEAT_PQ35_RL_VSS: 50.9
+  response: 77905622B1D01FD

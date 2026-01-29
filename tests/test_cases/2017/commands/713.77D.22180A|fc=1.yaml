@@ -1,0 +1,38 @@
+command_id: 713.77D.22180A|fc=1
+test_cases:
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010004
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010005
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010006
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010007
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A01000C
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010022
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010044
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 1
+  response: 77D0662180A210000
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 1
+  response: 77D0662180A210003

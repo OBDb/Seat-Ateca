@@ -1,0 +1,10 @@
+command_id: 746.7B0.222605|fc=1,din=03
+test_cases:
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 0
+    SEAT_PQ35_REF_P: 0
+  response: 7B00462260500
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 9.8
+    SEAT_PQ35_REF_P: 9.8
+  response: 7B00462260531
