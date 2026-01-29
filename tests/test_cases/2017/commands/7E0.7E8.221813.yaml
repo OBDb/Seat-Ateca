@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221813
+test_cases:
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 0
+  response: '7E8056218130000'
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 4.8
+  response: '7E8056218130030'
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 5.1
+  response: '7E8056218130033'
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 5.2
+  response: '7E8056218130034'
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 8.2
+  response: '7E8056218130052'
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 10.9
+  response: 7E805621813006D
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 11
+  response: 7E805621813006E
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 32.3
+  response: '7E8056218130143'
+- expected_values:
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 64.4
+  response: '7E8056218130284'

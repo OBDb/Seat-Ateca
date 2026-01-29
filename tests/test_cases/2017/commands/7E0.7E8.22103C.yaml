@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22103C
+test_cases:
+- expected_values:
+    SEAT_MQB_INT_MAN_P: 887
+  response: 7E80562103C0377
+- expected_values:
+    SEAT_MQB_INT_MAN_P: 1045
+  response: 7E80562103C0415
+- expected_values:
+    SEAT_MQB_INT_MAN_P: 1217
+  response: 7E80562103C04C1
+- expected_values:
+    SEAT_MQB_INT_MAN_P: 1587
+  response: 7E80562103C0633

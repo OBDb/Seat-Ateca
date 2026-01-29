@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221047
+test_cases:
+- expected_values:
+    SEAT_PQ35_ENG_TRQ: 0
+  response: '7E8056210470000'
+- expected_values:
+    SEAT_PQ35_ENG_TRQ: 34
+  response: '7E8056210470154'
+- expected_values:
+    SEAT_PQ35_ENG_TRQ: 72.2
+  response: 7E80562104702D2
+- expected_values:
+    SEAT_PQ35_ENG_TRQ: 239.4
+  response: 7E805621047095A

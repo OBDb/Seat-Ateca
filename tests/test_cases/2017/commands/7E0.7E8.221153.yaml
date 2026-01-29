@@ -2,7 +2,9 @@ command_id: 7E0.7E8.221153
 test_cases:
 - expected_values:
     SEAT_EM_TORQ_1: 0.5
+    SEAT_PQ35_DPF_OIL_ASH_VOL: 0.16
   response: '7E8056211530010'
 - expected_values:
     SEAT_EM_TORQ_1: 0.53125
+    SEAT_PQ35_DPF_OIL_ASH_VOL: 0.17
   response: '7E8056211530011'

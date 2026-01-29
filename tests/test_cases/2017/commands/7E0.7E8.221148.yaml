@@ -2,13 +2,17 @@ command_id: 7E0.7E8.221148
 test_cases:
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 942
+    SEAT_PQ35_FUEL_METER: 9.42
   response: 7E80562114803AE
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 3072
+    SEAT_PQ35_FUEL_METER: 30.72
   response: 7E8056211480C00
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 3583
+    SEAT_PQ35_FUEL_METER: 35.83
   response: 7E8056211480DFF
 - expected_values:
     SEAT_MISFIRES_1000REV_C3: 5430
+    SEAT_PQ35_FUEL_METER: 54.3
   response: '7E8056211481536'

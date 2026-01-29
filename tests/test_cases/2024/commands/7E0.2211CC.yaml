@@ -1,0 +1,6 @@
+command_id: 7E0.2211CC
+test_cases:
+- expected_values:
+    SEAT_BOOST_REGULATOR_FEEDBACK: 0
+    SEAT_PQ35_BOOST_REG_FDBK: 0
+  response: 7E8056211CC0000

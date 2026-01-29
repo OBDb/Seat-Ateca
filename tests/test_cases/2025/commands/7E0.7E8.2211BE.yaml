@@ -2,16 +2,21 @@ command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
     SEAT_EOT: 65523
+    SEAT_PQ35_OIL_T_2: 6279.2
   response: 7E8056211BEFFF3
 - expected_values:
     SEAT_EOT: 65524
+    SEAT_PQ35_OIL_T_2: 6279.3
   response: 7E8056211BEFFF4
 - expected_values:
     SEAT_EOT: 65525
+    SEAT_PQ35_OIL_T_2: 6279.4
   response: 7E8056211BEFFF5
 - expected_values:
     SEAT_EOT: 65526
+    SEAT_PQ35_OIL_T_2: 6279.5
   response: 7E8056211BEFFF6
 - expected_values:
     SEAT_EOT: 65527
+    SEAT_PQ35_OIL_T_2: 6279.6
   response: 7E8056211BEFFF7

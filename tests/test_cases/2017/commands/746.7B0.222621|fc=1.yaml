@@ -1,5 +1,5 @@
 command_id: 746.7B0.222621|fc=1
 test_cases:
 - expected_values:
-    SEAT_RECIRC_FLAP_STOP_RECIRC: 39
+    SEAT_MQB_RECIRC_FLAP_THR: 39
   response: 7B0056226210027

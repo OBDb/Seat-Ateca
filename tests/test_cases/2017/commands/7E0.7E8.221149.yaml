@@ -2,10 +2,13 @@ command_id: 7E0.7E8.221149
 test_cases:
 - expected_values:
     SEAT_MISFIRES_1000REV_C4: 0
+    SEAT_PQ35_BOOST_P_CMD: 0
   response: '7E8056211490000'
 - expected_values:
     SEAT_MISFIRES_1000REV_C4: 1023
+    SEAT_PQ35_BOOST_P_CMD: 1023
   response: 7E80562114903FF
 - expected_values:
     SEAT_MISFIRES_1000REV_C4: 2308
+    SEAT_PQ35_BOOST_P_CMD: 2308
   response: '7E8056211490904'

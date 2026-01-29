@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211F4
+test_cases:
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_START: 0
+  response: 7E8056211F40000
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_START: -7.76
+  response: 7E8056211F4FE7C
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_START: -6.24
+  response: 7E8056211F4FEC8

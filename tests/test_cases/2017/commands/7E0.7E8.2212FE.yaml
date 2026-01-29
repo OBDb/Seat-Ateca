@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2212FE
+test_cases:
+- expected_values:
+    SEAT_PQ35_CAMS_ADAPT_PHASE_1: -1.36
+  response: 7E8056212FEFFBC
+- expected_values:
+    SEAT_PQ35_CAMS_ADAPT_PHASE_1: -1.28
+  response: 7E8056212FEFFC0
+- expected_values:
+    SEAT_PQ35_CAMS_ADAPT_PHASE_1: -1.26
+  response: 7E8056212FEFFC1
+- expected_values:
+    SEAT_PQ35_CAMS_ADAPT_PHASE_1: -1.18
+  response: 7E8056212FEFFC5

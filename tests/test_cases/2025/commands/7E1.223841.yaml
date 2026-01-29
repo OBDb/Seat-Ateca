@@ -1,18 +1,18 @@
 command_id: 7E1.223841
 test_cases:
 - expected_values:
+    SEAT_MQB_TCM_ODO: 1609
     SEAT_ODO_TCM_1: 3661496320
-    SEAT_ODO_V1: 1609
   response: 7E90762384100003EDA
 - expected_values:
+    SEAT_MQB_TCM_ODO: 1638.6
     SEAT_ODO_TCM_1: 37748736
-    SEAT_ODO_V1: 1638.6
   response: '7E90762384100004002'
 - expected_values:
+    SEAT_MQB_TCM_ODO: 1868.7
     SEAT_ODO_TCM_1: 4282908672
-    SEAT_ODO_V1: 1868.7
   response: 7E907623841000048FF
 - expected_values:
+    SEAT_MQB_TCM_ODO: 5765.5
     SEAT_ODO_TCM_1: 937492480
-    SEAT_ODO_V1: 5765.5
   response: 7E9076238410000E137
