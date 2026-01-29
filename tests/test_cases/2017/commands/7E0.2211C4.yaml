@@ -2,4 +2,5 @@ command_id: 7E0.2211C4
 test_cases:
 - expected_values:
     SEAT_OIL_MAX: 25.86
+    SEAT_PQ35_OIL_LVL_MAX: 25.86
   response: 7E8056211C41941

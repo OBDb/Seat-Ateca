@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221354
+test_cases:
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 0
+  response: '7E8056213540000'
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 1
+  response: '7E8056213540001'
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 2
+  response: '7E8056213540002'
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 5
+  response: '7E8056213540005'
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 7
+  response: '7E8056213540007'
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 18
+  response: '7E8056213540012'
+- expected_values:
+    SEAT_PQ35_SOOT_IDX: 26
+  response: 7E805621354001A

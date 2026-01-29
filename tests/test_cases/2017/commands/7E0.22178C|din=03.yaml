@@ -1,0 +1,5 @@
+command_id: 7E0.22178C|din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_OIL_ASH_RESIDUE: 68.2
+  response: 7E80562178C02AA

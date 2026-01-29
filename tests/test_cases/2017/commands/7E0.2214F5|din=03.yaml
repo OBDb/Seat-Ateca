@@ -1,0 +1,32 @@
+command_id: 7E0.2214F5|din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_DIFF_P: 21
+  response: 7E8056214F50015
+- expected_values:
+    SEAT_PQ35_DIFF_P: 22
+  response: 7E8056214F50016
+- expected_values:
+    SEAT_PQ35_DIFF_P: 23
+  response: 7E8056214F50017
+- expected_values:
+    SEAT_PQ35_DIFF_P: 29
+  response: 7E8056214F5001D
+- expected_values:
+    SEAT_PQ35_DIFF_P: 32
+  response: 7E8056214F50020
+- expected_values:
+    SEAT_PQ35_DIFF_P: 33
+  response: 7E8056214F50021
+- expected_values:
+    SEAT_PQ35_DIFF_P: 64
+  response: 7E8056214F50040
+- expected_values:
+    SEAT_PQ35_DIFF_P: 107
+  response: 7E8056214F5006B
+- expected_values:
+    SEAT_PQ35_DIFF_P: 276
+  response: 7E8056214F50114
+- expected_values:
+    SEAT_PQ35_DIFF_P: 283
+  response: 7E8056214F5011B

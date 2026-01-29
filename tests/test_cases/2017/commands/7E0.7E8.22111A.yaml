@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22111A
+test_cases:
+- expected_values:
+    SEAT_PQ35_FUEL_FLOW: 0.53
+  response: 7E80562111A0035
+- expected_values:
+    SEAT_PQ35_FUEL_FLOW: 0.59
+  response: 7E80562111A003B
+- expected_values:
+    SEAT_PQ35_FUEL_FLOW: 2
+  response: 7E80562111A00C8
+- expected_values:
+    SEAT_PQ35_FUEL_FLOW: 5.92
+  response: 7E80562111A0250
