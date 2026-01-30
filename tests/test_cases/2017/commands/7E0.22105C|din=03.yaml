@@ -1,8 +1,8 @@
 command_id: 7E0.22105C|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_GEN_LOAD: 19.35
-  response: 7E80562105C078F
+    SEAT_PQ35_GEN_LOAD: 12.9
+  response: 7E80562105C050A
 - expected_values:
     SEAT_PQ35_GEN_LOAD: 22.57
   response: 7E80562105C08D1

@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.2210FB
 test_cases:
 - expected_values:
-    SEAT_PQ35_EXH_GAS_T_1: 168.1
-  response: 7E8056210FB113C
+    SEAT_PQ35_EXH_GAS_T_1: 137
+  response: 7E8056210FB1005
 - expected_values:
-    SEAT_PQ35_EXH_GAS_T_1: 193.1
-  response: 7E8056210FB1236
-- expected_values:
-    SEAT_PQ35_EXH_GAS_T_1: 215
-  response: 7E8056210FB1311
+    SEAT_PQ35_EXH_GAS_T_1: 183.1
+  response: 7E8056210FB11D2
 - expected_values:
     SEAT_PQ35_EXH_GAS_T_1: 238.1
   response: 7E8056210FB13F8
 - expected_values:
-    SEAT_PQ35_EXH_GAS_T_1: 372.4
-  response: 7E8056210FB1937
+    SEAT_PQ35_EXH_GAS_T_1: 577
+  response: 7E8056210FB2135

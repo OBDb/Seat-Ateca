@@ -1,20 +1,11 @@
 command_id: 7E0.7E8.22117E
 test_cases:
 - expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 59.83
-  response: 7E80562117E175F
+    SEAT_PQ35_TURB_ACT_1_B1: 0
+  response: 7E80562117E0000
 - expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 73.19
-  response: 7E80562117E1C97
-- expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 76.87
-  response: 7E80562117E1E07
-- expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 80.07
-  response: 7E80562117E1F47
-- expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 81.1
-  response: 7E80562117E1FAE
+    SEAT_PQ35_TURB_ACT_1_B1: 79.11
+  response: 7E80562117E1EE7
 - expected_values:
     SEAT_PQ35_TURB_ACT_1_B1: 81.92
   response: 7E80562117E2000

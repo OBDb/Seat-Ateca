@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22115A
 test_cases:
 - expected_values:
-    SEAT_PQ35_DPF_FUEL_CON_REGEN: 4.9
-  response: 7E80562115A01EA
+    SEAT_PQ35_DPF_FUEL_CON_REGEN: 0.05
+  response: 7E80562115A0005
 - expected_values:
     SEAT_PQ35_DPF_FUEL_CON_REGEN: 5.05
   response: 7E80562115A01F9
 - expected_values:
-    SEAT_PQ35_DPF_FUEL_CON_REGEN: 5.18
-  response: 7E80562115A0206
+    SEAT_PQ35_DPF_FUEL_CON_REGEN: 10.24
+  response: 7E80562115A0400

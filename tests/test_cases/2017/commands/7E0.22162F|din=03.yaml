@@ -1,32 +1,11 @@
 command_id: 7E0.22162F|din=03
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 21
-  response: 7E80562162F0015
+    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 12
+  response: 7E80562162F000C
 - expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 22
-  response: 7E80562162F0016
+    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 31
+  response: 7E80562162F001F
 - expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 23
-  response: 7E80562162F0017
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 29
-  response: 7E80562162F001D
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 37
-  response: 7E80562162F0025
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 42
-  response: 7E80562162F002A
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 55
-  response: 7E80562162F0037
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 66
-  response: 7E80562162F0042
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 95
-  response: 7E80562162F005F
-- expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 293
-  response: 7E80562162F0125
+    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: -2
+  response: 7E80562162FFFFE

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_POST_INJ_3_START: 0
   response: '7E8056211310000'
+- expected_values:
+    SEAT_PQ35_POST_INJ_3_START: -182.04
+  response: 7E805621131DC72

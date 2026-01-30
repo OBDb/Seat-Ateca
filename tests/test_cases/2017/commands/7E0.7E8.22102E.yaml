@@ -4,29 +4,11 @@ test_cases:
     SEAT_PQ35_ACCEL_PED_2: 366.4
   response: 7E80562102E0728
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 444.6
-  response: 7E80562102E08AF
+    SEAT_PQ35_ACCEL_PED_2: 513
+  response: 7E80562102E0A05
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 537.4
-  response: 7E80562102E0A7F
+    SEAT_PQ35_ACCEL_PED_2: 1329.2
+  response: 7E80562102E19F6
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 552.2
-  response: 7E80562102E0AC9
-- expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 605.8
-  response: 7E80562102E0BD5
-- expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 630.4
-  response: 7E80562102E0C50
-- expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 640.2
-  response: 7E80562102E0C81
-- expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 733
-  response: 7E80562102E0E51
-- expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 1016.4
-  response: 7E80562102E13DA
-- expected_values:
-    SEAT_PQ35_ACCEL_PED_2: 1070.2
-  response: 7E80562102E14E7
+    SEAT_PQ35_ACCEL_PED_2: 1940.2
+  response: 7E80562102E25E5

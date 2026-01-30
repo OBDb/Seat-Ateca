@@ -1,14 +1,17 @@
 command_id: 7E0.7E8.22103C
 test_cases:
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 887
-  response: 7E80562103C0377
+    SEAT_MQB_INT_MAN_P: 725
+  response: 7E80562103C02D5
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 1045
-  response: 7E80562103C0415
+    SEAT_MQB_INT_MAN_P: 1015
+  response: 7E80562103C03F7
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 1217
-  response: 7E80562103C04C1
+    SEAT_MQB_INT_MAN_P: 1024
+  response: 7E80562103C0400
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 1587
-  response: 7E80562103C0633
+    SEAT_MQB_INT_MAN_P: 1035
+  response: 7E80562103C040B
+- expected_values:
+    SEAT_MQB_INT_MAN_P: 2436
+  response: 7E80562103C0984

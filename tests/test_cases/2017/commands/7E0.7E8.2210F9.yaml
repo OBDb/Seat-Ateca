@@ -1,14 +1,17 @@
 command_id: 7E0.7E8.2210F9
 test_cases:
 - expected_values:
+    SEAT_PQ35_DPF_OUT_T: 61.8
+  response: 7E8056210F90D15
+- expected_values:
     SEAT_PQ35_DPF_OUT_T: 141.1
   response: 7E8056210F9102E
 - expected_values:
     SEAT_PQ35_DPF_OUT_T: 161.6
   response: 7E8056210F910FB
 - expected_values:
-    SEAT_PQ35_DPF_OUT_T: 215.7
-  response: 7E8056210F91318
+    SEAT_PQ35_DPF_OUT_T: 214.2
+  response: 7E8056210F91309
 - expected_values:
-    SEAT_PQ35_DPF_OUT_T: 279.9
-  response: 7E8056210F9159A
+    SEAT_PQ35_DPF_OUT_T: 496.4
+  response: 7E8056210F91E0F

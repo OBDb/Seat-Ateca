@@ -1,14 +1,17 @@
 command_id: 7E0.7E8.2214F7
 test_cases:
 - expected_values:
+    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 111.6
+  response: 7E8056214F70F07
+- expected_values:
     SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 154.7
   response: 7E8056214F710B6
 - expected_values:
     SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 161
   response: 7E8056214F710F5
 - expected_values:
-    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 189
-  response: 7E8056214F7120D
+    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 290.4
+  response: 7E8056214F71603
 - expected_values:
-    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 287.4
-  response: 7E8056214F715E5
+    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 424.7
+  response: 7E8056214F71B42

@@ -4,14 +4,14 @@ test_cases:
     SEAT_PQ35_PRE_INJ_2_START: 7.2
   response: 7E8056214C80168
 - expected_values:
+    SEAT_PQ35_PRE_INJ_2_START: 11.86
+  response: 7E8056214C80251
+- expected_values:
     SEAT_PQ35_PRE_INJ_2_START: 15.34
   response: 7E8056214C802FF
 - expected_values:
-    SEAT_PQ35_PRE_INJ_2_START: 18.08
-  response: 7E8056214C80388
+    SEAT_PQ35_PRE_INJ_2_START: 15.72
+  response: 7E8056214C80312
 - expected_values:
-    SEAT_PQ35_PRE_INJ_2_START: 21.68
-  response: 7E8056214C8043C
-- expected_values:
-    SEAT_PQ35_PRE_INJ_2_START: 21.96
-  response: 7E8056214C8044A
+    SEAT_PQ35_PRE_INJ_2_START: 27.34
+  response: 7E8056214C80557

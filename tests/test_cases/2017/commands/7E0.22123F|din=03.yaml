@@ -4,23 +4,14 @@ test_cases:
     SEAT_PQ35_OIL_DYN_AVG: 7.972
   response: 7E80562123F07C9
 - expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 19.964
-  response: 7E80562123F137F
+    SEAT_PQ35_OIL_DYN_AVG: 15.792
+  response: 7E80562123F0F6C
 - expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 20.036
-  response: 7E80562123F1391
+    SEAT_PQ35_OIL_DYN_AVG: 18.42
+  response: 7E80562123F11FD
 - expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 20.044
-  response: 7E80562123F1393
+    SEAT_PQ35_OIL_DYN_AVG: 18.496
+  response: 7E80562123F1210
 - expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 20.064
-  response: 7E80562123F1398
-- expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 20.072
-  response: 7E80562123F139A
-- expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 20.076
-  response: 7E80562123F139B
-- expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 20.08
-  response: 7E80562123F139C
+    SEAT_PQ35_OIL_DYN_AVG: 22.928
+  response: 7E80562123F1664

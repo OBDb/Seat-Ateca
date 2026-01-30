@@ -9,3 +9,15 @@ test_cases:
 - expected_values:
     SEAT_PQ35_POST_INJ_1_QTY_SPEC: 1.6
   response: 7E80562163C00A0
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_QTY_SPEC: 1.83
+  response: 7E80562163C00B7
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_QTY_SPEC: 1.94
+  response: 7E80562163C00C2
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_QTY_SPEC: 2.26
+  response: 7E80562163C00E2
+- expected_values:
+    SEAT_PQ35_POST_INJ_1_QTY_SPEC: 3.32
+  response: 7E80562163C014C

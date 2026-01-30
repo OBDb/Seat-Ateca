@@ -4,20 +4,5 @@ test_cases:
     SEAT_PQ35_SOOT_IDX: 0
   response: '7E8056213540000'
 - expected_values:
-    SEAT_PQ35_SOOT_IDX: 1
-  response: '7E8056213540001'
-- expected_values:
-    SEAT_PQ35_SOOT_IDX: 2
-  response: '7E8056213540002'
-- expected_values:
-    SEAT_PQ35_SOOT_IDX: 5
-  response: '7E8056213540005'
-- expected_values:
-    SEAT_PQ35_SOOT_IDX: 7
-  response: '7E8056213540007'
-- expected_values:
-    SEAT_PQ35_SOOT_IDX: 18
-  response: '7E8056213540012'
-- expected_values:
-    SEAT_PQ35_SOOT_IDX: 26
-  response: 7E805621354001A
+    SEAT_PQ35_SOOT_IDX: 200
+  response: 7E80562135400C8

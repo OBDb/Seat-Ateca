@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_FUEL_T: 17.3
   response: 7E80562162D0B58
 - expected_values:
-    SEAT_PQ35_FUEL_T: 20.3
-  response: 7E80562162D0B76
+    SEAT_PQ35_FUEL_T: 26.4
+  response: 7E80562162D0BB3

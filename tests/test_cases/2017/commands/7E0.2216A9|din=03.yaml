@@ -4,20 +4,8 @@ test_cases:
     SEAT_PQ35_ODO_2: 255357
   response: 7E8076216A90003E57D
 - expected_values:
-    SEAT_PQ35_ODO_2: 255359
-  response: 7E8076216A90003E57F
+    SEAT_PQ35_ODO_2: 255445
+  response: 7E8076216A90003E5D5
 - expected_values:
-    SEAT_PQ35_ODO_2: 255361
-  response: 7E8076216A90003E581
-- expected_values:
-    SEAT_PQ35_ODO_2: 255362
-  response: 7E8076216A90003E582
-- expected_values:
-    SEAT_PQ35_ODO_2: 255364
-  response: 7E8076216A90003E584
-- expected_values:
-    SEAT_PQ35_ODO_2: 255366
-  response: 7E8076216A90003E586
-- expected_values:
-    SEAT_PQ35_ODO_2: 255368
-  response: 7E8076216A90003E588
+    SEAT_PQ35_ODO_2: 255484
+  response: 7E8076216A90003E5FC
