@@ -13,5 +13,5 @@ test_cases:
     SEAT_MQB_AIR_MASS_1: 153.4
   response: 7E80562102405FE
 - expected_values:
-    SEAT_MQB_AIR_MASS_1: 188.4
-  response: 7E805621024075C
+    SEAT_MQB_AIR_MASS_1: 264.1
+  response: 7E8056210240A51
