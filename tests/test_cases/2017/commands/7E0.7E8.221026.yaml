@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221026
 test_cases:
 - expected_values:
+    SEAT_MQB_MAF_1_B1_RAW: 0
+  response: '7E8056210260000'
+- expected_values:
     SEAT_MQB_MAF_1_B1_RAW: 269.2
   response: 7E8056210260A84
 - expected_values:
-    SEAT_MQB_MAF_1_B1_RAW: 282.1
-  response: 7E8056210260B05
+    SEAT_MQB_MAF_1_B1_RAW: 409.4
+  response: 7E8056210260FFE
 - expected_values:
-    SEAT_MQB_MAF_1_B1_RAW: 297.3
-  response: 7E8056210260B9D
-- expected_values:
-    SEAT_MQB_MAF_1_B1_RAW: 518
-  response: 7E805621026143C
+    SEAT_MQB_MAF_1_B1_RAW: 1120
+  response: 7E8056210262BC0

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     SEAT_PQ35_POST_INJ_3_ACTIVATION_DURATION: 0
   response: 7E8056214CE0000
+- expected_values:
+    SEAT_PQ35_POST_INJ_3_ACTIVATION_DURATION: 0.1656
+  response: 7E8056214CE019E
+- expected_values:
+    SEAT_PQ35_POST_INJ_3_ACTIVATION_DURATION: 0.244
+  response: 7E8056214CE0262
