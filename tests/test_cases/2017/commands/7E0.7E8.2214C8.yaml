@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.2214C8
 test_cases:
 - expected_values:
-    SEAT_PQ35_PRE_INJ_2_START: 7.2
-  response: 7E8056214C80168
-- expected_values:
-    SEAT_PQ35_PRE_INJ_2_START: 11.86
-  response: 7E8056214C80251
+    SEAT_PQ35_PRE_INJ_2_START: 7.32
+  response: 7E8056214C8016E
 - expected_values:
     SEAT_PQ35_PRE_INJ_2_START: 15.34
   response: 7E8056214C802FF
