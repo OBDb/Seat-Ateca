@@ -4,5 +4,8 @@ test_cases:
     SEAT_PQ35_PRE_INJ_2_DURATION: 0
   response: 7E8056214D10000
 - expected_values:
-    SEAT_PQ35_PRE_INJ_2_DURATION: 0.1448
-  response: 7E8056214D1016A
+    SEAT_PQ35_PRE_INJ_2_DURATION: 0.2664
+  response: 7E8056214D1029A
+- expected_values:
+    SEAT_PQ35_PRE_INJ_2_DURATION: 0.2864
+  response: 7E8056214D102CC

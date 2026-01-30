@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22133B
 test_cases:
 - expected_values:
-    SEAT_PQ35_CAMS_SPD: 461.4
-  response: 7E80562133B0602
+    SEAT_PQ35_CAMS_SPD: 0
+  response: 7E80562133B0000
 - expected_values:
     SEAT_PQ35_CAMS_SPD: 537.6
   response: 7E80562133B0700
@@ -10,5 +10,5 @@ test_cases:
     SEAT_PQ35_CAMS_SPD: 844.5
   response: 7E80562133B0AFF
 - expected_values:
-    SEAT_PQ35_CAMS_SPD: 1263.3
-  response: 7E80562133B1073
+    SEAT_PQ35_CAMS_SPD: 1705.2
+  response: 7E80562133B1634

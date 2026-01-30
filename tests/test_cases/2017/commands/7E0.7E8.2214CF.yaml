@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     SEAT_PQ35_MAIN_INJ_DURATION: 0
   response: 7E8056214CF0000
+- expected_values:
+    SEAT_PQ35_MAIN_INJ_DURATION: 0.1616
+  response: 7E8056214CF0194
+- expected_values:
+    SEAT_PQ35_MAIN_INJ_DURATION: 0.1808
+  response: 7E8056214CF01C4
+- expected_values:
+    SEAT_PQ35_MAIN_INJ_DURATION: 0.2452
+  response: 7E8056214CF0265

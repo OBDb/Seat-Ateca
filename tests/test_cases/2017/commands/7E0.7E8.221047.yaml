@@ -4,11 +4,11 @@ test_cases:
     SEAT_PQ35_ENG_TRQ: 0
   response: '7E8056210470000'
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: 34
-  response: '7E8056210470154'
+    SEAT_PQ35_ENG_TRQ: 29.3
+  response: '7E8056210470125'
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: 72.2
-  response: 7E80562104702D2
+    SEAT_PQ35_ENG_TRQ: 48.5
+  response: 7E80562104701E5
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: 239.4
-  response: 7E805621047095A
+    SEAT_PQ35_ENG_TRQ: 321.2
+  response: 7E8056210470C8C

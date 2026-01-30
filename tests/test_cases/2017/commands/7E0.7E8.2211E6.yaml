@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211E6
 test_cases:
 - expected_values:
+    SEAT_MQB_DPF_EXH_VOL: 0
+  response: 7E8056211E60000
+- expected_values:
     SEAT_MQB_DPF_EXH_VOL: 45.3
   response: 7E8056211E601C5
 - expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 74
-  response: 7E8056211E602E4
+    SEAT_MQB_DPF_EXH_VOL: 152.1
+  response: 7E8056211E605F1
 - expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 136.3
-  response: 7E8056211E60553
-- expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 167
-  response: 7E8056211E60686
+    SEAT_MQB_DPF_EXH_VOL: 451.7
+  response: 7E8056211E611A5

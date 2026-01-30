@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.221057
 test_cases:
 - expected_values:
-    SEAT_PQ35_CHG_P: 4.447
-  response: 7E805621057115F
+    SEAT_PQ35_CHG_P: 3.646
+  response: 7E8056210570E3E
 - expected_values:
     SEAT_PQ35_CHG_P: 5.126
   response: '7E8056210571406'
+- expected_values:
+    SEAT_PQ35_CHG_P: 5.141
+  response: '7E8056210571415'
 - expected_values:
     SEAT_PQ35_CHG_P: 12.273
   response: 7E8056210572FF1

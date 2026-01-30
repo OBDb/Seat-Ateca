@@ -1,29 +1,11 @@
 command_id: 7E0.22269B|din=03
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 9
-  response: 7E80562269B0009
+    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 2
+  response: 7E80562269B0002
 - expected_values:
     SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 11
   response: 7E80562269B000B
 - expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 14
-  response: 7E80562269B000E
-- expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 16
-  response: 7E80562269B0010
-- expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 17
-  response: 7E80562269B0011
-- expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 18
-  response: 7E80562269B0012
-- expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 19
-  response: 7E80562269B0013
-- expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 22
-  response: 7E80562269B0016
-- expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 50
-  response: 7E80562269B0032
+    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 67
+  response: 7E80562269B0043

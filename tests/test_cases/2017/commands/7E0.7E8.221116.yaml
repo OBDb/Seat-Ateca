@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     SEAT_PQ35_COOL_FAN_1_DUTY: 27.87
   response: 7E8056211160AE3
+- expected_values:
+    SEAT_PQ35_COOL_FAN_1_DUTY: 30.03
+  response: 7E8056211160BBB
+- expected_values:
+    SEAT_PQ35_COOL_FAN_1_DUTY: 43.67
+  response: 7E805621116110F
