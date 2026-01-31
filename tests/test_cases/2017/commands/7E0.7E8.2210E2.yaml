@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_WEAR_IDX: 4
   response: 7E8056210E20004
 - expected_values:
-    SEAT_PQ35_WEAR_IDX: 14
-  response: 7E8056210E2000E
+    SEAT_PQ35_WEAR_IDX: 22
+  response: 7E8056210E20016
