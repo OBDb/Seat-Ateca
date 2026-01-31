@@ -13,5 +13,8 @@ test_cases:
     SEAT_PQ35_BRAKE_P: 21.44
   response: 7E8056218D00860
 - expected_values:
+    SEAT_PQ35_BRAKE_P: 21.92
+  response: 7E8056218D00890
+- expected_values:
     SEAT_PQ35_BRAKE_P: 22.08
   response: 7E8056218D008A0
