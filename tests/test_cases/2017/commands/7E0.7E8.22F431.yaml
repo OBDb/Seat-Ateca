@@ -10,5 +10,5 @@ test_cases:
     SEAT_CLR_DIST: 19456
   response: 7E80562F4314C00
 - expected_values:
-    SEAT_CLR_DIST: 23359
-  response: 7E80562F4315B3F
+    SEAT_CLR_DIST: 23552
+  response: 7E80562F4315C00

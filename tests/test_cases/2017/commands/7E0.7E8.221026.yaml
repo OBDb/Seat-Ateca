@@ -10,5 +10,5 @@ test_cases:
     SEAT_MQB_MAF_1_B1_RAW: 332.6
   response: 7E8056210260CFE
 - expected_values:
-    SEAT_MQB_MAF_1_B1_RAW: 1120
-  response: 7E8056210262BC0
+    SEAT_MQB_MAF_1_B1_RAW: 1131.8
+  response: 7E8056210262C36
