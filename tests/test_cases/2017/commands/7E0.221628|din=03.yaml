@@ -1,8 +1,8 @@
 command_id: 7E0.221628|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_INTERCOOLER_AIR_OUTPUT_T: 32.2
-  response: 7E8056216280BED
+    SEAT_PQ35_INTERCOOLER_AIR_OUTPUT_T: 28.1
+  response: 7E8056216280BC4
 - expected_values:
     SEAT_PQ35_INTERCOOLER_AIR_OUTPUT_T: 32.8
   response: 7E8056216280BF3

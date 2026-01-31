@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_OIL_LVL: 30.36
   response: 7E8056211BC1DA6
 - expected_values:
-    SEAT_PQ35_OIL_LVL: 49.548
-  response: 7E8056211BC3063
+    SEAT_PQ35_OIL_LVL: 38.28
+  response: 7E8056211BC2562
 - expected_values:
     SEAT_PQ35_OIL_LVL: 54.296
   response: 7E8056211BC3506

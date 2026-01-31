@@ -1,6 +1,9 @@
 command_id: 7E0.22123C|din=03
 test_cases:
 - expected_values:
+    SEAT_PQ35_OIL_DYN_LAST: 16.244
+  response: 7E80562123C0FDD
+- expected_values:
     SEAT_PQ35_OIL_DYN_LAST: 18.596
   response: 7E80562123C1229
 - expected_values:
