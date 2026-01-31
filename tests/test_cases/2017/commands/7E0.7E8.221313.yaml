@@ -4,8 +4,8 @@ test_cases:
     SEAT_MQB_EGR_VALVE_2_B1_FLOW: 0
   response: '7E8056213130000'
 - expected_values:
-    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 22.5
-  response: 7E80562131300E1
+    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 23.8
+  response: 7E80562131300EE
 - expected_values:
-    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 54.2
-  response: 7E805621313021E
+    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 55.6
+  response: 7E805621313022C

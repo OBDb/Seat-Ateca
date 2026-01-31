@@ -4,9 +4,6 @@ test_cases:
     SEAT_PQ35_INJ_DEV_CYL_2: 0
   response: '7E8056211050000'
 - expected_values:
-    SEAT_PQ35_INJ_DEV_CYL_2: 0.02
-  response: '7E8056211050002'
-- expected_values:
     SEAT_PQ35_INJ_DEV_CYL_2: -0.05
   response: 7E805621105FFFB
 - expected_values:
