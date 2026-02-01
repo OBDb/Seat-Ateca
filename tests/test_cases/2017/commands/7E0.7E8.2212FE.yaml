@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_CAMS_ADAPT_PHASE_1: -1.62
   response: 7E8056212FEFFAF
 - expected_values:
-    SEAT_PQ35_CAMS_ADAPT_PHASE_1: -1.14
-  response: 7E8056212FEFFC7
+    SEAT_PQ35_CAMS_ADAPT_PHASE_1: -0.76
+  response: 7E8056212FEFFDA
