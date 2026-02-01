@@ -4,5 +4,5 @@ test_cases:
     SEAT_SSB_T: 4
   response: 77A04622A0B2C
 - expected_values:
-    SEAT_SSB_T: 29
-  response: 77A04622A0B45
+    SEAT_SSB_T: 30
+  response: 77A04622A0B46
