@@ -4,8 +4,8 @@ test_cases:
     SEAT_MQB_NOX_CONC_BEHIND_TURBO: 0
   response: '7E8056215260000'
 - expected_values:
-    SEAT_MQB_NOX_CONC_BEHIND_TURBO: 240
-  response: 7E80562152600F0
+    SEAT_MQB_NOX_CONC_BEHIND_TURBO: 250
+  response: 7E80562152600FA
 - expected_values:
     SEAT_MQB_NOX_CONC_BEHIND_TURBO: 1634
   response: '7E8056215260662'
