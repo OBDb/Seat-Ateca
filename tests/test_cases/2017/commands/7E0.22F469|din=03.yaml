@@ -9,17 +9,17 @@ test_cases:
     SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
   response: |-
     7E8100A62F4693F0000
+    7E821800006FF555555
+- expected_values:
+    SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
+  response: |-
+    7E8100A62F4693F0000
     7E821805D5F82555555
 - expected_values:
     SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
   response: |-
     7E8100A62F4693F0000
     7E821805F5F80555555
-- expected_values:
-    SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
-  response: |-
-    7E8100A62F4693F0000
-    7E8218075747F555555
 - expected_values:
     SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
   response: |-

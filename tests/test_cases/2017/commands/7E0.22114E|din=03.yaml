@@ -4,11 +4,8 @@ test_cases:
     SEAT_PQ35_SOOT_MASS_MEAS: 0.18
   response: 7E80562114E0012
 - expected_values:
-    SEAT_PQ35_SOOT_MASS_MEAS: 3.07
-  response: 7E80562114E0133
-- expected_values:
-    SEAT_PQ35_SOOT_MASS_MEAS: 15.37
-  response: 7E80562114E0601
+    SEAT_PQ35_SOOT_MASS_MEAS: 2.56
+  response: 7E80562114E0100
 - expected_values:
     SEAT_PQ35_SOOT_MASS_MEAS: 20.46
   response: 7E80562114E07FE
