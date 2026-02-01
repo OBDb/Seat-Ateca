@@ -10,8 +10,8 @@ test_cases:
     SEAT_PQ35_LIM_SMOKE: 153.9
   response: '7E8056213010603'
 - expected_values:
-    SEAT_PQ35_LIM_SMOKE: 202.9
-  response: 7E80562130107ED
+    SEAT_PQ35_LIM_SMOKE: 229.6
+  response: 7E80562130108F8
 - expected_values:
     SEAT_PQ35_LIM_SMOKE: 431
   response: 7E80562130110D6

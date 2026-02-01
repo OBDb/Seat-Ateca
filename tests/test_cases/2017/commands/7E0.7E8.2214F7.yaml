@@ -7,11 +7,11 @@ test_cases:
     SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 142.4
   response: 7E8056214F7103B
 - expected_values:
-    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 161
-  response: 7E8056214F710F5
-- expected_values:
     SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 187.9
   response: 7E8056214F71202
+- expected_values:
+    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 289.1
+  response: 7E8056214F715F6
 - expected_values:
     SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 424.7
   response: 7E8056214F71B42
