@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_FUEL_P_HIGH: 103900
   response: 7E805621169040F
 - expected_values:
-    SEAT_PQ35_FUEL_P_HIGH: 292000
-  response: 7E8056211690B68
+    SEAT_PQ35_FUEL_P_HIGH: 289400
+  response: 7E8056211690B4E
 - expected_values:
     SEAT_PQ35_FUEL_P_HIGH: 1203400
   response: 7E8056211692F02
