@@ -1,8 +1,8 @@
 command_id: 7E0.22105E|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_BAT_V_2: 12.72
-  response: 7E80562105E027C
+    SEAT_PQ35_BAT_V_2: 12.24
+  response: 7E80562105E0264
 - expected_values:
     SEAT_PQ35_BAT_V_2: 13.32
   response: 7E80562105E029A

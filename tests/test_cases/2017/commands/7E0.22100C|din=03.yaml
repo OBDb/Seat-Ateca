@@ -1,8 +1,8 @@
 command_id: 7E0.22100C|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_FUEL_LVL_2: 34
-  response: 7E80562100C0D48
+    SEAT_PQ35_FUEL_LVL_2: 33
+  response: 7E80562100C0CE4
 - expected_values:
     SEAT_PQ35_FUEL_LVL_2: 41
   response: 7E80562100C1004
