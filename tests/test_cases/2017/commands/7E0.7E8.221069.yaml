@@ -4,11 +4,8 @@ test_cases:
     SEAT_PQ35_ENG_START_QTY: 0
   response: '7E8056210690000'
 - expected_values:
-    SEAT_PQ35_ENG_START_QTY: 12.81
-  response: '7E8056210690501'
-- expected_values:
-    SEAT_PQ35_ENG_START_QTY: 15.16
-  response: 7E80562106905EC
+    SEAT_PQ35_ENG_START_QTY: 15.28
+  response: 7E80562106905F8
 - expected_values:
     SEAT_PQ35_ENG_START_QTY: 21.36
   response: '7E8056210690858'

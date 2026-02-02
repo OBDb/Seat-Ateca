@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_HAL_I: 2.302
   response: 77905622BE608FE
 - expected_values:
-    SEAT_PQ35_HAL_I: 4.997
-  response: 77905622BE61385
+    SEAT_PQ35_HAL_I: 5.402
+  response: 77905622BE6151A
