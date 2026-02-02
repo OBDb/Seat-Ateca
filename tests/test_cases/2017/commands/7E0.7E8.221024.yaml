@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.221024
 test_cases:
 - expected_values:
-    SEAT_MQB_AIR_MASS_1: 23.1
-  response: 7E80562102400E7
-- expected_values:
-    SEAT_MQB_AIR_MASS_1: 51.2
-  response: '7E8056210240200'
+    SEAT_MQB_AIR_MASS_1: 0
+  response: '7E8056210240000'
 - expected_values:
     SEAT_MQB_AIR_MASS_1: 153.4
   response: 7E80562102405FE
