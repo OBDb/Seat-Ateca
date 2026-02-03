@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_TURB_ACT_1_B1: 0
   response: 7E80562117E0000
 - expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 69.07
-  response: 7E80562117E1AFB
+    SEAT_PQ35_TURB_ACT_1_B1: 63.99
+  response: 7E80562117E18FF
 - expected_values:
     SEAT_PQ35_TURB_ACT_1_B1: 81.92
   response: 7E80562117E2000
