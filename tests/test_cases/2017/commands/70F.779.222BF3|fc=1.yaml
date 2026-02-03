@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_HAL_DUTY: 0
   response: 77905622BF30000
 - expected_values:
-    SEAT_PQ35_HAL_DUTY: 35.03808
-  response: 77905622BF35900
+    SEAT_PQ35_HAL_DUTY: 36.61282
+  response: 77905622BF35D00
