@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_PREHEAT_T: 0
   response: 7E80562111F0000
+- expected_values:
+    SEAT_PQ35_PREHEAT_T: 2500
+  response: 7E80562111F0019
