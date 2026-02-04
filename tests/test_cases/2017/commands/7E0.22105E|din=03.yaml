@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_BAT_V_2: 13.32
   response: 7E80562105E029A
 - expected_values:
-    SEAT_PQ35_BAT_V_2: 14.86
-  response: 7E80562105E02E7
+    SEAT_PQ35_BAT_V_2: 14.9
+  response: 7E80562105E02E9
