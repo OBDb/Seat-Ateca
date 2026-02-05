@@ -1,11 +1,11 @@
 command_id: 7E0.22162F|din=03
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 10
-  response: 7E80562162F000A
-- expected_values:
     SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 22
   response: 7E80562162F0016
+- expected_values:
+    SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 260
+  response: 7E80562162F0104
 - expected_values:
     SEAT_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: -2
   response: 7E80562162FFFFE
