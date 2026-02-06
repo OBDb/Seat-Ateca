@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221AD5
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_INLET_LAMBDA_VALUE: 1.126
-  response: 7E805621AD50466
+    SEAT_MQB_DPF_INLET_LAMBDA_VALUE: 1.124
+  response: 7E805621AD50464
 - expected_values:
     SEAT_MQB_DPF_INLET_LAMBDA_VALUE: 1.537
   response: 7E805621AD50601

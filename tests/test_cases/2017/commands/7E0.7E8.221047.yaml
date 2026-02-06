@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_ENG_TRQ: 127.8
   response: 7E80562104704FE
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: 389.2
-  response: 7E8056210470F34
+    SEAT_PQ35_ENG_TRQ: 386.8
+  response: 7E8056210470F1C

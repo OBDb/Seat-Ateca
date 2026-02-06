@@ -4,8 +4,11 @@ test_cases:
     SEAT_PQ35_REGEN_DUR: 0
   response: '7E80762134700000000'
 - expected_values:
+    SEAT_PQ35_REGEN_DUR: 9470
+  response: 7E807621347000024FE
+- expected_values:
+    SEAT_PQ35_REGEN_DUR: 56190
+  response: 7E8076213470000DB7E
+- expected_values:
     SEAT_PQ35_REGEN_DUR: 156170
   response: 7E8076213470002620A
-- expected_values:
-    SEAT_PQ35_REGEN_DUR: 178730
-  response: 7E8076213470002BA2A

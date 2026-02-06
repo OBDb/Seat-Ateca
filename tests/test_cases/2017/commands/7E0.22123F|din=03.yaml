@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_OIL_DYN_AVG: 5.936
   response: 7E80562123F05CC
 - expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 16.396
-  response: 7E80562123F1003
+    SEAT_PQ35_OIL_DYN_AVG: 16.388
+  response: 7E80562123F1001
 - expected_values:
     SEAT_PQ35_OIL_DYN_AVG: 18.424
   response: 7E80562123F11FE
