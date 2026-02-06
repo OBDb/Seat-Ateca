@@ -10,5 +10,5 @@ test_cases:
     SEAT_PQ35_ACCEL_PED_1: 2253
   response: 7E8056212212C01
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_1: 3753.6
-  response: '7E8056212214950'
+    SEAT_PQ35_ACCEL_PED_1: 3914.8
+  response: 7E8056212214C76

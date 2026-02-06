@@ -1,8 +1,8 @@
 command_id: 7E0.2214F5|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_DIFF_P: 12
-  response: 7E8056214F5000C
+    SEAT_PQ35_DIFF_P: 0
+  response: 7E8056214F50000
 - expected_values:
     SEAT_PQ35_DIFF_P: 26
   response: 7E8056214F5001A

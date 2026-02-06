@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_RR_VSS: 0
   response: 77905622B1E0000
 - expected_values:
-    SEAT_PQ35_RR_VSS: 25.1
-  response: 77905622B1E00FB
+    SEAT_PQ35_RR_VSS: 76.5
+  response: 77905622B1E02FD
 - expected_values:
     SEAT_PQ35_RR_VSS: 106.8
   response: 77905622B1E042C
