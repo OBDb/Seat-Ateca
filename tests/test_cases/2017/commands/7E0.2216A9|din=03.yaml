@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_ODO_2: 256000
   response: 7E8076216A90003E800
+- expected_values:
+    SEAT_PQ35_ODO_2: 256056
+  response: 7E8076216A90003E838
