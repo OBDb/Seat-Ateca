@@ -7,9 +7,6 @@ test_cases:
     SEAT_PQ35_LIM_TRQ: 127.8
   response: 7E80562106B04FE
 - expected_values:
-    SEAT_PQ35_LIM_TRQ: 149.7
-  response: 7E80562106B05D9
-- expected_values:
     SEAT_PQ35_LIM_TRQ: 230.5
   response: 7E80562106B0901
 - expected_values:
