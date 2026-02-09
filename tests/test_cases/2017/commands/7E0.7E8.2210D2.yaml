@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_INJ_3_RAIL_P_2: 0.0128
   response: 7E8056210D20100
+- expected_values:
+    SEAT_PQ35_INJ_3_RAIL_P_2: 0.0132
+  response: 7E8056210D20108
