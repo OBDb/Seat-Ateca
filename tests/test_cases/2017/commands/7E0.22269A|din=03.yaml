@@ -4,8 +4,8 @@ test_cases:
     SEAT_MQB_DPF_DIFF_P_RAW_VALUE_1: 17
   response: 7E80562269A0011
 - expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_1: 266
-  response: 7E80562269A010A
+    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_1: 258
+  response: 7E80562269A0102
 - expected_values:
     SEAT_MQB_DPF_DIFF_P_RAW_VALUE_1: -2
   response: 7E80562269AFFFE

@@ -7,11 +7,11 @@ test_cases:
     SEAT_MQB_INT_MAN_P: 730
   response: 7E80562103C02DA
 - expected_values:
+    SEAT_MQB_INT_MAN_P: 767
+  response: 7E80562103C02FF
+- expected_values:
     SEAT_MQB_INT_MAN_P: 1024
   response: 7E80562103C0400
-- expected_values:
-    SEAT_MQB_INT_MAN_P: 1279
-  response: 7E80562103C04FF
 - expected_values:
     SEAT_MQB_INT_MAN_P: 2389
   response: 7E80562103C0955
