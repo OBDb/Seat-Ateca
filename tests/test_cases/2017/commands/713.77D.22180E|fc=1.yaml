@@ -7,7 +7,7 @@ test_cases:
 - expected_values:
     SEAT_MQB_BRK_DRY_ACT: 0
     SEAT_MQB_BRK_DRY_ODO_LAST: 200000
-  response: 77D0762180E8003E8CC
+  response: 77D0762180E8003E915
 - expected_values:
     SEAT_MQB_BRK_DRY_ACT: 0
     SEAT_MQB_BRK_DRY_ODO_LAST: 200000
