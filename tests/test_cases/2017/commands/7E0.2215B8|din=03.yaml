@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -2
   response: 7E8056215B8FFFE
+- expected_values:
+    SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -1
+  response: 7E8056215B8FFFF

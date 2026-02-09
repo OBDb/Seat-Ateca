@@ -7,8 +7,8 @@ test_cases:
     SEAT_PQ35_EXH_GAS_T_1: 122.5
   response: 7E8056210FB0F74
 - expected_values:
-    SEAT_PQ35_EXH_GAS_T_1: 239.4
-  response: 7E8056210FB1405
+    SEAT_PQ35_EXH_GAS_T_1: 162.1
+  response: 7E8056210FB1100
 - expected_values:
     SEAT_PQ35_EXH_GAS_T_1: 443.6
   response: 7E8056210FB1BFF

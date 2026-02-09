@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.2211BF
 test_cases:
 - expected_values:
-    SEAT_PQ35_FUEL_P_REG: 5.87
-  response: 7E8056211BF024B
-- expected_values:
-    SEAT_PQ35_FUEL_P_REG: 8.77
-  response: 7E8056211BF036D
+    SEAT_PQ35_FUEL_P_REG: 7.32
+  response: 7E8056211BF02DC
 - expected_values:
     SEAT_PQ35_FUEL_P_REG: 10.25
   response: 7E8056211BF0401
