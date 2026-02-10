@@ -4,5 +4,8 @@ test_cases:
     SEAT_PQ35_DIFF_P: 0
   response: 7E8056214F50000
 - expected_values:
+    SEAT_PQ35_DIFF_P: 254
+  response: 7E8056214F500FE
+- expected_values:
     SEAT_PQ35_DIFF_P: -2
   response: 7E8056214F5FFFE
