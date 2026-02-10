@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22181A
 test_cases:
 - expected_values:
+    SEAT_PQ35_BOOST_P_BEFORE_THROTTLE_CALCULATED_ACT: 3680000
+  response: 7E80562181A05C0
+- expected_values:
     SEAT_PQ35_BOOST_P_BEFORE_THROTTLE_CALCULATED_ACT: 9707500
   response: 7E80562181A0F2B
 - expected_values:

@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2210E4
 test_cases:
 - expected_values:
+    SEAT_PQ35_REG_FACTOR: 0.812
+  response: 7E8056210E41FB8
+- expected_values:
     SEAT_PQ35_REG_FACTOR: 0.8192
   response: 7E8056210E42000
