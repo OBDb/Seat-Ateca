@@ -1,8 +1,8 @@
 command_id: 7E0.22114E|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_SOOT_MASS_MEAS: 0.63
-  response: 7E80562114E003F
+    SEAT_PQ35_SOOT_MASS_MEAS: 0.24
+  response: 7E80562114E0018
 - expected_values:
     SEAT_PQ35_SOOT_MASS_MEAS: 2.56
   response: 7E80562114E0100
