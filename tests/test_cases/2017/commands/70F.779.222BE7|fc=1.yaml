@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_HAL_PWM: 0
   response: 77904622BE700
 - expected_values:
-    SEAT_PQ35_HAL_PWM: 38
-  response: 77904622BE726
+    SEAT_PQ35_HAL_PWM: 47
+  response: 77904622BE72F
