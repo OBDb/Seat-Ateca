@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_LIM_ACCEL_PED: 0
   response: 7E8056211A60000
 - expected_values:
-    SEAT_PQ35_LIM_ACCEL_PED: 25.4
-  response: 7E8056211A600FE
+    SEAT_PQ35_LIM_ACCEL_PED: 51.1
+  response: 7E8056211A601FF
 - expected_values:
     SEAT_PQ35_LIM_ACCEL_PED: 384.5
   response: 7E8056211A60F05
