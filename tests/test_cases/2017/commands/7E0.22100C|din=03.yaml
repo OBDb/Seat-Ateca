@@ -10,5 +10,5 @@ test_cases:
     SEAT_PQ35_FUEL_LVL_2: 41
   response: 7E80562100C1004
 - expected_values:
-    SEAT_PQ35_FUEL_LVL_2: 55
-  response: 7E80562100C157C
+    SEAT_PQ35_FUEL_LVL_2: 54
+  response: 7E80562100C1518
