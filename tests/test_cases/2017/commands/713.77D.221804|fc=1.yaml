@@ -7,6 +7,12 @@ test_cases:
     77D210000800091022E
     77D22FFAAFFAAAAAAAA
 - expected_values:
+    SEAT_MQB_SWA_ALT: -58.625
+  response: |-
+    77D10116218040004FF
+    77D21E1007E00760228
+    77D22FF7AFF7CAAAAAA
+- expected_values:
     SEAT_MQB_SWA_ALT: -67.8125
   response: |-
     77D10116218040004FF
