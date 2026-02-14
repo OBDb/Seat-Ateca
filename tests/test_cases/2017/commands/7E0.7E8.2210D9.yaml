@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2210D9
 test_cases:
 - expected_values:
+    SEAT_PQ35_INJ_2_RAIL_P_2: -0.0024
+  response: 7E8056210D9FFD0
+- expected_values:
     SEAT_PQ35_INJ_2_RAIL_P_2: -0.002
   response: 7E8056210D9FFD8
 - expected_values:
