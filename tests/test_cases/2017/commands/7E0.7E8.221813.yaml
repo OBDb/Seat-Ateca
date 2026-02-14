@@ -7,5 +7,5 @@ test_cases:
     SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 24.9
   response: 7E80562181300F9
 - expected_values:
-    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 59.6
-  response: '7E8056218130254'
+    SEAT_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 59.3
+  response: '7E8056218130251'
