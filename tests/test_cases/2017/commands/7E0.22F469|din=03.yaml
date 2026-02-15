@@ -34,7 +34,7 @@ test_cases:
     SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 53
   response: |-
     7E8100A62F4693F3502
-    7E821058C8277555555
+    7E82105000080555555
 - expected_values:
     SEAT_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 100
   response: |-
