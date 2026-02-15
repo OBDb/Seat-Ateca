@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_MAIN_INJ_START: 0
   response: 7E8056211F20000
 - expected_values:
-    SEAT_PQ35_MAIN_INJ_START: 5.04
-  response: 7E8056211F200FC
+    SEAT_PQ35_MAIN_INJ_START: 5.08
+  response: 7E8056211F200FE
 - expected_values:
     SEAT_PQ35_MAIN_INJ_START: -3.36
   response: 7E8056211F2FF58
