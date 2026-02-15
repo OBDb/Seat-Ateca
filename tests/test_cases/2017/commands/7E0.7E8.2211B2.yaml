@@ -7,8 +7,8 @@ test_cases:
     SEAT_PQ35_DPF_IN_T: 101.2
   response: 7E8056211B20E9F
 - expected_values:
-    SEAT_PQ35_DPF_IN_T: 290
-  response: 7E8056211B215FF
+    SEAT_PQ35_DPF_IN_T: 238.8
+  response: 7E8056211B213FF
 - expected_values:
     SEAT_PQ35_DPF_IN_T: 315.8
   response: 7E8056211B21701
