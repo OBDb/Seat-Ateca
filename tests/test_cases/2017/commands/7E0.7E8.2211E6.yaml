@@ -7,5 +7,5 @@ test_cases:
     SEAT_MQB_DPF_EXH_VOL: 51.1
   response: 7E8056211E601FF
 - expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 530
-  response: 7E8056211E614B4
+    SEAT_MQB_DPF_EXH_VOL: 674.1
+  response: 7E8056211E61A55
