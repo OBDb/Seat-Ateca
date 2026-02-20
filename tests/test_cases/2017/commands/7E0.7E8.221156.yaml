@@ -2,16 +2,12 @@ command_id: 7E0.7E8.221156
 test_cases:
 - expected_values:
     SEAT_HVBAT_SOC: 0
-    SEAT_PQ35_DIST_LAST_REGEN: 0.171
-  response: 7E807621156000000AB
+    SEAT_PQ35_DIST_LAST_REGEN: 0
+  response: '7E80762115600000000'
 - expected_values:
     SEAT_HVBAT_SOC: 0
     SEAT_PQ35_DIST_LAST_REGEN: 28.671
   response: 7E80762115600006FFF
-- expected_values:
-    SEAT_HVBAT_SOC: 0
-    SEAT_PQ35_DIST_LAST_REGEN: 29.696
-  response: '7E80762115600007400'
 - expected_values:
     SEAT_HVBAT_SOC: 0
     SEAT_PQ35_DIST_LAST_REGEN: 65.305
