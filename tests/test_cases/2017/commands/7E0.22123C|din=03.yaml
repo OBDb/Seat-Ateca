@@ -4,11 +4,11 @@ test_cases:
     SEAT_PQ35_OIL_DYN_LAST: 16.244
   response: 7E80562123C0FDD
 - expected_values:
+    SEAT_PQ35_OIL_DYN_LAST: 17.488
+  response: 7E80562123C1114
+- expected_values:
     SEAT_PQ35_OIL_DYN_LAST: 18.412
   response: 7E80562123C11FB
-- expected_values:
-    SEAT_PQ35_OIL_DYN_LAST: 18.576
-  response: 7E80562123C1224
 - expected_values:
     SEAT_PQ35_OIL_DYN_LAST: 19.84
   response: 7E80562123C1360
