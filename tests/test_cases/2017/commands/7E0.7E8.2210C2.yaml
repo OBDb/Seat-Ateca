@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_EGR_DUTY: 0
   response: 7E8056210C20000
 - expected_values:
-    SEAT_PQ35_EGR_DUTY: 20.47
-  response: 7E8056210C207FF
+    SEAT_PQ35_EGR_DUTY: 17.91
+  response: 7E8056210C206FF
 - expected_values:
     SEAT_PQ35_EGR_DUTY: 81.92
   response: 7E8056210C22000
