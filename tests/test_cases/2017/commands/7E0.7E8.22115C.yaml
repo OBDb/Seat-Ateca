@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_SRV_REGEN_STAT: 0
   response: 7E80462115C00
+- expected_values:
+    SEAT_PQ35_SRV_REGEN_STAT: 128
+  response: 7E80462115C80
