@@ -37,6 +37,12 @@ test_cases:
     7B010086227C46AA081
     7B021A06AAAAAAAAAAA
 - expected_values:
+    SEAT_HVAC_INSIDE_HUM: 44.5
+    SEAT_WNDSHLD_TEMP: 33.2
+  response: |-
+    7B010086227C47D2771
+    7B021F859AAAAAAAAAA
+- expected_values:
     SEAT_HVAC_INSIDE_HUM: 0
     SEAT_WNDSHLD_TEMP: 108.08
   response: |-
