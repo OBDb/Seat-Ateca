@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_GEN_LOAD: 48.34
   response: 7E80562105C12E2
+- expected_values:
+    SEAT_PQ35_GEN_LOAD: 51.57
+  response: 7E80562105C1425
