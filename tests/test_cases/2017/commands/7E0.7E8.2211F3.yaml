@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_POST_INJ_2_START: -41
   response: 7E8056211F3F7FE
 - expected_values:
-    SEAT_PQ35_POST_INJ_2_START: -25.78
-  response: 7E8056211F3FAF7
+    SEAT_PQ35_POST_INJ_2_START: -27.46
+  response: 7E8056211F3FAA3
