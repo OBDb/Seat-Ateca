@@ -1,14 +1,17 @@
 command_id: 7E0.22123F|din=03
 test_cases:
 - expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 5.936
-  response: 7E80562123F05CC
+    SEAT_PQ35_OIL_DYN_AVG: 4.556
+  response: 7E80562123F0473
+- expected_values:
+    SEAT_PQ35_OIL_DYN_AVG: 5.116
+  response: 7E80562123F04FF
+- expected_values:
+    SEAT_PQ35_OIL_DYN_AVG: 5.744
+  response: 7E80562123F059C
 - expected_values:
     SEAT_PQ35_OIL_DYN_AVG: 14.336
   response: 7E80562123F0E00
-- expected_values:
-    SEAT_PQ35_OIL_DYN_AVG: 16.38
-  response: 7E80562123F0FFF
 - expected_values:
     SEAT_PQ35_OIL_DYN_AVG: 131.068
   response: 7E80562123F7FFF
