@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.2211BC
 test_cases:
 - expected_values:
-    SEAT_PQ35_OIL_LVL: 23.936
-  response: 7E8056211BC1760
-- expected_values:
-    SEAT_PQ35_OIL_LVL: 26.056
-  response: 7E8056211BC1972
+    SEAT_PQ35_OIL_LVL: 18
+  response: 7E8056211BC1194
 - expected_values:
     SEAT_PQ35_OIL_LVL: 49.148
   response: 7E8056211BC2FFF
