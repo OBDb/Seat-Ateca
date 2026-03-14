@@ -10,8 +10,8 @@ test_cases:
     SEAT_PQ35_CHG_P: 3.583
   response: 7E8056210570DFF
 - expected_values:
-    SEAT_PQ35_CHG_P: 3.584
-  response: 7E8056210570E00
+    SEAT_PQ35_CHG_P: 8.96
+  response: '7E8056210572300'
 - expected_values:
     SEAT_PQ35_CHG_P: 12.453
   response: 7E80562105730A5
