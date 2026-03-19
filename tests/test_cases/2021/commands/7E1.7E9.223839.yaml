@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.223839
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -100
+  response: 7E90562383930F8
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 3.55
+  response: '7E9056238394700'
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 58
+  response: '7E9056238398804'
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -93.55
+  response: 7E905623839B1F8
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 48.95
+  response: 7E905623839D303
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 10.6
+  response: 7E905623839D400

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221798
+test_cases:
+- expected_values:
+    SEAT_MQB_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED: -247.5
+  response: '7E8056217980100'
+- expected_values:
+    SEAT_MQB_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED: -221.9
+  response: '7E8056217980200'

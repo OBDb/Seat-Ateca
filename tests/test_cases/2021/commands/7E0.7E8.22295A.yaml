@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22295A
+test_cases:
+- expected_values:
+    SEAT_ODO: 71232
+  response: 7E80662295A011640
+- expected_values:
+    SEAT_ODO: 71379
+  response: 7E80662295A0116D3

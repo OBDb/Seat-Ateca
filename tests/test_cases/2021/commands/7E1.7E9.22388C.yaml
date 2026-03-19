@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.22388C
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 369
+  response: 7E90562388C7101
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 371
+  response: 7E90562388C7301
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 372
+  response: 7E90562388C7401
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 378
+  response: 7E90562388C7A01
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 379
+  response: 7E90562388C7B01
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 383
+  response: 7E90562388C7F01

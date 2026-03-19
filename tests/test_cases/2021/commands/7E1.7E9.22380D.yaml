@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.22380D
+test_cases:
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 0
+  response: 7E90562380D0000
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 2310
+  response: 7E90562380D0609
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 1799
+  response: 7E90562380D0707
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 1291
+  response: 7E90562380D0B05
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 1766
+  response: 7E90562380DE606
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 2024
+  response: 7E90562380DE807
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_2: 1788
+  response: 7E90562380DFC06

@@ -1,0 +1,6 @@
+command_id: 7E0.22112C
+test_cases:
+- expected_values:
+    SEAT_ACT: 0
+    SEAT_PQ35_COMP_TEST_CYL_4: 0
+  response: 7E80562112C0000

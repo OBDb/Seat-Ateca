@@ -1,0 +1,11 @@
+command_id: 714.77E.22224B|din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_OIL_WEAR: 101
+  response: 77E0562224B0065
+- expected_values:
+    SEAT_PQ35_OIL_WEAR: 102
+  response: 77E0562224B0066
+- expected_values:
+    SEAT_PQ35_OIL_WEAR: 104
+  response: 77E0562224B0068

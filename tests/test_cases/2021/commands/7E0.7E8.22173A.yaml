@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22173A
+test_cases:
+- expected_values:
+    SEAT_PQ35_INTAKE_CAMSHAFT_SIGNAL_EDGE_POS_ADAPTED_VALUE_EDGE_1: -32
+  response: 7E80562173A0000
