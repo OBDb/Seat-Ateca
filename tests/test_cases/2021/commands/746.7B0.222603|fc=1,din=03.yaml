@@ -1,0 +1,8 @@
+command_id: 746.7B0.222603|fc=1,din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_AC_COMP_SPD: 800
+  response: 7B00462260308
+- expected_values:
+    SEAT_PQ35_AC_COMP_SPD: 3500
+  response: 7B00462260323

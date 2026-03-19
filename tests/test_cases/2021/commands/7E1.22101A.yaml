@@ -1,0 +1,10 @@
+command_id: 7E1.22101A
+test_cases:
+- expected_values:
+    SEAT_ODO_TCM_2: 71232
+    SEAT_PQ35_ODO_3: 4199937
+  response: 7E90762101A40160100
+- expected_values:
+    SEAT_ODO_TCM_2: 71379
+    SEAT_PQ35_ODO_3: 13833729
+  response: 7E90762101AD3160100

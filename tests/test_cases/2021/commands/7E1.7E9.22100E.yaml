@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22100E
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LIMITATION: 372
+  response: 7E90562100E101D
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LIMITATION: 514
+  response: 7E90562100E2828
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LIMITATION: 200
+  response: 7E90562100EA00F
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LIMITATION: 486
+  response: 7E90562100EF825

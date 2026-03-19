@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.223834
+test_cases:
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 334.8
+  response: 7E905623834140D
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 362
+  response: 7E905623834240E
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 568.1
+  response: '7E9056238343116'
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 363.6
+  response: 7E905623834340E
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 339.8
+  response: 7E905623834460D
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 399.2
+  response: 7E905623834980F
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 298.3
+  response: 7E905623834A70B
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 328.9
+  response: 7E905623834D90C
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 50
+  response: 7E905623834F401

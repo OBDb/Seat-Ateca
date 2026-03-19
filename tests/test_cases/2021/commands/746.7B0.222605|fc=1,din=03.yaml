@@ -1,0 +1,38 @@
+command_id: 746.7B0.222605|fc=1,din=03
+test_cases:
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 4.8
+    SEAT_PQ35_REF_P: 4.8
+  response: 7B00462260518
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 5.6
+    SEAT_PQ35_REF_P: 5.6
+  response: 7B0046226051C
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 5.8
+    SEAT_PQ35_REF_P: 5.8
+  response: 7B0046226051D
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 6
+    SEAT_PQ35_REF_P: 6
+  response: 7B0046226051E
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 6.2
+    SEAT_PQ35_REF_P: 6.2
+  response: 7B0046226051F
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 6.4
+    SEAT_PQ35_REF_P: 6.4
+  response: 7B00462260520
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 6.6
+    SEAT_PQ35_REF_P: 6.6
+  response: 7B00462260521
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 7
+    SEAT_PQ35_REF_P: 7
+  response: 7B00462260523
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 7.2
+    SEAT_PQ35_REF_P: 7.2
+  response: 7B00462260524

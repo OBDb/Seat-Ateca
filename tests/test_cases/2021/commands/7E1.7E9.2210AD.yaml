@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.2210AD
+test_cases:
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 1.99
+  response: 7E9056210ADC700
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 2.04
+  response: 7E9056210ADCC00
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 2.09
+  response: 7E9056210ADD100
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 2.14
+  response: 7E9056210ADD600

@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.221009
+test_cases:
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 0
+  response: '7E9056210090000'
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 775
+  response: '7E9056210090703'
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 268
+  response: 7E9056210090C01
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 279
+  response: '7E9056210091701'
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 628
+  response: '7E9056210097402'
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 447
+  response: 7E905621009BF01
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 233
+  response: 7E905621009E900

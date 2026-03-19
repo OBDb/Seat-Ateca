@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221004
+test_cases:
+- expected_values:
+    SEAT_AAT_V2: 10.52344
+  response: '7E8056210040543'
+- expected_values:
+    SEAT_AAT_V2: 10.63281
+  response: '7E8056210040551'
+- expected_values:
+    SEAT_AAT_V2: 11.5
+  response: 7E80562100405C0
+- expected_values:
+    SEAT_AAT_V2: 11.625
+  response: 7E80562100405D0
+- expected_values:
+    SEAT_AAT_V2: 12.0625
+  response: '7E8056210040608'
+- expected_values:
+    SEAT_AAT_V2: 12.42188
+  response: '7E8056210040636'
+- expected_values:
+    SEAT_AAT_V2: 12.5
+  response: '7E8056210040640'
+- expected_values:
+    SEAT_AAT_V2: 13
+  response: '7E8056210040680'
+- expected_values:
+    SEAT_AAT_V2: 13.34375
+  response: 7E80562100406AC
+- expected_values:
+    SEAT_AAT_V2: 15
+  response: '7E8056210040780'

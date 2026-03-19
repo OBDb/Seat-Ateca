@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2210AC
+test_cases:
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: 9.23
+  response: 7E9056210AC9B03
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: 9.51
+  response: 7E9056210ACB703

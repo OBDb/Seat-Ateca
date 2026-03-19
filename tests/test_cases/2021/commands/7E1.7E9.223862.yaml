@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.223862
+test_cases:
+- expected_values:
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862B0FC
+- expected_values:
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862EFFF
+- expected_values:
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862F1FF
+- expected_values:
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862F2FF
+- expected_values:
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862F5FF
+- expected_values:
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 10.16
+  response: 7E905623862F803

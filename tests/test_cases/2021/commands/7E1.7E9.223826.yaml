@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.223826
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 375.4
+  response: 7E905623826AA0E
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 376.3
+  response: 7E905623826B30E
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 379.4
+  response: 7E905623826D20E
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 1200
+  response: 7E905623826E02E
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 381.9
+  response: 7E905623826EB0E

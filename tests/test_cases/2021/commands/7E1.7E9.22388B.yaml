@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22388B
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 1919
+  response: 7E90562388B7F07
+- expected_values:
+    SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 1920
+  response: 7E90562388B8007
+- expected_values:
+    SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 1921
+  response: 7E90562388B8107
+- expected_values:
+    SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 1923
+  response: 7E90562388B8307

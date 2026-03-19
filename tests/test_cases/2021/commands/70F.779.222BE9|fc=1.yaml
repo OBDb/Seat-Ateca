@@ -1,0 +1,26 @@
+command_id: 70F.779.222BE9|fc=1
+test_cases:
+- expected_values:
+    SEAT_PQ35_HAL_V: 0
+  response: 77904622BE900
+- expected_values:
+    SEAT_PQ35_HAL_V: 1.6
+  response: 77904622BE910
+- expected_values:
+    SEAT_PQ35_HAL_V: 1.7
+  response: 77904622BE911
+- expected_values:
+    SEAT_PQ35_HAL_V: 1.8
+  response: 77904622BE912
+- expected_values:
+    SEAT_PQ35_HAL_V: 2
+  response: 77904622BE914
+- expected_values:
+    SEAT_PQ35_HAL_V: 2.1
+  response: 77904622BE915
+- expected_values:
+    SEAT_PQ35_HAL_V: 2.2
+  response: 77904622BE916
+- expected_values:
+    SEAT_PQ35_HAL_V: 3.3
+  response: 77904622BE921

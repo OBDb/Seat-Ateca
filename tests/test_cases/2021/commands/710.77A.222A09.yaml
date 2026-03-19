@@ -1,0 +1,22 @@
+command_id: 710.77A.222A09
+test_cases:
+- expected_values:
+    SEAT_BAT_I: -2999.998
+    SEAT_MQB_BAT_I: 0.619
+    SEAT_SSB_C: 0.619
+  response: 77A07622A090000026B
+- expected_values:
+    SEAT_BAT_I: -2999.996
+    SEAT_MQB_BAT_I: 1.263
+    SEAT_SSB_C: 1.263
+  response: 77A07622A09000004EF
+- expected_values:
+    SEAT_BAT_I: -2999.959
+    SEAT_MQB_BAT_I: 10.503
+    SEAT_SSB_C: 10.503
+  response: 77A07622A0900002907
+- expected_values:
+    SEAT_BAT_I: -2999.878
+    SEAT_MQB_BAT_I: 31.38
+    SEAT_SSB_C: 31.38
+  response: 77A07622A0900007A94

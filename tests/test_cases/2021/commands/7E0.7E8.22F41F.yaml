@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    SEAT_RUNTM: 62
+  response: 7E80562F41F003E
+- expected_values:
+    SEAT_RUNTM: 1765
+  response: 7E80562F41F06E5
+- expected_values:
+    SEAT_RUNTM: 1903
+  response: 7E80562F41F076F

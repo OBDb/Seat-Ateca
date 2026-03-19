@@ -1,0 +1,26 @@
+command_id: 7E1.7E9.221092
+test_cases:
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.04
+  response: '7E9056210920400'
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.06
+  response: '7E9056210920600'
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.09
+  response: '7E9056210920900'
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.1
+  response: 7E9056210920A00
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.18
+  response: '7E9056210921200'
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.19
+  response: '7E9056210921300'
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.2
+  response: '7E9056210921400'
+- expected_values:
+    SEAT_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.22
+  response: '7E9056210921600'
