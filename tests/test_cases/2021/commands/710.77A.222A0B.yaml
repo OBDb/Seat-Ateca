@@ -1,0 +1,20 @@
+command_id: 710.77A.222A0B
+test_cases:
+- expected_values:
+    SEAT_SSB_T: 25
+  response: 77A04622A0B41
+- expected_values:
+    SEAT_SSB_T: 28
+  response: 77A04622A0B44
+- expected_values:
+    SEAT_SSB_T: 36
+  response: 77A04622A0B4C
+- expected_values:
+    SEAT_SSB_T: 37
+  response: 77A04622A0B4D
+- expected_values:
+    SEAT_SSB_T: 40
+  response: 77A04622A0B50
+- expected_values:
+    SEAT_SSB_T: 41
+  response: 77A04622A0B51

@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.223803
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 21
+  response: '7E9056238033408'
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 6.3
+  response: '7E9056238037602'
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 16.8
+  response: '7E9056238039006'
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: -0.9
+  response: 7E905623803A6FF
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 22.2
+  response: 7E905623803AC08
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 19.8
+  response: 7E905623803BC07
+- expected_values:
+    SEAT_MQB_TCM_BRAKE_P: -0.6
+  response: 7E905623803C4FF

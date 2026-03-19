@@ -1,0 +1,11 @@
+command_id: 7E0.2210F3|din=03
+test_cases:
+- expected_values:
+    SEAT_PQ35_DPF_DIFF_P_2: 6077
+  response: 7E8056210F317BD
+- expected_values:
+    SEAT_PQ35_DPF_DIFF_P_2: 6649
+  response: 7E8056210F319F9
+- expected_values:
+    SEAT_PQ35_DPF_DIFF_P_2: 6675
+  response: 7E8056210F31A13

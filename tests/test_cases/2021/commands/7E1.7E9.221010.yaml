@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221010
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_CONVERTER_LOSS_TORQUE: 320
+  response: '7E9056210101900'
+- expected_values:
+    SEAT_MQB_TCM_CONVERTER_LOSS_TORQUE: -1267.15
+  response: 7E9056210109D01
+- expected_values:
+    SEAT_MQB_TCM_CONVERTER_LOSS_TORQUE: -268.75
+  response: 7E905621010EB01

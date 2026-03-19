@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222061
+test_cases:
+- expected_values:
+    SEAT_APP_POS1: 0.72
+  response: 7E80562206102D0
+- expected_values:
+    SEAT_APP_POS1: 0.992
+  response: 7E80562206103E0
+- expected_values:
+    SEAT_APP_POS1: 1.807
+  response: 7E805622061070F

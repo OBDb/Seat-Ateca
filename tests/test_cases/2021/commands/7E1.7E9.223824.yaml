@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223824
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 8.58
+  response: 7E9056238245A03
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 3.63
+  response: 7E9056238246B01
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 1.19
+  response: '7E9056238247700'
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 2.5
+  response: 7E905623824FA00

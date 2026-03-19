@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222062
+test_cases:
+- expected_values:
+    SEAT_APP_POS2: 0.363
+  response: 7E805622062016B
+- expected_values:
+    SEAT_APP_POS2: 0.364
+  response: 7E805622062016C
+- expected_values:
+    SEAT_APP_POS2: 0.365
+  response: 7E805622062016D
+- expected_values:
+    SEAT_APP_POS2: 0.594
+  response: '7E8056220620252'
+- expected_values:
+    SEAT_APP_POS2: 0.686
+  response: 7E80562206202AE
+- expected_values:
+    SEAT_APP_POS2: 0.771
+  response: '7E8056220620303'
+- expected_values:
+    SEAT_APP_POS2: 0.83
+  response: 7E805622062033E
+- expected_values:
+    SEAT_APP_POS2: 1.245
+  response: 7E80562206204DD

@@ -1,0 +1,32 @@
+command_id: 7E1.7E9.221017
+test_cases:
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -8.443
+  response: 7E9046210175D
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -7.198
+  response: '7E90462101762'
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -4.708
+  response: 7E9046210176C
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -4.21
+  response: 7E9046210176E
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -1.72
+  response: '7E90462101778'
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -0.724
+  response: 7E9046210177C
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: 0.521
+  response: '7E90462101781'
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: 4.256
+  response: '7E90462101790'
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: 4.505
+  response: '7E90462101791'
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: 5.75
+  response: '7E90462101796'

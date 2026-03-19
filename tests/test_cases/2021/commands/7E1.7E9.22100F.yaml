@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.22100F
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 26
+  response: 7E90562100F0802
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 28
+  response: 7E90562100F3002
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 18
+  response: 7E90562100F6801
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 32
+  response: 7E90562100F8002
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 20
+  response: 7E90562100F9001
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 22
+  response: 7E90562100FB801
+- expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 24
+  response: 7E90562100FE001
