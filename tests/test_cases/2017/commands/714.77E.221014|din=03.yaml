@@ -6,7 +6,7 @@ test_cases:
     SEAT_PQ35_AMB_T: -3
   response: 77E046210145E
 - expected_values:
-    SEAT_AAT_V3: 78
-    SEAT_DASH_AMBIENT_AIR_T: 14
-    SEAT_PQ35_AMB_T: 14
-  response: '77E0462101480'
+    SEAT_AAT_V3: 82
+    SEAT_DASH_AMBIENT_AIR_T: 16
+    SEAT_PQ35_AMB_T: 16
+  response: '77E0462101484'
