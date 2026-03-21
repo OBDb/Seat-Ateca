@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_AC_COMP_LOAD: 0
   response: 7B00462260400
 - expected_values:
-    SEAT_PQ35_AC_COMP_LOAD: 8.7
-  response: 7B00462260457
+    SEAT_PQ35_AC_COMP_LOAD: 10.3
+  response: 7B00462260467
