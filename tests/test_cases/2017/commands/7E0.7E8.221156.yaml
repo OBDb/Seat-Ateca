@@ -6,8 +6,8 @@ test_cases:
   response: '7E80762115600000000'
 - expected_values:
     SEAT_HVBAT_SOC: 0
-    SEAT_PQ35_DIST_LAST_REGEN: 28.671
-  response: 7E80762115600006FFF
+    SEAT_PQ35_DIST_LAST_REGEN: 2.047
+  response: 7E807621156000007FF
 - expected_values:
     SEAT_HVBAT_SOC: 0
     SEAT_PQ35_DIST_LAST_REGEN: 65.305
