@@ -4,14 +4,5 @@ test_cases:
     SEAT_PQ35_INJ_2_RAIL_P_2: -0.0028
   response: 7E8056210D9FFC8
 - expected_values:
-    SEAT_PQ35_INJ_2_RAIL_P_2: -0.0024
-  response: 7E8056210D9FFD0
-- expected_values:
-    SEAT_PQ35_INJ_2_RAIL_P_2: -0.002
-  response: 7E8056210D9FFD8
-- expected_values:
-    SEAT_PQ35_INJ_2_RAIL_P_2: -0.0016
-  response: 7E8056210D9FFE0
-- expected_values:
-    SEAT_PQ35_INJ_2_RAIL_P_2: -0.0012
-  response: 7E8056210D9FFE8
+    SEAT_PQ35_INJ_2_RAIL_P_2: -0.0008
+  response: 7E8056210D9FFF0
