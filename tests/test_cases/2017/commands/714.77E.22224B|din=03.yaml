@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_OIL_WEAR: 0
   response: 77E0562224B0000
 - expected_values:
-    SEAT_PQ35_OIL_WEAR: 38
-  response: 77E0562224B0026
+    SEAT_PQ35_OIL_WEAR: 39
+  response: 77E0562224B0027
