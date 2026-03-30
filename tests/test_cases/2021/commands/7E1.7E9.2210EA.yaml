@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 1487
   response: 7E9056210EACF05
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 1512
+  response: 7E9056210EAE805

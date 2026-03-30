@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.2210EB
 test_cases:
 - expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_KISS_POINT_PART_1_ODO_READING: 72240
+  response: 7E9056210EB381C
+- expected_values:
     SEAT_PQ35_CLUTCH_2_ADAPT_KISS_POINT_PART_1_ODO_READING: 71220
   response: 7E9056210EBD21B
 - expected_values:

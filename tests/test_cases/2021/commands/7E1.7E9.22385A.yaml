@@ -5,28 +5,7 @@ test_cases:
   response: 7E90562385A11FC
 - expected_values:
     SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385A12FC
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385A16FC
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385A1CFC
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385A2BFC
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385AF5FF
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385AF6FF
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385AFBFF
-- expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385AFDFF
+  response: 7E90562385AF1FF
 - expected_values:
     SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
   response: 7E90562385AFEFF

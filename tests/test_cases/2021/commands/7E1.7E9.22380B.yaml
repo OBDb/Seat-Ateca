@@ -4,6 +4,9 @@ test_cases:
     SEAT_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 0
   response: 7E90562380B0000
 - expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 4
+  response: 7E90562380B0400
+- expected_values:
     SEAT_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 264
   response: 7E90562380B0801
 - expected_values:
@@ -12,6 +15,9 @@ test_cases:
 - expected_values:
     SEAT_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 72
   response: 7E90562380B4800
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 133
+  response: 7E90562380B8500
 - expected_values:
     SEAT_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 241
   response: 7E90562380BF100

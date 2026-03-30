@@ -6,3 +6,9 @@ test_cases:
     SEAT_SSB_R: 7.6
     SEAT_SSB_RES_INT: 7.6
   response: 77A04622A0E26
+- expected_values:
+    SEAT_BAT_INT_R: 7.8
+    SEAT_MQB_BAT_INT_RES: 7.8
+    SEAT_SSB_R: 7.8
+    SEAT_SSB_RES_INT: 7.8
+  response: 77A04622A0E27

@@ -7,6 +7,9 @@ test_cases:
     SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 3.55
   response: '7E9056238394700'
 - expected_values:
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -20
+  response: 7E90562383970FE
+- expected_values:
     SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 58
   response: '7E9056238398804'
 - expected_values:
