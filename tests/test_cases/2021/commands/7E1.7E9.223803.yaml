@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223803
 test_cases:
 - expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 8.1
+  response: 7E9056238032A03
+- expected_values:
     SEAT_MQB_TCM_BRAKE_P: 21
   response: '7E9056238033408'
 - expected_values:

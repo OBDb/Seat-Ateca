@@ -1,6 +1,16 @@
 command_id: 714.77E.221014|din=03
 test_cases:
 - expected_values:
+    SEAT_AAT_V3: 60
+    SEAT_DASH_AMBIENT_AIR_T: 5
+    SEAT_PQ35_AMB_T: 5
+  response: 77E046210146E
+- expected_values:
+    SEAT_AAT_V3: 61
+    SEAT_DASH_AMBIENT_AIR_T: 5.5
+    SEAT_PQ35_AMB_T: 5.5
+  response: 77E046210146F
+- expected_values:
     SEAT_AAT_V3: 72
     SEAT_DASH_AMBIENT_AIR_T: 11
     SEAT_PQ35_AMB_T: 11

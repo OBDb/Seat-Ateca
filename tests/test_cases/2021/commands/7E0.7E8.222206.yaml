@@ -7,6 +7,9 @@ test_cases:
     SEAT_PQ35_FUEL_LEVEL_7E0_2206: 13
   response: 7E8046222060D
 - expected_values:
+    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 30
+  response: 7E8046222061E
+- expected_values:
     SEAT_PQ35_FUEL_LEVEL_7E0_2206: 42
   response: 7E8046222062A
 - expected_values:
