@@ -1,13 +1,13 @@
 command_id: 712.77C.221812|fc=1
 test_cases:
 - expected_values:
-    SEAT_MQB_SWA: 0.31
-    SEAT_STEER_WHEEL_ANGLE: 0.25
-  response: 77C06621812000201
+    SEAT_MQB_SWA: 0.06
+    SEAT_STEER_WHEEL_ANGLE: 0
+  response: 77C06621812000001
 - expected_values:
-    SEAT_MQB_SWA: -5.69
-    SEAT_STEER_WHEEL_ANGLE: -5.75
-  response: 77C06621812FFD201
+    SEAT_MQB_SWA: -10.315
+    SEAT_STEER_WHEEL_ANGLE: -10.375
+  response: 77C06621812FFAD01
 - expected_values:
     SEAT_MQB_SWA: -0.44
     SEAT_STEER_WHEEL_ANGLE: -0.5

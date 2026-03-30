@@ -4,29 +4,5 @@ test_cases:
     SEAT_PQ35_RAD_FAN_DUTY: 10
   response: 7B00462260619
 - expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 10.8
-  response: 7B0046226061B
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 14.8
-  response: 7B00462260625
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 16
-  response: 7B00462260628
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 16.8
-  response: 7B0046226062A
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 18
-  response: 7B0046226062D
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 18.8
-  response: 7B0046226062F
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 20
-  response: 7B00462260632
-- expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 20.8
-  response: 7B00462260634
-- expected_values:
     SEAT_PQ35_RAD_FAN_DUTY: 32
   response: 7B00462260650

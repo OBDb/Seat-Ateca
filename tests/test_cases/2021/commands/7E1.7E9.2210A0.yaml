@@ -4,6 +4,9 @@ test_cases:
     SEAT_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -0.28
   response: 7E9056210A0E4FF
 - expected_values:
+    SEAT_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -0.23
+  response: 7E9056210A0E9FF
+- expected_values:
     SEAT_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -0.19
   response: 7E9056210A0EDFF
 - expected_values:

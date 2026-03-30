@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_RAD_FAN_CMD: 0
   response: 7B00462260700
+- expected_values:
+    SEAT_PQ35_RAD_FAN_CMD: 25.2
+  response: 7B0046226073F

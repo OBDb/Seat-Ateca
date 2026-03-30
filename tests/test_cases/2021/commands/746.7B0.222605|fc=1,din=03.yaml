@@ -5,6 +5,6 @@ test_cases:
     SEAT_PQ35_REF_P: 4.2
   response: 7B00462260515
 - expected_values:
-    SEAT_CLIMATE_REFRIG_P: 7.2
-    SEAT_PQ35_REF_P: 7.2
-  response: 7B00462260524
+    SEAT_CLIMATE_REFRIG_P: 7.8
+    SEAT_PQ35_REF_P: 7.8
+  response: 7B00462260527

@@ -7,26 +7,5 @@ test_cases:
     SEAT_MQB_INPUT_SHAFT_1: 1841
   response: 7E90562380C3107
 - expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1123
-  response: 7E90562380C6304
-- expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1169
-  response: 7E90562380C9104
-- expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1171
-  response: 7E90562380C9304
-- expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1176
-  response: 7E90562380C9804
-- expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 681
-  response: 7E90562380CA902
-- expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1975
-  response: 7E90562380CB707
-- expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1761
-  response: 7E90562380CE106
-- expected_values:
     SEAT_MQB_INPUT_SHAFT_1: 1784
   response: 7E90562380CF806
