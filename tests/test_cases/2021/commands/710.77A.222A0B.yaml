@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     SEAT_SSB_T: 41
   response: 77A04622A0B51
+- expected_values:
+    SEAT_SSB_T: 44
+  response: 77A04622A0B54

@@ -4,29 +4,5 @@ test_cases:
     SEAT_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    SEAT_VSS: 11
-  response: 7E80462F40D0B
-- expected_values:
-    SEAT_VSS: 12
-  response: 7E80462F40D0C
-- expected_values:
-    SEAT_VSS: 14
-  response: 7E80462F40D0E
-- expected_values:
-    SEAT_VSS: 24
-  response: 7E80462F40D18
-- expected_values:
-    SEAT_VSS: 32
-  response: 7E80462F40D20
-- expected_values:
-    SEAT_VSS: 36
-  response: 7E80462F40D24
-- expected_values:
-    SEAT_VSS: 59
-  response: 7E80462F40D3B
-- expected_values:
-    SEAT_VSS: 92
-  response: 7E80462F40D5C
-- expected_values:
     SEAT_VSS: 135
   response: 7E80462F40D87
