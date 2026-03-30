@@ -1,37 +1,9 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
-    SEAT_AAT: 11.5
-    SEAT_PQ35_OUT_T: 11.5
-  response: 7B00462260917
-- expected_values:
-    SEAT_AAT: 12
-    SEAT_PQ35_OUT_T: 12
-  response: 7B00462260918
-- expected_values:
-    SEAT_AAT: 12.5
-    SEAT_PQ35_OUT_T: 12.5
-  response: 7B00462260919
-- expected_values:
-    SEAT_AAT: 13
-    SEAT_PQ35_OUT_T: 13
-  response: 7B0046226091A
-- expected_values:
-    SEAT_AAT: 13.5
-    SEAT_PQ35_OUT_T: 13.5
-  response: 7B0046226091B
-- expected_values:
-    SEAT_AAT: 14
-    SEAT_PQ35_OUT_T: 14
-  response: 7B0046226091C
-- expected_values:
-    SEAT_AAT: 14.5
-    SEAT_PQ35_OUT_T: 14.5
-  response: 7B0046226091D
-- expected_values:
-    SEAT_AAT: 15
-    SEAT_PQ35_OUT_T: 15
-  response: 7B0046226091E
+    SEAT_AAT: 4.5
+    SEAT_PQ35_OUT_T: 4.5
+  response: 7B00462260909
 - expected_values:
     SEAT_AAT: 15.5
     SEAT_PQ35_OUT_T: 15.5

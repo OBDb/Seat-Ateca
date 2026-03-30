@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     SEAT_WARM_UPS: 210
   response: 7E80462F430D2
+- expected_values:
+    SEAT_WARM_UPS: 249
+  response: 7E80462F430F9
