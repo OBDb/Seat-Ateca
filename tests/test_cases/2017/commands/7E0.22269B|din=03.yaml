@@ -1,8 +1,8 @@
 command_id: 7E0.22269B|din=03
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 2
-  response: 7E80562269B0002
+    SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 1
+  response: 7E80562269B0001
 - expected_values:
     SEAT_MQB_DPF_DIFF_P_RAW_VALUE_2: 136
   response: 7E80562269B0088
