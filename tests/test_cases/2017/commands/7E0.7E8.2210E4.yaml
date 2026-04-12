@@ -7,6 +7,9 @@ test_cases:
     SEAT_PQ35_REG_FACTOR: 0.812
   response: 7E8056210E41FB8
 - expected_values:
+    SEAT_PQ35_REG_FACTOR: 0.8155
+  response: 7E8056210E41FDB
+- expected_values:
     SEAT_PQ35_REG_FACTOR: 0.8159
   response: 7E8056210E41FDF
 - expected_values:
