@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2214F7
 test_cases:
 - expected_values:
-    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 30.2
-  response: 7E8056214F70BD9
+    SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 28.9
+  response: 7E8056214F70BCC
 - expected_values:
     SEAT_PQ35_EXHAUST_GAS_T_SENSOR_2: 96.3
   response: 7E8056214F70E6E
