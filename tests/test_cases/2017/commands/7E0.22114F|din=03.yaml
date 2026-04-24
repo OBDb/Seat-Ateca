@@ -1,9 +1,9 @@
 command_id: 7E0.22114F|din=03
 test_cases:
 - expected_values:
-    SEAT_MISFIRES_C1: 514
-    SEAT_PQ35_SOOT_MASS_CALC: 5.14
-  response: 7E80562114F0202
+    SEAT_MISFIRES_C1: 506
+    SEAT_PQ35_SOOT_MASS_CALC: 5.06
+  response: 7E80562114F01FA
 - expected_values:
     SEAT_MISFIRES_C1: 767
     SEAT_PQ35_SOOT_MASS_CALC: 7.67
