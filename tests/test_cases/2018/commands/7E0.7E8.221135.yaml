@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221135
 test_cases:
 - expected_values:
-    SEAT_COOLANT_T: 91.4
-  response: 7E8056211350E3D
+    SEAT_COOLANT_T: 89.4
+  response: 7E8056211350E29
 - expected_values:
-    SEAT_COOLANT_T: 104.1
-  response: 7E8056211350EBC
+    SEAT_COOLANT_T: 104.2
+  response: 7E8056211350EBD
