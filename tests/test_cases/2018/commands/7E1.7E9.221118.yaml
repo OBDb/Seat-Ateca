@@ -1,0 +1,6 @@
+command_id: 7E1.7E9.221118
+test_cases:
+- expected_values:
+    SEAT_PQ35_CLUTCH_1_MAXIMUM_T: 193
+    SEAT_PQ35_CLUTCH_2_MAXIMUM_T: 195
+  response: 7E907621118C100C300

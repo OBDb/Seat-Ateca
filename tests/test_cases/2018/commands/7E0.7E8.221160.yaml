@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221160
+test_cases:
+- expected_values:
+    SEAT_ODO_HD: 63898.583
+  response: 7E80762116003CF03D7
+- expected_values:
+    SEAT_ODO_HD: 63961.771
+  response: 7E80762116003CFFAAB
+- expected_values:
+    SEAT_ODO_HD: 63963.239
+  response: 7E80762116003D00067
+- expected_values:
+    SEAT_ODO_HD: 64023.042
+  response: 7E80762116003D0EA02
+- expected_values:
+    SEAT_ODO_HD: 64029.992
+  response: 7E80762116003D10528
+- expected_values:
+    SEAT_ODO_HD: 64044.028
+  response: 7E80762116003D13BFC

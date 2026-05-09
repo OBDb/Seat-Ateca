@@ -1,0 +1,47 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C621810010122
+    77D21FC650000029AAA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C621810010208
+    77D21FC9000000276AA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C62181001037A
+    77D21FC78000002BEAA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C621810010500
+    77D21FC6300000288AA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C62181001FFE2
+    77D21FC5C0000022EAA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C62181001FFE2
+    77D21FC5F0000029AAA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C62181001FFE2
+    77D21FC6000000000AA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C62181001FFE2
+    77D21FCF900000000AA
+- expected_values:
+    SEAT_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C62181001FFEC
+    77D21FC5D000001D4AA

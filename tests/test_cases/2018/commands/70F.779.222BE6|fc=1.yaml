@@ -1,0 +1,14 @@
+command_id: 70F.779.222BE6|fc=1
+test_cases:
+- expected_values:
+    SEAT_PQ35_HAL_I: 0.863
+  response: 77905622BE6035F
+- expected_values:
+    SEAT_PQ35_HAL_I: 1.034
+  response: 77905622BE6040A
+- expected_values:
+    SEAT_PQ35_HAL_I: 1.525
+  response: 77905622BE605F5
+- expected_values:
+    SEAT_PQ35_HAL_I: 4.298
+  response: 77905622BE610CA

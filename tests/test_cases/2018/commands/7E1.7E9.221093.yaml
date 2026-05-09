@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221093
+test_cases:
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G4: 1.98
+  response: 7E905621093C600
+- expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G4: 2.12
+  response: 7E905621093D400

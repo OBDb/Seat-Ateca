@@ -1,0 +1,10 @@
+command_id: 746.7B0.222626|fc=1,din=03
+test_cases:
+- expected_values:
+    SEAT_CLIMATE_FR_R_T_FLP_ACT_VALUE: 0
+    SEAT_PQ35_FR_TEMP_FLAP: 0
+  response: 7B006622626001A00
+- expected_values:
+    SEAT_CLIMATE_FR_R_T_FLP_ACT_VALUE: 33
+    SEAT_PQ35_FR_TEMP_FLAP: 33
+  response: 7B006622626006042

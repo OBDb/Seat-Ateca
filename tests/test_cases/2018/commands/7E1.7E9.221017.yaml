@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221017
+test_cases:
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: -3.712
+  response: '7E90462101770'
+- expected_values:
+    SEAT_PQ35_ROAD_RESISTANCE: 6.746
+  response: 7E9046210179A

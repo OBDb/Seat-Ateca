@@ -1,0 +1,14 @@
+command_id: 713.77D.22180A|fc=1
+test_cases:
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010000
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010055
+- expected_values:
+    SEAT_MQB_HAL_CLUTCH_BLOCK: 0
+    SEAT_MQB_HAL_CLUTCH_OPEN: 1
+  response: 77D0662180A210000
