@@ -1,0 +1,8 @@
+command_id: 70F.779.222BE7|fc=1
+test_cases:
+- expected_values:
+    SEAT_PQ35_HAL_PWM: 12
+  response: 77904622BE70C
+- expected_values:
+    SEAT_PQ35_HAL_PWM: 36
+  response: 77904622BE724

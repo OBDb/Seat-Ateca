@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211E6
+test_cases:
+- expected_values:
+    SEAT_MQB_DPF_EXH_VOL: 0
+  response: 7E8056211E60000
+- expected_values:
+    SEAT_MQB_DPF_EXH_VOL: 24.6
+  response: 7E8056211E600F6
+- expected_values:
+    SEAT_MQB_DPF_EXH_VOL: 277.7
+  response: 7E8056211E60AD9

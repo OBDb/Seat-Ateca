@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221146
+test_cases:
+- expected_values:
+    SEAT_MISFIRES_TOTAL: 0
+  response: '7E8056211460000'
+- expected_values:
+    SEAT_MISFIRES_TOTAL: 1
+  response: '7E8056211460001'
+- expected_values:
+    SEAT_MISFIRES_TOTAL: 2
+  response: '7E8056211460002'
+- expected_values:
+    SEAT_MISFIRES_TOTAL: 6
+  response: '7E8056211460006'

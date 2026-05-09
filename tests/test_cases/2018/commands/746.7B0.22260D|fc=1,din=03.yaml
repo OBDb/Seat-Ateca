@@ -1,0 +1,10 @@
+command_id: 746.7B0.22260D|fc=1,din=03
+test_cases:
+- expected_values:
+    SEAT_FRONT_RIGHT_DEFLECTOR_T: 10.66667
+    SEAT_PQ35_FR_DEFL_T: 10.656
+  response: 7B00462260D20
+- expected_values:
+    SEAT_FRONT_RIGHT_DEFLECTOR_T: 22.66667
+    SEAT_PQ35_FR_DEFL_T: 22.644
+  response: 7B00462260D44

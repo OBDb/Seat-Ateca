@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2214B4
+test_cases:
+- expected_values:
+    SEAT_FUEL_LEVEL_INPUT_V1: 7
+  response: 7E8056214B402BC
+- expected_values:
+    SEAT_FUEL_LEVEL_INPUT_V1: 10
+  response: 7E8056214B403E8
+- expected_values:
+    SEAT_FUEL_LEVEL_INPUT_V1: 13
+  response: 7E8056214B40514
+- expected_values:
+    SEAT_FUEL_LEVEL_INPUT_V1: 55
+  response: 7E8056214B4157C

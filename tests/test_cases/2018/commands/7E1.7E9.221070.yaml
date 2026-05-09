@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221070
+test_cases:
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_2_POS: 11.06
+  response: '7E9056210705204'
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_2_POS: 11.2
+  response: '7E9056210706004'

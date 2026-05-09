@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22380C
+test_cases:
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_1: 0
+  response: 7E90562380C0000
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_1: 2121
+  response: 7E90562380C4908
+- expected_values:
+    SEAT_MQB_INPUT_SHAFT_1: 1528
+  response: 7E90562380CF805

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223871
+test_cases:
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 0
+  response: '7E9056238710000'
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 920
+  response: '7E9056238719803'
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 940
+  response: 7E905623871AC03
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 950
+  response: 7E905623871B603

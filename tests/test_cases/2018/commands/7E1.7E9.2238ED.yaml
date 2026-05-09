@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2238ED
+test_cases:
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_CMD_P: 0
+  response: 7E9056238ED0000
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_CMD_P: 14
+  response: 7E9056238ED7805
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_CMD_P: 5.09
+  response: 7E9056238EDFD01
