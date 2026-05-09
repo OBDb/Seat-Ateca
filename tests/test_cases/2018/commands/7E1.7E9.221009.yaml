@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221009
+test_cases:
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 0
+  response: '7E9056210090000'
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 768
+  response: '7E9056210090003'
+- expected_values:
+    SEAT_MQB_DQ250_SPD_OUTPUT: 763
+  response: 7E905621009FB02

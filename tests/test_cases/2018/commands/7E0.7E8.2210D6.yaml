@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210D6
+test_cases:
+- expected_values:
+    SEAT_PQ35_INJ_1_RAIL_P_2: 0.00475
+  response: 7E8056210D6005F
+- expected_values:
+    SEAT_PQ35_INJ_1_RAIL_P_2: 0.01005
+  response: 7E8056210D600C9

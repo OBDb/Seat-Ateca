@@ -1,0 +1,8 @@
+command_id: 70F.779.222BF3|fc=1
+test_cases:
+- expected_values:
+    SEAT_PQ35_HAL_DUTY: 0
+  response: 77905622BF30000
+- expected_values:
+    SEAT_PQ35_HAL_DUTY: 30.31384
+  response: 77905622BF34D00

@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.22106C
+test_cases:
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS: 2.43
+  response: 7E90562106CF300
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS: 2.44
+  response: 7E90562106CF400
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS: 2.45
+  response: 7E90562106CF500
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS: 2.46
+  response: 7E90562106CF600
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS: 2.47
+  response: 7E90562106CF700
+- expected_values:
+    SEAT_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS: 2.48
+  response: 7E90562106CF800

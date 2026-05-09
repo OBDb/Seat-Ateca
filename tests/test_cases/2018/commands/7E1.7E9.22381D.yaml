@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22381D
+test_cases:
+- expected_values:
+    SEAT_MQB_TCM_EOP_ACTUAL: 5.23
+  response: 7E90562381D0B02
+- expected_values:
+    SEAT_MQB_TCM_EOP_ACTUAL: 15.5
+  response: 7E90562381D0E06
+- expected_values:
+    SEAT_MQB_TCM_EOP_ACTUAL: 0.15
+  response: 7E90562381D0F00
+- expected_values:
+    SEAT_MQB_TCM_EOP_ACTUAL: 5.05
+  response: 7E90562381DF901

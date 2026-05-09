@@ -1,0 +1,14 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    SEAT_PQ35_RAD_FAN_CMD: 0
+  response: 7B00462260700
+- expected_values:
+    SEAT_PQ35_RAD_FAN_CMD: 24
+  response: 7B0046226073C
+- expected_values:
+    SEAT_PQ35_RAD_FAN_CMD: 26
+  response: 7B00462260741
+- expected_values:
+    SEAT_PQ35_RAD_FAN_CMD: 28.4
+  response: 7B00462260747

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22114A
+test_cases:
+- expected_values:
+    SEAT_MISFIRES_1000REV_C2: 0
+  response: 7E80562114A0000
+- expected_values:
+    SEAT_MISFIRES_1000REV_C2: 1
+  response: 7E80562114A0001
+- expected_values:
+    SEAT_MISFIRES_1000REV_C2: 2
+  response: 7E80562114A0002

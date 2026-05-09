@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.221110
+test_cases:
+- expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1660.44019
+  response: 7E9076211100289D011
+- expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1658.71374
+  response: 7E90762111019CBCB11
+- expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1659.89298
+  response: 7E9076211104108CF11
+- expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1658.78744
+  response: 7E907621110EBFECB11
+- expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1660.42587
+  response: 7E907621110F17ED011

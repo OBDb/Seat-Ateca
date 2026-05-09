@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2214F8
+test_cases:
+- expected_values:
+    SEAT_AAT_V1: 55.88
+  response: 7E8056214F80B32
+- expected_values:
+    SEAT_AAT_V1: 73.88
+  response: 7E8056214F80B96

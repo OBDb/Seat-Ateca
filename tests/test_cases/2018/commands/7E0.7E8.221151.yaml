@@ -1,0 +1,30 @@
+command_id: 7E0.7E8.221151
+test_cases:
+- expected_values:
+    SEAT_EM_RPM_1: 1043.5
+    SEAT_MISFIRES__CYL__4: 2087
+  response: '7E8056211510827'
+- expected_values:
+    SEAT_EM_RPM_1: 1044.5
+    SEAT_MISFIRES__CYL__4: 2089
+  response: '7E8056211510829'
+- expected_values:
+    SEAT_EM_RPM_1: 1045
+    SEAT_MISFIRES__CYL__4: 2090
+  response: 7E805621151082A
+- expected_values:
+    SEAT_EM_RPM_1: 1045.5
+    SEAT_MISFIRES__CYL__4: 2091
+  response: 7E805621151082B
+- expected_values:
+    SEAT_EM_RPM_1: 1046
+    SEAT_MISFIRES__CYL__4: 2092
+  response: 7E805621151082C
+- expected_values:
+    SEAT_EM_RPM_1: 1046.5
+    SEAT_MISFIRES__CYL__4: 2093
+  response: 7E805621151082D
+- expected_values:
+    SEAT_EM_RPM_1: 1047
+    SEAT_MISFIRES__CYL__4: 2094
+  response: 7E805621151082E

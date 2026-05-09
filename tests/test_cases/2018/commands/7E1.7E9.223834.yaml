@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.223834
+test_cases:
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 0
+  response: '7E9056238340000'
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 1281.3
+  response: 7E9056238340D32
+- expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 127
+  response: 7E905623834F604

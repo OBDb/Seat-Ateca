@@ -1,0 +1,14 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    SEAT_CABIN_T: 25.2
+    SEAT_HVAC_INTERIOR_T: 25.2
+  response: 7B00562261300FC
+- expected_values:
+    SEAT_CABIN_T: 25.3
+    SEAT_HVAC_INTERIOR_T: 25.3
+  response: 7B00562261300FD
+- expected_values:
+    SEAT_CABIN_T: 25.9
+    SEAT_HVAC_INTERIOR_T: 25.9
+  response: 7B0056226130103

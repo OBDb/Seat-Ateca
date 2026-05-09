@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2214CE
+test_cases:
+- expected_values:
+    SEAT_PQ35_POST_INJ_3_ACTIVATION_DURATION: 2.1312
+  response: 7E8056214CE14D0
+- expected_values:
+    SEAT_PQ35_POST_INJ_3_ACTIVATION_DURATION: 2.15
+  response: 7E8056214CE14FF
+- expected_values:
+    SEAT_PQ35_POST_INJ_3_ACTIVATION_DURATION: 2.156
+  response: 7E8056214CE150E

@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221152
+test_cases:
+- expected_values:
+    SEAT_EM_RPM_2: 2111
+    SEAT_MISFIRES__CYL__2: 4222
+  response: 7E805621152107E
+- expected_values:
+    SEAT_EM_RPM_2: 2121
+    SEAT_MISFIRES__CYL__2: 4242
+  response: '7E8056211521092'

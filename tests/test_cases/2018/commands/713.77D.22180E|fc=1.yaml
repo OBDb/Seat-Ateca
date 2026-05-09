@@ -1,0 +1,6 @@
+command_id: 713.77D.22180E|fc=1
+test_cases:
+- expected_values:
+    SEAT_MQB_BRK_DRY_ACT: 0
+    SEAT_MQB_BRK_DRY_ODO_LAST: 63705
+  response: 77D0762180E8000F8D9
