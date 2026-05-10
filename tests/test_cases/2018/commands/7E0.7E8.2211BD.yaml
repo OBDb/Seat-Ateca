@@ -1,9 +1,9 @@
 command_id: 7E0.7E8.2211BD
 test_cases:
 - expected_values:
-    SEAT_OIL_LEVEL_WARN: 1.2316
-    SEAT_PQ35_OIL_LVL_CRIT: 12.316
-  response: 7E8056211BD0C07
+    SEAT_OIL_LEVEL_WARN: 1.2168
+    SEAT_PQ35_OIL_LVL_CRIT: 12.168
+  response: 7E8056211BD0BE2
 - expected_values:
     SEAT_OIL_LEVEL_WARN: 1.4284
     SEAT_PQ35_OIL_LVL_CRIT: 14.284
