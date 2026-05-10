@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22028D
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_ECU_T: 35
-  response: 7E90562028D2300
+    SEAT_MQB_TCM_ECU_T: 30
+  response: 7E90562028D1E00
 - expected_values:
     SEAT_MQB_TCM_ECU_T: 94
   response: 7E90562028D5E00
