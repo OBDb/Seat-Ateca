@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223816
 test_cases:
 - expected_values:
+    SEAT_MQB_TCM_I_GEAR_DQ200: -2
+  response: '7E90462381600'
+- expected_values:
     SEAT_MQB_TCM_I_GEAR_DQ200: 0
   response: '7E90462381602'
 - expected_values:

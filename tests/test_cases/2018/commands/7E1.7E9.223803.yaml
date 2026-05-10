@@ -7,8 +7,8 @@ test_cases:
     SEAT_MQB_TCM_BRAKE_P: 3.3
   response: 7E9056238034A01
 - expected_values:
-    SEAT_MQB_TCM_BRAKE_P: -0.9
-  response: 7E905623803A6FF
+    SEAT_MQB_TCM_BRAKE_P: -1.2
+  response: 7E90562380388FF
 - expected_values:
     SEAT_MQB_TCM_BRAKE_P: -0.3
   response: 7E905623803E2FF
