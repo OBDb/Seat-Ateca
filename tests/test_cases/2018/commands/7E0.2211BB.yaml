@@ -1,8 +1,8 @@
 command_id: 7E0.2211BB
 test_cases:
 - expected_values:
-    SEAT_OIL_CRIT: 6.084
-  response: 7E8056211BB3B6A
+    SEAT_OIL_CRIT: 5.8
+  response: 7E8056211BB38A4
 - expected_values:
     SEAT_OIL_CRIT: 6.4496
   response: 7E8056211BB3EFC

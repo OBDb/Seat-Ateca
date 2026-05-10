@@ -13,8 +13,8 @@ test_cases:
     SEAT_ODO_HD: 64023.042
   response: 7E80762116003D0EA02
 - expected_values:
-    SEAT_ODO_HD: 64029.992
-  response: 7E80762116003D10528
-- expected_values:
     SEAT_ODO_HD: 64044.028
   response: 7E80762116003D13BFC
+- expected_values:
+    SEAT_ODO_HD: 64190.569
+  response: 7E80762116003D37869

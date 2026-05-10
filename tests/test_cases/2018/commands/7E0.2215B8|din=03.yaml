@@ -10,6 +10,9 @@ test_cases:
     SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4591
   response: 7E8056215B811EF
 - expected_values:
+    SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4625
+  response: 7E8056215B81211
+- expected_values:
     SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4635
   response: 7E8056215B8121B
 - expected_values:
