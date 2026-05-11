@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211F1
 test_cases:
 - expected_values:
-    SEAT_PQ35_TRANS_IN_SPD: 1730.5
-  response: 7E8056211F10D85
+    SEAT_PQ35_TRANS_IN_SPD: 1717
+  response: 7E8056211F10D6A
 - expected_values:
     SEAT_PQ35_TRANS_IN_SPD: 2048
   response: 7E8056211F11000
