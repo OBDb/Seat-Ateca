@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     SEAT_MQB_TCM_IGNITION_CYCLES: 88
   response: 7E90562388C5800
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 93
+  response: 7E90562388C5D00
+- expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 94
+  response: 7E90562388C5E00
