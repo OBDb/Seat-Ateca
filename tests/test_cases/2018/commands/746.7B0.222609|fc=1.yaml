@@ -1,9 +1,9 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
-    SEAT_AAT: 13.5
-    SEAT_PQ35_OUT_T: 13.5
-  response: 7B0046226091B
+    SEAT_AAT: 12.5
+    SEAT_PQ35_OUT_T: 12.5
+  response: 7B00462260919
 - expected_values:
     SEAT_AAT: 24
     SEAT_PQ35_OUT_T: 24

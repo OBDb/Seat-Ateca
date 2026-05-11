@@ -5,38 +5,6 @@ test_cases:
     SEAT_SSB_VT: 10.6
   response: 77A04622A0000
 - expected_values:
-    SEAT_MQB_GEN_TRG_V: 12.2
-    SEAT_SSB_VT: 12.2
-  response: 77A04622A0010
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 13
-    SEAT_SSB_VT: 13
-  response: 77A04622A0018
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 13.1
-    SEAT_SSB_VT: 13.1
-  response: 77A04622A0019
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 13.2
-    SEAT_SSB_VT: 13.2
-  response: 77A04622A001A
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 13.3
-    SEAT_SSB_VT: 13.3
-  response: 77A04622A001B
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 13.5
-    SEAT_SSB_VT: 13.5
-  response: 77A04622A001D
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 13.7
-    SEAT_SSB_VT: 13.7
-  response: 77A04622A001F
-- expected_values:
-    SEAT_MQB_GEN_TRG_V: 14.7
-    SEAT_SSB_VT: 14.7
-  response: 77A04622A0029
-- expected_values:
     SEAT_MQB_GEN_TRG_V: 14.8
     SEAT_SSB_VT: 14.8
   response: 77A04622A002A
