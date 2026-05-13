@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22028D
 test_cases:
 - expected_values:
-    SEAT_ECU_TEMP: 293.8
-  response: 7E80562028D0B7A
+    SEAT_ECU_TEMP: 292.6
+  response: 7E80562028D0B6E
 - expected_values:
     SEAT_ECU_TEMP: 307.1
   response: 7E80562028D0BFF
