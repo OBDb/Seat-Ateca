@@ -7,8 +7,8 @@ test_cases:
     SEAT_PQ35_TRANS_IN_SPD: 2048
   response: 7E8056211F11000
 - expected_values:
-    SEAT_PQ35_TRANS_IN_SPD: 8703
-  response: 7E8056211F143FE
+    SEAT_PQ35_TRANS_IN_SPD: 5503.5
+  response: 7E8056211F12AFF
 - expected_values:
     SEAT_PQ35_TRANS_IN_SPD: 11218.5
   response: 7E8056211F157A5

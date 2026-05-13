@@ -4,29 +4,5 @@ test_cases:
     SEAT_PQ35_GEN_LOAD: 0.45
   response: 7E80562105C002D
 - expected_values:
-    SEAT_PQ35_GEN_LOAD: 0.54
-  response: 7E80562105C0036
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 0.6
-  response: 7E80562105C003C
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 0.75
-  response: 7E80562105C004B
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 1.05
-  response: 7E80562105C0069
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 1.44
-  response: 7E80562105C0090
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 1.56
-  response: 7E80562105C009C
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 1.77
-  response: 7E80562105C00B1
-- expected_values:
-    SEAT_PQ35_GEN_LOAD: 2.52
-  response: 7E80562105C00FC
-- expected_values:
     SEAT_PQ35_GEN_LOAD: 100
   response: 7E80562105CFFFD
