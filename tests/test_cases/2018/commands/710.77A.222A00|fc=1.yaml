@@ -5,6 +5,6 @@ test_cases:
     SEAT_SSB_VT: 10.6
   response: 77A04622A0000
 - expected_values:
-    SEAT_MQB_GEN_TRG_V: 14.8
-    SEAT_SSB_VT: 14.8
-  response: 77A04622A002A
+    SEAT_MQB_GEN_TRG_V: 15
+    SEAT_SSB_VT: 15
+  response: 77A04622A002C
