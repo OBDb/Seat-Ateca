@@ -1,9 +1,9 @@
 command_id: 7E1.222104
 test_cases:
 - expected_values:
-    SEAT_ATF_T: -10
-    SEAT_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 30
-  response: 7E9056221041E00
+    SEAT_ATF_T: -18
+    SEAT_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 22
+  response: '7E9056221041600'
 - expected_values:
     SEAT_ATF_T: 55
     SEAT_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 95

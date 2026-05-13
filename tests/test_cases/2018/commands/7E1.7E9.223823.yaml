@@ -16,5 +16,8 @@ test_cases:
     SEAT_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 25
   response: 7E905623823C409
 - expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 15
+  response: 7E905623823DC05
+- expected_values:
     SEAT_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 2.5
   response: 7E905623823FA00
