@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_MQB_HTR_NOZZLE: 0
   response: '7780462194500'
+- expected_values:
+    SEAT_MQB_HTR_NOZZLE: 1
+  response: '7780462194501'
