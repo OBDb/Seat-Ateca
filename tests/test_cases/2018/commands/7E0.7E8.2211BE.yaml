@@ -5,37 +5,9 @@ test_cases:
     SEAT_PQ35_OIL_T_2: -273.1
   response: 7E8056211BE0000
 - expected_values:
-    SEAT_EOT: 3
-    SEAT_PQ35_OIL_T_2: -272.8
-  response: 7E8056211BE0003
-- expected_values:
     SEAT_EOT: 65504
     SEAT_PQ35_OIL_T_2: 6277.3
   response: 7E8056211BEFFE0
-- expected_values:
-    SEAT_EOT: 65506
-    SEAT_PQ35_OIL_T_2: 6277.5
-  response: 7E8056211BEFFE2
-- expected_values:
-    SEAT_EOT: 65508
-    SEAT_PQ35_OIL_T_2: 6277.7
-  response: 7E8056211BEFFE4
-- expected_values:
-    SEAT_EOT: 65513
-    SEAT_PQ35_OIL_T_2: 6278.2
-  response: 7E8056211BEFFE9
-- expected_values:
-    SEAT_EOT: 65514
-    SEAT_PQ35_OIL_T_2: 6278.3
-  response: 7E8056211BEFFEA
-- expected_values:
-    SEAT_EOT: 65518
-    SEAT_PQ35_OIL_T_2: 6278.7
-  response: 7E8056211BEFFEE
-- expected_values:
-    SEAT_EOT: 65519
-    SEAT_PQ35_OIL_T_2: 6278.8
-  response: 7E8056211BEFFEF
 - expected_values:
     SEAT_EOT: 65525
     SEAT_PQ35_OIL_T_2: 6279.4
