@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_OIL_ASH_RESIDUE: 68.2
   response: 7E80562178C02AA
 - expected_values:
-    SEAT_PQ35_OIL_ASH_RESIDUE: 70.4
-  response: 7E80562178C02C0
+    SEAT_PQ35_OIL_ASH_RESIDUE: 70.5
+  response: 7E80562178C02C1
