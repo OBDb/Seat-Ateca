@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22102B
 test_cases:
 - expected_values:
-    SEAT_PQ35_CLUTCH_1_T: 25
-  response: 7E90562102B1900
+    SEAT_PQ35_CLUTCH_1_T: 22
+  response: 7E90562102B1600
 - expected_values:
     SEAT_PQ35_CLUTCH_1_T: 105
   response: 7E90562102B6900
