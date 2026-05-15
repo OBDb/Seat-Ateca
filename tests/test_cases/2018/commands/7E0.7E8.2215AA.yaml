@@ -5,10 +5,10 @@ test_cases:
   response: 7E8056215AA019F
 - expected_values:
     SEAT_PQ35_SELECTED_GEAR: 2
-  response: 7E8056215AA02FF
+  response: 7E8056215AA0200
 - expected_values:
-    SEAT_PQ35_SELECTED_GEAR: 3
-  response: 7E8056215AA0300
+    SEAT_PQ35_SELECTED_GEAR: 2
+  response: 7E8056215AA02FF
 - expected_values:
     SEAT_PQ35_SELECTED_GEAR: 13
   response: 7E8056215AA0D78
