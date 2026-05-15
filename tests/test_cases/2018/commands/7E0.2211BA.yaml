@@ -10,5 +10,5 @@ test_cases:
     SEAT_OIL_LEVEL: 79.868
   response: 7E8056211BA4DFF
 - expected_values:
-    SEAT_OIL_LEVEL: 93.272
-  response: 7E8056211BA5B16
+    SEAT_OIL_LEVEL: 94.776
+  response: 7E8056211BA5C8E

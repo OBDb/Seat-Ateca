@@ -4,17 +4,17 @@ test_cases:
     SEAT_ODO_HD: 63898.583
   response: 7E80762116003CF03D7
 - expected_values:
-    SEAT_ODO_HD: 63961.771
-  response: 7E80762116003CFFAAB
-- expected_values:
     SEAT_ODO_HD: 63963.239
   response: 7E80762116003D00067
 - expected_values:
     SEAT_ODO_HD: 64044.028
   response: 7E80762116003D13BFC
 - expected_values:
-    SEAT_ODO_HD: 64190.569
-  response: 7E80762116003D37869
-- expected_values:
     SEAT_ODO_HD: 64205.313
   response: 7E80762116003D3B201
+- expected_values:
+    SEAT_ODO_HD: 64225.059
+  response: 7E80762116003D3FF23
+- expected_values:
+    SEAT_ODO_HD: 64225.372
+  response: 7E80762116003D4005C

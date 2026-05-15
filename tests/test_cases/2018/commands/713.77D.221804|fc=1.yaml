@@ -13,6 +13,12 @@ test_cases:
     77D2100007EFF8C01DD
     77D22FFBEFFBEAAAAAA
 - expected_values:
+    SEAT_MQB_SWA_ALT: -32.8125
+  response: |-
+    77D1011621804000800
+    77D2122007FFFDC01F7
+    77D22FFB5FFB3AAAAAA
+- expected_values:
     SEAT_MQB_SWA_ALT: -23.625
   response: |-
     77D1011621804000A00
@@ -48,12 +54,6 @@ test_cases:
     77D1011621804002700
     77D2121008000240206
     77D22032D032DAAAAAA
-- expected_values:
-    SEAT_MQB_SWA_ALT: -22.75
-  response: |-
-    77D1011621804002B00
-    77D211F007FFFFB0200
-    77D22FFCCFFCCAAAAAA
 - expected_values:
     SEAT_MQB_SWA_ALT: -23.625
   response: |-
