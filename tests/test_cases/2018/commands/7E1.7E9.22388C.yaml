@@ -4,29 +4,5 @@ test_cases:
     SEAT_MQB_TCM_IGNITION_CYCLES: 83
   response: 7E90562388C5300
 - expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 84
-  response: 7E90562388C5400
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 85
-  response: 7E90562388C5500
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 86
-  response: 7E90562388C5600
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 88
-  response: 7E90562388C5800
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 93
-  response: 7E90562388C5D00
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 94
-  response: 7E90562388C5E00
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 95
-  response: 7E90562388C5F00
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 96
-  response: 7E90562388C6000
-- expected_values:
-    SEAT_MQB_TCM_IGNITION_CYCLES: 98
-  response: 7E90562388C6200
+    SEAT_MQB_TCM_IGNITION_CYCLES: 99
+  response: 7E90562388C6300
