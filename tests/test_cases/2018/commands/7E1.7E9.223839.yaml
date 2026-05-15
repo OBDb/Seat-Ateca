@@ -1,11 +1,8 @@
 command_id: 7E1.7E9.223839
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 77.3
-  response: 7E9056238390A06
-- expected_values:
-    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 19.75
-  response: 7E9056238398B01
+    SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 0
+  response: '7E9056238390000'
 - expected_values:
     SEAT_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -17
   response: 7E905623839ACFE
