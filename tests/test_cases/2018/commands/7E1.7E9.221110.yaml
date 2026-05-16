@@ -7,6 +7,9 @@ test_cases:
     SEAT_PQ35_WORKING_HOURS: 1658.71374
   response: 7E90762111019CBCB11
 - expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1664.74142
+  response: 7E9076211104F59DC11
+- expected_values:
     SEAT_PQ35_WORKING_HOURS: 1664.61839
   response: 7E907621110CF02DC11
 - expected_values:
