@@ -4,5 +4,5 @@ test_cases:
     SEAT_MISFIRES_C3: 3453
   response: 7E8056211500D7D
 - expected_values:
-    SEAT_MISFIRES_C3: 3486
-  response: 7E8056211500D9E
+    SEAT_MISFIRES_C3: 3487
+  response: 7E8056211500D9F
