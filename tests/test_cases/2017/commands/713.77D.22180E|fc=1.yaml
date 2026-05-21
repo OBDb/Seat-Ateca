@@ -11,6 +11,10 @@ test_cases:
 - expected_values:
     SEAT_MQB_BRK_DRY_ACT: 0
     SEAT_MQB_BRK_DRY_ODO_LAST: 200000
+  response: 77D0762180E80040590
+- expected_values:
+    SEAT_MQB_BRK_DRY_ACT: 0
+    SEAT_MQB_BRK_DRY_ODO_LAST: 200000
   response: 77D0762180EB003E0FF
 - expected_values:
     SEAT_MQB_BRK_DRY_ACT: 0
