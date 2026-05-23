@@ -1,9 +1,9 @@
 command_id: 710.77A.222A0C
 test_cases:
 - expected_values:
-    SEAT_MQB_BAT_CHG_COND: 62
-    SEAT_SSB_SOC: 62
-  response: 77A04622A0C3E
+    SEAT_MQB_BAT_CHG_COND: 56
+    SEAT_SSB_SOC: 56
+  response: 77A04622A0C38
 - expected_values:
     SEAT_MQB_BAT_CHG_COND: 98
     SEAT_SSB_SOC: 98

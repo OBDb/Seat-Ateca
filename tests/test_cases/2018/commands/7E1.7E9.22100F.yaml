@@ -4,8 +4,11 @@ test_cases:
     SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 13
   response: 7E90562100F0401
 - expected_values:
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 27
+  response: 7E90562100F1C02
+- expected_values:
     SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 3
   response: 7E90562100F3C00
 - expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 12
-  response: 7E90562100FF000
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 38
+  response: 7E90562100FF802

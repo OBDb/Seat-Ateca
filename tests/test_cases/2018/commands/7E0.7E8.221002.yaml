@@ -4,5 +4,5 @@ test_cases:
     SEAT_AC_COMP_T: 0
   response: '7E8056210020000'
 - expected_values:
-    SEAT_AC_COMP_T: 8.8
-  response: '7E8056210020058'
+    SEAT_AC_COMP_T: 13.5
+  response: '7E8056210020087'
