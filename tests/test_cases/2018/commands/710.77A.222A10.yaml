@@ -1,6 +1,10 @@
 command_id: 710.77A.222A10
 test_cases:
 - expected_values:
+    SEAT_MQB_BAT_V_REST: 12.2
+    SEAT_SSB_V_REST: 15.77647
+  response: 77A04622A1020
+- expected_values:
     SEAT_MQB_BAT_V_REST: 12.3
     SEAT_SSB_V_REST: 15.98824
   response: 77A04622A1021
