@@ -5,9 +5,9 @@ test_cases:
     SEAT_PQ35_OIL_T_2: -273.1
   response: 7E8056211BE0000
 - expected_values:
-    SEAT_EOT: 65504
-    SEAT_PQ35_OIL_T_2: 6277.3
-  response: 7E8056211BEFFE0
+    SEAT_EOT: 65502
+    SEAT_PQ35_OIL_T_2: 6277.1
+  response: 7E8056211BEFFDE
 - expected_values:
     SEAT_EOT: 65532
     SEAT_PQ35_OIL_T_2: 6280.1
