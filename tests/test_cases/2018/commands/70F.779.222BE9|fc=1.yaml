@@ -1,8 +1,8 @@
 command_id: 70F.779.222BE9|fc=1
 test_cases:
 - expected_values:
-    SEAT_PQ35_HAL_V: 1.7
-  response: 77905622BE91100
+    SEAT_PQ35_HAL_V: 0
+  response: 77905622BE90000
 - expected_values:
     SEAT_PQ35_HAL_V: 4.1
   response: 77905622BE92900
