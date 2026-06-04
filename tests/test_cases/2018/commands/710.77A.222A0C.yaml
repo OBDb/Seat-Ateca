@@ -5,6 +5,6 @@ test_cases:
     SEAT_SSB_SOC: 56
   response: 77A04622A0C38
 - expected_values:
-    SEAT_MQB_BAT_CHG_COND: 98
-    SEAT_SSB_SOC: 98
-  response: 77A04622A0C62
+    SEAT_MQB_BAT_CHG_COND: 100
+    SEAT_SSB_SOC: 100
+  response: 77A04622A0C64

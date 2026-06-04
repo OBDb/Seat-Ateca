@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SEAT_MISFIRES_1000REV_C2: 2
   response: 7E80562114A0002
+- expected_values:
+    SEAT_MISFIRES_1000REV_C2: 3
+  response: 7E80562114A0003

@@ -5,7 +5,7 @@ test_cases:
   response: 7E90562385A1100
 - expected_values:
     SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
-  response: 7E90562385A2BFC
+  response: 7E90562385A37FF
 - expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 9.53
-  response: 7E90562385AB903
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 9.68
+  response: 7E90562385AC803

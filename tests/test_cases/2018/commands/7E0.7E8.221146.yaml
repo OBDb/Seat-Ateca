@@ -10,5 +10,8 @@ test_cases:
     SEAT_MISFIRES_TOTAL: 2
   response: '7E8056211460002'
 - expected_values:
+    SEAT_MISFIRES_TOTAL: 3
+  response: '7E8056211460003'
+- expected_values:
     SEAT_MISFIRES_TOTAL: 6
   response: '7E8056211460006'

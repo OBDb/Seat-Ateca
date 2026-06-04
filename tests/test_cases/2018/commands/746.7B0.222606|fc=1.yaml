@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_RAD_FAN_DUTY: 10
   response: 7B00462260619
 - expected_values:
-    SEAT_PQ35_RAD_FAN_DUTY: 40
-  response: 7B00462260664
+    SEAT_PQ35_RAD_FAN_DUTY: 100
+  response: 7B004622606FF

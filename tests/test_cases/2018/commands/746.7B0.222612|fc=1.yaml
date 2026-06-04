@@ -1,9 +1,9 @@
 command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
-    SEAT_PQ35_EVAP_OUT_T: 1.332
-    SEAT_T_AFTER_EVAPORATOR: 1.33333
-  response: 7B00462261204
+    SEAT_PQ35_EVAP_OUT_T: 0.999
+    SEAT_T_AFTER_EVAPORATOR: 1
+  response: 7B00462261203
 - expected_values:
     SEAT_PQ35_EVAP_OUT_T: 29.304
     SEAT_T_AFTER_EVAPORATOR: 29.33333

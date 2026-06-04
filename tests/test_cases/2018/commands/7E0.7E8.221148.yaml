@@ -9,6 +9,10 @@ test_cases:
     SEAT_PQ35_FUEL_METER: 0.01
   response: '7E8056211480001'
 - expected_values:
+    SEAT_MISFIRES_1000REV_C3: 2
+    SEAT_PQ35_FUEL_METER: 0.02
+  response: '7E8056211480002'
+- expected_values:
     SEAT_MISFIRES_1000REV_C3: 3
     SEAT_PQ35_FUEL_METER: 0.03
   response: '7E8056211480003'

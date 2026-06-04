@@ -1,10 +1,10 @@
 command_id: 746.7B0.222611|fc=1,din=03
 test_cases:
 - expected_values:
-    SEAT_LEG_DEFLECTOR_T: 12.66667
-    SEAT_PQ35_LEG_DEFL_T: 12.654
-  response: 7B00462261126
+    SEAT_LEG_DEFLECTOR_T: 12
+    SEAT_PQ35_LEG_DEFL_T: 11.988
+  response: 7B00462261124
 - expected_values:
-    SEAT_LEG_DEFLECTOR_T: 33
-    SEAT_PQ35_LEG_DEFL_T: 32.967
-  response: 7B00462261163
+    SEAT_LEG_DEFLECTOR_T: 48.33333
+    SEAT_PQ35_LEG_DEFL_T: 48.285
+  response: 7B00462261191

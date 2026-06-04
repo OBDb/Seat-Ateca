@@ -1,9 +1,13 @@
 command_id: 7E1.223841
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_ODO: 2955904
-    SEAT_ODO_TCM_1: 639745
-  response: 7E90762384101C30900
+    SEAT_MQB_TCM_ODO: 1435468.8
+    SEAT_ODO_TCM_1: 645888
+  response: 7E90762384100DB0900
+- expected_values:
+    SEAT_MQB_TCM_ODO: 14916224
+    SEAT_ODO_TCM_1: 648200
+  response: 7E90762384108E40900
 - expected_values:
     SEAT_MQB_TCM_ODO: 209217356.8
     SEAT_ODO_TCM_1: 636028

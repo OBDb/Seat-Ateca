@@ -4,8 +4,8 @@ test_cases:
     SEAT_MQB_INPUT_SHAFT_1: 0
   response: 7E90562380C0000
 - expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 2121
-  response: 7E90562380C4908
+    SEAT_MQB_INPUT_SHAFT_1: 3072
+  response: 7E90562380C000C
 - expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 1277
-  response: 7E90562380CFD04
+    SEAT_MQB_INPUT_SHAFT_1: 1278
+  response: 7E90562380CFE04

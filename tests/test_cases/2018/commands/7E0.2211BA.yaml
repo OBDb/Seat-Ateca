@@ -1,14 +1,11 @@
 command_id: 7E0.2211BA
 test_cases:
 - expected_values:
-    SEAT_OIL_LEVEL: 63.184
-  response: 7E8056211BA3DB4
-- expected_values:
-    SEAT_OIL_LEVEL: 73.764
-  response: 7E8056211BA4809
+    SEAT_OIL_LEVEL: 0
+  response: 7E8056211BA0000
 - expected_values:
     SEAT_OIL_LEVEL: 79.868
   response: 7E8056211BA4DFF
 - expected_values:
-    SEAT_OIL_LEVEL: 94.776
-  response: 7E8056211BA5C8E
+    SEAT_OIL_LEVEL: 95.856
+  response: 7E8056211BA5D9C

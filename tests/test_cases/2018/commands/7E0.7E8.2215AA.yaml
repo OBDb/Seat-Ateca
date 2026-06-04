@@ -2,7 +2,7 @@ command_id: 7E0.7E8.2215AA
 test_cases:
 - expected_values:
     SEAT_PQ35_SELECTED_GEAR: 1
-  response: 7E8056215AA019F
+  response: 7E8056215AA019B
 - expected_values:
     SEAT_PQ35_SELECTED_GEAR: 2
   response: 7E8056215AA0200
@@ -11,4 +11,4 @@ test_cases:
   response: 7E8056215AA02FF
 - expected_values:
     SEAT_PQ35_SELECTED_GEAR: 13
-  response: 7E8056215AA0D78
+  response: 7E8056215AA0D30

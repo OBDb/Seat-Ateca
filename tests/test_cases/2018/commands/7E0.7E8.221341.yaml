@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_CAMS_END: 6553.4
   response: 7E8056213417FFF
 - expected_values:
-    SEAT_PQ35_CAMS_END: -98
-  response: 7E805621341FE16
+    SEAT_PQ35_CAMS_END: -37.6
+  response: 7E805621341FF44

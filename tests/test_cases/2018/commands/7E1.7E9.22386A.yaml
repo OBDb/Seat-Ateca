@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.22386A
 test_cases:
 - expected_values:
-    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.05
-  response: 7E90562386A0500
+    SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.04
+  response: 7E90562386A0400
 - expected_values:
     SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0
-  response: 7E90562386A73FC
+  response: 7E90562386A72FC
 - expected_values:
     SEAT_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 2.4
   response: 7E90562386AF000

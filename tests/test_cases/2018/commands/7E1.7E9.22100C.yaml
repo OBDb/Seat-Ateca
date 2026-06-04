@@ -7,5 +7,5 @@ test_cases:
     SEAT_MQB_TCM_ENGINE_TORQUE: -1
   response: 7E90562100CECFF
 - expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE: 38
-  response: 7E90562100CF802
+    SEAT_MQB_TCM_ENGINE_TORQUE: 51
+  response: 7E90562100CFC03
