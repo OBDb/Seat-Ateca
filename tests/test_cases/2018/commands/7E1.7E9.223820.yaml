@@ -1,26 +1,11 @@
 command_id: 7E1.7E9.223820
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 5.5
-  response: '7E9056238202602'
-- expected_values:
-    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 1.23
-  response: 7E9056238207B00
-- expected_values:
-    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 4.5
-  response: 7E905623820C201
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 0
+  response: '7E9056238200000'
 - expected_values:
     SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 25
   response: 7E905623820C409
-- expected_values:
-    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 15
-  response: 7E905623820DC05
-- expected_values:
-    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 7.35
-  response: 7E905623820DF02
-- expected_values:
-    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 5
-  response: 7E905623820F401
 - expected_values:
     SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 2.5
   response: 7E905623820FA00

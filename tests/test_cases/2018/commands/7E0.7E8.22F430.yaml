@@ -9,3 +9,15 @@ test_cases:
 - expected_values:
     SEAT_WARM_UPS: 10
   response: 7E80462F4300A
+- expected_values:
+    SEAT_WARM_UPS: 11
+  response: 7E80462F4300B
+- expected_values:
+    SEAT_WARM_UPS: 12
+  response: 7E80462F4300C
+- expected_values:
+    SEAT_WARM_UPS: 13
+  response: 7E80462F4300D
+- expected_values:
+    SEAT_WARM_UPS: 14
+  response: 7E80462F4300E

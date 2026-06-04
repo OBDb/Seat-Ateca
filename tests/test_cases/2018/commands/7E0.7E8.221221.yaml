@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.221221
 test_cases:
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_1: -25.6
-  response: 7E805621221FF80
+    SEAT_PQ35_ACCEL_PED_1: 0
+  response: '7E8056212210000'
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_1: -10.4
-  response: 7E805621221FFCC
+    SEAT_PQ35_ACCEL_PED_1: -28.6
+  response: 7E805621221FF71
+- expected_values:
+    SEAT_PQ35_ACCEL_PED_1: -8.6
+  response: 7E805621221FFD5

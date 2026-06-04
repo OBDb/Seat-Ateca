@@ -5,6 +5,14 @@ test_cases:
     SEAT_ODO_V3: 64030
   response: 7E8076210E00000FA1E
 - expected_values:
+    SEAT_ODO_2: 64511
+    SEAT_ODO_V3: 64511
+  response: 7E8076210E00000FBFF
+- expected_values:
+    SEAT_ODO_2: 64514
+    SEAT_ODO_V3: 64514
+  response: 7E8076210E00000FC02
+- expected_values:
     SEAT_ODO_2: 2147483647
     SEAT_ODO_V3: 2147483647
   response: 7E8076210E07FFFFFFF

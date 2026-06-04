@@ -7,7 +7,7 @@ test_cases:
 - expected_values:
     SEAT_MQB_HAL_CLUTCH_BLOCK: 0
     SEAT_MQB_HAL_CLUTCH_OPEN: 0
-  response: 77D0662180A010055
+  response: 77D0662180A0100F7
 - expected_values:
     SEAT_MQB_HAL_CLUTCH_BLOCK: 0
     SEAT_MQB_HAL_CLUTCH_OPEN: 1
