@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.221110
 test_cases:
 - expected_values:
+    SEAT_PQ35_WORKING_HOURS: 1681.92427
+  response: 7E907621110008B0B12
+- expected_values:
     SEAT_PQ35_WORKING_HOURS: 1674.30401
   response: 7E907621110019DF611
 - expected_values:
     SEAT_PQ35_WORKING_HOURS: 1677.53246
   response: 7E907621110037BFF11
-- expected_values:
-    SEAT_PQ35_WORKING_HOURS: 1678.69304
-  response: 7E9076211100BAB0212
 - expected_values:
     SEAT_PQ35_WORKING_HOURS: 1677.81994
   response: '7E90762111026450012'
