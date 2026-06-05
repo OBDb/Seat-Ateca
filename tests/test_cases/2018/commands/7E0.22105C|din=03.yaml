@@ -8,4 +8,4 @@ test_cases:
   response: 7E80562105C00FF
 - expected_values:
     SEAT_PQ35_GEN_LOAD: 100
-  response: 7E80562105CFFF4
+  response: 7E80562105CFFEE
