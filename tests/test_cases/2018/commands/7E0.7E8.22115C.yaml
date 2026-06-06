@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22115C
 test_cases:
 - expected_values:
-    SEAT_PQ35_SRV_REGEN_STAT: 2
-  response: 7E80562115C023A
+    SEAT_PQ35_SRV_REGEN_STAT: 0
+  response: 7E80562115C00D2
 - expected_values:
     SEAT_PQ35_SRV_REGEN_STAT: 5
   response: 7E80562115C05FA
