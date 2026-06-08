@@ -4,8 +4,8 @@ test_cases:
     SEAT_FUEL_CONS: 0
   response: 7E80562113F0000
 - expected_values:
-    SEAT_FUEL_CONS: 7.67
-  response: 7E80562113F02FF
+    SEAT_FUEL_CONS: 5.11
+  response: 7E80562113F01FF
 - expected_values:
     SEAT_FUEL_CONS: 38.25
   response: 7E80562113F0EF1
