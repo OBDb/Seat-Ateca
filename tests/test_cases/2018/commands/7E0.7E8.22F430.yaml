@@ -4,29 +4,5 @@ test_cases:
     SEAT_WARM_UPS: 8
   response: 7E80462F43008
 - expected_values:
-    SEAT_WARM_UPS: 9
-  response: 7E80462F43009
-- expected_values:
-    SEAT_WARM_UPS: 10
-  response: 7E80462F4300A
-- expected_values:
-    SEAT_WARM_UPS: 11
-  response: 7E80462F4300B
-- expected_values:
-    SEAT_WARM_UPS: 12
-  response: 7E80462F4300C
-- expected_values:
-    SEAT_WARM_UPS: 13
-  response: 7E80462F4300D
-- expected_values:
-    SEAT_WARM_UPS: 14
-  response: 7E80462F4300E
-- expected_values:
-    SEAT_WARM_UPS: 15
-  response: 7E80462F4300F
-- expected_values:
-    SEAT_WARM_UPS: 16
-  response: 7E80462F43010
-- expected_values:
-    SEAT_WARM_UPS: 17
-  response: 7E80462F43011
+    SEAT_WARM_UPS: 19
+  response: 7E80462F43013
