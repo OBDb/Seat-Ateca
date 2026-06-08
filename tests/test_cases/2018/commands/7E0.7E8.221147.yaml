@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SEAT_MISFIRES_1000REV_C1: 1
   response: '7E8056211470001'
+- expected_values:
+    SEAT_MISFIRES_1000REV_C1: 2
+  response: '7E8056211470002'
