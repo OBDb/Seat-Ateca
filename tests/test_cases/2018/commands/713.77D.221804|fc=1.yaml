@@ -1,6 +1,12 @@
 command_id: 713.77D.221804|fc=1
 test_cases:
 - expected_values:
+    SEAT_MQB_SWA_ALT: -205.625
+  response: |-
+    77D1011621804000000
+    77D2102007DFFF101FC
+    77D22FE2AFE2AAAAAAA
+- expected_values:
     SEAT_MQB_SWA_ALT: -23.625
   response: |-
     77D1011621804000000
