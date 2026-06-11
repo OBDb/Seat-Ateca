@@ -4,8 +4,8 @@ test_cases:
     SEAT_FUEL_LEVEL_INPUT_V1: 0
   response: 7E8056214B40000
 - expected_values:
-    SEAT_FUEL_LEVEL_INPUT_V1: 46
-  response: 7E8056214B411F8
+    SEAT_FUEL_LEVEL_INPUT_V1: 23
+  response: 7E8056214B408FC
 - expected_values:
     SEAT_FUEL_LEVEL_INPUT_V1: 54
   response: 7E8056214B41518
