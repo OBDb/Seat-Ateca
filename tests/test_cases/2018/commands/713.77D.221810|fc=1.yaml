@@ -8,18 +8,13 @@ test_cases:
 - expected_values:
     SEAT_MQB_HYD_BRK_BST_ACT: 0
   response: |-
-    77D100C62181001008C
-    77D21FC3B000002D0AA
+    77D100C62181001000A
+    77D21FC4B00000000AA
 - expected_values:
     SEAT_MQB_HYD_BRK_BST_ACT: 0
   response: |-
-    77D100C6218100100A0
-    77D21FC6500000000AA
-- expected_values:
-    SEAT_MQB_HYD_BRK_BST_ACT: 0
-  response: |-
-    77D100C6218100100A0
-    77D21FCA000000264AA
+    77D100C62181001000A
+    77D21FC5000000000AA
 - expected_values:
     SEAT_MQB_HYD_BRK_BST_ACT: 0
   response: |-
