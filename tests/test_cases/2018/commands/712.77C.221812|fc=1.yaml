@@ -5,9 +5,9 @@ test_cases:
     SEAT_STEER_WHEEL_ANGLE: 0
   response: 77C06621812000001
 - expected_values:
-    SEAT_MQB_SWA: -29.94
-    SEAT_STEER_WHEEL_ANGLE: -30
-  response: 77C06621812FF1001
+    SEAT_MQB_SWA: -30.69
+    SEAT_STEER_WHEEL_ANGLE: -30.75
+  response: 77C06621812FF0A01
 - expected_values:
     SEAT_MQB_SWA: -0.065
     SEAT_STEER_WHEEL_ANGLE: -0.125
