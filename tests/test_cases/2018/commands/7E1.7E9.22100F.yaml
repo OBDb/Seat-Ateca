@@ -1,11 +1,8 @@
 command_id: 7E1.7E9.22100F
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 13
-  response: 7E90562100F0401
-- expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 3
-  response: 7E90562100F3C00
+    SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 0
+  response: 7E90562100F0000
 - expected_values:
     SEAT_MQB_TCM_ENGINE_TORQUE_LOSS: 42
   response: 7E90562100F4803
