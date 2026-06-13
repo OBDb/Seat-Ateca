@@ -1,8 +1,8 @@
 command_id: 7E0.2215B8|din=03
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4400
-  response: 7E8056215B81130
+    SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4257
+  response: 7E8056215B810A1
 - expected_values:
     SEAT_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4865
   response: 7E8056215B81301

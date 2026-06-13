@@ -14,3 +14,10 @@ test_cases:
   response: |-
     77D10096218B60100FD
     77D21F50000AAAAAAAA
+- expected_values:
+    SEAT_MQB_CSS_ACT: 0
+    SEAT_MQB_CSS_ODO_LAST: 1
+    SEAT_MQB_CSS_STR_TRQ: 0
+  response: |-
+    77D10096218B6010104
+    77D21A10000AAAAAAAA
