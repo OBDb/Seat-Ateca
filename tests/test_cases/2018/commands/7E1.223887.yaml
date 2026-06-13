@@ -4,11 +4,14 @@ test_cases:
     SEAT_MQB_TCM_ODO_2: 64153.6
   response: 7E90762388700CA0900
 - expected_values:
+    SEAT_MQB_TCM_ODO_2: 65664.1
+  response: 7E90762388701050A00
+- expected_values:
     SEAT_MQB_TCM_ODO_2: 65382.6
   response: 7E90762388702FA0900
 - expected_values:
-    SEAT_MQB_TCM_ODO_2: 63126.3
-  response: 7E907623887DFA10900
+    SEAT_MQB_TCM_ODO_2: 65650.2
+  response: 7E90762388776040A00
 - expected_values:
     SEAT_MQB_TCM_ODO_2: 64230.3
   response: 7E907623887FFCC0900
