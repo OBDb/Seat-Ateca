@@ -4,5 +4,5 @@ test_cases:
     SEAT_AAT_V1: 48.68
   response: 7E8056214F80B0A
 - expected_values:
-    SEAT_AAT_V1: 89.18
-  response: 7E8056214F80BEB
+    SEAT_AAT_V1: 90.08
+  response: 7E8056214F80BF0
