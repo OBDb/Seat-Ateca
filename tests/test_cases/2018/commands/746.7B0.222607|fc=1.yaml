@@ -1,8 +1,10 @@
 command_id: 746.7B0.222607|fc=1
 test_cases:
 - expected_values:
+    SEAT_CLIMATE_RAD_FAN_CMD_DUTY: 0
     SEAT_PQ35_RAD_FAN_CMD: 0
   response: 7B00462260700
 - expected_values:
+    SEAT_CLIMATE_RAD_FAN_CMD_DUTY: 52.4
     SEAT_PQ35_RAD_FAN_CMD: 52.4
   response: 7B00462260783

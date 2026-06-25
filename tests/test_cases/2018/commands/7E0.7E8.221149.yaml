@@ -8,3 +8,7 @@ test_cases:
     SEAT_MISFIRES_1000REV_C4: 1
     SEAT_PQ35_BOOST_P_CMD: 1
   response: '7E8056211490001'
+- expected_values:
+    SEAT_MISFIRES_1000REV_C4: 2
+    SEAT_PQ35_BOOST_P_CMD: 2
+  response: '7E8056211490002'
