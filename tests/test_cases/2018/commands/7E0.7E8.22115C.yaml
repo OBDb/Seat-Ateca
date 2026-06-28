@@ -4,11 +4,11 @@ test_cases:
     SEAT_PQ35_SRV_REGEN_STAT: 0
   response: 7E80562115C0064
 - expected_values:
+    SEAT_PQ35_SRV_REGEN_STAT: 1
+  response: 7E80562115C0104
+- expected_values:
     SEAT_PQ35_SRV_REGEN_STAT: 5
   response: 7E80562115C05FA
-- expected_values:
-    SEAT_PQ35_SRV_REGEN_STAT: 9
-  response: 7E80562115C0906
 - expected_values:
     SEAT_PQ35_SRV_REGEN_STAT: 255
   response: 7E80562115CFF2E
