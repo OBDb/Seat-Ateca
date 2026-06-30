@@ -10,5 +10,5 @@ test_cases:
     SEAT_MQB_TCM_EOP_ACTUAL: 20.63
   response: 7E90562381D0F08
 - expected_values:
-    SEAT_MQB_TCM_EOP_ACTUAL: 10.23
-  response: 7E90562381DFF03
+    SEAT_MQB_TCM_EOP_ACTUAL: 5.11
+  response: 7E90562381DFF01
