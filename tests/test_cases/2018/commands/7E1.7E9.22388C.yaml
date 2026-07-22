@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22388C
 test_cases:
 - expected_values:
+    SEAT_MQB_TCM_IGNITION_CYCLES: 256
+  response: 7E90562388C0001
+- expected_values:
     SEAT_MQB_TCM_IGNITION_CYCLES: 83
   response: 7E90562388C5300
 - expected_values:
