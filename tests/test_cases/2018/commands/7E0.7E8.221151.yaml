@@ -5,6 +5,6 @@ test_cases:
     SEAT_MISFIRES__CYL__4: 2087
   response: '7E8056211510827'
 - expected_values:
-    SEAT_EM_RPM_1: 1115.5
-    SEAT_MISFIRES__CYL__4: 2231
-  response: 7E80562115108B7
+    SEAT_EM_RPM_1: 1116
+    SEAT_MISFIRES__CYL__4: 2232
+  response: 7E80562115108B8
