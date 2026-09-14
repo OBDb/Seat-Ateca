@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_DPF_DIFF_P_2: 6077
   response: 7E8056210F317BD
 - expected_values:
-    SEAT_PQ35_DPF_DIFF_P_2: 6649
-  response: 7E8056210F319F9
+    SEAT_PQ35_DPF_DIFF_P_2: 6398
+  response: 7E8056210F318FE
 - expected_values:
     SEAT_PQ35_DPF_DIFF_P_2: 6913
   response: 7E8056210F31B01
