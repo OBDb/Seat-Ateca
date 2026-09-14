@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_CLUTCH_2_T: 20
   response: 7E90562102C1400
 - expected_values:
-    SEAT_PQ35_CLUTCH_2_T: 83
-  response: 7E90562102C5300
+    SEAT_PQ35_CLUTCH_2_T: 93
+  response: 7E90562102C5D00

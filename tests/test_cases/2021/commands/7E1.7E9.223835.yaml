@@ -4,6 +4,9 @@ test_cases:
     SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 410
   response: '7E9056238350410'
 - expected_values:
+    SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 444
+  response: '7E9056238355811'
+- expected_values:
     SEAT_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 48
   response: 7E905623835E001
 - expected_values:

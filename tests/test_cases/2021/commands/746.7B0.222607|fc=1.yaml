@@ -16,3 +16,15 @@ test_cases:
     SEAT_CLIMATE_RAD_FAN_CMD_DUTY: 29.6
     SEAT_PQ35_RAD_FAN_CMD: 29.6
   response: 7B0046226074A
+- expected_values:
+    SEAT_CLIMATE_RAD_FAN_CMD_DUTY: 30
+    SEAT_PQ35_RAD_FAN_CMD: 30
+  response: 7B0046226074B
+- expected_values:
+    SEAT_CLIMATE_RAD_FAN_CMD_DUTY: 39.2
+    SEAT_PQ35_RAD_FAN_CMD: 39.2
+  response: 7B00462260762
+- expected_values:
+    SEAT_CLIMATE_RAD_FAN_CMD_DUTY: 48.4
+    SEAT_PQ35_RAD_FAN_CMD: 48.4
+  response: 7B00462260779
