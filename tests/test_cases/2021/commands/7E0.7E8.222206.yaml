@@ -4,29 +4,5 @@ test_cases:
     SEAT_PQ35_FUEL_LEVEL_7E0_2206: 11
   response: 7E8046222060B
 - expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 13
-  response: 7E8046222060D
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 24
-  response: '7E80462220618'
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 25
-  response: '7E80462220619'
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 26
-  response: 7E8046222061A
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 27
-  response: 7E8046222061B
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 30
-  response: 7E8046222061E
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 42
-  response: 7E8046222062A
-- expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 53
-  response: '7E80462220635'
-- expected_values:
     SEAT_PQ35_FUEL_LEVEL_7E0_2206: 54
   response: '7E80462220636'

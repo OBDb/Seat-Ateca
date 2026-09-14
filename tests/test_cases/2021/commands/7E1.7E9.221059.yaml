@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.221059
 test_cases:
 - expected_values:
+    SEAT_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_1_POS: 4.03
+  response: '7E9056210599301'
+- expected_values:
     SEAT_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_1_POS: 4.04
   response: '7E9056210599401'
 - expected_values:
