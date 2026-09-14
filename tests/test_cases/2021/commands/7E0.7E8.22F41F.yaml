@@ -4,8 +4,8 @@ test_cases:
     SEAT_RUNTM: 52
   response: 7E80562F41F0034
 - expected_values:
-    SEAT_RUNTM: 280
-  response: 7E80562F41F0118
+    SEAT_RUNTM: 1046
+  response: 7E80562F41F0416
 - expected_values:
     SEAT_RUNTM: 1765
   response: 7E80562F41F06E5
