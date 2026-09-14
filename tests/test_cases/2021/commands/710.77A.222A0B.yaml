@@ -4,26 +4,5 @@ test_cases:
     SEAT_SSB_T: 24
   response: 77A04622A0B40
 - expected_values:
-    SEAT_SSB_T: 25
-  response: 77A04622A0B41
-- expected_values:
-    SEAT_SSB_T: 28
-  response: 77A04622A0B44
-- expected_values:
-    SEAT_SSB_T: 36
-  response: 77A04622A0B4C
-- expected_values:
-    SEAT_SSB_T: 37
-  response: 77A04622A0B4D
-- expected_values:
-    SEAT_SSB_T: 40
-  response: 77A04622A0B50
-- expected_values:
-    SEAT_SSB_T: 41
-  response: 77A04622A0B51
-- expected_values:
-    SEAT_SSB_T: 44
-  response: 77A04622A0B54
-- expected_values:
-    SEAT_SSB_T: 46
-  response: 77A04622A0B56
+    SEAT_SSB_T: 51
+  response: 77A04622A0B5B

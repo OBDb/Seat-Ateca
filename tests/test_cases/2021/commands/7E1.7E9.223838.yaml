@@ -1,8 +1,17 @@
 command_id: 7E1.7E9.223838
 test_cases:
 - expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 0
+  response: '7E9056238380000'
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 26.25
+  response: 7E9056238380D02
+- expected_values:
     SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 500
   response: '7E9056238381027'
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 40
+  response: '7E9056238382003'
 - expected_values:
     SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: -100
   response: 7E90562383830F8

@@ -4,8 +4,8 @@ test_cases:
     SEAT_PQ35_CLUTCH_1_ACTUAL_P: 0.01
   response: 7E9056238EB0100
 - expected_values:
-    SEAT_PQ35_CLUTCH_1_ACTUAL_P: 2.59
-  response: 7E9056238EB0301
+    SEAT_PQ35_CLUTCH_1_ACTUAL_P: 5.75
+  response: 7E9056238EB3F02
 - expected_values:
     SEAT_PQ35_CLUTCH_1_ACTUAL_P: 2.54
   response: 7E9056238EBFE00
