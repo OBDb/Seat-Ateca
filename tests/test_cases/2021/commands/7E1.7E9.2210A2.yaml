@@ -19,6 +19,9 @@ test_cases:
     SEAT_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7: -9.29
   response: 7E9056210A25FFC
 - expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7: -9.28
+  response: 7E9056210A260FC
+- expected_values:
     SEAT_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7: -9.26
   response: 7E9056210A262FC
 - expected_values:

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_MQB_TCM_CLUTCH_1_T_PROTECTION_WARNING_1_QTY: 0
   response: 7E90562387F0000
+- expected_values:
+    SEAT_MQB_TCM_CLUTCH_1_T_PROTECTION_WARNING_1_QTY: 1
+  response: 7E90562387F0100
