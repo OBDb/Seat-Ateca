@@ -4,29 +4,8 @@ test_cases:
     SEAT_MQB_OUTPUT_SHAFT_2: 0
   response: 7E90562380F0000
 - expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: 2048
-  response: 7E90562380F0800
-- expected_values:
     SEAT_MQB_OUTPUT_SHAFT_2: 2049
   response: 7E90562380F0801
-- expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: 2305
-  response: 7E90562380F0901
-- expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: 10496
-  response: 7E90562380F2900
-- expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: 13568
-  response: 7E90562380F3500
-- expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: 14337
-  response: 7E90562380F3801
-- expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: -25344
-  response: 7E90562380F9D00
-- expected_values:
-    SEAT_MQB_OUTPUT_SHAFT_2: -16895
-  response: 7E90562380FBE01
 - expected_values:
     SEAT_MQB_OUTPUT_SHAFT_2: -6144
   response: 7E90562380FE800

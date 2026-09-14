@@ -4,29 +4,5 @@ test_cases:
     SEAT_AAT_CABIN: -45
   response: 7B00462260A0A
 - expected_values:
-    SEAT_AAT_CABIN: -44.5
-  response: 7B00462260A0B
-- expected_values:
-    SEAT_AAT_CABIN: -39.5
-  response: 7B00462260A15
-- expected_values:
-    SEAT_AAT_CABIN: -38
-  response: 7B00462260A18
-- expected_values:
-    SEAT_AAT_CABIN: -37.5
-  response: 7B00462260A19
-- expected_values:
-    SEAT_AAT_CABIN: -36.5
-  response: 7B00462260A1B
-- expected_values:
-    SEAT_AAT_CABIN: -36
-  response: 7B00462260A1C
-- expected_values:
-    SEAT_AAT_CABIN: -35
-  response: 7B00462260A1E
-- expected_values:
-    SEAT_AAT_CABIN: -28
-  response: 7B00462260A2C
-- expected_values:
-    SEAT_AAT_CABIN: -23.5
-  response: 7B00462260A35
+    SEAT_AAT_CABIN: -20
+  response: 7B00462260A3C

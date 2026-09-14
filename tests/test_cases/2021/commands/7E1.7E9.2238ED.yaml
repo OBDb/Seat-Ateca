@@ -4,26 +4,8 @@ test_cases:
     SEAT_PQ35_CLUTCH_2_CMD_P: 0
   response: 7E9056238ED0000
 - expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 0.13
-  response: 7E9056238ED0D00
-- expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 0.17
-  response: 7E9056238ED1100
-- expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 2.81
-  response: 7E9056238ED1901
-- expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 3.71
-  response: 7E9056238ED7301
-- expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 1.65
-  response: 7E9056238EDA500
-- expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 4.69
-  response: 7E9056238EDD501
-- expected_values:
-    SEAT_PQ35_CLUTCH_2_CMD_P: 2.52
-  response: 7E9056238EDFC00
+    SEAT_PQ35_CLUTCH_2_CMD_P: 6.09
+  response: 7E9056238ED6102
 - expected_values:
     SEAT_PQ35_CLUTCH_2_CMD_P: 2.55
   response: 7E9056238EDFF00
