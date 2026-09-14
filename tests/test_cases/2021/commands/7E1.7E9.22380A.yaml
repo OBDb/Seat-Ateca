@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SEAT_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A: 758
   response: 7E90562380AF602
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A: 1018
+  response: 7E90562380AFA03

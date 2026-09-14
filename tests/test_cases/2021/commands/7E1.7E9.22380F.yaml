@@ -13,8 +13,14 @@ test_cases:
     SEAT_MQB_OUTPUT_SHAFT_2: 2305
   response: 7E90562380F0901
 - expected_values:
+    SEAT_MQB_OUTPUT_SHAFT_2: 10496
+  response: 7E90562380F2900
+- expected_values:
     SEAT_MQB_OUTPUT_SHAFT_2: 13568
   response: 7E90562380F3500
+- expected_values:
+    SEAT_MQB_OUTPUT_SHAFT_2: 14337
+  response: 7E90562380F3801
 - expected_values:
     SEAT_MQB_OUTPUT_SHAFT_2: -25344
   response: 7E90562380F9D00

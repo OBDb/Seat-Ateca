@@ -1,6 +1,12 @@
 command_id: 746.7B0.22261F|fc=1
 test_cases:
 - expected_values:
+    SEAT_MQB_RECIRC_FLAP_TRG: 33
+  response: 7B00562261F0021
+- expected_values:
+    SEAT_MQB_RECIRC_FLAP_TRG: 49
+  response: 7B00562261F0031
+- expected_values:
     SEAT_MQB_RECIRC_FLAP_TRG: 78
   response: 7B00562261F004E
 - expected_values:
