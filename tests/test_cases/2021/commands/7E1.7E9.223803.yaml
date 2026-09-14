@@ -10,6 +10,9 @@ test_cases:
     SEAT_MQB_TCM_BRAKE_P: 6.3
   response: '7E9056238037602'
 - expected_values:
+    SEAT_MQB_TCM_BRAKE_P: 9
+  response: '7E9056238038403'
+- expected_values:
     SEAT_MQB_TCM_BRAKE_P: 16.8
   response: '7E9056238039006'
 - expected_values:
