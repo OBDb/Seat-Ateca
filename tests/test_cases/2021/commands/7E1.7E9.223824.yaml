@@ -10,6 +10,12 @@ test_cases:
     SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 3.63
   response: 7E9056238246B01
 - expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 1.17
+  response: '7E9056238247500'
+- expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 1.18
+  response: '7E9056238247600'
+- expected_values:
     SEAT_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 1.19
   response: '7E9056238247700'
 - expected_values:

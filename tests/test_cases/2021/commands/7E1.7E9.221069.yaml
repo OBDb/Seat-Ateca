@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEAT_PQ35_CLUTCH_1_PROT_ENGAGED_QTY: 32
   response: '7E90762106920000000'
+- expected_values:
+    SEAT_PQ35_CLUTCH_1_PROT_ENGAGED_QTY: 39
+  response: '7E90762106927000000'

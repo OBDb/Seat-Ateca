@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22388B
 test_cases:
 - expected_values:
+    SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 2305
+  response: 7E90562388B0109
+- expected_values:
     SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 1919
   response: 7E90562388B7F07
 - expected_values:

@@ -8,7 +8,7 @@ test_cases:
   response: 7E8056220A10104
 - expected_values:
     SEAT_PQ35_CALCULATED_OIL_T: -37
-  response: 7E8056220A103F2
+  response: 7E8056220A103FC
 - expected_values:
     SEAT_PQ35_CALCULATED_OIL_T: -36
-  response: 7E8056220A10410
+  response: 7E8056220A10406
