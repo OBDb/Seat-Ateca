@@ -7,6 +7,12 @@ test_cases:
     SEAT_MQB_RECIRC_FLAP_TRG: 49
   response: 7B00562261F0031
 - expected_values:
+    SEAT_MQB_RECIRC_FLAP_TRG: 61
+  response: 7B00562261F003D
+- expected_values:
+    SEAT_MQB_RECIRC_FLAP_TRG: 68
+  response: 7B00562261F0044
+- expected_values:
     SEAT_MQB_RECIRC_FLAP_TRG: 78
   response: 7B00562261F004E
 - expected_values:
