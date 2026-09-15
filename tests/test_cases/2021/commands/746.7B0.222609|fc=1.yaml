@@ -5,6 +5,6 @@ test_cases:
     SEAT_PQ35_OUT_T: 4.5
   response: 7B00462260909
 - expected_values:
-    SEAT_AAT: 31
-    SEAT_PQ35_OUT_T: 31
-  response: 7B0046226093E
+    SEAT_AAT: 33
+    SEAT_PQ35_OUT_T: 33
+  response: 7B00462260942
