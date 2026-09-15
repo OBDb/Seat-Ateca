@@ -4,6 +4,9 @@ test_cases:
     SEAT_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: 2.28
   response: 7E905621057E400
 - expected_values:
+    SEAT_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: 2.29
+  response: 7E905621057E500
+- expected_values:
     SEAT_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: 2.3
   response: 7E905621057E600
 - expected_values:
