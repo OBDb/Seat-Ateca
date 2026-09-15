@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22103C
 test_cases:
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 12597
-  response: 7E80562103C3135
+    SEAT_MQB_INT_MAN_P: 12109
+  response: 7E80562103C2F4D
 - expected_values:
     SEAT_MQB_INT_MAN_P: 13281
   response: 7E80562103C33E1

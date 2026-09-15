@@ -9,6 +9,10 @@ test_cases:
     SEAT_ODO_TCM_1: 719631
   response: 7E9076238410FFB0A00
 - expected_values:
+    SEAT_MQB_TCM_ODO: 52986163.2
+    SEAT_ODO_TCM_1: 824607
+  response: 7E9076238411F950C00
+- expected_values:
     SEAT_MQB_TCM_ODO: 71427993.6
     SEAT_ODO_TCM_1: 824106
   response: 7E9076238412A930C00
