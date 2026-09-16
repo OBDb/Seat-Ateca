@@ -13,6 +13,9 @@ test_cases:
     SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 2308
   response: 7E90562388B0409
 - expected_values:
+    SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 2309
+  response: 7E90562388B0509
+- expected_values:
     SEAT_MQB_TCM_DRIVE_CYCLES_COUNTER: 1919
   response: 7E90562388B7F07
 - expected_values:
