@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 950
   response: 7E905623871B603
+- expected_values:
+    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 710
+  response: 7E905623871C602
