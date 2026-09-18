@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223820
 test_cases:
 - expected_values:
+    SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 0
+  response: '7E9056238200000'
+- expected_values:
     SEAT_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 7
   response: 7E905623820BC02
 - expected_values:
