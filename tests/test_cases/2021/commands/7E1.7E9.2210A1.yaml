@@ -4,6 +4,9 @@ test_cases:
     SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7: -1.83
   response: 7E9056210A149FF
 - expected_values:
+    SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7: -1.8
+  response: 7E9056210A14CFF
+- expected_values:
     SEAT_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7: -1.79
   response: 7E9056210A14DFF
 - expected_values:
