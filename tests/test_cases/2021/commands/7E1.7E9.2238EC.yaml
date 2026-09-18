@@ -7,5 +7,5 @@ test_cases:
     SEAT_PQ35_CLUTCH_1_CMD_P: 5.38
   response: 7E9056238EC1A02
 - expected_values:
-    SEAT_PQ35_CLUTCH_1_CMD_P: 2.35
-  response: 7E9056238ECEB00
+    SEAT_PQ35_CLUTCH_1_CMD_P: 2.39
+  response: 7E9056238ECEF00
