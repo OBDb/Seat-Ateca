@@ -7,5 +7,8 @@ test_cases:
     SEAT_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: 0.0098
   response: 7E9056210630A00
 - expected_values:
+    SEAT_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: 0.0392
+  response: '7E9056210632800'
+- expected_values:
     SEAT_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: 0.09016
   response: 7E9056210635C00

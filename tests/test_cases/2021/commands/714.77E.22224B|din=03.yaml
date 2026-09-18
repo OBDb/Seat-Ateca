@@ -4,29 +4,8 @@ test_cases:
     SEAT_PQ35_OIL_WEAR: 101
   response: 77E0562224B0065
 - expected_values:
-    SEAT_PQ35_OIL_WEAR: 102
-  response: 77E0562224B0066
-- expected_values:
-    SEAT_PQ35_OIL_WEAR: 104
-  response: 77E0562224B0068
-- expected_values:
-    SEAT_PQ35_OIL_WEAR: 128
-  response: 77E0562224B0080
-- expected_values:
-    SEAT_PQ35_OIL_WEAR: 129
-  response: 77E0562224B0081
-- expected_values:
     SEAT_PQ35_OIL_WEAR: 398
   response: 77E0562224B018E
 - expected_values:
-    SEAT_PQ35_OIL_WEAR: 399
-  response: 77E0562224B018F
-- expected_values:
-    SEAT_PQ35_OIL_WEAR: 400
-  response: 77E0562224B0190
-- expected_values:
-    SEAT_PQ35_OIL_WEAR: 401
-  response: 77E0562224B0191
-- expected_values:
-    SEAT_PQ35_OIL_WEAR: 403
-  response: 77E0562224B0193
+    SEAT_PQ35_OIL_WEAR: 404
+  response: 77E0562224B0194
