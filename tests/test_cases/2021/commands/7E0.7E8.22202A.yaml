@@ -7,8 +7,8 @@ test_cases:
     SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 81.76
   response: 7E80562202A03FE
 - expected_values:
-    SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 82.48
-  response: 7E80562202A0407
+    SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 82
+  response: 7E80562202A0401
 - expected_values:
     SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 104
   response: 7E80562202A0514
