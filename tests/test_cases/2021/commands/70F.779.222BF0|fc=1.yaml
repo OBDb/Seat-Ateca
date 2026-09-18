@@ -7,6 +7,9 @@ test_cases:
     SEAT_PQ35_HAL_F_R_VSS_DIFF: 0.1
   response: 77905622BF00001
 - expected_values:
+    SEAT_PQ35_HAL_F_R_VSS_DIFF: 0.2
+  response: 77905622BF00002
+- expected_values:
     SEAT_PQ35_HAL_F_R_VSS_DIFF: 0.3
   response: 77905622BF00003
 - expected_values:
@@ -18,6 +21,9 @@ test_cases:
 - expected_values:
     SEAT_PQ35_HAL_F_R_VSS_DIFF: 0.6
   response: 77905622BF00006
+- expected_values:
+    SEAT_PQ35_HAL_F_R_VSS_DIFF: 0.7
+  response: 77905622BF00007
 - expected_values:
     SEAT_PQ35_HAL_F_R_VSS_DIFF: 0.8
   response: 77905622BF00008

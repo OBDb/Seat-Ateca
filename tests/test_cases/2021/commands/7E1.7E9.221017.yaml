@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_ROAD_RESISTANCE: -9.937
   response: '7E90462101757'
 - expected_values:
-    SEAT_PQ35_ROAD_RESISTANCE: 8.24
-  response: 7E904621017A0
+    SEAT_PQ35_ROAD_RESISTANCE: 13.469
+  response: 7E904621017B5
