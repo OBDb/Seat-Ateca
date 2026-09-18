@@ -1,17 +1,13 @@
 command_id: 7E1.22101A
 test_cases:
 - expected_values:
-    SEAT_ODO_TCM_2: 72247
-    SEAT_PQ35_ODO_3: 3611137
-  response: 7E90762101A371A0100
+    SEAT_ODO_TCM_2: 82986
+    SEAT_PQ35_ODO_3: 2769921
+  response: 7E90762101A2A440100
 - expected_values:
     SEAT_ODO_TCM_2: 71232
     SEAT_PQ35_ODO_3: 4199937
   response: 7E90762101A40160100
-- expected_values:
-    SEAT_ODO_TCM_2: 82774
-    SEAT_PQ35_ODO_3: 5653249
-  response: 7E90762101A56430100
 - expected_values:
     SEAT_ODO_TCM_2: 82928
     SEAT_PQ35_ODO_3: 15745793
