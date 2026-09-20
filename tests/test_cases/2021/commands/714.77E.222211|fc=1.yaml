@@ -4,5 +4,5 @@ test_cases:
     SEAT_PQ35_CHG_AIR_P: 0
   response: '77E0462221100'
 - expected_values:
-    SEAT_PQ35_CHG_AIR_P: 19.21569
-  response: '77E0462221131'
+    SEAT_PQ35_CHG_AIR_P: 27.05882
+  response: '77E0462221145'
