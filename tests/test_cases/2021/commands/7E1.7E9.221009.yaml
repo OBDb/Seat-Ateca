@@ -7,5 +7,5 @@ test_cases:
     SEAT_MQB_DQ250_SPD_OUTPUT: 775
   response: '7E9056210090703'
 - expected_values:
-    SEAT_MQB_DQ250_SPD_OUTPUT: 759
-  response: 7E905621009F702
+    SEAT_MQB_DQ250_SPD_OUTPUT: 248
+  response: 7E905621009F800
