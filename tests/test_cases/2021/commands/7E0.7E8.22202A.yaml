@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22202A
 test_cases:
 - expected_values:
-    SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 79.76
-  response: 7E80562202A03E5
+    SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 79.44
+  response: 7E80562202A03E1
 - expected_values:
     SEAT_PQ35_CHARGE_AIR_P_ACTUAL: 81.76
   response: 7E80562202A03FE
