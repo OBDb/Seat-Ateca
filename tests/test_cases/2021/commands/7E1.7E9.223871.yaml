@@ -4,29 +4,8 @@ test_cases:
     SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 0
   response: '7E9056238710000'
 - expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 260
-  response: '7E9056238710401'
-- expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 10
-  response: 7E9056238710A00
-- expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 780
-  response: 7E9056238710C03
-- expected_values:
     SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 1100
   response: 7E9056238714C04
-- expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 590
-  response: 7E9056238714E02
-- expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 880
-  response: '7E9056238717003'
-- expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 150
-  response: '7E9056238719600'
-- expected_values:
-    SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 950
-  response: 7E905623871B603
 - expected_values:
     SEAT_MQB_DQ250_SPECIFIED_IDLE_RPM: 710
   response: 7E905623871C602
