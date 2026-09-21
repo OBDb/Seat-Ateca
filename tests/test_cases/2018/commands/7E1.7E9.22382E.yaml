@@ -5,7 +5,7 @@ test_cases:
   response: 7E90562382E0000
 - expected_values:
     SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1: 0
-  response: 7E90562382E1FFF
+  response: 7E90562382E0BFF
 - expected_values:
     SEAT_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1: 51.15
   response: 7E90562382EFF03
