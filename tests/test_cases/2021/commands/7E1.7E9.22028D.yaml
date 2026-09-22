@@ -4,5 +4,5 @@ test_cases:
     SEAT_MQB_TCM_ECU_T: 18
   response: 7E90562028D1200
 - expected_values:
-    SEAT_MQB_TCM_ECU_T: 89
-  response: 7E90562028D5900
+    SEAT_MQB_TCM_ECU_T: 97
+  response: 7E90562028D6100
