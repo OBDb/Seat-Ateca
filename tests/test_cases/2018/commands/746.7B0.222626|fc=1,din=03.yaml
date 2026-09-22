@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     SEAT_CLIMATE_FR_R_T_FLP_ACT_VALUE: 0
     SEAT_PQ35_FR_TEMP_FLAP: 0
-  response: 7B006622626001A00
+  response: 7B006622626001900
 - expected_values:
     SEAT_CLIMATE_FR_R_T_FLP_ACT_VALUE: 100
     SEAT_PQ35_FR_TEMP_FLAP: 100
