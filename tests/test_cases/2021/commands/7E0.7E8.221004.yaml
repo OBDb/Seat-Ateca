@@ -7,8 +7,8 @@ test_cases:
     SEAT_AAT_V2: 14
   response: '7E8056210040700'
 - expected_values:
-    SEAT_AAT_V2: 19.95312
-  response: 7E80562100409FA
+    SEAT_AAT_V2: 21.99219
+  response: 7E8056210040AFF
 - expected_values:
     SEAT_AAT_V2: 28.5
   response: 7E8056210040E40
