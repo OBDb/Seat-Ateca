@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222006
 test_cases:
 - expected_values:
-    SEAT_PQ35_OIL_FILL_LEVEL: 1.92
-  response: '7E8056220060020'
+    SEAT_PQ35_OIL_FILL_LEVEL: 1.74
+  response: 7E805622006001D
 - expected_values:
     SEAT_PQ35_OIL_FILL_LEVEL: 3.42
   response: '7E8056220060039'
