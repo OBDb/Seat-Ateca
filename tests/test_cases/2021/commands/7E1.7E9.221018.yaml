@@ -7,6 +7,9 @@ test_cases:
     SEAT_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0.78431
   response: '7E90462101802'
 - expected_values:
+    SEAT_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 1.56863
+  response: '7E90462101804'
+- expected_values:
     SEAT_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 8.62745
   response: '7E90462101816'
 - expected_values:
