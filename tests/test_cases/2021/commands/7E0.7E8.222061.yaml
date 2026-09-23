@@ -10,5 +10,5 @@ test_cases:
     SEAT_APP_POS1: 1.028
   response: '7E8056220610404'
 - expected_values:
-    SEAT_APP_POS1: 1.807
-  response: 7E805622061070F
+    SEAT_APP_POS1: 2.719
+  response: 7E8056220610A9F
