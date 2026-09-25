@@ -1,0 +1,10 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    SEAT_CLIMATE_FR_R_DEFL_T: 6.993
+    SEAT_FRONT_RIGHT_DEFLECTOR_T: 7
+  response: 7B00462260D15
+- expected_values:
+    SEAT_CLIMATE_FR_R_DEFL_T: 39.627
+    SEAT_FRONT_RIGHT_DEFLECTOR_T: 39.66667
+  response: 7B00462260D77

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211BB
+test_cases:
+- expected_values:
+    SEAT_OIL_CRIT: 5.8
+  response: 7E8056211BB38A4
+- expected_values:
+    SEAT_OIL_CRIT: 6.4504
+  response: 7E8056211BB3EFE
+- expected_values:
+    SEAT_OIL_CRIT: 6.5536
+  response: 7E8056211BB4000
+- expected_values:
+    SEAT_OIL_CRIT: 6.7832
+  response: 7E8056211BB423E

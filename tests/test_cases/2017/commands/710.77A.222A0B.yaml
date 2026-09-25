@@ -1,8 +1,0 @@
-command_id: 710.77A.222A0B
-test_cases:
-- expected_values:
-    SEAT_SSB_T: 4
-  response: 77A04622A0B2C
-- expected_values:
-    SEAT_SSB_T: 36
-  response: 77A04622A0B4C

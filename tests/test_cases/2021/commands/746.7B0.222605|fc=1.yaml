@@ -1,0 +1,10 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 4.2
+    SEAT_REFRIG_P: 4.2
+  response: 7B00462260515
+- expected_values:
+    SEAT_CLIMATE_REFRIG_P: 14
+    SEAT_REFRIG_P: 14
+  response: 7B00462260546
