@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221001
 test_cases:
 - expected_values:
-    SEAT_TIRE_FR_SPD_V2: 255
+    SEAT_TIRE_FR_SPD_V3: 255
   response: 7E9056210017E00
 - expected_values:
-    SEAT_TIRE_FR_SPD_V2: 255
+    SEAT_TIRE_FR_SPD_V3: 255
   response: '7E9056210019200'

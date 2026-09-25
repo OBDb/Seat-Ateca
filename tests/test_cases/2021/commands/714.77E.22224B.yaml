@@ -1,0 +1,11 @@
+command_id: 714.77E.22224B
+test_cases:
+- expected_values:
+    SEAT_OIL_WEAR: 101
+  response: 77E0562224B0065
+- expected_values:
+    SEAT_OIL_WEAR: 398
+  response: 77E0562224B018E
+- expected_values:
+    SEAT_OIL_WEAR: 417
+  response: 77E0562224B01A1
