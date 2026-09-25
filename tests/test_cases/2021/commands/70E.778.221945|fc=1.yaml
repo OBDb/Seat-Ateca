@@ -1,5 +1,5 @@
 command_id: 70E.778.221945|fc=1
 test_cases:
 - expected_values:
-    SEAT_MQB_HTR_NOZZLE: 14
+    SEAT_HEATER_FOR_NOZZLES_ACTIVE: 14
   response: 778046219450E

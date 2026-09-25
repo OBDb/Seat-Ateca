@@ -1,0 +1,10 @@
+command_id: 714.77E.221014
+test_cases:
+- expected_values:
+    SEAT_AAT: 5
+    SEAT_DASH_AMBIENT_AIR_T: 5
+  response: 77E046210146E
+- expected_values:
+    SEAT_AAT: 30
+    SEAT_DASH_AMBIENT_AIR_T: 30
+  response: 77E04621014A0
