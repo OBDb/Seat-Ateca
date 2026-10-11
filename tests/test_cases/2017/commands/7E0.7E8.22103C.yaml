@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.22103C
 test_cases:
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 368
+    ATECA_MQB_INT_MAN_P: 368
   response: 7E80562103C0170
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 526
+    ATECA_MQB_INT_MAN_P: 526
   response: 7E80562103C020E
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 767
+    ATECA_MQB_INT_MAN_P: 767
   response: 7E80562103C02FF
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 1024
+    ATECA_MQB_INT_MAN_P: 1024
   response: 7E80562103C0400
 - expected_values:
-    SEAT_MQB_INT_MAN_P: 2365
+    ATECA_MQB_INT_MAN_P: 2365
   response: 7E80562103C093D

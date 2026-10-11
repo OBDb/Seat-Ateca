@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.2210E4
 test_cases:
 - expected_values:
-    SEAT_PQ35_REG_FACTOR: 0.7964
+    ATECA_PQ35_REG_FACTOR: 0.7964
   response: 7E8056210E41F1C
 - expected_values:
-    SEAT_PQ35_REG_FACTOR: 0.8094
+    ATECA_PQ35_REG_FACTOR: 0.8094
   response: 7E8056210E41F9E
 - expected_values:
-    SEAT_PQ35_REG_FACTOR: 0.812
+    ATECA_PQ35_REG_FACTOR: 0.812
   response: 7E8056210E41FB8
 - expected_values:
-    SEAT_PQ35_REG_FACTOR: 0.8155
+    ATECA_PQ35_REG_FACTOR: 0.8155
   response: 7E8056210E41FDB
 - expected_values:
-    SEAT_PQ35_REG_FACTOR: 0.8159
+    ATECA_PQ35_REG_FACTOR: 0.8159
   response: 7E8056210E41FDF
 - expected_values:
-    SEAT_PQ35_REG_FACTOR: 0.8192
+    ATECA_PQ35_REG_FACTOR: 0.8192
   response: 7E8056210E42000

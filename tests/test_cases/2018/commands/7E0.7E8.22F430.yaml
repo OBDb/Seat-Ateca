@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
-    SEAT_WARM_UPS: 8
+    ATECA_WARM_UPS: 8
   response: 7E80462F43008
 - expected_values:
-    SEAT_WARM_UPS: 46
+    ATECA_WARM_UPS: 46
   response: 7E80462F4302E

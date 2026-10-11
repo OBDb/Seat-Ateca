@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2211A6
 test_cases:
 - expected_values:
-    SEAT_PQ35_LIM_ACCEL_PED: 0
+    ATECA_PQ35_LIM_ACCEL_PED: 0
   response: 7E8056211A60000
 - expected_values:
-    SEAT_PQ35_LIM_ACCEL_PED: 102.3
+    ATECA_PQ35_LIM_ACCEL_PED: 102.3
   response: 7E8056211A603FF
 - expected_values:
-    SEAT_PQ35_LIM_ACCEL_PED: 410.2
+    ATECA_PQ35_LIM_ACCEL_PED: 410.2
   response: 7E8056211A61006

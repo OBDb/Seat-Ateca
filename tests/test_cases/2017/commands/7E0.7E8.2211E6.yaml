@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2211E6
 test_cases:
 - expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 0
+    ATECA_MQB_DPF_EXH_VOL: 0
   response: 7E8056211E60000
 - expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 51.1
+    ATECA_MQB_DPF_EXH_VOL: 51.1
   response: 7E8056211E601FF
 - expected_values:
-    SEAT_MQB_DPF_EXH_VOL: 674.1
+    ATECA_MQB_DPF_EXH_VOL: 674.1
   response: 7E8056211E61A55

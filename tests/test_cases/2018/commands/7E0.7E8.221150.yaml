@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221150
 test_cases:
 - expected_values:
-    SEAT_MISFIRES_C3: 3453
+    ATECA_MISFIRES_C3_ECM: 3453
   response: 7E8056211500D7D
 - expected_values:
-    SEAT_MISFIRES_C3: 3583
+    ATECA_MISFIRES_C3_ECM: 3583
   response: 7E8056211500DFF
 - expected_values:
-    SEAT_MISFIRES_C3: 3584
+    ATECA_MISFIRES_C3_ECM: 3584
   response: 7E8056211500E00
 - expected_values:
-    SEAT_MISFIRES_C3: 3842
+    ATECA_MISFIRES_C3_ECM: 3842
   response: 7E8056211500F02

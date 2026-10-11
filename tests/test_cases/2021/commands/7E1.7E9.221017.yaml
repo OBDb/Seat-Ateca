@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221017
 test_cases:
 - expected_values:
-    SEAT_PQ35_ROAD_RESISTANCE: -9.937
+    ATECA_PQ35_ROAD_RESISTANCE: -9.937
   response: '7E90462101757'
 - expected_values:
-    SEAT_PQ35_ROAD_RESISTANCE: 15.71
+    ATECA_PQ35_ROAD_RESISTANCE: 15.71
   response: 7E904621017BE

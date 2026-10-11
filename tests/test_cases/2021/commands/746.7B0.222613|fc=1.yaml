@@ -1,11 +1,11 @@
 command_id: 746.7B0.222613|fc=1
 test_cases:
 - expected_values:
-    SEAT_CABIN_T: 13.3
+    ATECA_CABIN_T: 13.3
   response: 7B0056226130085
 - expected_values:
-    SEAT_CABIN_T: 26.1
+    ATECA_CABIN_T: 26.1
   response: 7B0056226130105
 - expected_values:
-    SEAT_CABIN_T: 50.8
+    ATECA_CABIN_T: 50.8
   response: 7B00562261301FC

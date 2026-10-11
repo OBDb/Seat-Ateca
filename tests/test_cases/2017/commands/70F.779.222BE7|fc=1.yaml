@@ -1,8 +1,8 @@
 command_id: 70F.779.222BE7|fc=1
 test_cases:
 - expected_values:
-    SEAT_PQ35_HAL_PWM: 0
+    ATECA_PQ35_HAL_PWM: 0
   response: 77904622BE700
 - expected_values:
-    SEAT_PQ35_HAL_PWM: 77
+    ATECA_PQ35_HAL_PWM: 77
   response: 77904622BE74D

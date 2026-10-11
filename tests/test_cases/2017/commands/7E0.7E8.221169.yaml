@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221169
 test_cases:
 - expected_values:
-    SEAT_PQ35_FUEL_P_HIGH: 1700
+    ATECA_PQ35_FUEL_P_HIGH: 1700
   response: '7E8056211690011'
 - expected_values:
-    SEAT_PQ35_FUEL_P_HIGH: 716800
+    ATECA_PQ35_FUEL_P_HIGH: 716800
   response: 7E8056211691C00
 - expected_values:
-    SEAT_PQ35_FUEL_P_HIGH: 767900
+    ATECA_PQ35_FUEL_P_HIGH: 767900
   response: 7E8056211691DFF
 - expected_values:
-    SEAT_PQ35_FUEL_P_HIGH: 1985700
+    ATECA_PQ35_FUEL_P_HIGH: 1985700
   response: 7E8056211694D91

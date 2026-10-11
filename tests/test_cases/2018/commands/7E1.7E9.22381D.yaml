@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.22381D
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_EOP_ACTUAL: 2.56
+    ATECA_MQB_TCM_EOP_ACTUAL: 2.56
   response: 7E90562381D0001
 - expected_values:
-    SEAT_MQB_TCM_EOP_ACTUAL: 0.15
+    ATECA_MQB_TCM_EOP_ACTUAL: 0.15
   response: 7E90562381D0F00
 - expected_values:
-    SEAT_MQB_TCM_EOP_ACTUAL: 20.63
+    ATECA_MQB_TCM_EOP_ACTUAL: 20.63
   response: 7E90562381D0F08
 - expected_values:
-    SEAT_MQB_TCM_EOP_ACTUAL: 5.11
+    ATECA_MQB_TCM_EOP_ACTUAL: 5.11
   response: 7E90562381DFF01

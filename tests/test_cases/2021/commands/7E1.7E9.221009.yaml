@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221009
 test_cases:
 - expected_values:
-    SEAT_MQB_DQ250_SPD_OUTPUT: 0
+    ATECA_MQB_DQ250_SPD_OUTPUT: 0
   response: '7E9056210090000'
 - expected_values:
-    SEAT_MQB_DQ250_SPD_OUTPUT: 775
+    ATECA_MQB_DQ250_SPD_OUTPUT: 775
   response: '7E9056210090703'
 - expected_values:
-    SEAT_MQB_DQ250_SPD_OUTPUT: 248
+    ATECA_MQB_DQ250_SPD_OUTPUT: 248
   response: 7E905621009F800

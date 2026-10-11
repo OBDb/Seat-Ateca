@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.22100C
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE: 0
+    ATECA_MQB_TCM_ENGINE_TORQUE: 0
   response: 7E90562100C0000
 - expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE: -1
+    ATECA_MQB_TCM_ENGINE_TORQUE: -1
   response: 7E90562100CECFF
 - expected_values:
-    SEAT_MQB_TCM_ENGINE_TORQUE: 51
+    ATECA_MQB_TCM_ENGINE_TORQUE: 51
   response: 7E90562100CFC03

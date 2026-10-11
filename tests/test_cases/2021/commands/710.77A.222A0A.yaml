@@ -1,8 +1,8 @@
 command_id: 710.77A.222A0A
 test_cases:
 - expected_values:
-    SEAT_SSB_SENSOR_T: 17
+    ATECA_MQB_BAT_SEN_T: 17
   response: 77A04622A0A39
 - expected_values:
-    SEAT_SSB_SENSOR_T: 61
+    ATECA_MQB_BAT_SEN_T: 61
   response: 77A04622A0A65

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2229D4
 test_cases:
 - expected_values:
-    SEAT_ENG_TRQ_REQ_1: 0.2
+    ATECA_ENG_TRQ_REQ_1: 0.2
   response: 7E8056229D40002
 - expected_values:
-    SEAT_ENG_TRQ_REQ_1: 229.9
+    ATECA_ENG_TRQ_REQ_1: 229.9
   response: 7E8056229D408FB
 - expected_values:
-    SEAT_ENG_TRQ_REQ_1: 325.8
+    ATECA_ENG_TRQ_REQ_1: 325.8
   response: 7E8056229D40CBA

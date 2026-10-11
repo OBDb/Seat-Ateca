@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22028D
 test_cases:
 - expected_values:
-    SEAT_ECU_TEMP: 23
+    ATECA_ENG_CTRL_MODULE_T: 23
   response: 7E80562028D00E6
 - expected_values:
-    SEAT_ECU_TEMP: 51
+    ATECA_ENG_CTRL_MODULE_T: 51
   response: 7E80562028D01FE
 - expected_values:
-    SEAT_ECU_TEMP: 77
+    ATECA_ENG_CTRL_MODULE_T: 77
   response: 7E80562028D0302

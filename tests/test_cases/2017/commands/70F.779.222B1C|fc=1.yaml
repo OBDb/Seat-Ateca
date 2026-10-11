@@ -1,11 +1,11 @@
 command_id: 70F.779.222B1C|fc=1
 test_cases:
 - expected_values:
-    SEAT_PQ35_FR_VSS: 0
+    ATECA_PQ35_FR_VSS: 0
   response: 77905622B1C0000
 - expected_values:
-    SEAT_PQ35_FR_VSS: 25.5
+    ATECA_PQ35_FR_VSS: 25.5
   response: 77905622B1C00FF
 - expected_values:
-    SEAT_PQ35_FR_VSS: 102.8
+    ATECA_PQ35_FR_VSS: 102.8
   response: 77905622B1C0404

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22114F|din=03
+test_cases:
+- expected_values:
+    ATECA_MIS_1: 506
+  response: 7E80562114F01FA
+- expected_values:
+    ATECA_MIS_1: 767
+  response: 7E80562114F02FF
+- expected_values:
+    ATECA_MIS_1: 1024
+  response: 7E80562114F0400
+- expected_values:
+    ATECA_MIS_1: 2107
+  response: 7E80562114F083B

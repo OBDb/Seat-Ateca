@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.2238EA
 test_cases:
 - expected_values:
-    SEAT_PQ35_CLUTCH_2_ACTUAL_P: 2.56
+    ATECA_PQ35_CLUTCH_2_ACTUAL_P: 2.56
   response: 7E9056238EA0001
 - expected_values:
-    SEAT_PQ35_CLUTCH_2_ACTUAL_P: 0.07
+    ATECA_PQ35_CLUTCH_2_ACTUAL_P: 0.07
   response: 7E9056238EA0700
 - expected_values:
-    SEAT_PQ35_CLUTCH_2_ACTUAL_P: 13.46
+    ATECA_PQ35_CLUTCH_2_ACTUAL_P: 13.46
   response: 7E9056238EA4205
 - expected_values:
-    SEAT_PQ35_CLUTCH_2_ACTUAL_P: 2.55
+    ATECA_PQ35_CLUTCH_2_ACTUAL_P: 2.55
   response: 7E9056238EAFF00
