@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22117E
 test_cases:
 - expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 0
+    ATECA_PQ35_TURB_ACT_1_B1: 0
   response: 7E80562117E0000
 - expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 56.31
+    ATECA_PQ35_TURB_ACT_1_B1: 56.31
   response: 7E80562117E15FF
 - expected_values:
-    SEAT_PQ35_TURB_ACT_1_B1: 81.92
+    ATECA_PQ35_TURB_ACT_1_B1: 81.92
   response: 7E80562117E2000

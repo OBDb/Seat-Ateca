@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2211F4
 test_cases:
 - expected_values:
-    SEAT_PQ35_POST_INJ_1_START: 0
+    ATECA_PQ35_POST_INJ_1_START: 0
   response: 7E8056211F40000
 - expected_values:
-    SEAT_PQ35_POST_INJ_1_START: -10.26
+    ATECA_PQ35_POST_INJ_1_START: -10.26
   response: 7E8056211F4FDFF
 - expected_values:
-    SEAT_PQ35_POST_INJ_1_START: -4.68
+    ATECA_PQ35_POST_INJ_1_START: -4.68
   response: 7E8056211F4FF16

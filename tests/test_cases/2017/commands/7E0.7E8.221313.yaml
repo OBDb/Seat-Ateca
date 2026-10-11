@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221313
 test_cases:
 - expected_values:
-    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 0
+    ATECA_MQB_EGR_VALVE_2_B1_FLOW: 0
   response: '7E8056213130000'
 - expected_values:
-    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 51.1
+    ATECA_MQB_EGR_VALVE_2_B1_FLOW: 51.1
   response: 7E80562131301FF
 - expected_values:
-    SEAT_MQB_EGR_VALVE_2_B1_FLOW: 77
+    ATECA_MQB_EGR_VALVE_2_B1_FLOW: 77
   response: '7E8056213130302'

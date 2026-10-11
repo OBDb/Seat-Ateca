@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22115A
 test_cases:
 - expected_values:
-    SEAT_PQ35_DPF_FUEL_CON_REGEN: 0
+    ATECA_PARTICLE_FLT_FUEL: 0
   response: 7E80562115A0000
 - expected_values:
-    SEAT_PQ35_DPF_FUEL_CON_REGEN: 5.11
+    ATECA_PARTICLE_FLT_FUEL: 5.11
   response: 7E80562115A01FF
 - expected_values:
-    SEAT_PQ35_DPF_FUEL_CON_REGEN: 15.5
+    ATECA_PARTICLE_FLT_FUEL: 15.5
   response: 7E80562115A060E

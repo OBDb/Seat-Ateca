@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.22380C
 test_cases:
 - expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 0
+    ATECA_MQB_INPUT_SHAFT_1: 0
   response: 7E90562380C0000
 - expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 2743
+    ATECA_MQB_INPUT_SHAFT_1: 2743
   response: 7E90562380CB70A
 - expected_values:
-    SEAT_MQB_INPUT_SHAFT_1: 511
+    ATECA_MQB_INPUT_SHAFT_1: 511
   response: 7E90562380CFF01

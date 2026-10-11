@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.222062
 test_cases:
 - expected_values:
-    SEAT_APP_POS2: 0.363
+    ATECA_APP_POS2: 0.363
   response: 7E805622062016B
 - expected_values:
-    SEAT_APP_POS2: 0.511
+    ATECA_APP_POS2: 0.511
   response: 7E80562206201FF
 - expected_values:
-    SEAT_APP_POS2: 0.768
+    ATECA_APP_POS2: 0.768
   response: '7E8056220620300'
 - expected_values:
-    SEAT_APP_POS2: 1.644
+    ATECA_APP_POS2: 1.644
   response: 7E805622062066C

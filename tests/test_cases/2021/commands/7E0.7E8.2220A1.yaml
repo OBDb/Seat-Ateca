@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2220A1
 test_cases:
 - expected_values:
-    SEAT_PQ35_CALCULATED_OIL_T: -40
+    ATECA_PQ35_CALCULATED_OIL_T: -40
   response: 7E8056220A10096
 - expected_values:
-    SEAT_PQ35_CALCULATED_OIL_T: -37
+    ATECA_PQ35_CALCULATED_OIL_T: -37
   response: 7E8056220A10302
 - expected_values:
-    SEAT_PQ35_CALCULATED_OIL_T: -37
+    ATECA_PQ35_CALCULATED_OIL_T: -37
   response: 7E8056220A103FC
 - expected_values:
-    SEAT_PQ35_CALCULATED_OIL_T: -36
+    ATECA_PQ35_CALCULATED_OIL_T: -36
   response: 7E8056220A10406

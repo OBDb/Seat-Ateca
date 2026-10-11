@@ -1,10 +1,8 @@
 command_id: 746.7B0.22261E|fc=1
 test_cases:
 - expected_values:
-    SEAT_MQB_RECIRC_FLAP_ACT: 36
-    SEAT_RECIRC_FLAP_ACT_PCT: 0
+    ATECA_MQB_RECIRC_FLAP_ACT: 0
   response: 7B00662261E002400
 - expected_values:
-    SEAT_MQB_RECIRC_FLAP_ACT: 151
-    SEAT_RECIRC_FLAP_ACT_PCT: 66
+    ATECA_MQB_RECIRC_FLAP_ACT: 66
   response: 7B00662261E009784

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2214C7
 test_cases:
 - expected_values:
-    SEAT_PQ35_PRE_INJ_1_START: 0
+    ATECA_PQ35_PRE_INJ_1_START: 0
   response: 7E8056214C70000
 - expected_values:
-    SEAT_PQ35_PRE_INJ_1_START: 10.22
+    ATECA_PQ35_PRE_INJ_1_START: 10.22
   response: 7E8056214C701FF
 - expected_values:
-    SEAT_PQ35_PRE_INJ_1_START: 25.9
+    ATECA_PQ35_PRE_INJ_1_START: 25.9
   response: 7E8056214C7050F

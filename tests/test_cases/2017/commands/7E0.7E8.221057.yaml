@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.221057
 test_cases:
 - expected_values:
-    SEAT_PQ35_CHG_P: 1.844
+    ATECA_PQ35_CHG_P: 1.844
   response: '7E8056210570734'
 - expected_values:
-    SEAT_PQ35_CHG_P: 2.459
+    ATECA_PQ35_CHG_P: 2.459
   response: 7E805621057099B
 - expected_values:
-    SEAT_PQ35_CHG_P: 6.399
+    ATECA_PQ35_CHG_P: 6.399
   response: 7E80562105718FF
 - expected_values:
-    SEAT_PQ35_CHG_P: 8.96
+    ATECA_PQ35_CHG_P: 8.96
   response: '7E8056210572300'
 - expected_values:
-    SEAT_PQ35_CHG_P: 12.453
+    ATECA_PQ35_CHG_P: 12.453
   response: 7E80562105730A5

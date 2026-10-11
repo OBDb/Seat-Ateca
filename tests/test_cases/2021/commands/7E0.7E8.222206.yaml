@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222206
 test_cases:
 - expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 11
+    ATECA_PQ35_FUEL_LEVEL_7E0_2206: 11
   response: 7E8046222060B
 - expected_values:
-    SEAT_PQ35_FUEL_LEVEL_7E0_2206: 54
+    ATECA_PQ35_FUEL_LEVEL_7E0_2206: 54
   response: '7E80462220636'

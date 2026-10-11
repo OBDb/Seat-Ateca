@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22133B
 test_cases:
 - expected_values:
-    SEAT_PQ35_CAMS_SPD: 0
+    ATECA_PQ35_CAMS_SPD: 0
   response: 7E80562133B0000
 - expected_values:
-    SEAT_PQ35_CAMS_SPD: 460.5
+    ATECA_PQ35_CAMS_SPD: 460.5
   response: 7E80562133B05FF
 - expected_values:
-    SEAT_PQ35_CAMS_SPD: 1694.1
+    ATECA_PQ35_CAMS_SPD: 1694.1
   response: 7E80562133B160F

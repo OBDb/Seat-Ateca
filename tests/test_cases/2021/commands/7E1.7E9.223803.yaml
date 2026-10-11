@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.223803
 test_cases:
 - expected_values:
-    SEAT_MQB_TCM_BRAKE_P: 30.9
+    ATECA_MQB_TCM_BRAKE_P: 30.9
   response: 7E905623803120C
 - expected_values:
-    SEAT_MQB_TCM_BRAKE_P: 0.6
+    ATECA_MQB_TCM_BRAKE_P: 0.6
   response: 7E9056238033C00
 - expected_values:
-    SEAT_MQB_TCM_BRAKE_P: -0.9
+    ATECA_MQB_TCM_BRAKE_P: -0.9
   response: 7E905623803A6FF
 - expected_values:
-    SEAT_MQB_TCM_BRAKE_P: 2.4
+    ATECA_MQB_TCM_BRAKE_P: 2.4
   response: 7E905623803F000

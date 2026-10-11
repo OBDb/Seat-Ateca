@@ -1,23 +1,23 @@
-command_id: 7E0.7E8.221160
+command_id: 7E0.7E8.221160|t=96
 test_cases:
 - expected_values:
-    SEAT_ODO_HD: 63898.583
+    ATECA_ODO_HD: 63898.583
   response: 7E80762116003CF03D7
 - expected_values:
-    SEAT_ODO_HD: 63963.239
+    ATECA_ODO_HD: 63963.239
   response: 7E80762116003D00067
 - expected_values:
-    SEAT_ODO_HD: 64225.059
+    ATECA_ODO_HD: 64225.059
   response: 7E80762116003D3FF23
 - expected_values:
-    SEAT_ODO_HD: 64237.824
+    ATECA_ODO_HD: 64237.824
   response: 7E80762116003D43100
 - expected_values:
-    SEAT_ODO_HD: 64335.615
+    ATECA_ODO_HD: 64335.615
   response: 7E80762116003D5AEFF
 - expected_values:
-    SEAT_ODO_HD: 67043.777
+    ATECA_ODO_HD: 67043.777
   response: 7E80762116003FF01C1
 - expected_values:
-    SEAT_ODO_HD: 67109.059
+    ATECA_ODO_HD: 67109.059
   response: 7E807621160040000C3

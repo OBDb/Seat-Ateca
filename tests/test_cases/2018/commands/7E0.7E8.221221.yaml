@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221221
 test_cases:
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_1: 0
+    ATECA_PQ35_ACCEL_PED_1: 0
   response: '7E8056212210000'
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_1: -34.2
+    ATECA_PQ35_ACCEL_PED_1: -34.2
   response: 7E805621221FF55
 - expected_values:
-    SEAT_PQ35_ACCEL_PED_1: -5.2
+    ATECA_PQ35_ACCEL_PED_1: -5.2
   response: 7E805621221FFE6

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221135
 test_cases:
 - expected_values:
-    SEAT_COOLANT_T: 72.9
+    ATECA_COOLANT_T: 72.9
   response: 7E8056211350D84
 - expected_values:
-    SEAT_COOLANT_T: 86.1
+    ATECA_COOLANT_T: 86.1
   response: 7E8056211350E08
 - expected_values:
-    SEAT_COOLANT_T: 104.2
+    ATECA_COOLANT_T: 104.2
   response: 7E8056211350EBD

@@ -1,8 +1,8 @@
 command_id: 70F.779.222BF3|fc=1
 test_cases:
 - expected_values:
-    SEAT_PQ35_HAL_DUTY: 0
+    ATECA_PQ35_HAL_DUTY: 0
   response: 77904622BF300
 - expected_values:
-    SEAT_PQ35_HAL_DUTY: 29.13278
+    ATECA_PQ35_HAL_DUTY: 29.13278
   response: 77904622BF34A

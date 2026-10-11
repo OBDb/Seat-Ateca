@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221116
 test_cases:
 - expected_values:
-    SEAT_PQ35_COOL_FAN_1_DUTY: 10
+    ATECA_PQ35_COOL_FAN_1_DUTY: 10
   response: 7E80562111603E8
 - expected_values:
-    SEAT_PQ35_COOL_FAN_1_DUTY: 23.02
+    ATECA_PQ35_COOL_FAN_1_DUTY: 23.02
   response: 7E80562111608FE
 - expected_values:
-    SEAT_PQ35_COOL_FAN_1_DUTY: 46.08
+    ATECA_PQ35_COOL_FAN_1_DUTY: 46.08
   response: '7E8056211161200'
 - expected_values:
-    SEAT_PQ35_COOL_FAN_1_DUTY: 87
+    ATECA_PQ35_COOL_FAN_1_DUTY: 87
   response: 7E80562111621FC

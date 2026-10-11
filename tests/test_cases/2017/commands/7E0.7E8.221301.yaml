@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221301
 test_cases:
 - expected_values:
-    SEAT_PQ35_LIM_SMOKE: 73.4
+    ATECA_PQ35_LIM_SMOKE: 73.4
   response: 7E80562130102DE
 - expected_values:
-    SEAT_PQ35_LIM_SMOKE: 128
+    ATECA_PQ35_LIM_SMOKE: 128
   response: '7E8056213010500'
 - expected_values:
-    SEAT_PQ35_LIM_SMOKE: 204.7
+    ATECA_PQ35_LIM_SMOKE: 204.7
   response: 7E80562130107FF
 - expected_values:
-    SEAT_PQ35_LIM_SMOKE: 1000
+    ATECA_PQ35_LIM_SMOKE: 1000
   response: '7E8056213012710'

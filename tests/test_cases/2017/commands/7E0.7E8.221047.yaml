@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221047
 test_cases:
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: 0
+    ATECA_PQ35_ENG_TRQ: 0
   response: '7E8056210470000'
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: 153.5
+    ATECA_PQ35_ENG_TRQ: 153.5
   response: 7E80562104705FF
 - expected_values:
-    SEAT_PQ35_ENG_TRQ: -500
+    ATECA_PQ35_ENG_TRQ: -500
   response: 7E805621047EC78
