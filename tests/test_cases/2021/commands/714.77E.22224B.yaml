@@ -7,5 +7,5 @@ test_cases:
     ATECA_OIL_WEAR: 398
   response: 77E0562224B018E
 - expected_values:
-    ATECA_OIL_WEAR: 417
-  response: 77E0562224B01A1
+    ATECA_OIL_WEAR: 420
+  response: 77E0562224B01A4

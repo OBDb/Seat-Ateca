@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221010
 test_cases:
 - expected_values:
-    ATECA_MQB_TCM_CONVERTER_LOSS_TORQUE: 281.6
-  response: '7E9056210101600'
+    ATECA_MQB_TCM_CONVERTER_LOSS_TORQUE: 268.8
+  response: '7E9056210101500'
 - expected_values:
     ATECA_MQB_TCM_CONVERTER_LOSS_TORQUE: 1177.7
   response: 7E9056210105C02

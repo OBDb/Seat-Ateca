@@ -7,6 +7,9 @@ test_cases:
     ATECA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR: -1.72
   response: 7E9056210AF54FF
 - expected_values:
+    ATECA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR: -1.71
+  response: 7E9056210AF55FF
+- expected_values:
     ATECA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR: -1.68
   response: 7E9056210AF58FF
 - expected_values:
