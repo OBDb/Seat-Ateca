@@ -7,6 +7,9 @@ test_cases:
     ATECA_BAT_I: 0.254
   response: 77A07622A09000000FE
 - expected_values:
+    ATECA_BAT_I: 20.739
+  response: 77A07622A0900005103
+- expected_values:
     ATECA_BAT_I: -22.229
   response: 77A07622A09FFFFA92B
 - expected_values:
