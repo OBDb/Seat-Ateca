@@ -10,5 +10,5 @@ test_cases:
     ATECA_MQB_INT_MAN_P: 13828
   response: 7E80562103C3604
 - expected_values:
-    ATECA_MQB_INT_MAN_P: 14394
-  response: 7E80562103C383A
+    ATECA_MQB_INT_MAN_P: 14355
+  response: 7E80562103C3813

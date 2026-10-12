@@ -10,5 +10,5 @@ test_cases:
     ATECA_CLR_DIST: 7682
   response: 7E80562F4311E02
 - expected_values:
-    ATECA_CLR_DIST: 7973
-  response: 7E80562F4311F25
+    ATECA_CLR_DIST: 8233
+  response: 7E80562F4312029
