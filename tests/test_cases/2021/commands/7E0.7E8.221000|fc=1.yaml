@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221000|fc=1
+test_cases:
+- expected_values:
+    ATECA_AAT_7E0: 21
+  response: 7E8046210005C
+- expected_values:
+    ATECA_AAT_7E0: 21.75
+  response: 7E8046210005D
+- expected_values:
+    ATECA_AAT_7E0: 22.5
+  response: 7E8046210005E

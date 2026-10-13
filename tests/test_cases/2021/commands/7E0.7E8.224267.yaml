@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224267
+test_cases:
+- expected_values:
+    ATECA_DIRECT_INJECTIONS: 194410699
+  response: 7E8076242670B9678CB

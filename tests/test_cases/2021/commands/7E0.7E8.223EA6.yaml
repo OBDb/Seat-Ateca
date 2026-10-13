@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223EA6
+test_cases:
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_POS_TGT: 0
+  response: 7E805623EA60000

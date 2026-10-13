@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22394F
+test_cases:
+- expected_values:
+    ATECA_MAF_OVER_THROTTLE: 17
+  response: 7E80562394F0011
+- expected_values:
+    ATECA_MAF_OVER_THROTTLE: 19
+  response: 7E80562394F0013
+- expected_values:
+    ATECA_MAF_OVER_THROTTLE: 22
+  response: 7E80562394F0016
+- expected_values:
+    ATECA_MAF_OVER_THROTTLE: 61
+  response: 7E80562394F003D
+- expected_values:
+    ATECA_MAF_OVER_THROTTLE: 66
+  response: 7E80562394F0042

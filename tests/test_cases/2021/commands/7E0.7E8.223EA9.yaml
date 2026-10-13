@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.223EA9
+test_cases:
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV: -17.88
+  response: 7E805623EA9F904
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV: -17.6
+  response: 7E805623EA9F920
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV: -17.55
+  response: 7E805623EA9F925
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV: -17.42
+  response: 7E805623EA9F932
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV: -17.14
+  response: 7E805623EA9F94E

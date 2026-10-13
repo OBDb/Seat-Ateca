@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.224056
+test_cases:
+- expected_values:
+    ATECA_IDLE_SPD_SPEC_RPM: 800
+  response: '7E8056240560320'
+- expected_values:
+    ATECA_IDLE_SPD_SPEC_RPM: 930
+  response: 7E80562405603A2
+- expected_values:
+    ATECA_IDLE_SPD_SPEC_RPM: 1300
+  response: '7E8056240560514'

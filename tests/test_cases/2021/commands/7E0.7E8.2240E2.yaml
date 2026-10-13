@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2240E2
+test_cases:
+- expected_values:
+    ATECA_T_SENS_ENG_T_TGT: 98.2
+  response: 7E8056240E203D6
+- expected_values:
+    ATECA_T_SENS_ENG_T_TGT: 99
+  response: 7E8056240E203DE

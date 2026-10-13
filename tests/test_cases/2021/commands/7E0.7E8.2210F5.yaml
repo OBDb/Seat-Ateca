@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210F5
+test_cases:
+- expected_values:
+    ATECA_MIS_4: 0
+  response: 7E8076210F500000000

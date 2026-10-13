@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22112D
+test_cases:
+- expected_values:
+    ATECA_SEG_AD_MMV_ER_1: 1.09363
+  response: 7E80562112D11EB

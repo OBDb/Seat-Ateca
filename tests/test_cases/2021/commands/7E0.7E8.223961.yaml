@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.223961
+test_cases:
+- expected_values:
+    ATECA_KNOCK_SENS_CYL_2: 0.374
+  response: '7E8056239610176'
+- expected_values:
+    ATECA_KNOCK_SENS_CYL_2: 0.43
+  response: 7E80562396101AE
+- expected_values:
+    ATECA_KNOCK_SENS_CYL_2: 0.481
+  response: 7E80562396101E1
+- expected_values:
+    ATECA_KNOCK_SENS_CYL_2: 0.49
+  response: 7E80562396101EA
+- expected_values:
+    ATECA_KNOCK_SENS_CYL_2: 0.602
+  response: 7E805623961025A

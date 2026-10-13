@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.222032
+test_cases:
+- expected_values:
+    ATECA_MEAN_ENG_AIR_MASS: 12
+  response: 7E805622032000C
+- expected_values:
+    ATECA_MEAN_ENG_AIR_MASS: 16
+  response: '7E8056220320010'
+- expected_values:
+    ATECA_MEAN_ENG_AIR_MASS: 22
+  response: '7E8056220320016'
+- expected_values:
+    ATECA_MEAN_ENG_AIR_MASS: 59
+  response: 7E805622032003B
+- expected_values:
+    ATECA_MEAN_ENG_AIR_MASS: 87
+  response: '7E8056220320057'

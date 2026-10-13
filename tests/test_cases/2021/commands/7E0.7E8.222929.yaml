@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222929
+test_cases:
+- expected_values:
+    ATECA_ADPT_LOSS_TQ: -8.6
+  response: 7E805622929FFAA

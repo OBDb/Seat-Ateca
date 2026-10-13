@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221011
+test_cases:
+- expected_values:
+    ATECA_ADAPTIVE_MODE: 245
+  response: 7E905621011F503

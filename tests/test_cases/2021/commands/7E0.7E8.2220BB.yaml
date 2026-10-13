@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2220BB
+test_cases:
+- expected_values:
+    ATECA_FUEL_HIGH_P_CTRL_DEV: 0
+  response: 7E8056220BB0000
+- expected_values:
+    ATECA_FUEL_HIGH_P_CTRL_DEV: 0.2
+  response: 7E8056220BB0002
+- expected_values:
+    ATECA_FUEL_HIGH_P_CTRL_DEV: 2.3
+  response: 7E8056220BB0017
+- expected_values:
+    ATECA_FUEL_HIGH_P_CTRL_DEV: -0.3
+  response: 7E8056220BBFFFD

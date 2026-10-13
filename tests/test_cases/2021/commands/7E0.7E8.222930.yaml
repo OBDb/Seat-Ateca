@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.222930
+test_cases:
+- expected_values:
+    ATECA_CAM_ADJ_INT_BANK_1: 43.18
+  response: 7E80562293010DE
+- expected_values:
+    ATECA_CAM_ADJ_INT_BANK_1: 46.42
+  response: '7E8056229301222'
+- expected_values:
+    ATECA_CAM_ADJ_INT_BANK_1: 48.51
+  response: 7E80562293012F3
+- expected_values:
+    ATECA_CAM_ADJ_INT_BANK_1: 49.44
+  response: '7E8056229301350'
+- expected_values:
+    ATECA_CAM_ADJ_INT_BANK_1: 50.13
+  response: '7E8056229301395'

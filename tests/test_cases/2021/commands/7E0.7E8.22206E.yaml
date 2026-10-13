@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    ATECA_CRANK_SPD_RPM: 956
+  response: 7E80562206E03BC
+- expected_values:
+    ATECA_CRANK_SPD_RPM: 1050
+  response: 7E80562206E041A
+- expected_values:
+    ATECA_CRANK_SPD_RPM: 1314
+  response: 7E80562206E0522
+- expected_values:
+    ATECA_CRANK_SPD_RPM: 1327
+  response: 7E80562206E052F
+- expected_values:
+    ATECA_CRANK_SPD_RPM: 1903
+  response: 7E80562206E076F

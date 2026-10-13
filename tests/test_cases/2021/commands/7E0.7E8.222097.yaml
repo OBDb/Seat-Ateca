@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222097
+test_cases:
+- expected_values:
+    ATECA_MEAN_INJ_QTY: 10
+  response: 7E805622097000A
+- expected_values:
+    ATECA_MEAN_INJ_QTY: 11
+  response: 7E805622097000B
+- expected_values:
+    ATECA_MEAN_INJ_QTY: 17
+  response: '7E8056220970011'
+- expected_values:
+    ATECA_MEAN_INJ_QTY: 23
+  response: '7E8056220970017'

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220301
+test_cases:
+- expected_values:
+    ATECA_CTRL_MODULE_T: 98
+  response: 7E9056203018A0F

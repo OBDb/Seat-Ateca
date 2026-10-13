@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213B8|din=03
+test_cases:
+- expected_values:
+    ATECA_OIL_P_SWITCH_VLV: 0
+  response: 7E8076213B8001FFFFF

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2229D1
+test_cases:
+- expected_values:
+    ATECA_AIR_MASS_ACT_MG: 87.16
+  response: 7E8056229D1220C
+- expected_values:
+    ATECA_AIR_MASS_ACT_MG: 93.47
+  response: 7E8056229D12483
+- expected_values:
+    ATECA_AIR_MASS_ACT_MG: 327.67
+  response: 7E8056229D17FFF

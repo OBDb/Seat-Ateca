@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22138D
+test_cases:
+- expected_values:
+    ATECA_IGA_IGC_3: -6.76925
+  response: 7E80462138D4D
+- expected_values:
+    ATECA_IGA_IGC_3: 7.846
+  response: 7E80462138D74
+- expected_values:
+    ATECA_IGA_IGC_3: 12.343
+  response: 7E80462138D80
+- expected_values:
+    ATECA_IGA_IGC_3: 13.0925
+  response: 7E80462138D82
+- expected_values:
+    ATECA_IGA_IGC_3: 16.84
+  response: 7E80462138D8C

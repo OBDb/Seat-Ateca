@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2213F7
+test_cases:
+- expected_values:
+    ATECA_NL_PRE_1: 0.02899
+  response: 7E8056213F7017C
+- expected_values:
+    ATECA_NL_PRE_1: 0.02922
+  response: 7E8056213F7017F
+- expected_values:
+    ATECA_NL_PRE_1: 0.02945
+  response: 7E8056213F70182
+- expected_values:
+    ATECA_NL_PRE_1: 0.03403
+  response: 7E8056213F701BE
+- expected_values:
+    ATECA_NL_PRE_1: 0.03891
+  response: 7E8056213F701FE
