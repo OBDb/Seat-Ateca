@@ -4,14 +4,8 @@ test_cases:
     ATECA_KNOCK_SENS_CYL_4: 0.293
   response: '7E8056239630125'
 - expected_values:
-    ATECA_KNOCK_SENS_CYL_4: 0.294
-  response: '7E8056239630126'
+    ATECA_KNOCK_SENS_CYL_4: 0.511
+  response: 7E80562396301FF
 - expected_values:
-    ATECA_KNOCK_SENS_CYL_4: 0.304
-  response: '7E8056239630130'
-- expected_values:
-    ATECA_KNOCK_SENS_CYL_4: 0.436
-  response: 7E80562396301B4
-- expected_values:
-    ATECA_KNOCK_SENS_CYL_4: 0.49
-  response: 7E80562396301EA
+    ATECA_KNOCK_SENS_CYL_4: 0.52
+  response: '7E8056239630208'

@@ -4,14 +4,5 @@ test_cases:
     ATECA_IGA_IGC_1: -10.142
   response: 7E80462138B44
 - expected_values:
-    ATECA_IGA_IGC_1: -7.8935
-  response: 7E80462138B4A
-- expected_values:
-    ATECA_IGA_IGC_1: -2.647
-  response: 7E80462138B58
-- expected_values:
-    ATECA_IGA_IGC_1: 0.351
-  response: 7E80462138B60
-- expected_values:
-    ATECA_IGA_IGC_1: 10.0945
-  response: 7E80462138B7A
+    ATECA_IGA_IGC_1: 19.46325
+  response: 7E80462138B93

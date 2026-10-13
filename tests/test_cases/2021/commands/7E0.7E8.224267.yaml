@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ATECA_DIRECT_INJECTIONS: 194410699
   response: 7E8076242670B9678CB
+- expected_values:
+    ATECA_DIRECT_INJECTIONS: 194551365
+  response: 7E8076242670B989E45
+- expected_values:
+    ATECA_DIRECT_INJECTIONS: 194622940
+  response: 7E8076242670B99B5DC

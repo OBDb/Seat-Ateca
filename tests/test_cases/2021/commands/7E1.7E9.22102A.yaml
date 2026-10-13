@@ -12,3 +12,18 @@ test_cases:
 - expected_values:
     ATECA_CLU_CENTER_CENTRAL_T: 57
   response: 7E90562102A3900
+- expected_values:
+    ATECA_CLU_CENTER_CENTRAL_T: 79
+  response: 7E90562102A4F00
+- expected_values:
+    ATECA_CLU_CENTER_CENTRAL_T: 83
+  response: 7E90562102A5300
+- expected_values:
+    ATECA_CLU_CENTER_CENTRAL_T: 84
+  response: 7E90562102A5400
+- expected_values:
+    ATECA_CLU_CENTER_CENTRAL_T: 86
+  response: 7E90562102A5600
+- expected_values:
+    ATECA_CLU_CENTER_CENTRAL_T: 100
+  response: 7E90562102A6400

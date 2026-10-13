@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     ATECA_AAT_7E0_7E0: 22
   response: 7E80462F4463E
+- expected_values:
+    ATECA_AAT_7E0_7E0: 23
+  response: 7E80462F4463F
+- expected_values:
+    ATECA_AAT_7E0_7E0: 24
+  response: 7E80462F44640
+- expected_values:
+    ATECA_AAT_7E0_7E0: 25
+  response: 7E80462F44641

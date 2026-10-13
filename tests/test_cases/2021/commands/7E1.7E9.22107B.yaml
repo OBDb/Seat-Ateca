@@ -1,5 +1,26 @@
 command_id: 7E1.7E9.22107B
 test_cases:
 - expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 108.28
+  response: 7E90762107B26158906
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 67.66
+  response: 7E90762107B370D8906
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 308.62
+  response: 7E90762107B473C8A06
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 318.9
+  response: 7E90762107B493E8A06
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 335.22
+  response: 7E90762107B79418A06
+- expected_values:
     ATECA_ANALYSIS_CLU_2_T_1: 1130.14
   response: 7E90762107BBBDC8806
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 352.7
+  response: 7E90762107BE3448A06
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_1: 107.3
+  response: 7E90762107BF5148906

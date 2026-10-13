@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22295D
 test_cases:
 - expected_values:
+    ATECA_LOAD_SHIFT_FLAPS_SPEC: 0
+  response: 7E80462295D00
+- expected_values:
     ATECA_LOAD_SHIFT_FLAPS_SPEC: 1
   response: 7E80462295D01

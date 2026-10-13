@@ -4,14 +4,8 @@ test_cases:
     ATECA_CLT_FAN_1_ACTIVATION: 10.16
   response: 7E80562205503F8
 - expected_values:
-    ATECA_CLT_FAN_1_ACTIVATION: 13.28
-  response: '7E8056220550530'
+    ATECA_CLT_FAN_1_ACTIVATION: 17.97
+  response: '7E8056220550705'
 - expected_values:
-    ATECA_CLT_FAN_1_ACTIVATION: 13.67
-  response: '7E8056220550557'
-- expected_values:
-    ATECA_CLT_FAN_1_ACTIVATION: 16.41
-  response: '7E8056220550669'
-- expected_values:
-    ATECA_CLT_FAN_1_ACTIVATION: 30.47
-  response: 7E8056220550BE7
+    ATECA_CLT_FAN_1_ACTIVATION: 35.16
+  response: 7E8056220550DBC

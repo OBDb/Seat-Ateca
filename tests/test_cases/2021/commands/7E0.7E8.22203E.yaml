@@ -4,11 +4,8 @@ test_cases:
     ATECA_FUEL_T_7E0: 46.5
   response: 7E80562203E01D1
 - expected_values:
-    ATECA_FUEL_T_7E0: 48
-  response: 7E80562203E01E0
-- expected_values:
-    ATECA_FUEL_T_7E0: 48.7
-  response: 7E80562203E01E7
-- expected_values:
     ATECA_FUEL_T_7E0: 49.5
   response: 7E80562203E01EF
+- expected_values:
+    ATECA_FUEL_T_7E0: 63.7
+  response: 7E80562203E027D

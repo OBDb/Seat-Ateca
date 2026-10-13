@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_MISFIRES_1000_RPM_C1: 0
   response: 7E80562291D0000
+- expected_values:
+    ATECA_MISFIRES_1000_RPM_C1: 1
+  response: 7E80562291D0001

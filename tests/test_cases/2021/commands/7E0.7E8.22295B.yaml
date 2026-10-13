@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     ATECA_ODO_ECU_INSTALLED: 84819
   response: 7E80662295B014B53
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84846
+  response: 7E80662295B014B6E
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84847
+  response: 7E80662295B014B6F
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84848
+  response: 7E80662295B014B70
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84849
+  response: 7E80662295B014B71
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84860
+  response: 7E80662295B014B7C
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84861
+  response: 7E80662295B014B7D
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84862
+  response: 7E80662295B014B7E

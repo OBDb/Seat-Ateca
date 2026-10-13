@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_BRAKE_BOOSTER_LOW_P_ACT: 0.07813
   response: '7E8056214900002'
+- expected_values:
+    ATECA_BRAKE_BOOSTER_LOW_P_ACT: 0.11719
+  response: '7E8056214900003'

@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     ATECA_OIL_LEVEL_TEST_2: 46.7
   response: 7E805624E52123E
+- expected_values:
+    ATECA_OIL_LEVEL_TEST_2: 53.9
+  response: 7E805624E52150E
+- expected_values:
+    ATECA_OIL_LEVEL_TEST_2: 55.1
+  response: 7E805624E521586
+- expected_values:
+    ATECA_OIL_LEVEL_TEST_2: 55.2
+  response: 7E805624E521590

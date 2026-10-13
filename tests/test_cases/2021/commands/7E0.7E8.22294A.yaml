@@ -4,14 +4,11 @@ test_cases:
     ATECA_DYNAMIC_AVG_IGN_ANG: 9
   response: 7E80562294A0384
 - expected_values:
-    ATECA_DYNAMIC_AVG_IGN_ANG: 9.37
-  response: 7E80562294A03A9
+    ATECA_DYNAMIC_AVG_IGN_ANG: -7.87
+  response: 7E80562294AFCED
 - expected_values:
-    ATECA_DYNAMIC_AVG_IGN_ANG: -11.62
-  response: 7E80562294AFB76
+    ATECA_DYNAMIC_AVG_IGN_ANG: -7.5
+  response: 7E80562294AFD12
 - expected_values:
-    ATECA_DYNAMIC_AVG_IGN_ANG: -6.37
-  response: 7E80562294AFD83
-- expected_values:
-    ATECA_DYNAMIC_AVG_IGN_ANG: -3.75
-  response: 7E80562294AFE89
+    ATECA_DYNAMIC_AVG_IGN_ANG: -4.5
+  response: 7E80562294AFE3E

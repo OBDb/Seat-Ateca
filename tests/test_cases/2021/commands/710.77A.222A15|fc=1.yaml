@@ -4,6 +4,9 @@ test_cases:
     ATECA_ENERGY_BALANCE_LAST: 12.01
   response: 77A05622A1504B1
 - expected_values:
+    ATECA_ENERGY_BALANCE_LAST: 12.02
+  response: 77A05622A1504B2
+- expected_values:
     ATECA_ENERGY_BALANCE_LAST: 12.03
   response: 77A05622A1504B3
 - expected_values:
@@ -12,6 +15,12 @@ test_cases:
 - expected_values:
     ATECA_ENERGY_BALANCE_LAST: 12.05
   response: 77A05622A1504B5
+- expected_values:
+    ATECA_ENERGY_BALANCE_LAST: 12.06
+  response: 77A05622A1504B6
+- expected_values:
+    ATECA_ENERGY_BALANCE_LAST: 12.07
+  response: 77A05622A1504B7
 - expected_values:
     ATECA_ENERGY_BALANCE_LAST: 12.13
   response: 77A05622A1504BD

@@ -7,6 +7,21 @@ test_cases:
     ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.06
   response: '7E8056243810006'
 - expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.11
+  response: 7E805624381000B
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.13
+  response: 7E805624381000D
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.15
+  response: 7E805624381000F
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.21
+  response: '7E8056243810015'
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.23
+  response: '7E8056243810017'
+- expected_values:
     ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.28
   response: 7E805624381001C
 - expected_values:

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_LOST_TQ_ADPT_DRIVING: -8.5
   response: 7E80562437EFFAB
+- expected_values:
+    ATECA_LOST_TQ_ADPT_DRIVING: -8.4
+  response: 7E80562437EFFAC

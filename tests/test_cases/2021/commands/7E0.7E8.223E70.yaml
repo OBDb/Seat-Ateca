@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.223E70
 test_cases:
 - expected_values:
+    ATECA_INT_MANIFOLD_P_RAW: 0.23
+  response: 7E805623E7000E6
+- expected_values:
     ATECA_INT_MANIFOLD_P_RAW: 0.246
   response: 7E805623E7000F6
 - expected_values:
-    ATECA_INT_MANIFOLD_P_RAW: 0.272
-  response: 7E805623E700110
-- expected_values:
-    ATECA_INT_MANIFOLD_P_RAW: 0.354
-  response: 7E805623E700162
-- expected_values:
-    ATECA_INT_MANIFOLD_P_RAW: 0.927
-  response: 7E805623E70039F
+    ATECA_INT_MANIFOLD_P_RAW: 0.27
+  response: 7E805623E70010E
 - expected_values:
     ATECA_INT_MANIFOLD_P_RAW: 1.063
   response: 7E805623E700427

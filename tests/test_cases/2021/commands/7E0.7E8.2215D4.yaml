@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ATECA_LAMBDA_OUTPUT: 0.00037
   response: 7E8076215D4000CF128
+- expected_values:
+    ATECA_LAMBDA_OUTPUT: 0.00037
+  response: 7E8076215D4000CF1D1
+- expected_values:
+    ATECA_LAMBDA_OUTPUT: 0.00037
+  response: 7E8076215D4000CF2D8

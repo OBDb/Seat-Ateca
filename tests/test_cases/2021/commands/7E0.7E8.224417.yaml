@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.224417
 test_cases:
 - expected_values:
-    ATECA_THERMOSTAT_CMD: 100
-  response: 7E80562441722AB
+    ATECA_THERMOSTAT_CMD: 82.70242
+  response: 7E8056244171A77
 - expected_values:
-    ATECA_THERMOSTAT_CMD: 100
-  response: '7E8056244173070'
+    ATECA_THERMOSTAT_CMD: 84.53348
+  response: 7E8056244171B0D
 - expected_values:
     ATECA_THERMOSTAT_CMD: 100
   response: 7E80562441733F4

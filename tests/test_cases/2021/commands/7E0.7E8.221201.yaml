@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.221201
 test_cases:
 - expected_values:
-    ATECA_EA888B_BOOST_P_CTRL_2: 44.96
-  response: 7E805621201104F
+    ATECA_EA888B_BOOST_P_CTRL_2: 42.15
+  response: 7E8056212010FB2
 - expected_values:
-    ATECA_EA888B_BOOST_P_CTRL_2: 44.96
-  response: '7E8056212011088'
+    ATECA_EA888B_BOOST_P_CTRL_2: 42.15
+  response: 7E8056212010FF9
 - expected_values:
-    ATECA_EA888B_BOOST_P_CTRL_2: 44.96
-  response: 7E80562120110AB
-- expected_values:
-    ATECA_EA888B_BOOST_P_CTRL_2: 44.96
-  response: 7E80562120110BD
-- expected_values:
-    ATECA_EA888B_BOOST_P_CTRL_2: 47.77
-  response: 7E805621201110F
+    ATECA_EA888B_BOOST_P_CTRL_2: 81.49
+  response: 7E8056212011D0A

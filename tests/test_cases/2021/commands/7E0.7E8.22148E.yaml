@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22148E
 test_cases:
 - expected_values:
+    ATECA_CTR_MIS_DC_MMV_CYL_1: 6
+  response: 7E80562148E0006
+- expected_values:
     ATECA_CTR_MIS_DC_MMV_CYL_1: 7
   response: 7E80562148E0007

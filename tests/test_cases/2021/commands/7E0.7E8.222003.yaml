@@ -1,11 +1,26 @@
 command_id: 7E0.7E8.222003
 test_cases:
 - expected_values:
+    ATECA_AVG_INJ_TIME_7E0: 0.5
+  response: '7E80462200305'
+- expected_values:
     ATECA_AVG_INJ_TIME_7E0: 0.6
   response: '7E80462200306'
 - expected_values:
+    ATECA_AVG_INJ_TIME_7E0: 0.7
+  response: '7E80462200307'
+- expected_values:
+    ATECA_AVG_INJ_TIME_7E0: 0.8
+  response: '7E80462200308'
+- expected_values:
     ATECA_AVG_INJ_TIME_7E0: 0.9
   response: '7E80462200309'
+- expected_values:
+    ATECA_AVG_INJ_TIME_7E0: 1
+  response: 7E8046220030A
+- expected_values:
+    ATECA_AVG_INJ_TIME_7E0: 1.3
+  response: 7E8046220030D
 - expected_values:
     ATECA_AVG_INJ_TIME_7E0: 1.4
   response: 7E8046220030E
