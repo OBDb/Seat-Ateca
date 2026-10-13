@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_ANALYSIS_CLU_2_T_2: 1070.42
   response: 7E90762107C11D11500
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_2: 1084.8
+  response: 7E90762107CE0D31500

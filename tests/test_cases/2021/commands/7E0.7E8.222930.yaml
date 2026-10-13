@@ -4,14 +4,11 @@ test_cases:
     ATECA_CAM_ADJ_INT_BANK_1: 43.18
   response: 7E80562293010DE
 - expected_values:
-    ATECA_CAM_ADJ_INT_BANK_1: 46.42
-  response: '7E8056229301222'
+    ATECA_CAM_ADJ_INT_BANK_1: 46.11
+  response: '7E8056229301203'
 - expected_values:
-    ATECA_CAM_ADJ_INT_BANK_1: 48.51
-  response: 7E80562293012F3
+    ATECA_CAM_ADJ_INT_BANK_1: 48.62
+  response: 7E80562293012FE
 - expected_values:
-    ATECA_CAM_ADJ_INT_BANK_1: 49.44
-  response: '7E8056229301350'
-- expected_values:
-    ATECA_CAM_ADJ_INT_BANK_1: 50.13
-  response: '7E8056229301395'
+    ATECA_CAM_ADJ_INT_BANK_1: 56.59
+  response: 7E805622930161B

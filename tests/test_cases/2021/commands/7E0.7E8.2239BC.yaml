@@ -1,8 +1,20 @@
 command_id: 7E0.7E8.2239BC
 test_cases:
 - expected_values:
+    ATECA_MIXTURE_VARIATION_1: 0.42
+  response: 7E8056239BC002A
+- expected_values:
     ATECA_MIXTURE_VARIATION_1: 1.11
   response: 7E8056239BC006F
 - expected_values:
     ATECA_MIXTURE_VARIATION_1: 1.26
   response: 7E8056239BC007E
+- expected_values:
+    ATECA_MIXTURE_VARIATION_1: 1.52
+  response: 7E8056239BC0098
+- expected_values:
+    ATECA_MIXTURE_VARIATION_1: 1.84
+  response: 7E8056239BC00B8
+- expected_values:
+    ATECA_MIXTURE_VARIATION_1: 2.17
+  response: 7E8056239BC00D9

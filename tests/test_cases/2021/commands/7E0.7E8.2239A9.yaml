@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2239A9
 test_cases:
 - expected_values:
+    ATECA_OXYGEN_CTRL_ADPT: 0.41
+  response: 7E8056239A90029
+- expected_values:
     ATECA_OXYGEN_CTRL_ADPT: 1.1
   response: 7E8056239A9006E
+- expected_values:
+    ATECA_OXYGEN_CTRL_ADPT: 1.52
+  response: 7E8056239A90098

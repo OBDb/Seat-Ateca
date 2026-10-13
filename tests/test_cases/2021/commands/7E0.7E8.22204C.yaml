@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.22204C
 test_cases:
 - expected_values:
-    ATECA_FUEL_RATE: 2.19
-  response: 7E80562204C00DB
+    ATECA_FUEL_RATE: 1.8
+  response: 7E80562204C00B4
 - expected_values:
-    ATECA_FUEL_RATE: 2.8
-  response: 7E80562204C0118
+    ATECA_FUEL_RATE: 2.45
+  response: 7E80562204C00F5
 - expected_values:
-    ATECA_FUEL_RATE: 2.97
-  response: 7E80562204C0129
-- expected_values:
-    ATECA_FUEL_RATE: 3.9
-  response: 7E80562204C0186
-- expected_values:
-    ATECA_FUEL_RATE: 4.24
-  response: 7E80562204C01A8
+    ATECA_FUEL_RATE: 2.71
+  response: 7E80562204C010F

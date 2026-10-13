@@ -4,11 +4,23 @@ test_cases:
     ATECA_ACCEL_PEDAL_POS_2: 14.5098
   response: 7E80462F44A25
 - expected_values:
+    ATECA_ACCEL_PEDAL_POS_2: 20.78431
+  response: 7E80462F44A35
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS_2: 21.17647
+  response: 7E80462F44A36
+- expected_values:
     ATECA_ACCEL_PEDAL_POS_2: 22.35294
   response: 7E80462F44A39
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS_2: 23.52941
+  response: 7E80462F44A3C
 - expected_values:
     ATECA_ACCEL_PEDAL_POS_2: 25.4902
   response: 7E80462F44A41
 - expected_values:
     ATECA_ACCEL_PEDAL_POS_2: 27.84314
   response: 7E80462F44A47
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS_2: 28.23529
+  response: 7E80462F44A48

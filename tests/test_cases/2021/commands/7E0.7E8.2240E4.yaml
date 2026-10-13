@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.2240E4
 test_cases:
 - expected_values:
-    ATECA_T_SENS_ENG_T_V: 0.814
-  response: 7E8056240E4032E
-- expected_values:
-    ATECA_T_SENS_ENG_T_V: 0.867
-  response: 7E8056240E40363
+    ATECA_T_SENS_ENG_T_V: 0.781
+  response: 7E8056240E4030D
 - expected_values:
     ATECA_T_SENS_ENG_T_V: 0.942
   response: 7E8056240E403AE
-- expected_values:
-    ATECA_T_SENS_ENG_T_V: 1.085
-  response: 7E8056240E4043D
 - expected_values:
     ATECA_T_SENS_ENG_T_V: 1.321
   response: 7E8056240E40529

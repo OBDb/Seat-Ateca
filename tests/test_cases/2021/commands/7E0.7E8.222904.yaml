@@ -7,6 +7,9 @@ test_cases:
     ATECA_MIS_TOT: 1
   response: '7E8056229040001'
 - expected_values:
+    ATECA_MIS_TOT: 2
+  response: '7E8056229040002'
+- expected_values:
     ATECA_MIS_TOT: 3
   response: '7E8056229040003'
 - expected_values:

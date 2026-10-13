@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    ATECA_EXH_GAS_T: 486
-  response: 7E80562F43C148C
+    ATECA_EXH_GAS_T: 400.2
+  response: 7E80562F43C1132
 - expected_values:
-    ATECA_EXH_GAS_T: 494.1
-  response: 7E80562F43C14DD
+    ATECA_EXH_GAS_T: 448.3
+  response: 7E80562F43C1313
 - expected_values:
-    ATECA_EXH_GAS_T: 509.3
-  response: 7E80562F43C1575
+    ATECA_EXH_GAS_T: 471.6
+  response: 7E80562F43C13FC
 - expected_values:
-    ATECA_EXH_GAS_T: 529.9
-  response: 7E80562F43C1643
-- expected_values:
-    ATECA_EXH_GAS_T: 539
-  response: 7E80562F43C169E
+    ATECA_EXH_GAS_T: 623.9
+  response: 7E80562F43C19EF

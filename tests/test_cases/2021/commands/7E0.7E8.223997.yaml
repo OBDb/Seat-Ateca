@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.223997
 test_cases:
 - expected_values:
-    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 0.21
-  response: '7E8056239970015'
+    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 0
+  response: '7E8056239970000'
 - expected_values:
-    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 0.97
-  response: '7E8056239970061'
+    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 2.08
+  response: 7E80562399700D0
 - expected_values:
     ATECA_MIXTURE_ADPT_FACTOR_IDLE: 2.71
   response: 7E805623997010F
-- expected_values:
-    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 2.88
-  response: '7E8056239970120'
-- expected_values:
-    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 3.2
-  response: '7E8056239970140'

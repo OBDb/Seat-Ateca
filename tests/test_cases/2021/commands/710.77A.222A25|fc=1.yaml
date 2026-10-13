@@ -1,6 +1,9 @@
 command_id: 710.77A.222A25|fc=1
 test_cases:
 - expected_values:
+    ATECA_BAT_INTERNAL_RES_RAW: 5
+  response: 77A04622A2519
+- expected_values:
     ATECA_BAT_INTERNAL_RES_RAW: 5.2
   response: 77A04622A251A
 - expected_values:

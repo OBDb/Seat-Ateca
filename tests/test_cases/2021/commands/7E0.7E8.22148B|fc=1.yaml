@@ -7,6 +7,9 @@ test_cases:
     ATECA_MIS_PER_1000_RPM_ALL: 1
   response: 7E80562148B0001
 - expected_values:
+    ATECA_MIS_PER_1000_RPM_ALL: 2
+  response: 7E80562148B0002
+- expected_values:
     ATECA_MIS_PER_1000_RPM_ALL: 3
   response: 7E80562148B0003
 - expected_values:

@@ -4,14 +4,11 @@ test_cases:
     ATECA_TQ_LIM_7E0: 238.5
   response: 7E80562203F0951
 - expected_values:
-    ATECA_TQ_LIM_7E0: 241
-  response: 7E80562203F096A
+    ATECA_TQ_LIM_7E0: 307.8
+  response: 7E80562203F0C06
 - expected_values:
-    ATECA_TQ_LIM_7E0: 256.9
-  response: 7E80562203F0A09
+    ATECA_TQ_LIM_7E0: 383.2
+  response: 7E80562203F0EF8
 - expected_values:
-    ATECA_TQ_LIM_7E0: 287
-  response: 7E80562203F0B36
-- expected_values:
-    ATECA_TQ_LIM_7E0: 421.8
-  response: 7E80562203F107A
+    ATECA_TQ_LIM_7E0: 550
+  response: 7E80562203F157C

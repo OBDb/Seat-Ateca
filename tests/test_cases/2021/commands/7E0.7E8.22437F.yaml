@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22437F
 test_cases:
 - expected_values:
+    ATECA_LOST_TQ_ADPT_AC: 2.3
+  response: 7E80562437F0017
+- expected_values:
     ATECA_LOST_TQ_ADPT_AC: 2.8
   response: 7E80562437F001C
+- expected_values:
+    ATECA_LOST_TQ_ADPT_AC: 3.1
+  response: 7E80562437F001F

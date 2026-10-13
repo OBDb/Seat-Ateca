@@ -4,11 +4,8 @@ test_cases:
     ATECA_FUEL_HIGH_P_CTRL_DEV: 0
   response: 7E8056220BB0000
 - expected_values:
-    ATECA_FUEL_HIGH_P_CTRL_DEV: 0.2
-  response: 7E8056220BB0002
+    ATECA_FUEL_HIGH_P_CTRL_DEV: -13.6
+  response: 7E8056220BBFF78
 - expected_values:
-    ATECA_FUEL_HIGH_P_CTRL_DEV: 2.3
-  response: 7E8056220BB0017
-- expected_values:
-    ATECA_FUEL_HIGH_P_CTRL_DEV: -0.3
-  response: 7E8056220BBFFFD
+    ATECA_FUEL_HIGH_P_CTRL_DEV: -0.2
+  response: 7E8056220BBFFFE

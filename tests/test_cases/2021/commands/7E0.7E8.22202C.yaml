@@ -13,5 +13,17 @@ test_cases:
     ATECA_ECT_RADIATOR_OUTLET_SPEC: 96.7
   response: 7E80562202C03C7
 - expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 97.5
+  response: 7E80562202C03CF
+- expected_values:
     ATECA_ECT_RADIATOR_OUTLET_SPEC: 98.2
   response: 7E80562202C03D6
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 99
+  response: 7E80562202C03DE
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 99.7
+  response: 7E80562202C03E5
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 100.5
+  response: 7E80562202C03ED

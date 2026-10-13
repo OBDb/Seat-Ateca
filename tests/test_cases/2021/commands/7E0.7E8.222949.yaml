@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.222949
 test_cases:
 - expected_values:
-    ATECA_AVG_IGN_TIM_ANG: 11.25
-  response: '7E8056229490465'
+    ATECA_AVG_IGN_TIM_ANG: 10.87
+  response: 7E805622949043F
 - expected_values:
-    ATECA_AVG_IGN_TIM_ANG: 13.12
-  response: '7E8056229490520'
-- expected_values:
-    ATECA_AVG_IGN_TIM_ANG: 18.37
-  response: 7E805622949072D
-- expected_values:
-    ATECA_AVG_IGN_TIM_ANG: 22.87
-  response: 7E80562294908EF
+    ATECA_AVG_IGN_TIM_ANG: 12.75
+  response: 7E80562294904FB
 - expected_values:
     ATECA_AVG_IGN_TIM_ANG: 23.25
   response: '7E8056229490915'

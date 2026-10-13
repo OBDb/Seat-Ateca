@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.222028
 test_cases:
 - expected_values:
-    ATECA_ACTIVATION_FUEL_PMP: 26.46
-  response: 7E8056220280A56
+    ATECA_ACTIVATION_FUEL_PMP: 18.84
+  response: 7E805622028075C
+- expected_values:
+    ATECA_ACTIVATION_FUEL_PMP: 30.47
+  response: 7E8056220280BE7
 - expected_values:
     ATECA_ACTIVATION_FUEL_PMP: 30.82
   response: 7E8056220280C0A
 - expected_values:
-    ATECA_ACTIVATION_FUEL_PMP: 31.65
-  response: 7E8056220280C5D
-- expected_values:
-    ATECA_ACTIVATION_FUEL_PMP: 31.7
-  response: 7E8056220280C62
-- expected_values:
-    ATECA_ACTIVATION_FUEL_PMP: 32.13
-  response: 7E8056220280C8D
+    ATECA_ACTIVATION_FUEL_PMP: 33.48
+  response: 7E8056220280D14

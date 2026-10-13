@@ -4,11 +4,8 @@ test_cases:
     ATECA_FUEL_MASS_REQ_I_CTL: 0
   response: 7E80562130D0000
 - expected_values:
-    ATECA_FUEL_MASS_REQ_I_CTL: -14.34834
-  response: 7E80562130DFD5B
+    ATECA_FUEL_MASS_REQ_I_CTL: -4.74746
+  response: 7E80562130DFF20
 - expected_values:
-    ATECA_FUEL_MASS_REQ_I_CTL: -4.40835
-  response: 7E80562130DFF30
-- expected_values:
-    ATECA_FUEL_MASS_REQ_I_CTL: -4.15402
-  response: 7E80562130DFF3C
+    ATECA_FUEL_MASS_REQ_I_CTL: -1.01731
+  response: 7E80562130DFFD0

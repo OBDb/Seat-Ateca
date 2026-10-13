@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.224E70
 test_cases:
 - expected_values:
-    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.349
-  response: 7E805624E70015D
+    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.327
+  response: 7E805624E700147
 - expected_values:
-    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.393
-  response: 7E805624E700189
+    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.491
+  response: 7E805624E7001EB
 - expected_values:
-    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.551
-  response: 7E805624E700227
-- expected_values:
-    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.656
-  response: 7E805624E700290
-- expected_values:
-    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.662
-  response: 7E805624E700296
+    ATECA_KNOCK_SENSORS_AVG_V_1_2: 0.514
+  response: 7E805624E700202

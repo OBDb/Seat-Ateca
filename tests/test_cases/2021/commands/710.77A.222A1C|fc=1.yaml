@@ -1,23 +1,11 @@
 command_id: 710.77A.222A1C|fc=1
 test_cases:
 - expected_values:
-    ATECA_GEN_CURRENT: 48.3
-  response: 77A05622A1C0189
+    ATECA_GEN_CURRENT: 37.2
+  response: 77A05622A1C011A
 - expected_values:
-    ATECA_GEN_CURRENT: 48.6
-  response: 77A05622A1C018C
+    ATECA_GEN_CURRENT: 61
+  response: 77A05622A1C0208
 - expected_values:
-    ATECA_GEN_CURRENT: 50.4
-  response: 77A05622A1C019E
-- expected_values:
-    ATECA_GEN_CURRENT: 51
-  response: 77A05622A1C01A4
-- expected_values:
-    ATECA_GEN_CURRENT: 55.9
-  response: 77A05622A1C01D5
-- expected_values:
-    ATECA_GEN_CURRENT: 61.3
-  response: 77A05622A1C020B
-- expected_values:
-    ATECA_GEN_CURRENT: 68.8
-  response: 77A05622A1C0256
+    ATECA_GEN_CURRENT: 82.8
+  response: 77A05622A1C02E2

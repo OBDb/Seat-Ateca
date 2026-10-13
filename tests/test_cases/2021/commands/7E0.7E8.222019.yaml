@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.222019
 test_cases:
 - expected_values:
+    ATECA_CAM_ADJ_EXH_SPEC: 0
+  response: '7E8056220190000'
+- expected_values:
+    ATECA_CAM_ADJ_EXH_SPEC: 3.9
+  response: '7E8056220190027'
+- expected_values:
     ATECA_CAM_ADJ_EXH_SPEC: 4.3
   response: 7E805622019002B
 - expected_values:
@@ -9,6 +15,12 @@ test_cases:
 - expected_values:
     ATECA_CAM_ADJ_EXH_SPEC: 5.6
   response: '7E8056220190038'
+- expected_values:
+    ATECA_CAM_ADJ_EXH_SPEC: 9
+  response: 7E805622019005A
+- expected_values:
+    ATECA_CAM_ADJ_EXH_SPEC: 9.4
+  response: 7E805622019005E
 - expected_values:
     ATECA_CAM_ADJ_EXH_SPEC: 14
   response: 7E805622019008C

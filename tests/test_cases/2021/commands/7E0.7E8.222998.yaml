@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ATECA_MANUAL_ENG_STARTS: 6485
   response: '7E8056229981955'
+- expected_values:
+    ATECA_MANUAL_ENG_STARTS: 6487
+  response: '7E8056229981957'
+- expected_values:
+    ATECA_MANUAL_ENG_STARTS: 6488
+  response: '7E8056229981958'

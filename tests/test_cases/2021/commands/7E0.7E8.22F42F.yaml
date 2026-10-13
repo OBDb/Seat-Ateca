@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
+    ATECA_FLI_INPUT: 43.92157
+  response: 7E80462F42F70
+- expected_values:
+    ATECA_FLI_INPUT: 45.09804
+  response: 7E80462F42F73
+- expected_values:
+    ATECA_FLI_INPUT: 47.84314
+  response: 7E80462F42F7A
+- expected_values:
+    ATECA_FLI_INPUT: 49.01961
+  response: 7E80462F42F7D
+- expected_values:
     ATECA_FLI_INPUT: 56.07843
   response: 7E80462F42F8F

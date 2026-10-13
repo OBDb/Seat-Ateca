@@ -4,11 +4,8 @@ test_cases:
     ATECA_TI_MES4_PLS_1_2: 0
   response: 7E8056213A20000
 - expected_values:
-    ATECA_TI_MES4_PLS_1_2: 0.8
-  response: 7E8056213A200C8
+    ATECA_TI_MES4_PLS_1_2: 1.02
+  response: 7E8056213A200FF
 - expected_values:
-    ATECA_TI_MES4_PLS_1_2: 1.008
-  response: 7E8056213A200FC
-- expected_values:
-    ATECA_TI_MES4_PLS_1_2: 1.656
-  response: 7E8056213A2019E
+    ATECA_TI_MES4_PLS_1_2: 1.196
+  response: 7E8056213A2012B

@@ -1,23 +1,14 @@
 command_id: 712.77C.221806|fc=1
 test_cases:
 - expected_values:
-    ATECA_STEER_WHL_TQ_SENS_2: 1.54551
-  response: 77C06621806015200
+    ATECA_STEER_WHL_TQ_SENS_2: 0.48192
+  response: 77C06621806006000
 - expected_values:
-    ATECA_STEER_WHL_TQ_SENS_2: 2.9607
-  response: 77C06621806029400
+    ATECA_STEER_WHL_TQ_SENS_2: -3.27141
+  response: 77C06621806FD0A00
 - expected_values:
-    ATECA_STEER_WHL_TQ_SENS_2: 6.43275
-  response: 77C0662180605AA00
-- expected_values:
-    ATECA_STEER_WHL_TQ_SENS_2: -4.8624
-  response: 77C06621806FBA000
-- expected_values:
-    ATECA_STEER_WHL_TQ_SENS_2: -3.8032
-  response: 77C06621806FC9100
-- expected_values:
-    ATECA_STEER_WHL_TQ_SENS_2: -0.33116
-  response: 77C06621806FFA700
+    ATECA_STEER_WHL_TQ_SENS_2: -0.89811
+  response: 77C06621806FF2600
 - expected_values:
     ATECA_STEER_WHL_TQ_SENS_2: -0.22567
   response: 77C06621806FFBF00

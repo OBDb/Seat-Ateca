@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ATECA_CTR_MIS_DC_MMV_CYL_2: 7
   response: 7E80562148F0007
+- expected_values:
+    ATECA_CTR_MIS_DC_MMV_CYL_2: 8
+  response: 7E80562148F0008
+- expected_values:
+    ATECA_CTR_MIS_DC_MMV_CYL_2: 9
+  response: 7E80562148F0009
