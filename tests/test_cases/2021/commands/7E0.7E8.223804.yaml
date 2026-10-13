@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.223804
+test_cases:
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS: 0
+  response: '7E8056238040000'
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS: 1.95
+  response: 7E80562380400C3
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS: 7.81
+  response: 7E805623804030D
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS: 16.02
+  response: '7E8056238040642'
+- expected_values:
+    ATECA_ACCEL_PEDAL_POS: 27.05
+  response: 7E8056238040A91

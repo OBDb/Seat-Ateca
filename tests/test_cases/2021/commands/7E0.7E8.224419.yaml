@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224419
+test_cases:
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT: 1478
+  response: 7E80562441905C6
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT: 2069
+  response: '7E8056244190815'
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT: 2122
+  response: 7E805624419084A
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT: 2184
+  response: '7E8056244190888'

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22296F
+test_cases:
+- expected_values:
+    ATECA_EXH_GAS_T_BEFORE: 329.3
+  response: 7E80562296F0CDD
+- expected_values:
+    ATECA_EXH_GAS_T_BEFORE: 404.8
+  response: 7E80562296F0FD0
+- expected_values:
+    ATECA_EXH_GAS_T_BEFORE: 490.7
+  response: 7E80562296F132B
+- expected_values:
+    ATECA_EXH_GAS_T_BEFORE: 502.9
+  response: 7E80562296F13A5
+- expected_values:
+    ATECA_EXH_GAS_T_BEFORE: 522.1
+  response: 7E80562296F1465

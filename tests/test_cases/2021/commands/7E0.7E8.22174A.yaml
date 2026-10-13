@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22174A
+test_cases:
+- expected_values:
+    ATECA_EXH_CAM_ADPT_BIAS: 0
+  response: 7E80762174A00000000

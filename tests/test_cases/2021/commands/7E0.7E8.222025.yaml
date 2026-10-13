@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222025
+test_cases:
+- expected_values:
+    ATECA_FUEL_LOW_P_ACT: 2.224
+  response: 7E80562202508B0

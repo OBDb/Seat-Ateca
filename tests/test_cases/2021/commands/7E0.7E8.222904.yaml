@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222904
+test_cases:
+- expected_values:
+    ATECA_MIS_TOT: 0
+  response: '7E8056229040000'
+- expected_values:
+    ATECA_MIS_TOT: 1
+  response: '7E8056229040001'
+- expected_values:
+    ATECA_MIS_TOT: 3
+  response: '7E8056229040003'
+- expected_values:
+    ATECA_MIS_TOT: 6
+  response: '7E8056229040006'

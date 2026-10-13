@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222056
+test_cases:
+- expected_values:
+    ATECA_CLT_FAN_2_ACTIVATION: 10.16
+  response: 7E80562205603F8
+- expected_values:
+    ATECA_CLT_FAN_2_ACTIVATION: 14.84
+  response: 7E80562205605CC
+- expected_values:
+    ATECA_CLT_FAN_2_ACTIVATION: 15.63
+  response: 7E805622056061B
+- expected_values:
+    ATECA_CLT_FAN_2_ACTIVATION: 30.47
+  response: 7E8056220560BE7

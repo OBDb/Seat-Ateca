@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221064
+test_cases:
+- expected_values:
+    ATECA_ANALYSIS_CLU_1_MAX_T: 368
+  response: '7E9056210647001'

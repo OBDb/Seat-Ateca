@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22295B
+test_cases:
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84817
+  response: 7E80662295B014B51
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84818
+  response: 7E80662295B014B52
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 84819
+  response: 7E80662295B014B53

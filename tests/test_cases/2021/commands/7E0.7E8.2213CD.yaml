@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2213CD
+test_cases:
+- expected_values:
+    ATECA_MAF_RATE: 12.875
+  response: 7E8056213CD019C
+- expected_values:
+    ATECA_MAF_RATE: 16.53125
+  response: 7E8056213CD0211
+- expected_values:
+    ATECA_MAF_RATE: 22.40625
+  response: 7E8056213CD02CD
+- expected_values:
+    ATECA_MAF_RATE: 28.5
+  response: 7E8056213CD0390
+- expected_values:
+    ATECA_MAF_RATE: 92.4375
+  response: 7E8056213CD0B8E

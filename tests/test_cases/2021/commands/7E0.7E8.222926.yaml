@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222926
+test_cases:
+- expected_values:
+    ATECA_TEST_CATALYTIC_CONV: 0
+  response: '7E8056229260000'

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2240D5
+test_cases:
+- expected_values:
+    ATECA_EOT_SENS_2: 43
+  response: 7E8056240D501AE
+- expected_values:
+    ATECA_EOT_SENS_2: 45
+  response: 7E8056240D501C2
+- expected_values:
+    ATECA_EOT_SENS_2: 46
+  response: 7E8056240D501CC
+- expected_values:
+    ATECA_EOT_SENS_2: 47
+  response: 7E8056240D501D6
+- expected_values:
+    ATECA_EOT_SENS_2: 48
+  response: 7E8056240D501E0

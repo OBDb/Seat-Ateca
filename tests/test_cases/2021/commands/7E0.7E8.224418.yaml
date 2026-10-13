@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224418
+test_cases:
+- expected_values:
+    ATECA_THERMOSTAT_ACT: 100
+  response: 7E80562441822D4
+- expected_values:
+    ATECA_THERMOSTAT_ACT: 100
+  response: 7E80562441830D9
+- expected_values:
+    ATECA_THERMOSTAT_ACT: 100
+  response: 7E80562441834EB
+- expected_values:
+    ATECA_THERMOSTAT_ACT: 100
+  response: '7E8056244183587'

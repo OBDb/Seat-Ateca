@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224381
+test_cases:
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.02
+  response: '7E8056243810002'
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.06
+  response: '7E8056243810006'
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.28
+  response: 7E805624381001C
+- expected_values:
+    ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.3
+  response: 7E805624381001E

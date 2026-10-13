@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211CF
+test_cases:
+- expected_values:
+    ATECA_BRAKE_BOOSTER_P: 380.07326
+  response: 7E8056211CF2602
+- expected_values:
+    ATECA_BRAKE_BOOSTER_P: 421.43992
+  response: 7E8056211CF2A25
+- expected_values:
+    ATECA_BRAKE_BOOSTER_P: 458.23632
+  response: 7E8056211CF2DD3
+- expected_values:
+    ATECA_BRAKE_BOOSTER_P: 487.25939
+  response: 7E8056211CF30BA
+- expected_values:
+    ATECA_BRAKE_BOOSTER_P: 496.79052
+  response: 7E8056211CF31AE

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210F6
+test_cases:
+- expected_values:
+    ATECA_MIS_PER_1000_2_7E0: 32767
+  response: 7E8076210F67FFFFFFF

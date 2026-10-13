@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22202C
+test_cases:
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 75.7
+  response: 7E80562202C02F5
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 86.2
+  response: 7E80562202C035E
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 90.7
+  response: 7E80562202C038B
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 96.7
+  response: 7E80562202C03C7
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_SPEC: 98.2
+  response: 7E80562202C03D6

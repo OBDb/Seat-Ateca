@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    ATECA_MAP_RAW: 5.54688
+  response: 7E8056211DC0047
+- expected_values:
+    ATECA_MAP_RAW: 11.01562
+  response: 7E8056211DC008D
+- expected_values:
+    ATECA_MAP_RAW: 14.14062
+  response: 7E8056211DC00B5
+- expected_values:
+    ATECA_MAP_RAW: 18.90625
+  response: 7E8056211DC00F2
+- expected_values:
+    ATECA_MAP_RAW: 22.26562
+  response: 7E8056211DC011D

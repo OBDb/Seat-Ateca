@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22441A
+test_cases:
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT_ACTUATOR: 0
+  response: 7E80562441A0000
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT_ACTUATOR: 42.6
+  response: 7E80562441A10A4

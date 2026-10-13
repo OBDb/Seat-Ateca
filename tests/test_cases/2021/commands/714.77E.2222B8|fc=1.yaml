@@ -1,0 +1,17 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    ATECA_ODO_MILEAGE_HR: 84851.741
+  response: 77E076222B8050EBC1D
+- expected_values:
+    ATECA_ODO_MILEAGE_HR: 84852.178
+  response: 77E076222B8050EBDD2
+- expected_values:
+    ATECA_ODO_MILEAGE_HR: 84852.528
+  response: 77E076222B8050EBF30
+- expected_values:
+    ATECA_ODO_MILEAGE_HR: 84853.141
+  response: 77E076222B8050EC195
+- expected_values:
+    ATECA_ODO_MILEAGE_HR: 84853.979
+  response: 77E076222B8050EC4DB

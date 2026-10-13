@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221023
+test_cases:
+- expected_values:
+    ATECA_AC_COMP_TQ_REQ: 0
+  response: '7E8056210230000'

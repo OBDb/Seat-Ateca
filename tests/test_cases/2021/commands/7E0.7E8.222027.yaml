@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.222027
+test_cases:
+- expected_values:
+    ATECA_FUEL_HIGH_P_ACT: 96.5
+  response: 7E80562202703C5
+- expected_values:
+    ATECA_FUEL_HIGH_P_ACT: 107.2
+  response: '7E8056220270430'
+- expected_values:
+    ATECA_FUEL_HIGH_P_ACT: 134.5
+  response: '7E8056220270541'
+- expected_values:
+    ATECA_FUEL_HIGH_P_ACT: 208.8
+  response: '7E8056220270828'
+- expected_values:
+    ATECA_FUEL_HIGH_P_ACT: 244.2
+  response: 7E805622027098A

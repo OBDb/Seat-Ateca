@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2240CE|fc=1
+test_cases:
+- expected_values:
+    ATECA_OIL_LEVEL_STATIC_7E0: -127
+  response: 7E8056240CE0000

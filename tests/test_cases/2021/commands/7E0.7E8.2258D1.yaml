@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2258D1
+test_cases:
+- expected_values:
+    ATECA_ENG_OIL_LEVEL: 54.4
+  response: |-
+    7E810116258D100014B
+    7E8212A00014B1B1540
+    7E82200020007AAAAAA

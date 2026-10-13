@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222920|fc=1,c=17
+test_cases:
+- expected_values:
+    ATECA_MISFIRES_1000_RPM_C2: 0
+  response: '7E8056229200000'
+- expected_values:
+    ATECA_MISFIRES_1000_RPM_C2: 1
+  response: '7E8056229200001'
+- expected_values:
+    ATECA_MISFIRES_1000_RPM_C2: 4
+  response: '7E8056229200004'

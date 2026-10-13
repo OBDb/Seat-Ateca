@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2220C2
+test_cases:
+- expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0
+  response: 7E8056220C20000
+- expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0.07172
+  response: 7E8056220C2002F
+- expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0.12512
+  response: 7E8056220C20052
+- expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0.21057
+  response: 7E8056220C2008A
+- expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0.25177
+  response: 7E8056220C200A5

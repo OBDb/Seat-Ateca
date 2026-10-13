@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22414F
+test_cases:
+- expected_values:
+    ATECA_LONG_TERM_ADPT_INT_MANIFOLD_INJ: 0
+  response: 7E80562414F0000

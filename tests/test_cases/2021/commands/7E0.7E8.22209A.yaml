@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22209A
+test_cases:
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 0
+  response: 7E80562209A0000

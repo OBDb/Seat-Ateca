@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22294A
+test_cases:
+- expected_values:
+    ATECA_DYNAMIC_AVG_IGN_ANG: 9
+  response: 7E80562294A0384
+- expected_values:
+    ATECA_DYNAMIC_AVG_IGN_ANG: 9.37
+  response: 7E80562294A03A9
+- expected_values:
+    ATECA_DYNAMIC_AVG_IGN_ANG: -11.62
+  response: 7E80562294AFB76
+- expected_values:
+    ATECA_DYNAMIC_AVG_IGN_ANG: -6.37
+  response: 7E80562294AFD83
+- expected_values:
+    ATECA_DYNAMIC_AVG_IGN_ANG: -3.75
+  response: 7E80562294AFE89
