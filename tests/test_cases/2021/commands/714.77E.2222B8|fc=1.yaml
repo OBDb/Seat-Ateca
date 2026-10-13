@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     ATECA_ODO_MILEAGE_HR: 84853.979
   response: 77E076222B8050EC4DB
+- expected_values:
+    ATECA_ODO_MILEAGE_HR: 84880.866
+  response: 77E076222B8050F2DE2
