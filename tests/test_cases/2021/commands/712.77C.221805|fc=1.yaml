@@ -1,6 +1,9 @@
 command_id: 712.77C.221805|fc=1
 test_cases:
 - expected_values:
+    ATECA_STEER_WHL_TQ_SENS_1: 0.51708
+  response: 77C06621805006800
+- expected_values:
     ATECA_STEER_WHL_TQ_SENS_1: 3.59798
   response: 77C06621805032500
 - expected_values:
@@ -12,6 +15,9 @@ test_cases:
 - expected_values:
     ATECA_STEER_WHL_TQ_SENS_1: -3.51753
   response: 77C06621805FCD200
+- expected_values:
+    ATECA_STEER_WHL_TQ_SENS_1: -1.7815
+  response: 77C06621805FE5D00
 - expected_values:
     ATECA_STEER_WHL_TQ_SENS_1: -0.1202
   response: 77C06621805FFD700
