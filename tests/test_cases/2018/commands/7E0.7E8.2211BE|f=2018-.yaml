@@ -1,11 +1,11 @@
-command_id: 7E0.7E8.2211BE
+command_id: 7E0.7E8.2211BE|f=2018-
 test_cases:
 - expected_values:
-    ATECA_PQ35_OIL_T_2: -273.1
+    ATECA_OIL_T_2_RAW: 0
   response: 7E8056211BE0000
 - expected_values:
-    ATECA_PQ35_OIL_T_2: 6276.1
+    ATECA_OIL_T_2_RAW: -44
   response: 7E8056211BEFFD4
 - expected_values:
-    ATECA_PQ35_OIL_T_2: 6280.2
+    ATECA_OIL_T_2_RAW: -3
   response: 7E8056211BEFFFD
