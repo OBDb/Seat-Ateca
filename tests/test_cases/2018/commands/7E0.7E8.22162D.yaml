@@ -1,32 +1,32 @@
-command_id: 7E0.7E8.22162D|f=2018-
+command_id: 7E0.7E8.22162D
 test_cases:
 - expected_values:
-    ATECA_FUEL_T_RAW: 0
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D00000000
 - expected_values:
-    ATECA_FUEL_T_RAW: 2048
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D00000800
 - expected_values:
-    ATECA_FUEL_T_RAW: 33556480
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D02000800
 - expected_values:
-    ATECA_FUEL_T_RAW: 41943040
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D02800000
 - expected_values:
-    ATECA_FUEL_T_RAW: 41945088
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D02800800
 - expected_values:
-    ATECA_FUEL_T_RAW: 2147483648
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D80000000
 - expected_values:
-    ATECA_FUEL_T_RAW: 2147485696
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D80000800
 - expected_values:
-    ATECA_FUEL_T_RAW: 2181040128
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D82000800
 - expected_values:
-    ATECA_FUEL_T_RAW: 2181072896
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D82008800
 - expected_values:
-    ATECA_FUEL_T_RAW: 2189426688
+    ATECA_PQ35_FUEL_T: null
   response: 7E80762162D82800000

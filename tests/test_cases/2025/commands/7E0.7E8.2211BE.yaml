@@ -1,17 +1,17 @@
-command_id: 7E0.7E8.2211BE|f=2018-
+command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    ATECA_OIL_T_2_RAW: -13
+    ATECA_PQ35_OIL_T_2: null
   response: 7E8056211BEFFF3
 - expected_values:
-    ATECA_OIL_T_2_RAW: -12
+    ATECA_PQ35_OIL_T_2: null
   response: 7E8056211BEFFF4
 - expected_values:
-    ATECA_OIL_T_2_RAW: -11
+    ATECA_PQ35_OIL_T_2: null
   response: 7E8056211BEFFF5
 - expected_values:
-    ATECA_OIL_T_2_RAW: -10
+    ATECA_PQ35_OIL_T_2: null
   response: 7E8056211BEFFF6
 - expected_values:
-    ATECA_OIL_T_2_RAW: -9
+    ATECA_PQ35_OIL_T_2: null
   response: 7E8056211BEFFF7
