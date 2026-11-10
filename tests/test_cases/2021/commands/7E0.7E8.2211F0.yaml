@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
-    ATECA_BOOST_P_ACT: 352.1875
+    ATECA_BOOST_P_ACT: 35.21875
   response: 7E8056211F0119C
 - expected_values:
-    ATECA_BOOST_P_ACT: 379.0625
+    ATECA_BOOST_P_ACT: 37.90625
   response: 7E8056211F012F4
 - expected_values:
-    ATECA_BOOST_P_ACT: 480.3125
+    ATECA_BOOST_P_ACT: 48.03125
   response: 7E8056211F01804
 - expected_values:
-    ATECA_BOOST_P_ACT: 528.35938
+    ATECA_BOOST_P_ACT: 52.83594
   response: 7E8056211F01A6B
