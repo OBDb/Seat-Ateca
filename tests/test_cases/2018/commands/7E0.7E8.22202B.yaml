@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22202B
+test_cases:
+- expected_values:
+    ATECA_ECT_RADIATOR_OUTLET_ACT: 33.3
+  response: 7E80562202B014D

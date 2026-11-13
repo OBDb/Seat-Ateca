@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22201D
+test_cases:
+- expected_values:
+    ATECA_CAM_ADJ_INT_SPEC: 15
+  response: 7E80562201D0096

@@ -1,0 +1,5 @@
+command_id: 712.77C.221806|fc=1
+test_cases:
+- expected_values:
+    ATECA_STEER_WHL_TQ_SENS_2: -0.2916
+  response: 77C06621806FFB000

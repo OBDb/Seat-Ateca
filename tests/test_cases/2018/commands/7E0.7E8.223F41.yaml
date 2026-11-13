@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223F41
+test_cases:
+- expected_values:
+    ATECA_ADPT_VAL_CYL1_SLOW: 0
+  response: 7E805623F410000
