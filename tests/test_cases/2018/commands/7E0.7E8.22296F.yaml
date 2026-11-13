@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22296F
+test_cases:
+- expected_values:
+    ATECA_EXH_GAS_T_BEFORE: 380
+  response: 7E80562296F0ED8

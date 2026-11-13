@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222019
+test_cases:
+- expected_values:
+    ATECA_CAM_ADJ_EXH_SPEC: 0
+  response: '7E8056220190000'

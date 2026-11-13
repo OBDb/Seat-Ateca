@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211CF
+test_cases:
+- expected_values:
+    ATECA_BRAKE_BOOSTER_P: 483.19694
+  response: 7E8056211CF3052

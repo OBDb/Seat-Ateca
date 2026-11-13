@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2239BC
+test_cases:
+- expected_values:
+    ATECA_MIXTURE_VARIATION_1: 3.9
+  response: 7E8056239BC0186

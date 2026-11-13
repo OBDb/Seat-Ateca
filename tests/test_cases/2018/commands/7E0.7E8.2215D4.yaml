@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215D4
+test_cases:
+- expected_values:
+    ATECA_LAMBDA_OUTPUT: 0.00058
+  response: 7E8076215D4001395F0

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216BB
+test_cases:
+- expected_values:
+    ATECA_VLV_LIFT_SYSTEM_VLV_LIFT: 6
+  response: 7E8056216BB06DA
