@@ -1,0 +1,5 @@
+command_id: 70F.779.222B1E|fc=1
+test_cases:
+- expected_values:
+    ATECA_PQ35_RR_VSS: 8.1
+  response: 77905622B1E0051

@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.2211E6
+test_cases:
+- expected_values:
+    ATECA_MQB_DPF_EXH_VOL: 2004.7
+  response: |-
+    7E8100C6211E64E4F5F
+    7E8214552524F5200AA

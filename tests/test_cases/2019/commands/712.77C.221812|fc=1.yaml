@@ -1,0 +1,5 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    ATECA_MQB_SWA: 24.56
+  response: 77C0662181200C401

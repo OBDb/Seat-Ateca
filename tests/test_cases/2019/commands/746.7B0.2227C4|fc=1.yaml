@@ -1,0 +1,8 @@
+command_id: 746.7B0.2227C4|fc=1
+test_cases:
+- expected_values:
+    ATECA_CABIN_HUMIDITY: 57.5
+    ATECA_WINDSHIELD_T: 32.624
+  response: |-
+    7B010086227C47CE491
+    7B021D473AAAAAAAAAA

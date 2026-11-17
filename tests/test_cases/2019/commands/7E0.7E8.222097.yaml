@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222097
+test_cases:
+- expected_values:
+    ATECA_MEAN_INJ_QTY: 15
+  response: 7E805622097000F

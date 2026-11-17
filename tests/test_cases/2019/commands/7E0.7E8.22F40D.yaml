@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    ATECA_VSS: 9
+  response: 7E80462F40D09

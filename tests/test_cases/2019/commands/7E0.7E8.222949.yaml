@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222949
+test_cases:
+- expected_values:
+    ATECA_AVG_IGN_TIM_ANG: 15.75
+  response: '7E8056229490627'
