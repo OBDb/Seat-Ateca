@@ -1,0 +1,8 @@
+command_id: 713.77D.221804|fc=1
+test_cases:
+- expected_values:
+    ATECA_MQB_SWA_ALT: 112.875
+  response: |-
+    77D101162180400AFFF
+    77D21FD007E00050200
+    77D22010200FFAAAAAA

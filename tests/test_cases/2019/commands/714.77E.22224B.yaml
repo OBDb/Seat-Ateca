@@ -1,0 +1,5 @@
+command_id: 714.77E.22224B
+test_cases:
+- expected_values:
+    ATECA_OIL_WEAR: 292
+  response: 77E0562224B0124

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213AE
+test_cases:
+- expected_values:
+    ATECA_TI_1_MPI_2: 0
+  response: 7E8056213AE0000

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22392A
+test_cases:
+- expected_values:
+    ATECA_T_SENS_ENG_T: -48
+  response: 7E80562392AFE20

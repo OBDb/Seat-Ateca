@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.2211DD
+test_cases:
+- expected_values:
+    ATECA_INT_MANIFOLD_P_CMD: 1566.17188
+  response: |-
+    7E8100C6211DD4E4F5F
+    7E8214552524F5200AA

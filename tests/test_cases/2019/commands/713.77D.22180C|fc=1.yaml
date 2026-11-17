@@ -1,0 +1,11 @@
+command_id: 713.77D.22180C|fc=1
+test_cases:
+- expected_values:
+    ATECA_EDL_ACTIVE: 0
+    ATECA_EDL_FR_L_BRAKE_T: 18.5
+    ATECA_EDL_FR_R_BRAKE_T: 18.5
+    ATECA_EDL_RR_L_BRAKE_T: 18.5
+    ATECA_EDL_RR_R_BRAKE_T: 18.5
+  response: |-
+    77D100C62180CBD0025
+    77D21002500250025AA

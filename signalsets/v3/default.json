@@ -2,6 +2,7 @@
     { "hdr": "710", "type": "gateway" },
     { "hdr": "712", "type": "steering" },
     { "hdr": "714", "type": "cluster" },
+    { "hdr": "746", "type": "hvac" },
     { "hdr": "7E0", "type": "engine" }
   ],
   "commands": [
@@ -9,23 +10,23 @@
   "signals": [
     {"id": "ATECA_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "0C0A"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "0C0A"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_HAL_MODE", "path": "Drivetrain", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "All-wheel drive mode"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1B"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1B"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1C"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1C"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1D"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1D"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1E"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1E"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
@@ -33,19 +34,19 @@
   "signals": [
     {"id": "ATECA_PQ35_HAL_FRICT_T", "path": "Tires", "fmt": {"bix": 8, "len": 16, "max": 427.68, "min": -227.67, "div": 100, "add": -227.67, "unit": "celsius" }, "name": "All-wheel drive friction disc temperature"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE6"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE6"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_HAL_I", "path": "Drivetrain", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "amps" }, "name": "All-wheel drive current"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE7"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE7"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_HAL_PWM", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "All-wheel drive pulse width modulation"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE9"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE9"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_HAL_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "All-wheel drive voltage"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BF0"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BF0"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_HAL_F_R_VSS_DIFF", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "All-wheel drive front-rear speed differential"}
   ]},
@@ -53,7 +54,7 @@
   "signals": [
     {"id": "ATECA_PQ35_HAL_T", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 200, "min": -40, "div": 100, "add": -227.67, "unit": "celsius" }, "name": "All-wheel drive temperature"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BF3"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BF3"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_HAL_DUTY", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "All-wheel drive duty cycle"}
   ]},
@@ -72,7 +73,7 @@
   "signals": [
     {"id": "ATECA_ENERGY_CONTENT", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Energy content"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_GEN_TRG_V", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "min": 10.6, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Generator target voltage"}
   ]},
@@ -80,7 +81,7 @@
   "signals": [
     {"id": "ATECA_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_V_2A07", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Battery voltage"}
   ]},
@@ -88,20 +89,20 @@
   "signals": [
     {"id": "ATECA_BAT_CURRENT_FILTERED", "path": "Battery", "fmt": { "len": 24, "max": 13777, "min": -3000, "div": 1000, "add": -3000, "unit": "amps" }, "name": "Battery current filtered"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_I", "path": "Battery", "fmt": { "len": 32, "max": 1000, "min": -1000, "div": 1000, "sign": true, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_BAT_SEN_T", "path": "Battery", "fmt": {          "len": 8,  "max": 215,      "min": -40, "add": -40, "unit": "celsius"    }, "name": "Battery sensor temperature"},
     {"id": "ATECA_MQB_ODO",       "path": "Trips",   "fmt": {"bix": 8, "len": 24, "max": 16777175,                         "unit": "kilometers" }, "name": "Odometer",                   "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge level"}
   ]},
@@ -109,19 +110,19 @@
   "signals": [
     {"id": "ATECA_BAT_COND_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 2550, "mul": 10, "unit": "percent" }, "name": "Battery condition for display"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_USE_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Usable battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A15"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A15"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ENERGY_BALANCE_LAST", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "ampereHours" }, "name": "Energy balance of last driving cycle"}
   ]},
@@ -133,7 +134,7 @@
   "signals": [
     {"id": "ATECA_ENTIRE_ENERGY", "path": "Tires", "fmt": { "len": 24, "max": 838860, "min": -838860, "div": 10, "sign": true, "unit": "ampereHours" }, "name": "Entire energy throughput"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -141,11 +142,11 @@
   "signals": [
     {"id": "ATECA_BAT_ACID", "path": "Battery", "fmt": { "len": 8, "max": 2559, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_BAT_TOT_CHG", "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total charge"},
     {"id": "ATECA_MQB_BAT_TOT_DIS", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total discharge"}
@@ -158,15 +159,15 @@
   "signals": [
     {"id": "ATECA_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_STEER_WHL_TQ_SENS_2", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 2"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_SWA", "path": "Tires", "fmt": { "len": 16, "max": 4095.935, "min": -4095.94, "div": 8, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -177,21 +178,21 @@
     {"id": "ATECA_RL_WHL_SPD_713", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "ATECA_RR_WHL_SPD_713", "path": "Tires", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_MQB_SWA_ALT", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.562, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
     {"id": "ATECA_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "ATECA_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                       "unit": "offon"   }, "name": "Electronic differential lock: active"},
     {"id": "ATECA_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
@@ -199,21 +200,21 @@
     {"id": "ATECA_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
     {"id": "ATECA_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_BDD_ACTIVE", "path": "Control", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying"},
     {"id": "ATECA_BDD_ODO",    "path": "Control", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying, odometer at last activation"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_BRAKE_P_SNS",        "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure sensor"},
     {"id": "ATECA_AIR_GAB_VACUUM_SNS", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air gab vacuum sensor"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_TPMS_AVAIL",                          "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "Tire pressure monitoring available?"},
     {"id": "ATECA_TPMS_ODO_RDG_AT_LAST_ADAPT",          "path": "Trips", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last adaptation"},
@@ -233,7 +234,7 @@
     {"id": "ATECA_TPMS_RR_L_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 312, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear left flat tire indicator"},
     {"id": "ATECA_TPMS_RR_R_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 320, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear right flat tire indicator"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,                     "unit": "offon"        }, "name": "Counter steer support"},
     {"id": "ATECA_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 16777215,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
@@ -247,7 +248,7 @@
   "signals": [
     {"id": "ATECA_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 458.8288, "min": -543.8501, "mul": 152999, "div": 10000000, "add": -42.503, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
@@ -255,11 +256,11 @@
   "signals": [
     {"id": "ATECA_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "2211"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "2211"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CHARGE_AIR_P", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_OIL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
@@ -271,103 +272,103 @@
   "signals": [
     {"id": "ATECA_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_A_C_COMP_SPD", "path": "Movement", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "rpm" }, "name": "A/C compressor speed"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_A_C_COMP_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_REFRIG_P", "path": "Engine", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_RAD_FAN_ACT_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Radiator fan actual duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_RAD_FAN_CMD_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Radiator fan commanded duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_OUTSIDE_T_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "nullmin": -50, "nullmax": 77, "unit": "celsius" }, "name": "Outside temperature, system calculated"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_FR_L_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Front left deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_FR_R_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Front right deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_LEG_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Leg deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_T_AFTER_EVAP", "path": "Engine", "fmt": { "len": 8, "max": 42.291, "min": -42.624, "div": 3, "sign": true, "unit": "celsius" }, "name": "Temperature after evaporator"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_RECIRC_FLAP_ACT", "path": "Climate", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Recirculation flap actual position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_RECIRC_FLAP_TRG", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap target position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_RECIRC_FLAP_FRESH_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap fresh air threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MQB_RECIRC_FLAP_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_FR_L_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front left temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_WINDSHIELD_T",   "path": "Climate", "fmt": {           "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576,           "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"},
     {"id": "ATECA_CABIN_HUMIDITY", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100,                                "div": 2,               "unit": "percent" }, "name": "Cabin humidity"}
@@ -394,7 +395,7 @@
     {"id": "ATECA_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "ATECA_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "ATECA_ENG_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine control module temperature"}
   ]},
@@ -638,7 +639,7 @@
   "signals": [
     {"id": "ATECA_INJ_SPD_INJ_3", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Injection speed injector 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10BE"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10BE"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_REQ_TQ_AMOUNT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque, amount for auxiliary units"}
   ]},
@@ -646,7 +647,7 @@
   "signals": [
     {"id": "ATECA_PQ35_EGR_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Exhaust gas recirculation valve duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10CA"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10CA"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ACCEL_7E0", "path": "Movement", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
   ]},
@@ -758,7 +759,7 @@
   "signals": [
     {"id": "ATECA_MIS_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F6"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F6"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MIS_PER_1000_2_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 2"}
   ]},
@@ -894,7 +895,7 @@
   "signals": [
     {"id": "ATECA_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1: activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_SEG_AD_MMV_ER_1", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 1"}
   ]},
@@ -946,7 +947,7 @@
   "signals": [
     {"id": "ATECA_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_SEG_AD_MMV_ER_H_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_H, 2"}
   ]},
@@ -954,7 +955,7 @@
   "signals": [
     {"id": "ATECA_SEG_AD_MMV_ER_H_3", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_H, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_SEG_AD_MMV_ER_L_0", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 0"}
   ]},
@@ -962,7 +963,7 @@
   "signals": [
     {"id": "ATECA_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1140"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1140"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_SEG_AD_MMV_ER_L_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 2"}
   ]},
@@ -1086,11 +1087,11 @@
   "signals": [
     {"id": "ATECA_HIGH_P_TURBOCHARGER", "path": "Battery", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Charge adjuster output stage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1184"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1184"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_PSN_EDGE_REL_AD_CAM_1", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "PSN_EDGE_REL_AD_CAM_SAVE_EX_1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1185"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1185"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_PSN_EDGE_REL_AD_CAM_2", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "PSN_EDGE_REL_AD_CAM_SAVE_EX_2"}
   ]},
@@ -1154,15 +1155,15 @@
   "signals": [
     {"id": "ATECA_HIGH_P_EGR_ACTUATOR_ACT_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "min": -6553, "div": 5, "sign": true, "unit": "millivolts" }, "name": "High pressure exhaust gas recirculation actuator, actual unconditioned voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AB"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AB"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_INT_MODEL_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Intake model air mass flow filtered value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MAF_THROUGH_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow through throttle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11AD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AD"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_MAF_CMD", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow, commanded"}
   ]},
@@ -1238,7 +1239,7 @@
   "signals": [
     {"id": "ATECA_LOW_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 2559, "mul": 19531, "div": 500000, "unit": "unknown" }, "name": "Brake booster pressure"}
   ]},
@@ -1274,7 +1275,7 @@
   "signals": [
     {"id": "ATECA_MAP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Manifold absolute pressure, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11DD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DD"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_INT_MANIFOLD_P_CMD", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Intake manifold pressure, commanded"}
   ]},
@@ -1286,7 +1287,7 @@
   "signals": [
     {"id": "ATECA_CMD_CRANK_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Commanded crankshaft torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E6"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E6"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "ATECA_MQB_DPF_EXH_VOL", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter exhaust gas flow volume"}
   ]},
@@ -1326,7 +1327,7 @@
   "signals": [
     {"id": "ATECA_EA888B_BOOST_P_CTRL_0", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_EA888B_BOOST_P_CTRL_1", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 1"}
   ]},
@@ -1566,7 +1567,7 @@
   "signals": [
     {"id": "ATECA_IGA_IGC_1", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138C"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_IGA_IGC_2", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 2"}
   ]},
@@ -1594,7 +1595,7 @@
   "signals": [
     {"id": "ATECA_TI_MES4_PLS_1_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_1, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A4"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TI_MES4_PLS_2_0", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_2, 0"}
   ]},
@@ -1622,7 +1623,7 @@
   "signals": [
     {"id": "ATECA_TI_MES4_PLS_3_2", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_3, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AB"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AB"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TI_MES4_PLS_3_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_3, 3"}
   ]},
@@ -1630,15 +1631,15 @@
   "signals": [
     {"id": "ATECA_TI_1_MPI_0", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AD"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AD"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TI_1_MPI_1", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AE"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AE"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TI_1_MPI_2", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TI_1_MPI_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 3"}
   ]},
@@ -1670,11 +1671,11 @@
   "signals": [
     {"id": "ATECA_NL_PRE_0", "path": "Engine", "fmt": { "len": 16, "max": 4.9999, "mul": 38147, "div": 500000000, "unit": "volts" }, "name": "NL_PRE, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_NL_PRE_1", "path": "Engine", "fmt": { "len": 16, "max": 4.9999, "mul": 38147, "div": 500000000, "unit": "volts" }, "name": "NL_PRE, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F8"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F8"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_NL_PRE_2", "path": "Engine", "fmt": { "len": 16, "max": 4.9999, "mul": 38147, "div": 500000000, "unit": "volts" }, "name": "NL_PRE, 2"}
   ]},
@@ -1706,7 +1707,7 @@
   "signals": [
     {"id": "ATECA_INJ_2_RAIL_P_CAL_PT_1_146E", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1473"}, "freq": 300, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1473"}, "freq": 300, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "ATECA_INJ_7_RAIL_P_CAL_PT_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 2"}
   ]},
@@ -1714,11 +1715,11 @@
   "signals": [
     {"id": "ATECA_INJ_2_RAIL_P_CAL_PT_2_1474", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1479"}, "freq": 300, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1479"}, "freq": 300, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "ATECA_INJ_7_RAIL_P_CAL_PT_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "147A"}, "freq": 300, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "147A"}, "freq": 300, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "ATECA_INJ_2_RAIL_P_CAL_PT_3_147A", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 3"}
   ]},
@@ -1794,7 +1795,7 @@
   "signals": [
     {"id": "ATECA_PQ35_PRE_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Pilot injection 2 start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "suggestedMetric": "gear"}
   ]},
@@ -1878,7 +1879,7 @@
   "signals": [
     {"id": "ATECA_SPARK_EFFICIENCY_DEV_MAX", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Spark efficiency deviation at idle, maximum"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155C"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_SPARK_EFFICIENCY_DEV_PART_MAX", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load, maximum"}
   ]},
@@ -1950,7 +1951,7 @@
   "signals": [
     {"id": "ATECA_VEHICLE_LATERAL_ACCELERATION_RAW_VALUE", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Vehicle lateral acceleration, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_LAMBDA_OUTPUT", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "mul": 199997, "div": 6553500000, "unit": "scalar" }, "name": "Lambda output value"}
   ]},
@@ -2026,7 +2027,7 @@
   "signals": [
     {"id": "ATECA_PQ35_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternate", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16BA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16BA"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_VLV_LIFT_SYSTEM_VLV", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Valve lift system, valve lift, intake"}
   ]},
@@ -2074,7 +2075,7 @@
   "signals": [
     {"id": "ATECA_RAT_EVAPORATED_FUEL_MAX", "path": "Fuel", "fmt": { "len": 8, "max": 1.992, "mul": 83, "div": 10625, "unit": "scalar" }, "name": "Ratio between evaporated fuel mass from engine oil and base fuel mass needed, maximum"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1713"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1713"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_TOT_MASS_GASOLINE", "path": "Engine", "fmt": { "len": 16, "max": 1398.0581, "mul": 0.021333, "unit": "unknown" }, "name": "Total mass of gasoline and ethyl alcohol in oil"}
   ]},
@@ -2090,7 +2091,7 @@
   "signals": [
     {"id": "ATECA_EARLY_IGN_CNT_TOT_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1718"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1718"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_EARLY_IGN_CNT_TOT_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 2"}
   ]},
@@ -2306,7 +2307,7 @@
   "signals": [
     {"id": "ATECA_AC_COMP_TQ", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2019"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2019"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CAM_ADJ_EXH_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust, specified value"}
   ]},
@@ -2322,7 +2323,7 @@
   "signals": [
     {"id": "ATECA_CAM_ADPT_INT_BANK_1_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation intake bank 1, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2023"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2023"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CAM_ADPT_EXH_BANK_1_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation exhaust bank 1, phase position"}
   ]},
@@ -2334,7 +2335,7 @@
   "signals": [
     {"id": "ATECA_FUEL_HIGH_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Fuel high pressure, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ACTIVATION_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Activation of fuel pump electronics"}
   ]},
@@ -2346,11 +2347,11 @@
   "signals": [
     {"id": "ATECA_PQ35_CHARGE_AIR_P_ACTUAL", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ECT_RADIATOR_OUTLET_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202C"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ECT_RADIATOR_OUTLET_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet, specified value"}
   ]},
@@ -2402,7 +2403,7 @@
   "signals": [
     {"id": "ATECA_INJ_QTY_DEV_CYL_5", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel rate"}
   ]},
@@ -2434,7 +2435,7 @@
   "signals": [
     {"id": "ATECA_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2065"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2065"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_CHG_AIR_P_ACTUATOR", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Charge air pressure actuator, acknowledgment"}
   ]},
@@ -2446,7 +2447,7 @@
   "signals": [
     {"id": "ATECA_INT_MANIFOLD_RUNNER_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Intake manifold runner control, acknowledgment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206E"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206E"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CRANK_SPD_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Crankshaft speed, RPM"}
   ]},
@@ -2458,7 +2459,7 @@
   "signals": [
     {"id": "ATECA_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 32, "max": 1310, "mul": 0.0000003052, "unit": "unknown" }, "name": "Oil ash residue"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2097"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2097"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MEAN_INJ_QTY", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
@@ -2478,7 +2479,7 @@
   "signals": [
     {"id": "ATECA_TQ_LIM_CLU", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque limitation, clutch protection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -2486,12 +2487,12 @@
   "signals": [
     {"id": "ATECA_OIL_P_SWITCH_P", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure switch activation, high pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A3"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A3"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_OIL_P_SWITCH_HIGH_P", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch for high pressure, closed"},
     {"id": "ATECA_OIL_P_SWITCH_LOW_P",  "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch for low pressure, closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20BB"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20BB"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_FUEL_HIGH_P_CTRL_DEV", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "bars" }, "name": "Fuel high pressure, control deviation"}
   ]},
@@ -2523,7 +2524,7 @@
   "signals": [
     {"id": "ATECA_FUEL_INJ_TIME_DEV_CYL_2", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Fuel injector time deviation, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2206"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2206"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PQ35_FUEL_LEVEL_7E0_2206", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -2543,7 +2544,7 @@
   "signals": [
     {"id": "ATECA_OIL_P_CTRL_VLV", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil pressure control valve activation pulse duty factor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2682"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2682"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_CLT_SHUT_OFF_VLV", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Coolant shut-off valve, closed"}
   ]},
@@ -2559,7 +2560,7 @@
   "signals": [
     {"id": "ATECA_CLT_CIRCULATION_PMP_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant circulation pump, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2904"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2904"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MIS_TOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
   ]},
@@ -2579,7 +2580,7 @@
   "signals": [
     {"id": "ATECA_MISFIRES_1000_RPM_C2", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2926"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2926"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TEST_CATALYTIC_CONV", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "scalar" }, "name": "Test of catalytic converter, measured value"}
   ]},
@@ -2587,7 +2588,7 @@
   "signals": [
     {"id": "ATECA_TEST_CATALYTIC_CONV_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Test of catalytic converter status, canceled"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2929"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2929"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ADPT_LOSS_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Adaptation of loss torque"}
   ]},
@@ -2611,19 +2612,19 @@
   "signals": [
     {"id": "ATECA_FUEL_HIGH_P_SPEC", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Fuel high pressure, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293E"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CHG_P_CTRL_ADPT_MAX", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control adaptation higher than max. threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CHG_P_CTRL_ADPT_LO_MIN", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control adaptation lower than min. threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2949"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2949"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_AVG_IGN_TIM_ANG", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Average ignition timing angle delay adjustment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "294A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "294A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_DYNAMIC_AVG_IGN_ANG", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Dynamic average of ignition angle delay adjustment"}
   ]},
@@ -2635,7 +2636,7 @@
   "signals": [
     {"id": "ATECA_ODO_ECU_INSTALLED", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "meters" }, "name": "Odometer with ECU installed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295C"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_LOAD_SHIFT_FLAPS_ACT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Load shift flaps, actual value"}
   ]},
@@ -2659,7 +2660,7 @@
   "signals": [
     {"id": "ATECA_MISFIRES_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "296F"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "296F"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_EXH_GAS_T_BEFORE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature before catalytic converter"}
   ]},
@@ -2731,7 +2732,7 @@
   "signals": [
     {"id": "ATECA_OIL_P_ACT_7E0_2_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "392A"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "392A"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_T_SENS_ENG_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Temperature sensor for engine temperature management"}
   ]},
@@ -2744,7 +2745,7 @@
     {"id": "ATECA_CAM_ADJ_INT_TEST_1",    "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Camshaft adjustment intake test bank 1"},
     {"id": "ATECA_CAM_ADJ_OUTLET_TEST_1", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Camshaft adjustment outlet test bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "394F"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "394F"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_MAF_OVER_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Mass air flow over throttle valve"}
   ]},
@@ -2752,7 +2753,7 @@
   "signals": [
     {"id": "ATECA_BRAKE_SYSTEM_VACUUM", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake system vacuum pump active"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3960"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3960"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_KNOCK_SENS_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 1"}
   ]},
@@ -2760,7 +2761,7 @@
   "signals": [
     {"id": "ATECA_KNOCK_SENS_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3962"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3962"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_KNOCK_SENS_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 3"}
   ]},
@@ -2784,7 +2785,7 @@
   "signals": [
     {"id": "ATECA_CNT_FUEL_ENTRY_OIL", "path": "Fuel", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Counter of fuel entry in oil"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39A2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A2"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_CHG_P_ACTUATOR_ACT", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.012207, "unit": "percent" }, "name": "Charge pressure actuator, actual position"}
   ]},
@@ -2792,7 +2793,7 @@
   "signals": [
     {"id": "ATECA_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_CHG_P_ACTUATOR_SPEC_7E0", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.012207, "unit": "percent" }, "name": "Charge pressure actuator, specified value"}
   ]},
@@ -2804,7 +2805,7 @@
   "signals": [
     {"id": "ATECA_CHG_P_ACTUATOR_ADPT_HI", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure actuator, adaptation for upper stop"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A9"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A9"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_OXYGEN_CTRL_ADPT", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Oxygen control, adaptation value at part. load"}
   ]},
@@ -2840,7 +2841,7 @@
   "signals": [
     {"id": "ATECA_BYPASS_VLV_HIGH_P_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Bypass valve high pressure turbine inlet, raw voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3D73"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D73"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ATECA_ENG_T_CTRL_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Engine temperature control actuator"}
   ]},
@@ -2848,7 +2849,7 @@
   "signals": [
     {"id": "ATECA_TRANS_CLT_VLV_OPEN", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission coolant valve, open"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D77"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D77"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CHG_P_ACTUATOR_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millivolts" }, "name": "Charge pressure actuator, maximum sensor voltage"}
   ]},
@@ -2868,7 +2869,7 @@
   "signals": [
     {"id": "ATECA_CHG_P_CTRL_VLV_POS_TGT", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control valve position, target value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EA7"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EA7"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_CHG_P_CTRL_VLV_POS_ACT", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control valve position, actual value"}
   ]},
@@ -2896,11 +2897,11 @@
   "signals": [
     {"id": "ATECA_ADPT_VAL_CYL1_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder1 slow diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F42"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F42"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ADPT_VAL_CYL3_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder3 slow diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F43"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F43"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ADPT_VAL_CYL4_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder4 slow diagnosis"}
   ]},
@@ -2916,7 +2917,7 @@
   "signals": [
     {"id": "ATECA_ADPT_VAL_CYL3_FAST", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder3 fast diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F47"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F47"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ADPT_VAL_CYL4_FAST", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder4 fast diagnosis"}
   ]},
@@ -2936,7 +2937,7 @@
   "signals": [
     {"id": "ATECA_ENG_T_MANAGEMENT_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Engine temperature management actuator, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4056"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4056"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_IDLE_SPD_SPEC_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Idle speed specified rpm"}
   ]},
@@ -2952,7 +2953,7 @@
   "signals": [
     {"id": "ATECA_T_SENS_ENG_T_TGT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Temperature sensor for engine temperature management, target value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "40E4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "40E4"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_T_SENS_ENG_T_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Temperature sensor for engine temperature management voltage"}
   ]},
@@ -2972,7 +2973,7 @@
   "signals": [
     {"id": "ATECA_TIM_DEV_AFTER_CHAIN_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after chain replacement, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417D"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_TIM_DEV_AFTER_CHAIN_REPLACEMENT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after chain replacement, exhaust bank 1"}
   ]},
@@ -3004,7 +3005,7 @@
   "signals": [
     {"id": "ATECA_DIRECT_INJECTIONS", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Direct injections counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4268"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4268"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_PORT_INJ_INJECTIONS", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Port injection injections counter"}
   ]},
@@ -3052,7 +3053,7 @@
   "signals": [
     {"id": "ATECA_CYL_CHG_ACT", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "unknown" }, "name": "Cylinder charge, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "437C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "437C"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ENG_TQ_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -3068,7 +3069,7 @@
   "signals": [
     {"id": "ATECA_ENG_TRQ_REQ_2", "path": "Drivetrain", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Driver torque requested #2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4381"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4381"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_LONG_TERM_FUEL_TRIM_IDLE_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Long term fuel trim at idle"}
   ]},
@@ -3088,7 +3089,7 @@
   "signals": [
     {"id": "ATECA_ENG_T_MANAGEMENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441A"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441A"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ENG_T_MANAGEMENT_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine temperature management actuator, duty cycle activation"}
   ]},
@@ -3096,7 +3097,7 @@
   "signals": [
     {"id": "ATECA_ENG_T_MANAGEMENT_ACTUATOR_STOP", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, stop open"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441D"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ENG_T_MANAGEMENT_ACTUATOR_AFTER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, after-run stop"}
   ]},
@@ -3128,7 +3129,7 @@
   "signals": [
     {"id": "ATECA_PARTICLE_SENS_TIME", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "seconds" }, "name": "Particle sensor, time in op.mode measurement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "46E1"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "46E1"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "ATECA_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compressor speed"}
   ]},
@@ -3153,7 +3154,7 @@
     {"id": "ATECA_EARLY_IGN_CNT_TOQUE_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for toque reduction, cylinder 3"},
     {"id": "ATECA_EARLY_IGN_CNT_TOQUE_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for toque reduction, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E4B"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E4B"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 1"},
     {"id": "ATECA_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 2"},
@@ -3252,7 +3253,7 @@
   "signals": [
     {"id": "ATECA_SHORT_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Short term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
@@ -3260,11 +3261,11 @@
   "signals": [
     {"id": "ATECA_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "ATECA_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2020, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "ATECA_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
@@ -3284,11 +3285,11 @@
   "signals": [
     {"id": "ATECA_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
@@ -3300,7 +3301,7 @@
   "signals": [
     {"id": "ATECA_AAT_7E0_7E0", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "ATECA_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
