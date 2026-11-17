@@ -13,5 +13,5 @@ test_cases:
     ATECA_ODO_7E0: 65537
   response: 7E8076210E000010001
 - expected_values:
-    ATECA_ODO_7E0: 2147483647
+    ATECA_ODO_7E0: null
   response: 7E8076210E07FFFFFFF
