@@ -1,5 +1,8 @@
 command_id: 714.77E.221014
 test_cases:
 - expected_values:
+    ATECA_AAT: 0.5
+  response: '77E0462101465'
+- expected_values:
     ATECA_AAT: 18
   response: '77E0462101488'

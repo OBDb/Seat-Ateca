@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_CRANK_SPD_RPM: 1315
   response: 7E80562206E0523
+- expected_values:
+    ATECA_CRANK_SPD_RPM: 1726
+  response: 7E80562206E06BE

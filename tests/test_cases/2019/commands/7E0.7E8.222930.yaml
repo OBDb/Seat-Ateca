@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222930
+test_cases:
+- expected_values:
+    ATECA_CAM_ADJ_INT_BANK_1: 34.38
+  response: 7E8056229300D6E

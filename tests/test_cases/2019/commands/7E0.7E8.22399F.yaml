@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22399F
+test_cases:
+- expected_values:
+    ATECA_CNT_FUEL_ENTRY_OIL: 0
+  response: 7E80562399F0000

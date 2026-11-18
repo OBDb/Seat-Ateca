@@ -3,5 +3,10 @@ test_cases:
 - expected_values:
     ATECA_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
+    77D100C621810010000
+    77D21FC68000001F8AA
+- expected_values:
+    ATECA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
     77D100C62181001005A
     77D21FC60000001F8AA

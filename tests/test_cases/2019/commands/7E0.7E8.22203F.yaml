@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22203F
+test_cases:
+- expected_values:
+    ATECA_TQ_LIM_7E0: 266.9
+  response: 7E80562203F0A6D

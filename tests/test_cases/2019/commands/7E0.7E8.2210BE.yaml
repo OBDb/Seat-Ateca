@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_REQ_TQ_AMOUNT: 207
   response: 7E8056210BE0816
+- expected_values:
+    ATECA_REQ_TQ_AMOUNT: 264
+  response: 7E8056210BE0A50

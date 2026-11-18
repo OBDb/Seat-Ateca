@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2213F8
 test_cases:
 - expected_values:
+    ATECA_NL_PRE_2: 0.16319
+  response: 7E8056213F8085B
+- expected_values:
     ATECA_NL_PRE_2: 0.17624
   response: 7E8056213F80906

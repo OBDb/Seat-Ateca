@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2251D6
+test_cases:
+- expected_values:
+    ATECA_FUEL_CONS_PER: 37.66
+  response: 7E8056251D60EB6

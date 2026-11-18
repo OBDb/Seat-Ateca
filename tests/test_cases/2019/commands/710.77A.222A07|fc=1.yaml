@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_BAT_V_2A07: 12.486
   response: 77A05622A072126
+- expected_values:
+    ATECA_BAT_V_2A07: 14.77
+  response: 77A05622A072A12

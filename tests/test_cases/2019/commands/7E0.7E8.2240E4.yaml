@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2240E4
 test_cases:
 - expected_values:
+    ATECA_T_SENS_ENG_T_V: 2.057
+  response: 7E8056240E40809
+- expected_values:
     ATECA_T_SENS_ENG_T_V: 2.75
   response: 7E8056240E40ABE

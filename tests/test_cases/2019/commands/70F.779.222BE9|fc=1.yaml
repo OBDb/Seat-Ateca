@@ -1,5 +1,8 @@
 command_id: 70F.779.222BE9|fc=1
 test_cases:
 - expected_values:
+    ATECA_PQ35_HAL_V: 1.9
+  response: 77905622BE91300
+- expected_values:
     ATECA_PQ35_HAL_V: 2.1
   response: 77905622BE91500

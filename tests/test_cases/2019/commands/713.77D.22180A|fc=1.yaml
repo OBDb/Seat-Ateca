@@ -2,5 +2,9 @@ command_id: 713.77D.22180A|fc=1
 test_cases:
 - expected_values:
     ATECA_MQB_HAL_CLUTCH_BLOCK: 0
+    ATECA_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A01000D
+- expected_values:
+    ATECA_MQB_HAL_CLUTCH_BLOCK: 0
     ATECA_MQB_HAL_CLUTCH_OPEN: 1
   response: 77D0662180A210003

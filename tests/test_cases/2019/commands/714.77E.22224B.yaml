@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_OIL_WEAR: 292
   response: 77E0562224B0124
+- expected_values:
+    ATECA_OIL_WEAR: 293
+  response: 77E0562224B0125

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_ACTIVATION_FUEL_PMP: 58.7
   response: 7E80562202816EE
+- expected_values:
+    ATECA_ACTIVATION_FUEL_PMP: 60.51
+  response: 7E80562202817A3
