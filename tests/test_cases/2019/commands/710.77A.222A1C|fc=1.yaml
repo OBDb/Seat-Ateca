@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_GEN_CURRENT: 42.8
   response: 77A05622A1C0152
+- expected_values:
+    ATECA_GEN_CURRENT: 55.2
+  response: 77A05622A1C01CE

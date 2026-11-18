@@ -1,5 +1,8 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
+    ATECA_OUTSIDE_T_SYSTEM: -48
+  response: 7B00462260A04
+- expected_values:
     ATECA_OUTSIDE_T_SYSTEM: -32
   response: 7B00462260A24

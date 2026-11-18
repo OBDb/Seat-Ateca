@@ -1,5 +1,8 @@
 command_id: 710.77A.222A09|fc=1
 test_cases:
 - expected_values:
+    ATECA_BAT_I: 7.385
+  response: 77A07622A0900001CD9
+- expected_values:
     ATECA_BAT_I: -1.766
   response: 77A07622A09FFFFF91A

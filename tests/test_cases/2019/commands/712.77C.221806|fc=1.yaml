@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_STEER_WHL_TQ_SENS_2: 3.00025
   response: 77C06621806029D00
+- expected_values:
+    ATECA_STEER_WHL_TQ_SENS_2: -3.69333
+  response: 77C06621806FCAA00

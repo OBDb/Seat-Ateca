@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22388C
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_IGNITION_CYCLES: 2499
+  response: 7E90562388CC309

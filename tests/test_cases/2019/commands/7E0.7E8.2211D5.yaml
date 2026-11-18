@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211D5
+test_cases:
+- expected_values:
+    ATECA_HIGH_FUEL_P: 5.24
+  response: 7E8056211D528F0

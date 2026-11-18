@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_PQ35_HAL_DUTY: 1.96843
   response: 77905622BF30500
+- expected_values:
+    ATECA_PQ35_HAL_DUTY: 18.10957
+  response: 77905622BF32E00

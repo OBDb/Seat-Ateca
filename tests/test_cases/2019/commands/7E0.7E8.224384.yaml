@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224384
+test_cases:
+- expected_values:
+    ATECA_HIGH_P_REGULATION: -1.23
+  response: 7E805624384FF85

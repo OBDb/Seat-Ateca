@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_ENG_TQ_7E0: 12.5
   response: 7E80562437C007D
+- expected_values:
+    ATECA_ENG_TQ_7E0: 19.6
+  response: 7E80562437C00C4

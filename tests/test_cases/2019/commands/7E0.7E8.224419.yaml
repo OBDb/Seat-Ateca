@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224419
+test_cases:
+- expected_values:
+    ATECA_ENG_T_MANAGEMENT: 2579
+  response: 7E8056244190A13

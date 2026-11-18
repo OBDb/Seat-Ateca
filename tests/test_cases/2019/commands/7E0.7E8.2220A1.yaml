@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_PQ35_CALCULATED_OIL_T: 27
   response: 7E8056220A1010E
+- expected_values:
+    ATECA_PQ35_CALCULATED_OIL_T: 36
+  response: 7E8056220A10168

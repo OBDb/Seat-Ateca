@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22028D
 test_cases:
 - expected_values:
+    ATECA_ENG_CTRL_MODULE_T: 35
+  response: 7E80562028D015E
+- expected_values:
     ATECA_ENG_CTRL_MODULE_T: 36
   response: 7E80562028D0168

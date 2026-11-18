@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_SEG_AD_MMV_ER_L_2: -0.05174
   response: 7E805621140FF27
+- expected_values:
+    ATECA_SEG_AD_MMV_ER_L_2: -0.04959
+  response: 7E805621140FF30

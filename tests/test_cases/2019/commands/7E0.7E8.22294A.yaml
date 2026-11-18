@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_DYNAMIC_AVG_IGN_ANG: -14.62
   response: 7E80562294AFA4A
+- expected_values:
+    ATECA_DYNAMIC_AVG_IGN_ANG: -12.75
+  response: 7E80562294AFB05

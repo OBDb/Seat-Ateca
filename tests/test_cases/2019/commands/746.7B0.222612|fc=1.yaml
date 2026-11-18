@@ -1,5 +1,8 @@
 command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
+    ATECA_CLIMATE_T_AFTER_EVAP: 13.66667
+  response: 7B00462261229
+- expected_values:
     ATECA_CLIMATE_T_AFTER_EVAP: 18.66667
   response: 7B00462261238

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_ENERGY_BALANCE_LAST: 12
   response: 77A05622A1504B0
+- expected_values:
+    ATECA_ENERGY_BALANCE_LAST: 12.01
+  response: 77A05622A1504B1

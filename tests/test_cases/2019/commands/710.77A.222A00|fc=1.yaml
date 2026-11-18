@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_MQB_GEN_TRG_V: 12.6
   response: 77A04622A0014
+- expected_values:
+    ATECA_MQB_GEN_TRG_V: 14.9
+  response: 77A04622A002B

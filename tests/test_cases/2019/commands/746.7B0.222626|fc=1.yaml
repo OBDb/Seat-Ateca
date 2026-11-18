@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 97
   response: 7B00662262600E0C2
+- expected_values:
+    ATECA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 100
+  response: 7B00662262600E7C8

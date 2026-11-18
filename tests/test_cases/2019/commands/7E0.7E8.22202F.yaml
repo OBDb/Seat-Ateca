@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22202F
+test_cases:
+- expected_values:
+    ATECA_EOT_7E0: 36
+  response: 7E80562202F0C13

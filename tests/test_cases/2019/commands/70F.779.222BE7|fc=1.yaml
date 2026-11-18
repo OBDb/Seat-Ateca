@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_PQ35_HAL_PWM: 17
   response: 77904622BE711
+- expected_values:
+    ATECA_PQ35_HAL_PWM: 33
+  response: 77904622BE721
