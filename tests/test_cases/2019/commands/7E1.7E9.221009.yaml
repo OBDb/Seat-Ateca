@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221009
+test_cases:
+- expected_values:
+    ATECA_MQB_DQ250_SPD_OUTPUT: 154
+  response: '7E9 05 62 10 09 9A 00 '

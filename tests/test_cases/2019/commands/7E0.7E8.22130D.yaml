@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22130D
+test_cases:
+- expected_values:
+    ATECA_FUEL_MASS_REQ_I_CTL: 0
+  response: 7E80562130D0000
+- expected_values:
+    ATECA_FUEL_MASS_REQ_I_CTL: -3.36985
+  response: 7E80562130DFF61

@@ -2,4 +2,7 @@ command_id: 7E0.7E8.2213F3
 test_cases:
 - expected_values:
     ATECA_IGA_CYL_KNK_1: 0
+  response: '7E8 04 62 13 F3 80 '
+- expected_values:
+    ATECA_IGA_CYL_KNK_1: 0
   response: 7E8046213F380

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221092
+test_cases:
+- expected_values:
+    ATECA_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: 0.03
+  response: '7E9 05 62 10 92 03 00 '

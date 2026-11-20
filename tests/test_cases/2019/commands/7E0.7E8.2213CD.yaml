@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213CD
+test_cases:
+- expected_values:
+    ATECA_MAF_RATE: 20.84375
+  response: 7E8056213CD029B

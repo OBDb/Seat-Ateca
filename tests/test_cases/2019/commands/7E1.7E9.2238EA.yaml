@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2238EA
+test_cases:
+- expected_values:
+    ATECA_PQ35_CLUTCH_2_ACTUAL_P: 0.18
+  response: '7E9 05 62 38 EA 12 00 '

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22202E
+test_cases:
+- expected_values:
+    ATECA_ECT_DIFF_ENG: 61.5
+  response: '7E8 05 62 20 2E 02 67 '
