@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22107D
+test_cases:
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_3: 187.8
+  response: '7E9 07 62 10 7D AE 24 01 00 '

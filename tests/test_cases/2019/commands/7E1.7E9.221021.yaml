@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221021
+test_cases:
+- expected_values:
+    ATECA_TCM_DRAG_TQ: 27392
+  response: '7E9 05 62 10 21 6B 00 '

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.223835
+test_cases:
+- expected_values:
+    ATECA_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 50
+  response: '7E9 05 62 38 35 F4 01 '

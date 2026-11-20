@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22380C
+test_cases:
+- expected_values:
+    ATECA_MQB_INPUT_SHAFT_1: 1447
+  response: '7E9 05 62 38 0C A7 05 '

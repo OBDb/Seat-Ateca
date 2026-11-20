@@ -2,4 +2,7 @@ command_id: 7E0.7E8.22414E
 test_cases:
 - expected_values:
     ATECA_LONG_TERM_ADPT_INT: 0
+  response: '7E8 05 62 41 4E 00 00 '
+- expected_values:
+    ATECA_LONG_TERM_ADPT_INT: 0
   response: 7E80562414E0000
