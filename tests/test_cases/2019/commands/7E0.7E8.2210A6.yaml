@@ -16,8 +16,14 @@ test_cases:
     ATECA_INJ_SPD_INJ_2: 100.25
   response: 7E8056210A60191
 - expected_values:
+    ATECA_INJ_SPD_INJ_2: 100.5
+  response: 7E8056210A60192
+- expected_values:
     ATECA_INJ_SPD_INJ_2: 100.75
   response: 7E8056210A60193
+- expected_values:
+    ATECA_INJ_SPD_INJ_2: 101
+  response: 7E8056210A60194
 - expected_values:
     ATECA_INJ_SPD_INJ_2: 118.25
   response: 7E8056210A601D9

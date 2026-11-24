@@ -7,6 +7,9 @@ test_cases:
     ATECA_ENG_AIR_MASS_SPEC: 12
   response: 7E805622037000C
 - expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 13
+  response: 7E805622037000D
+- expected_values:
     ATECA_ENG_AIR_MASS_SPEC: 14
   response: 7E805622037000E
 - expected_values:
@@ -21,6 +24,9 @@ test_cases:
 - expected_values:
     ATECA_ENG_AIR_MASS_SPEC: 23
   response: '7E8056220370017'
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 30
+  response: 7E805622037001E
 - expected_values:
     ATECA_ENG_AIR_MASS_SPEC: 72
   response: '7E8056220370048'

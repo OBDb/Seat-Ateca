@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2211CD
 test_cases:
 - expected_values:
+    ATECA_TCO_1_SYS: 45
+  response: 7E8046211CD55
+- expected_values:
+    ATECA_TCO_1_SYS: 58
+  response: 7E8046211CD62
+- expected_values:
     ATECA_TCO_1_SYS: 94
   response: 7E8046211CD86
 - expected_values:

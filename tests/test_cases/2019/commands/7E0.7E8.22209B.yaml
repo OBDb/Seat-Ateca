@@ -13,6 +13,9 @@ test_cases:
     ATECA_TQ_REQ_SUM_AUXILIARY: 4.9
   response: 7E80562209B0031
 - expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 5.9
+  response: 7E80562209B003B
+- expected_values:
     ATECA_TQ_REQ_SUM_AUXILIARY: 6.6
   response: 7E80562209B0042
 - expected_values:

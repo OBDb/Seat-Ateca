@@ -16,5 +16,8 @@ test_cases:
     ATECA_FUEL_METERING_VLV: 32.62
   response: 7E80562209A0CBE
 - expected_values:
+    ATECA_FUEL_METERING_VLV: 35.57
+  response: 7E80562209A0DE5
+- expected_values:
     ATECA_FUEL_METERING_VLV: 36.74
   response: 7E80562209A0E5A

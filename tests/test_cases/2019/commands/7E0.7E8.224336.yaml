@@ -4,5 +4,8 @@ test_cases:
     ATECA_HEATER_SUPPORT_PMP_SPEC: 66.6
   response: 7E8056243361A04
 - expected_values:
+    ATECA_HEATER_SUPPORT_PMP_SPEC: 94.79
+  response: '7E8056243362507'
+- expected_values:
     ATECA_HEATER_SUPPORT_PMP_SPEC: 95
   response: 7E805624336251C

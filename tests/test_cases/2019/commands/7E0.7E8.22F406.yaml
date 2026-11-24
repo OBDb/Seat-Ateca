@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.22F406
 test_cases:
 - expected_values:
+    ATECA_SHORT_TERM_FUEL_TRIM_1: -5.46875
+  response: 7E80462F40679
+- expected_values:
+    ATECA_SHORT_TERM_FUEL_TRIM_1: -3.90625
+  response: 7E80462F4067B
+- expected_values:
     ATECA_SHORT_TERM_FUEL_TRIM_1: -1.5625
   response: 7E80462F4067E
 - expected_values:

@@ -16,6 +16,9 @@ test_cases:
     ATECA_RPM: 1186.25
   response: 7E80562F40C1289
 - expected_values:
+    ATECA_RPM: 1297
+  response: 7E80562F40C1444
+- expected_values:
     ATECA_RPM: 1830.25
   response: 7E80562F40C1C99
 - expected_values:

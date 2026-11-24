@@ -19,5 +19,8 @@ test_cases:
     ATECA_FUEL_LOW_P_SPEC: 5.337
   response: 7E80562293214D9
 - expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.361
+  response: 7E80562293214F1
+- expected_values:
     ATECA_FUEL_LOW_P_SPEC: 5.493
   response: '7E8056229321575'
