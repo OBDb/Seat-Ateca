@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.221017
+test_cases:
+- expected_values:
+    ATECA_PQ35_ROAD_RESISTANCE: -5.455
+  response: '7E90462101769'
+- expected_values:
+    ATECA_PQ35_ROAD_RESISTANCE: -2.716
+  response: '7E90462101774'
+- expected_values:
+    ATECA_PQ35_ROAD_RESISTANCE: -0.724
+  response: 7E9046210177C
+- expected_values:
+    ATECA_PQ35_ROAD_RESISTANCE: 0.272
+  response: '7E90462101780'
+- expected_values:
+    ATECA_PQ35_ROAD_RESISTANCE: 2.264
+  response: '7E90462101788'

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.223997
+test_cases:
+- expected_values:
+    ATECA_MIXTURE_ADPT_FACTOR_IDLE: 0
+  response: '7E8056239970000'
+- expected_values:
+    ATECA_MIXTURE_ADPT_FACTOR_IDLE: -100
+  response: 7E805623997D8F0

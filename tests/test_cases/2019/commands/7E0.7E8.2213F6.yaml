@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2213F6
+test_cases:
+- expected_values:
+    ATECA_NL_PRE_0: 0.2047
+  response: 7E8056213F60A7B
+- expected_values:
+    ATECA_NL_PRE_0: 0.2417
+  response: 7E8056213F60C60
+- expected_values:
+    ATECA_NL_PRE_0: 0.25162
+  response: 7E8056213F60CE2
+- expected_values:
+    ATECA_NL_PRE_0: 0.2636
+  response: 7E8056213F60D7F
+- expected_values:
+    ATECA_NL_PRE_0: 0.2919
+  response: 7E8056213F60EF2
+- expected_values:
+    ATECA_NL_PRE_0: 0.32143
+  response: 7E8056213F61075
+- expected_values:
+    ATECA_NL_PRE_0: 0.32478
+  response: 7E8056213F610A1
+- expected_values:
+    ATECA_NL_PRE_0: 0.51437
+  response: 7E8056213F61A56

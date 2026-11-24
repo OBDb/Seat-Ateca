@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22386A
+test_cases:
+- expected_values:
+    ATECA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.05
+  response: 7E90562386A0500
+- expected_values:
+    ATECA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.07
+  response: 7E90562386A0700
+- expected_values:
+    ATECA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.08
+  response: 7E90562386A0800
+- expected_values:
+    ATECA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0
+  response: 7E90562386A72FC

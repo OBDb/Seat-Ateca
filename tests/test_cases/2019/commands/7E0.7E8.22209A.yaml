@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22209A
+test_cases:
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 0
+  response: 7E80562209A0000
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 14.88
+  response: 7E80562209A05D0
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 15.19
+  response: 7E80562209A05EF
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 23.63
+  response: 7E80562209A093B
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 32.62
+  response: 7E80562209A0CBE
+- expected_values:
+    ATECA_FUEL_METERING_VLV: 36.74
+  response: 7E80562209A0E5A

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22171C
+test_cases:
+- expected_values:
+    ATECA_BASIC_CORR_FACTOR_4: 0
+  response: 7E80562171C0000

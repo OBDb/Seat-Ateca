@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22381D
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_EOP_ACTUAL: 0.22
+  response: 7E90562381D1600
+- expected_values:
+    ATECA_MQB_TCM_EOP_ACTUAL: 3.36
+  response: 7E90562381D5001
+- expected_values:
+    ATECA_MQB_TCM_EOP_ACTUAL: 3.49
+  response: 7E90562381D5D01
+- expected_values:
+    ATECA_MQB_TCM_EOP_ACTUAL: 4.01
+  response: 7E90562381D9101
+- expected_values:
+    ATECA_MQB_TCM_EOP_ACTUAL: 4.19
+  response: 7E90562381DA301

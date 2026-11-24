@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22380F
+test_cases:
+- expected_values:
+    ATECA_MQB_OUTPUT_SHAFT_2: 0
+  response: 7E90562380F0000
+- expected_values:
+    ATECA_MQB_OUTPUT_SHAFT_2: 5120
+  response: 7E90562380F1400
+- expected_values:
+    ATECA_MQB_OUTPUT_SHAFT_2: -26368
+  response: 7E90562380F9900

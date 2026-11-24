@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223803
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_BRAKE_P: 0
+  response: '7E9056238030000'
+- expected_values:
+    ATECA_MQB_TCM_BRAKE_P: 5.7
+  response: 7E9056238033A02
+- expected_values:
+    ATECA_MQB_TCM_BRAKE_P: 9.3
+  response: 7E905623803A203
+- expected_values:
+    ATECA_MQB_TCM_BRAKE_P: 6.9
+  response: 7E905623803B202

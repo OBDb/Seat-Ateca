@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22028D
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_ECU_T: 46
+  response: 7E90562028D2E00
+- expected_values:
+    ATECA_MQB_TCM_ECU_T: 47
+  response: 7E90562028D2F00
+- expected_values:
+    ATECA_MQB_TCM_ECU_T: 48
+  response: 7E90562028D3000

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.223EAC
+test_cases:
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.57923
+  response: 7E805623EAC0ED4
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.58411
+  response: 7E805623EAC0EF4
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.589
+  response: 7E805623EAC0F14
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.59266
+  response: 7E805623EAC0F2C
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.59388
+  response: 7E805623EAC0F34
+- expected_values:
+    ATECA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.59876
+  response: 7E805623EAC0F54

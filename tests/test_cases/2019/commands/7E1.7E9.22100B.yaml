@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22100B
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_DRIVER_DEMAND_TORQUE: 422.3
+  response: 7E90562100B20FE
+- expected_values:
+    ATECA_MQB_TCM_DRIVER_DEMAND_TORQUE: -972.8
+  response: 7E90562100BB400
+- expected_values:
+    ATECA_MQB_TCM_DRIVER_DEMAND_TORQUE: -921.55
+  response: 7E90562100BB801
+- expected_values:
+    ATECA_MQB_TCM_DRIVER_DEMAND_TORQUE: -870.3
+  response: 7E90562100BBC02
+- expected_values:
+    ATECA_MQB_TCM_DRIVER_DEMAND_TORQUE: -819.05
+  response: 7E90562100BC003

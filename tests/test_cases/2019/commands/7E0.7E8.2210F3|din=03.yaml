@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2210F3|din=03
+test_cases:
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 3815
+  response: 7E8056210F30EE7
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4442
+  response: 7E8056210F3115A
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4459
+  response: 7E8056210F3116B
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4488
+  response: 7E8056210F31188
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4532
+  response: 7E8056210F311B4
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4672
+  response: 7E8056210F31240

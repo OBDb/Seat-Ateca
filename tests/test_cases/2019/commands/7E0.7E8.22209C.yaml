@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22209C
+test_cases:
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 13.6
+  response: 7E80562209C0088
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 14.4
+  response: 7E80562209C0090
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 15
+  response: 7E80562209C0096
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 15.8
+  response: 7E80562209C009E
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 16
+  response: 7E80562209C00A0
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 17.3
+  response: 7E80562209C00AD
+- expected_values:
+    ATECA_ENG_DRAG_TQ: 17.7
+  response: 7E80562209C00B1

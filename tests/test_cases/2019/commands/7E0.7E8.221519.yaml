@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221519
+test_cases:
+- expected_values:
+    ATECA_FUEL_CONS_ACT_DRIVE: 32.96
+  response: 7E8056215190CE0

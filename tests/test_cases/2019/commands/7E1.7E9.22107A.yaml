@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22107A
+test_cases:
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_0: 67.3
+  response: 7E90762107A250D331C
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_0: 31.52
+  response: 7E90762107A2806331C
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_0: 1291.96
+  response: 7E90762107A56FC321C
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_0: 1169.78
+  response: 7E90762107A79E4321C
+- expected_values:
+    ATECA_ANALYSIS_CLU_2_T_0: 1244.08
+  response: 7E90762107AFCF2321C

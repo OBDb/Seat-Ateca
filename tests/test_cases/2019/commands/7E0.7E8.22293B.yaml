@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22293B
+test_cases:
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 73.2
+  response: 7E80562293B02DC
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 87.1
+  response: 7E80562293B0367
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 100.1
+  response: 7E80562293B03E9
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 107.8
+  response: 7E80562293B0436
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 135.9
+  response: 7E80562293B054F
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 138.8
+  response: 7E80562293B056C
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 148.3
+  response: 7E80562293B05CB
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 150.1
+  response: 7E80562293B05DD

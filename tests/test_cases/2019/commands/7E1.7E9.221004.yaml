@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221004
+test_cases:
+- expected_values:
+    ATECA_TIRE_RL_SPD_V3: 255
+  response: '7E9056210042000'

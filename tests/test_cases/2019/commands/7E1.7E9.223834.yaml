@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.223834
+test_cases:
+- expected_values:
+    ATECA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 0
+  response: '7E9056238340000'
+- expected_values:
+    ATECA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 363
+  response: 7E9056238342E0E
+- expected_values:
+    ATECA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 343.1
+  response: 7E905623834670D
+- expected_values:
+    ATECA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 371.2
+  response: 7E905623834800E
+- expected_values:
+    ATECA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 322.9
+  response: 7E9056238349D0C

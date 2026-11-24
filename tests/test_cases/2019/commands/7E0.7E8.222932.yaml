@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222932
+test_cases:
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.249
+  response: '7E8056229321481'
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.276
+  response: 7E805622932149C
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.286
+  response: 7E80562293214A6
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.3
+  response: 7E80562293214B4
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.324
+  response: 7E80562293214CC
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.337
+  response: 7E80562293214D9
+- expected_values:
+    ATECA_FUEL_LOW_P_SPEC: 5.493
+  response: '7E8056229321575'

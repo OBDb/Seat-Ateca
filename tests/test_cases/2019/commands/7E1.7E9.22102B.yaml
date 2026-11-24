@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22102B
+test_cases:
+- expected_values:
+    ATECA_PQ35_CLUTCH_1_T: 48
+  response: 7E90562102B3000
+- expected_values:
+    ATECA_PQ35_CLUTCH_1_T: 49
+  response: 7E90562102B3100
+- expected_values:
+    ATECA_PQ35_CLUTCH_1_T: 51
+  response: 7E90562102B3300
+- expected_values:
+    ATECA_PQ35_CLUTCH_1_T: 53
+  response: 7E90562102B3500
