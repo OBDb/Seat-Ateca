@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     ATECA_FUEL_HIGH_P_SPEC: 150.1
   response: 7E80562293B05DD
+- expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 200
+  response: 7E80562293B07D0

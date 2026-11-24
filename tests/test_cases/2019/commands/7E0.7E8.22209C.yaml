@@ -16,6 +16,9 @@ test_cases:
     ATECA_ENG_DRAG_TQ: 16
   response: 7E80562209C00A0
 - expected_values:
+    ATECA_ENG_DRAG_TQ: 16.9
+  response: 7E80562209C00A9
+- expected_values:
     ATECA_ENG_DRAG_TQ: 17.3
   response: 7E80562209C00AD
 - expected_values:

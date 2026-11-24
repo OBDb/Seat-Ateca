@@ -16,5 +16,11 @@ test_cases:
     ATECA_WEAR_INDEX_0_NEW_ENG: 0.04883
   response: 7E8056220C20020
 - expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0.09003
+  response: 7E8056220C2003B
+- expected_values:
     ATECA_WEAR_INDEX_0_NEW_ENG: 0.09308
   response: 7E8056220C2003D
+- expected_values:
+    ATECA_WEAR_INDEX_0_NEW_ENG: 0.1297
+  response: 7E8056220C20055
