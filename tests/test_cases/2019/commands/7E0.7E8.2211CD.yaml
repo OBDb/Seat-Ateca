@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211CD
+test_cases:
+- expected_values:
+    ATECA_TCO_1_SYS: 94
+  response: 7E8046211CD86
+- expected_values:
+    ATECA_TCO_1_SYS: 95
+  response: 7E8046211CD87
+- expected_values:
+    ATECA_TCO_1_SYS: 96
+  response: 7E8046211CD88
+- expected_values:
+    ATECA_TCO_1_SYS: 97
+  response: 7E8046211CD89

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22380D
+test_cases:
+- expected_values:
+    ATECA_MQB_INPUT_SHAFT_2: 0
+  response: 7E90562380D0000
+- expected_values:
+    ATECA_MQB_INPUT_SHAFT_2: 144
+  response: 7E90562380D9000
+- expected_values:
+    ATECA_MQB_INPUT_SHAFT_2: 1492
+  response: 7E90562380DD405
+- expected_values:
+    ATECA_MQB_INPUT_SHAFT_2: 1766
+  response: 7E90562380DE606

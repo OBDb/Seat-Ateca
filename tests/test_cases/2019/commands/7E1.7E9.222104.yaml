@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    ATECA_ATF_T: 47
+  response: 7E9056221042F00
+- expected_values:
+    ATECA_ATF_T: 48
+  response: '7E9056221043000'
+- expected_values:
+    ATECA_ATF_T: 49
+  response: '7E9056221043100'

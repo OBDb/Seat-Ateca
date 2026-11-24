@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    ATECA_CLU_1_T_TIME_RANGE_0: 615.2
+  response: 7E9076210652878C51B
+- expected_values:
+    ATECA_CLU_1_T_TIME_RANGE_0: 539.86
+  response: 7E9076210657169C51B
+- expected_values:
+    ATECA_CLU_1_T_TIME_RANGE_0: 713.98
+  response: 7E907621065738BC51B
+- expected_values:
+    ATECA_CLU_1_T_TIME_RANGE_0: 669.16
+  response: 7E907621065B282C51B
+- expected_values:
+    ATECA_CLU_1_T_TIME_RANGE_0: 751.62
+  response: 7E907621065CD92C51B

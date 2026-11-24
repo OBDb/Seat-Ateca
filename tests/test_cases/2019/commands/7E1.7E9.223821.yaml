@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.223821
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 0
+  response: '7E9056238210000'
+- expected_values:
+    ATECA_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 8
+  response: '7E9056238212003'
+- expected_values:
+    ATECA_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 3
+  response: 7E9056238212C01
+- expected_values:
+    ATECA_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 3.49
+  response: 7E9056238215D01
+- expected_values:
+    ATECA_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 4.1
+  response: 7E9056238219A01

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221298|fc=1
+test_cases:
+- expected_values:
+    ATECA_CAT_T_BANK_1: 642.475
+  response: 7E805621298393A
+- expected_values:
+    ATECA_CAT_T_BANK_1: 657.975
+  response: 7E8056212983A32
+- expected_values:
+    ATECA_CAT_T_BANK_1: 675.9125
+  response: 7E8056212983B51
+- expected_values:
+    ATECA_CAT_T_BANK_1: 676.225
+  response: 7E8056212983B56
+- expected_values:
+    ATECA_CAT_T_BANK_1: 689.35
+  response: 7E8056212983C28

@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222037
+test_cases:
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 0
+  response: '7E8056220370000'
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 12
+  response: 7E805622037000C
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 14
+  response: 7E805622037000E
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 16
+  response: '7E8056220370010'
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 19
+  response: '7E8056220370013'
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 20
+  response: '7E8056220370014'
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 23
+  response: '7E8056220370017'
+- expected_values:
+    ATECA_ENG_AIR_MASS_SPEC: 72
+  response: '7E8056220370048'

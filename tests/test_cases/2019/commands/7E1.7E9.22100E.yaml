@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22100E
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 325
+  response: 7E90562100E6419
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 198
+  response: 7E90562100E780F
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 252
+  response: 7E90562100EB013
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 202
+  response: 7E90562100EC80F

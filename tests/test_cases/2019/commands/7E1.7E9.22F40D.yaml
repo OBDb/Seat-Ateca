@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22F40D
+test_cases:
+- expected_values:
+    ATECA_VSS_7E1: 0
+  response: 7E90562F40D0000
+- expected_values:
+    ATECA_VSS_7E1: 14
+  response: 7E90562F40D0E01
+- expected_values:
+    ATECA_VSS_7E1: 158
+  response: 7E90562F40D9E02
+- expected_values:
+    ATECA_VSS_7E1: 200
+  response: 7E90562F40DC80A
+- expected_values:
+    ATECA_VSS_7E1: 228
+  response: 7E90562F40DE40C

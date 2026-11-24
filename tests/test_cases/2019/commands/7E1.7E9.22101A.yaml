@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22101A
+test_cases:
+- expected_values:
+    ATECA_PQ35_ODO_3: 128816
+  response: 7E90762101A30F70100
+- expected_values:
+    ATECA_PQ35_ODO_3: 128817
+  response: 7E90762101A31F70100

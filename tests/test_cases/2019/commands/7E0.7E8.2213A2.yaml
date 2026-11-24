@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2213A2
+test_cases:
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 0
+  response: 7E8056213A20000
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 0.388
+  response: 7E8056213A20061
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 0.428
+  response: 7E8056213A2006B
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 0.496
+  response: 7E8056213A2007C
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 0.544
+  response: 7E8056213A20088
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 0.724
+  response: 7E8056213A200B5
+- expected_values:
+    ATECA_TI_MES4_PLS_1_2: 1.12
+  response: 7E8056213A20118

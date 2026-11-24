@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221082
+test_cases:
+- expected_values:
+    ATECA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1: -8.44
+  response: 7E905621082B4FC

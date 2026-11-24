@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22100C
+test_cases:
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE: 52
+  response: 7E90562100C1004
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE: 16
+  response: 7E90562100C4001
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE: 30
+  response: 7E90562100C5802
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE: 63
+  response: 7E90562100CEC04
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE: 51
+  response: 7E90562100CFC03

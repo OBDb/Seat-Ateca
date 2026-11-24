@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220327
+test_cases:
+- expected_values:
+    ATECA_TRANS_GEAR_RAT: 0.01
+  response: '7E90462032701'

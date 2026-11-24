@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22209B
+test_cases:
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 0
+  response: 7E80562209B0000
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 3.3
+  response: 7E80562209B0021
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 4
+  response: 7E80562209B0028
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 4.9
+  response: 7E80562209B0031
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 6.6
+  response: 7E80562209B0042
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 7.7
+  response: 7E80562209B004D
+- expected_values:
+    ATECA_TQ_REQ_SUM_AUXILIARY: 8
+  response: 7E80562209B0050

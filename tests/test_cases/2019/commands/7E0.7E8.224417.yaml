@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.224417
+test_cases:
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 87.28005
+  response: 7E8056244171BEE
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 90.02662
+  response: 7E8056244171CCF
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 92.7732
+  response: 7E8056244171DB0
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 93.68872
+  response: 7E8056244171DFB
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 95.51978
+  response: 7E8056244171E91
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 99.18188
+  response: 7E8056244171FBD
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 100
+  response: 7E80562441722AB

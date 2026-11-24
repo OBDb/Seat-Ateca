@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222004
+test_cases:
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: 3
+  response: 7E805622004012C
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: 3.75
+  response: '7E8056220040177'
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: -6.37
+  response: 7E805622004FD83
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: -4.12
+  response: 7E805622004FE64
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: -2.62
+  response: 7E805622004FEFA
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: -1.12
+  response: 7E805622004FF90
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: -0.75
+  response: 7E805622004FFB5
+- expected_values:
+    ATECA_IGN_ANG_CURRENT_CYL_ACT: -0.37
+  response: 7E805622004FFDB

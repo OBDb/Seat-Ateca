@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210F4
+test_cases:
+- expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 625
+  response: 7E8056210F40271
+- expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 627
+  response: 7E8056210F40273
+- expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 628
+  response: 7E8056210F40274
+- expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 629
+  response: 7E8056210F40275
+- expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 630
+  response: 7E8056210F40276

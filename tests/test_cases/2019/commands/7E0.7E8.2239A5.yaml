@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2239A5
+test_cases:
+- expected_values:
+    ATECA_CHG_P_ACTUATOR_ADPT: 715.8
+  response: 7E8056239A50DFB
+- expected_values:
+    ATECA_CHG_P_ACTUATOR_ADPT: 717.8
+  response: 7E8056239A50E05
+- expected_values:
+    ATECA_CHG_P_ACTUATOR_ADPT: 718.6
+  response: 7E8056239A50E09
+- expected_values:
+    ATECA_CHG_P_ACTUATOR_ADPT: 718.8
+  response: 7E8056239A50E0A
+- expected_values:
+    ATECA_CHG_P_ACTUATOR_ADPT: 719.8
+  response: 7E8056239A50E0F
