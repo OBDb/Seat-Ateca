@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     ATECA_MQB_TCM_ODO: 326415641.6
   response: 7E907623841C28F1300
+- expected_values:
+    ATECA_MQB_TCM_ODO: 333126528
+  response: 7E907623841C68F1300

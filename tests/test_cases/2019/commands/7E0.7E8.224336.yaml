@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.224336
 test_cases:
 - expected_values:
+    ATECA_HEATER_SUPPORT_PMP_SPEC: 50.4
+  response: 7E80562433613B0
+- expected_values:
     ATECA_HEATER_SUPPORT_PMP_SPEC: 66.6
   response: 7E8056243361A04
 - expected_values:

@@ -19,5 +19,11 @@ test_cases:
     ATECA_PQ35_DPF_DIFF_P_2: 4672
   response: 7E8056210F31240
 - expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4763
+  response: 7E8056210F3129B
+- expected_values:
+    ATECA_PQ35_DPF_DIFF_P_2: 4853
+  response: 7E8056210F312F5
+- expected_values:
     ATECA_PQ35_DPF_DIFF_P_2: 5045
   response: 7E8056210F313B5

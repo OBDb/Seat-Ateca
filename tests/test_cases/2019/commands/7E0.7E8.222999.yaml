@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ATECA_AUTOMATIC_ENG_STARTS: 12004
   response: 7E8056229992EE4
+- expected_values:
+    ATECA_AUTOMATIC_ENG_STARTS: 12005
+  response: 7E8056229992EE5

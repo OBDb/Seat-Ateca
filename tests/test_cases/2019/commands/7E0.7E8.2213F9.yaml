@@ -7,24 +7,6 @@ test_cases:
     ATECA_NL_PRE_3: 0.27367
   response: 7E8056213F90E03
 - expected_values:
-    ATECA_NL_PRE_3: 0.27664
-  response: 7E8056213F90E2A
-- expected_values:
-    ATECA_NL_PRE_3: 0.28587
-  response: 7E8056213F90EA3
-- expected_values:
-    ATECA_NL_PRE_3: 0.30838
-  response: 7E8056213F90FCA
-- expected_values:
-    ATECA_NL_PRE_3: 0.30884
-  response: 7E8056213F90FD0
-- expected_values:
-    ATECA_NL_PRE_3: 0.36079
-  response: 7E8056213F91279
-- expected_values:
-    ATECA_NL_PRE_3: 0.3672
-  response: 7E8056213F912CD
-- expected_values:
     ATECA_NL_PRE_3: 0.38895
   response: 7E8056213F913EA
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22102C
 test_cases:
 - expected_values:
+    ATECA_PQ35_CLUTCH_2_T: 39
+  response: 7E90562102C2700
+- expected_values:
     ATECA_PQ35_CLUTCH_2_T: 49
   response: 7E90562102C3100
 - expected_values:

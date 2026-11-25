@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ATECA_ODO_ECU_INSTALLED: 128823
   response: 7E80662295B01F737
+- expected_values:
+    ATECA_ODO_ECU_INSTALLED: 128824
+  response: 7E80662295B01F738

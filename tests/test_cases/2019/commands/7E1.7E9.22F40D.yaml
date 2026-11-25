@@ -13,5 +13,8 @@ test_cases:
     ATECA_VSS_7E1: 200
   response: 7E90562F40DC80A
 - expected_values:
+    ATECA_VSS_7E1: 214
+  response: 7E90562F40DD60B
+- expected_values:
     ATECA_VSS_7E1: 228
   response: 7E90562F40DE40C

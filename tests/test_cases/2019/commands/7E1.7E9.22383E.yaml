@@ -4,6 +4,9 @@ test_cases:
     ATECA_MQB_DQ250_CLUTCH_2_VALVE_I_ACTUAL: 0
   response: 7E90562383E0000
 - expected_values:
+    ATECA_MQB_DQ250_CLUTCH_2_VALVE_I_ACTUAL: 372
+  response: 7E90562383E880E
+- expected_values:
     ATECA_MQB_DQ250_CLUTCH_2_VALVE_I_ACTUAL: 49
   response: 7E90562383EEA01
 - expected_values:

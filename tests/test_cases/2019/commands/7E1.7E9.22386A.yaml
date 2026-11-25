@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     ATECA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0
   response: 7E90562386A72FC
+- expected_values:
+    ATECA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 9.67
+  response: 7E90562386AC703

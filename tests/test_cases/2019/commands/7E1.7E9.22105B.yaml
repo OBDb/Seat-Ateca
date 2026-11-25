@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.22105B
 test_cases:
 - expected_values:
+    ATECA_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS: 10.55
+  response: 7E90562105B1F04
+- expected_values:
     ATECA_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS: 10.56
   response: 7E90562105B2004

@@ -10,5 +10,14 @@ test_cases:
     ATECA_CAM_ADJ_INT_SPEC: 25
   response: 7E80562201D00FA
 - expected_values:
+    ATECA_CAM_ADJ_INT_SPEC: 27
+  response: 7E80562201D010E
+- expected_values:
+    ATECA_CAM_ADJ_INT_SPEC: 53.5
+  response: 7E80562201D0217
+- expected_values:
     ATECA_CAM_ADJ_INT_SPEC: 59
   response: 7E80562201D024E
+- expected_values:
+    ATECA_CAM_ADJ_INT_SPEC: 60
+  response: 7E80562201D0258

@@ -7,6 +7,15 @@ test_cases:
     ATECA_TCO_1_SYS: 58
   response: 7E8046211CD62
 - expected_values:
+    ATECA_TCO_1_SYS: 70
+  response: 7E8046211CD6E
+- expected_values:
+    ATECA_TCO_1_SYS: 76
+  response: 7E8046211CD74
+- expected_values:
+    ATECA_TCO_1_SYS: 87
+  response: 7E8046211CD7F
+- expected_values:
     ATECA_TCO_1_SYS: 94
   response: 7E8046211CD86
 - expected_values:

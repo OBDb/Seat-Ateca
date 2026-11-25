@@ -10,6 +10,9 @@ test_cases:
     ATECA_MQB_TCM_CONVERTER_LOSS_TORQUE: 524.8
   response: '7E9056210102900'
 - expected_values:
+    ATECA_MQB_TCM_CONVERTER_LOSS_TORQUE: 550.4
+  response: 7E9056210102B00
+- expected_values:
     ATECA_MQB_TCM_CONVERTER_LOSS_TORQUE: -1599.95
   response: '7E9056210108301'
 - expected_values:

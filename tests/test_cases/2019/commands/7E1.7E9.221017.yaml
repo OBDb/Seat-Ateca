@@ -13,5 +13,8 @@ test_cases:
     ATECA_PQ35_ROAD_RESISTANCE: 0.272
   response: '7E90462101780'
 - expected_values:
+    ATECA_PQ35_ROAD_RESISTANCE: 1.019
+  response: '7E90462101783'
+- expected_values:
     ATECA_PQ35_ROAD_RESISTANCE: 2.264
   response: '7E90462101788'

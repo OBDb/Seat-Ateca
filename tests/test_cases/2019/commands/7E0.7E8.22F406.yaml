@@ -7,11 +7,17 @@ test_cases:
     ATECA_SHORT_TERM_FUEL_TRIM_1: -3.90625
   response: 7E80462F4067B
 - expected_values:
+    ATECA_SHORT_TERM_FUEL_TRIM_1: -3.125
+  response: 7E80462F4067C
+- expected_values:
     ATECA_SHORT_TERM_FUEL_TRIM_1: -1.5625
   response: 7E80462F4067E
 - expected_values:
     ATECA_SHORT_TERM_FUEL_TRIM_1: 0
   response: 7E80462F40680
+- expected_values:
+    ATECA_SHORT_TERM_FUEL_TRIM_1: 1.5625
+  response: 7E80462F40682
 - expected_values:
     ATECA_SHORT_TERM_FUEL_TRIM_1: 4.6875
   response: 7E80462F40686

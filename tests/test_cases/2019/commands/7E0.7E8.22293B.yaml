@@ -4,6 +4,9 @@ test_cases:
     ATECA_FUEL_HIGH_P_SPEC: 73.2
   response: 7E80562293B02DC
 - expected_values:
+    ATECA_FUEL_HIGH_P_SPEC: 85.4
+  response: 7E80562293B0356
+- expected_values:
     ATECA_FUEL_HIGH_P_SPEC: 87.1
   response: 7E80562293B0367
 - expected_values:

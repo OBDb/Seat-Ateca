@@ -23,4 +23,10 @@ test_cases:
   response: 7E80562441722AB
 - expected_values:
     ATECA_THERMOSTAT_CMD: 100
+  response: 7E805624417319C
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 100
+  response: 7E80562441733A9
+- expected_values:
+    ATECA_THERMOSTAT_CMD: 100
   response: 7E8056244173FF7

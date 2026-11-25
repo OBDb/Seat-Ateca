@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ATECA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_GR: -8.83
   response: 7E9056210B08DFC
+- expected_values:
+    ATECA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_GR: -8.78
+  response: 7E9056210B092FC
