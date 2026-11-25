@@ -10,5 +10,8 @@ test_cases:
     ATECA_COOLANT_T_MODELED_VALUE: -254.4
   response: 7E8056213A000BB
 - expected_values:
+    ATECA_COOLANT_T_MODELED_VALUE: -248.1
+  response: 7E8056213A000FA
+- expected_values:
     ATECA_COOLANT_T_MODELED_VALUE: -240.7
   response: 7E8056213A00144

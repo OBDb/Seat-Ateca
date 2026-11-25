@@ -4,6 +4,9 @@ test_cases:
     ATECA_TCO_1_ST: 41
   response: 7E8046211D051
 - expected_values:
+    ATECA_TCO_1_ST: 62
+  response: 7E8046211D066
+- expected_values:
     ATECA_TCO_1_ST: 88
   response: 7E8046211D080
 - expected_values:

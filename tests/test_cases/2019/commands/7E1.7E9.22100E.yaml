@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     ATECA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 202
   response: 7E90562100EC80F
+- expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 230
+  response: 7E90562100EF811

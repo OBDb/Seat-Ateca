@@ -13,6 +13,9 @@ test_cases:
     ATECA_GEN_LOAD_SIG: 25.83
   response: 7E8056220500A17
 - expected_values:
+    ATECA_GEN_LOAD_SIG: 29.05
+  response: 7E8056220500B59
+- expected_values:
     ATECA_GEN_LOAD_SIG: 32.28
   response: 7E8056220500C9C
 - expected_values:

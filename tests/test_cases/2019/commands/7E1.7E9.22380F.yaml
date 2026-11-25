@@ -4,6 +4,9 @@ test_cases:
     ATECA_MQB_OUTPUT_SHAFT_2: 0
   response: 7E90562380F0000
 - expected_values:
+    ATECA_MQB_OUTPUT_SHAFT_2: 2049
+  response: 7E90562380F0801
+- expected_values:
     ATECA_MQB_OUTPUT_SHAFT_2: 5120
   response: 7E90562380F1400
 - expected_values:

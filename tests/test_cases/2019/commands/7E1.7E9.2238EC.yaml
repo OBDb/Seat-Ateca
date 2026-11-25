@@ -4,6 +4,9 @@ test_cases:
     ATECA_PQ35_CLUTCH_1_CMD_P: 0
   response: 7E9056238EC0000
 - expected_values:
+    ATECA_PQ35_CLUTCH_1_CMD_P: 0.13
+  response: 7E9056238EC0D00
+- expected_values:
     ATECA_PQ35_CLUTCH_1_CMD_P: 3.25
   response: 7E9056238EC4501
 - expected_values:

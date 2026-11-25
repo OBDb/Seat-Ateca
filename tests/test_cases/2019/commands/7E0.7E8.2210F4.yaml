@@ -7,6 +7,12 @@ test_cases:
     ATECA_MIS_PER_1000_3_7E0: 456
   response: 7E8056210F401C8
 - expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 464
+  response: 7E8056210F401D0
+- expected_values:
+    ATECA_MIS_PER_1000_3_7E0: 475
+  response: 7E8056210F401DB
+- expected_values:
     ATECA_MIS_PER_1000_3_7E0: 625
   response: 7E8056210F40271
 - expected_values:

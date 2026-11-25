@@ -4,6 +4,9 @@ test_cases:
     ATECA_PQ35_WORKING_HOURS: 2772.62529
   response: 7E907621110283EBF1D
 - expected_values:
+    ATECA_PQ35_WORKING_HOURS: 2772.67367
+  response: 7E9076211102D60BF1D
+- expected_values:
     ATECA_PQ35_WORKING_HOURS: 2772.58718
   response: 7E9076211105C23BF1D
 - expected_values:

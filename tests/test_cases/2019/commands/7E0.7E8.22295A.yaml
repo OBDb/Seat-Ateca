@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ATECA_ODO_7E0_7E0_7E0: 128817
   response: 7E80662295A01F731
+- expected_values:
+    ATECA_ODO_7E0_7E0_7E0: 128818
+  response: 7E80662295A01F732

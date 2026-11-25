@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ATECA_PQ35_ODO_3: 128817
   response: 7E90762101A31F70100
+- expected_values:
+    ATECA_PQ35_ODO_3: 128818
+  response: 7E90762101A32F70100

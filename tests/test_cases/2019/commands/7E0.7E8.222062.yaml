@@ -4,8 +4,17 @@ test_cases:
     ATECA_APP_POS2: 0.376
   response: '7E8056220620178'
 - expected_values:
+    ATECA_APP_POS2: 0.562
+  response: '7E8056220620232'
+- expected_values:
     ATECA_APP_POS2: 0.645
   response: '7E8056220620285'
+- expected_values:
+    ATECA_APP_POS2: 0.684
+  response: 7E80562206202AC
+- expected_values:
+    ATECA_APP_POS2: 0.767
+  response: 7E80562206202FF
 - expected_values:
     ATECA_APP_POS2: 0.801
   response: '7E8056220620321'

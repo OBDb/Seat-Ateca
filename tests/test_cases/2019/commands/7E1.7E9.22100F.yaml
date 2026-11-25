@@ -7,5 +7,8 @@ test_cases:
     ATECA_MQB_TCM_ENGINE_TORQUE_LOSS: 20
   response: 7E90562100F9001
 - expected_values:
+    ATECA_MQB_TCM_ENGINE_TORQUE_LOSS: 21
+  response: 7E90562100FA401
+- expected_values:
     ATECA_MQB_TCM_ENGINE_TORQUE_LOSS: 23
   response: 7E90562100FCC01
